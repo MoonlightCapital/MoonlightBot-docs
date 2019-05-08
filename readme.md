@@ -1,3 +1,3 @@
-#MoonlightBot configuration docs
+# MoonlightBot configuration docs
 
 Work in progress.
