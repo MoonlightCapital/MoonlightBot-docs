@@ -30,7 +30,8 @@ Now, let's break this down:
     "name": "ping",
     "level": 0,
     "enabled": true
-}```
+}
+```
 
 >The category must come first, otherwise it won't work.
 >When you disable a command/category, you should set its level to 100 just for safety.
