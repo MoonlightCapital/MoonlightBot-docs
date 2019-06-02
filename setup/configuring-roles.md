@@ -16,6 +16,7 @@ Now, let's break this down:
 - `id` is an alternative to `name`. This is your Discord role ID. It offers more precision than the name parameter
 - `level` is the level for the role. For more info on what this does, see the [Power levels](https://github.com/MoonlightCapital/MoonlightBot-docs/blob/master/instructions/levels.md) section. This parameter is optional and defaults to 0.
 - `selfAssignable` is an optional parameter that is handy when you want to set up self-assignable roles in your server. We'll take a look at this in a later section.
+- `selfAssignableDuration` is for self-assignable temproles. It's a string that contains a duration like you would set it with the `temprole` command.
 
 ## `name` vs `id`
 As it's a bit tedious to get role IDs on discord, we let you use the role name to make it easier for you to config the bot.
