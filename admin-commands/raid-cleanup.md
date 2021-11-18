@@ -26,6 +26,7 @@ This command cleans up any raid invasion by banning all users who joined after a
 
 ```
 m:raid-cleanup <age> [joinThreshold] [...reason]
+/raid-cleanup <age> [joinThreshold] [...reason]
 ```
 
 {% hint style="info" %}

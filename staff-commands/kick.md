@@ -21,6 +21,7 @@ This command is used to kick an user from the server.
 
 ```
 m:kick <user> [reason]
+/kick <user> [reason]
 ```
 
 {% hint style="info" %}

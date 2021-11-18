@@ -16,6 +16,7 @@ None
 
 ```
 m:create-muterole
+/create-muterole
 ```
 
 ### **Aliases**

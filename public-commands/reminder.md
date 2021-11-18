@@ -19,6 +19,7 @@ Creates a new reminder. It will then be delivered once the duration expires.
 
 ```
 m:reminder add <duration> <content>
+/reminder add <duration> <content>
 ```
 
 #### Flags
@@ -38,6 +39,7 @@ Edits the content of an existing reminder.
 
 ```
 m:reminder edit <id> <content>
+/reminder edit <id> <content>
 ```
 
 ### Delete
@@ -52,6 +54,7 @@ Deletes a reminder, meaning it will not be delivered anymore. You will be asked 
 
 ```
 m:reminder delete <id>
+/reminder delete <id>
 ```
 
 ### List
@@ -62,6 +65,7 @@ Sends a list of all your reminders, containing ID, expiration date and content. 
 
 ```
 m:reminder list
+/reminder list
 ```
 
 ### Clear
@@ -72,6 +76,7 @@ Deletes all your reminders at once. You will be asked to confirm your choice thr
 
 ```
 m:reminder clear
+/reminder clear
 ```
 
 ## Aliases

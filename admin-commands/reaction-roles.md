@@ -70,6 +70,7 @@ This removes any deleted emoji/role from the group passed as argument, cleaning 
 
 ```
 p:reaction-roles (create|setroles|apply|delete|groupinfo|listgroups|autorepair) [group]
+/reaction-roles (create|setroles|apply|delete|groupinfo|listgroups|autorepair) [group]
 ```
 
 ### Aliases

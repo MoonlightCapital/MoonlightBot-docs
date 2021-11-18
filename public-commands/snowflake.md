@@ -20,6 +20,7 @@ None
 
 ```
 m:snowflake <snowflake>
+/snowflake <snowflake>
 ```
 
 ### **Aliases**

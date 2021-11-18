@@ -16,6 +16,7 @@ This command is used to update the reason for an infraction
 
 ```
 m:reason <infraction> [reason]
+/reason <infraction> [reason]
 ```
 
 {% hint style="info" %}

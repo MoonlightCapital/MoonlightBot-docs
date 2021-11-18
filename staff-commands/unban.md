@@ -16,6 +16,7 @@ This command is used to unban an user from the server
 
 ```
 m:unban <user> [reason]
+/unban <user> [reason]
 ```
 
 ### **Aliases**

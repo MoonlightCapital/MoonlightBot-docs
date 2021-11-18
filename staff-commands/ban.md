@@ -21,6 +21,7 @@ This command is used to ban an user from the server
 
 ```
 m:ban <user> [reason]
+/ban <user> [reason]
 ```
 
 ### **Aliases**

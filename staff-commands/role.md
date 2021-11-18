@@ -15,6 +15,7 @@ If the user specified in the command is not in the server, a persistency will be
 
 ```
 m:role <user> <role>
+/role <user> <role>
 ```
 
 ### **Aliases**

@@ -20,6 +20,7 @@ MoonlightBot needs to be in the server you want information on
 
 ```
 m:serverinfo [server]
+/serverinfo [server]
 ```
 
 ### **Aliases**

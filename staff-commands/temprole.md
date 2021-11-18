@@ -22,6 +22,7 @@ You can reduce the total duration of a temprole by setting a negative duration
 
 ```
 m:temprole <user> <role> <duration>
+/temprole <user> <role> <duration>
 ```
 
 ### **Aliases**

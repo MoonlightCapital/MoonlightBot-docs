@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.gitbook",
+    "\\admin-commands",
+    "\\admin-commands\\config",
+    "\\advanced",
+    "\\public-commands",
+    "\\staff-commands",
+    "\\start-up",
+    "\\support",
+    "\\versions-of-the-bot"
   ],
   "PreviewInSolutionExplorer": false
 }

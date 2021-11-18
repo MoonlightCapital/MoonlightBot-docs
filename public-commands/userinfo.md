@@ -16,6 +16,7 @@ None‌
 
 ```
 m:userinfo [user]
+/userinfo [user]
 ```
 
 ### **Aliases**

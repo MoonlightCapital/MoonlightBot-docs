@@ -16,6 +16,7 @@ None
 
 ```
 m:vote-leaderboard
+/vote-leaderboard
 ```
 
 ### **Aliases**

@@ -22,6 +22,7 @@ None
 
 ```
 m:list-temproles (all|user|role) <extras>
+/list-temproles (all|user|role) <extras>
 ```
 
 ### **Aliases**

@@ -22,6 +22,7 @@ The server admins need to make a role self-assignable before you can use it. [**
 
 ```
 m:selfrole [role]
+/selfrole [role]
 ```
 
 ### **Aliases**

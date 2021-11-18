@@ -16,6 +16,7 @@ None
 
 ```
 m:ping
+/ping
 ```
 
 ### **Aliases**

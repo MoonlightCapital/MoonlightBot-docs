@@ -16,6 +16,7 @@ None
 
 ```
 m:status
+/status
 ```
 
 ### Aliases

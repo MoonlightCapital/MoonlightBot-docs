@@ -21,6 +21,7 @@ This command is used to Ban an user from the server and immediately unban it. Th
 
 ```
 m:softban <user> [reason]
+/softban <user> [reason]
 ```
 
 ### **Aliases**
