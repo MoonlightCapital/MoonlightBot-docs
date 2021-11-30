@@ -23,10 +23,6 @@ This command is used to Ban an user from the server and immediately unban it. Th
 /softban <user> [reason]
 ```
 
-### **Aliases**
-
-`sb`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
