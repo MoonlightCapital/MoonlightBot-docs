@@ -17,10 +17,6 @@ If the user specified in the command is not in the server, a persistency will be
 /role <user> <role>
 ```
 
-### **Aliases**
-
-None
-
 ### **Required permission**
 
 This command's level is 50 by default.\
