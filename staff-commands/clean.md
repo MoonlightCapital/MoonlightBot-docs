@@ -33,7 +33,7 @@ This command is used to delete multiple messages from the channel it's used in. 
 ### Usage
 
 ```
-m:clean (all|user|matching|notmatching|bots|system|startswith|endswith) [...data] <amount>
+/clean (all|user|matching|notmatching|bots|system|startswith|endswith) [...data] <amount>
 ```
 
 ### Aliases
