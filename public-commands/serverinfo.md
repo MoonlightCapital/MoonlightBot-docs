@@ -22,10 +22,6 @@ MoonlightBot needs to be in the server you want information on
 /serverinfo [server]
 ```
 
-### **Aliases**
-
-`sinfo`, `server`
-
 ### **Required permission**
 
 This command's level is 0 by default.\
