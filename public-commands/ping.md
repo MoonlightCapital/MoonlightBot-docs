@@ -15,7 +15,7 @@ None
 ### **Usage**
 
 ```
-m:ping
+/ping
 ```
 
 ### **Aliases**
