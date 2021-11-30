@@ -22,7 +22,7 @@ This command is used to temporarily mute an user from the server. Just like `mut
 ### **Usage**
 
 ```
-m:tempmute <user> <duration> [reason]
+/tempmute <user> <duration> [reason]
 ```
 
 ### **Aliases:**
