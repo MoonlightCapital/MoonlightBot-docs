@@ -23,10 +23,6 @@ This command is used to warn people. Warnings are used to issue infractions with
 /warn <user> [reason]
 ```
 
-### **Aliases**
-
-`w`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
