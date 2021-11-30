@@ -19,7 +19,7 @@ Use reactions to scroll to different pages.
 ### **Usage**
 
 ```
-m:help [command]
+/help [command]
 ```
 
 {% hint style="info" %}
