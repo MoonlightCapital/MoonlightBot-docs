@@ -18,10 +18,6 @@ None
 /status
 ```
 
-### Aliases
-
-None
-
 ### Required permissions
 
 This command is level 0 by default\
