@@ -26,10 +26,6 @@ Use reactions to scroll to different pages.
 If an argument is provided but there's no command or alias with that name, it will try to show commands with similar names.
 {% endhint %}
 
-### **Aliases**
-
-None
-
 ### **Required permissions**
 
 This command's level is 0 by default.\
