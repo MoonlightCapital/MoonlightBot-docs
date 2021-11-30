@@ -28,10 +28,6 @@ We are not responsible if the muted user can still talk even with the mute role 
 /mute <user> [reason]
 ```
 
-### **Aliases**
-
-`m`
-
 ### **Required permission:**
 
 This command's level is 50 by default.\
