@@ -22,10 +22,6 @@ None
 /snowflake <snowflake>
 ```
 
-### **Aliases**
-
-None
-
 ### **Required permissions**
 
 This command's level is 0 by default.\
