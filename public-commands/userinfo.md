@@ -15,7 +15,7 @@ None‌
 ### **Usage**
 
 ```
-m:userinfo [user]
+/userinfo [user]
 ```
 
 ### **Aliases**
