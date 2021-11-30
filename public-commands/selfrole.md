@@ -24,10 +24,6 @@ The server admins need to make a role self-assignable before you can use it. [**
 /selfrole [role]
 ```
 
-### **Aliases**
-
-`selfroles`, `sr`
-
 ### **Required permissions**
 
 This command's level is 0 by default.\
