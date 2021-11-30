@@ -24,10 +24,6 @@ None
 /list-temproles (all|user|role) <extras>
 ```
 
-### **Aliases**
-
-`ltr`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
