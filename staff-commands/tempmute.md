@@ -25,10 +25,6 @@ This command is used to temporarily mute an user from the server. Just like `mut
 /tempmute <user> <duration> [reason]
 ```
 
-### **Aliases:**
-
-`tmute`, `tm`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
