@@ -74,10 +74,6 @@ Deletes all your reminders at once. You will be asked to confirm your choice thr
 /reminder clear
 ```
 
-## Aliases
-
-`r`, `remindme`
-
 ## Required permissions
 
 This command is level 0 by default\
