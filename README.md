@@ -25,7 +25,7 @@ You can use MoonlightBot's commands by sending a message starting with its prefi
 {% hint style="info" %}
 This guide will always use the default prefix which will not change and cannot be removed for clarity. If you are using other versions of the bot, adjust the prefix accordingly.
 
-Use `m:help <name of a command>` to know how to use a command, as well as to know if the command exists.
+Use `/help <name of a command>` to know how to use a command, as well as to know if the command exists.
 {% endhint %}
 
 ### Configuration
