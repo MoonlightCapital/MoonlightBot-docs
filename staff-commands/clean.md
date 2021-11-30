@@ -36,10 +36,6 @@ This command is used to delete multiple messages from the channel it's used in. 
 /clean (all|user|matching|notmatching|bots|system|startswith|endswith) [...data] <amount>
 ```
 
-### Aliases
-
-`purge`
-
 ### Required permission
 
 This command's level is 50 by default.\
