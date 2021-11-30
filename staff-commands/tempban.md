@@ -24,10 +24,6 @@ This command is used to temporarily ban an user from the server.
 /tempban <user> <duration> [reason]
 ```
 
-### **Aliases**
-
-`tb`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
