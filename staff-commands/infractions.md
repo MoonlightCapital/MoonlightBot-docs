@@ -62,10 +62,6 @@ This is pretty much like `list`, but you can get even higher precision and witho
 /infractions (summary|archive|detailed|delete|list|search) [extra arguments]
 ```
 
-### **Aliases**
-
-`inf`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
