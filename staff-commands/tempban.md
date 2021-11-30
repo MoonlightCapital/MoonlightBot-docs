@@ -21,7 +21,7 @@ This command is used to temporarily ban an user from the server.
 ### **Usage**
 
 ```
-m:tempban <user> <duration> [reason]
+/tempban <user> <duration> [reason]
 ```
 
 ### **Aliases**
