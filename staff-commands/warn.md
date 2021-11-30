@@ -20,7 +20,7 @@ This command is used to warn people. Warnings are used to issue infractions with
 ### **Usage**
 
 ```
-m:warn <user> [reason]
+/warn <user> [reason]
 ```
 
 ### **Aliases**
