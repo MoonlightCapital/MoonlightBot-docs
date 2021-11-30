@@ -20,7 +20,7 @@ This command is used to ban an user from the server
 ### **Usage**
 
 ```
-m:ban <user> [reason]
+/ban <user> [reason]
 ```
 
 ### **Aliases**
