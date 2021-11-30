@@ -18,10 +18,6 @@ None
 /create-muterole
 ```
 
-### **Aliases**
-
-`cmr`
-
 ### **Required permissions**
 
 This command's level is 100 by default.\
