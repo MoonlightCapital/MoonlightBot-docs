@@ -26,10 +26,6 @@ While this command creates an infraction, it cannot DM the reason to the user, n
 /unmute <user> [reason]
 ```
 
-### **Aliases**
-
-`um`
-
 ### **Required permission:**
 
 This command's level is 50 by default.\
