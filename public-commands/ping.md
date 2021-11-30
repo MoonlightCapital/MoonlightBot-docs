@@ -18,10 +18,6 @@ None
 /ping
 ```
 
-### **Aliases**
-
-`pong`, `bean`
-
 ### **Required arguments**
 
 This command's level is 0 by default.\
