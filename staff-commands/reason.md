@@ -22,10 +22,6 @@ This command is used to update the reason for an infraction
 You can put `%OLD%` in the reason and it will be automatically be replaced with the old reason so you don't have to retype everything again.
 {% endhint %}
 
-### **Aliases**
-
-None
-
 ### **Required permission**
 
 This command's level is 50 by default.\
