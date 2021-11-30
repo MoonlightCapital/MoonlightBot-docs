@@ -36,10 +36,6 @@ The `age` and `joinThreshold` parameters are connected through a logical AND, me
 This command does not issue infractions to the banned users.
 {% endhint %}
 
-### **Aliases**
-
-`launch-cybernuke`, `rcl`
-
 ### **Required permissions**
 
 This command's level is 100 by default.\
