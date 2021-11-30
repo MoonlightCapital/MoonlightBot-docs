@@ -18,10 +18,6 @@ This command is used to unban an user from the server
 /unban <user> [reason]
 ```
 
-### **Aliases**
-
-`ub`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
