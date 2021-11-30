@@ -19,7 +19,7 @@ A group is a collection of emoji to role pairs and settings. Groups are independ
 To create a group, use this command:
 
 ```
-m:reaction-roles create <name>
+/reaction-roles create <name>
 ```
 
 Replace `<name>` with a short, memorable name that you will remember later for every reaction roles operation.
@@ -35,7 +35,7 @@ Now that you have a group made, you need to configure what emoji users need to r
 You do that with the `setroles` command in this fashion:
 
 ```
-m:reaction-roles setroles <group>
+/reaction-roles setroles <group>
 ```
 
 The argument, `<group>` is the name of your group. Using this command will begin a guided process to set your roles. First, you will be asked to input a role (with a name, ID or mention), then react to the reply message to tie it to an emoji.
@@ -61,7 +61,7 @@ This is the last required step to do before making reaction roles operative for 
 To do this, you simply need to use the following command:
 
 ```
-m:reaction-roles apply <group> <message>
+/reaction-roles apply <group> <message>
 ```
 
 Once again, `<group>` is a group you created before, and `<message>` is an argument that can be resolved to a message. The following are valid message identifiers:
@@ -83,7 +83,7 @@ You've done it! You can now pass to more advanced, optional customization.
 The `config` command offers a voice to edit group settings. Those are completely optional and are effective immediately, let's see some here:
 
 ```
-m:config reactionroles <group>
+/config reactionroles <group>
 ```
 
 * JoinOnly allows users to add themselves the roles, but not remove them.
@@ -107,13 +107,13 @@ Group settings are independent from each other, meaning someone can click a reac
 
 ### How do I make reaction roles temporary?
 
-Use `m:config reactionroles <group> duration <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the `temprole` command.
+Use `/config reactionroles <group> duration <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the `temprole` command.
 
 ### How do I disable notifications that are sent to the user?
 
 #### If you are a server admin:
 
-Use `m:config reactionroles <group> dmnotification false` to disable notifications for a group.
+Use `/config reactionroles <group> dmnotification false` to disable notifications for a group.
 
 {% hint style="warning" %}
 If a message has multiple groups, notifications will still be sent, providing at least one of the other groups has notifications enabled
