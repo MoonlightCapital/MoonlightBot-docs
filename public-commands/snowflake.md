@@ -19,7 +19,7 @@ None
 ### **Usage**
 
 ```
-m:snowflake <snowflake>
+/snowflake <snowflake>
 ```
 
 ### **Aliases**
