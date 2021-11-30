@@ -23,10 +23,6 @@ This command is used to ban an user from the server
 /ban <user> [reason]
 ```
 
-### **Aliases**
-
-`forceban`, `b`
-
 ### **Required permission**
 
 This command's level is 50 by default.\
