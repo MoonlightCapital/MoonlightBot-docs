@@ -24,8 +24,6 @@ This command starts a guided prompt to assign emojis and roles to a group. First
 Using this command on a group that has been previously set will delete all existing emojis and roles and make you start again. If you don't want to overwrite any previously set option, add the `--no-overwrite` flag.
 {% endhint %}
 
-**Alias:** `sr`
-
 #### Apply
 
 Applies the selected group to a given message. The arguments are `group`, which is the name of the group you want to assign and `message`, corresponding to a message ID or link to the message you want the group to be applied to.
@@ -54,13 +52,9 @@ Takes a group name as required argument, and shows some informations, such as th
 You can edit group options with the `config` command
 {% endhint %}
 
-**Alias: **`info`
-
 #### Listgroups
 
 This option lists all the available groups by name and n° of roles set. No arguments needed.
-
-**Alias: **`list`
 
 #### Autorepair
 
@@ -71,10 +65,6 @@ This removes any deleted emoji/role from the group passed as argument, cleaning 
 ```
 /reaction-roles (create|setroles|apply|delete|groupinfo|listgroups|autorepair) [group]
 ```
-
-### Aliases
-
-`rr`
 
 ### Required permissions
 
