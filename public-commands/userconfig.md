@@ -12,7 +12,3 @@ The userconfig command works in the same exact way as [config](../admin-commands
 | ------------------ | ----------------------------------------------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |  voteNotifications | Whether to receive reminders when to vote again | boolean | true    | If you disable this after voting again, you may still receive a few reminders, as this only stops the creation of new reminders instead of stopping delivery |
 | showInLeaderboard  | Shows you in the top 5 voters leaderboard       | boolean | true    |                                                                                                                                                              |
-
-### Aliases
-
-`uset`, `edituser`
