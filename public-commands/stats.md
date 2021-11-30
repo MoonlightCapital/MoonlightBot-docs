@@ -15,7 +15,7 @@ None
 ### **Usage**
 
 ```
-m:stats
+/stats
 ```
 
 ### **Aliases**
