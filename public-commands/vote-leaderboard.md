@@ -18,10 +18,6 @@ None
 /vote-leaderboard
 ```
 
-### **Aliases**
-
-`lb`
-
 ### **Required arguments**
 
 This command's level is 0 by default.\
