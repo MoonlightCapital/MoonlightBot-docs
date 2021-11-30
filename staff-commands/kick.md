@@ -27,10 +27,6 @@ This command is used to kick an user from the server.
 **The user must be userID or mention**
 {% endhint %}
 
-### **Aliases**
-
-None
-
 ### **Required permission**
 
 This command's level is 50 by default.\
