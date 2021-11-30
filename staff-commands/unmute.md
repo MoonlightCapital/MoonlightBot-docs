@@ -23,7 +23,7 @@ While this command creates an infraction, it cannot DM the reason to the user, n
 ### **Usage**
 
 ```
-m:unmute <user> [reason]
+/unmute <user> [reason]
 ```
 
 ### **Aliases**
