@@ -37,7 +37,7 @@ Valid filters are: `user`, `moderator`, `type`, `reason`, `partialreason`.
 So for example, an execution like this:
 
 ```
-m:infractions list user:314110696071888896;type:warning
+/infractions list user:314110696071888896;type:warning
 ```
 
 Will list all infractions issued to the user `314110696071888896` and of type `warning`.
@@ -59,7 +59,7 @@ This is pretty much like `list`, but you can get even higher precision and witho
 ### **Usage**
 
 ```
-m:infractions (summary|archive|detailed|delete|list|search) [extra arguments]
+/infractions (summary|archive|detailed|delete|list|search) [extra arguments]
 ```
 
 ### **Aliases**
