@@ -18,10 +18,6 @@ None‌
 /userinfo [user]
 ```
 
-### **Aliases**
-
-`uinfo‌`, `user`
-
 ### **Required permissions**
 
 This command's level is 0 by default.\
