@@ -18,7 +18,7 @@ Feel good and want early access to new things? Check out [MoonlightBot beta](ver
 
 ### Commands
 
-You can use MoonlightBot's commands by sending a message starting with its prefix, which is by default `m:`. Additionally, you can start the message by mentioning the bot mention or with the server's custon prefix.
+You can use MoonlightBot's commands by sending a Slash Command. We're currently removing support for legacy prefixes, due to changes being made by Discord.
 
 ![An example of a command](<.gitbook/assets/immagine (13).png>)
 
