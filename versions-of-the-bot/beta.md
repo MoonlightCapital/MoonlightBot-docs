@@ -14,7 +14,7 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 
 ## Beta's prefix
 
-MoonlightBot beta uses `n:` as prefix.
+MoonlightBot beta now uses Slash Commands, so the "prefix" is `/`
 
 ## Debunking common misconceptions and FAQs
 
