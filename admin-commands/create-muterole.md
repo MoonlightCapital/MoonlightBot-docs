@@ -15,7 +15,7 @@ An existing role name can be specified to apply permissions to. If none is speci
 ### **Usage**
 
 ```
-/create-muterole
+/create-muterole [rolename]
 ```
 
 ### **Required permissions**
