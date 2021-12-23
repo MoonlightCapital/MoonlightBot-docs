@@ -6,7 +6,7 @@ This command is used to lists all temproles from a given query
 
 ### **Required arguments**
 
-* `extras` - User or role, they can be IDs or mentions
+* `extras` - User or role, they can be IDs or mentions, otherwise all temproles are returned
 
 ### **Optional arguments**
 
@@ -21,7 +21,7 @@ None
 ### **Usage**
 
 ```
-/list-temproles (all|user|role) <extras>
+/list-temproles (user|role)
 ```
 
 ### **Required permission**
