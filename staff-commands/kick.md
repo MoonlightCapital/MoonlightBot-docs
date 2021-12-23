@@ -11,16 +11,13 @@ This command is used to kick an user from the server.
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
-
-### Options
-
 * `dm-user` - Sends the reason for the warning to the user's DMs
 * `no-infraction` - Does not log an infraction. Log entry is still sent
 
 ### **Usage**
 
 ```
-/kick <user> [reason]
+/kick <user> [reason] [dm-user] [no-infraction]
 ```
 
 {% hint style="info" %}
