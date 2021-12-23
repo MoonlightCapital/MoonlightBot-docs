@@ -14,8 +14,8 @@ This command is used to ban an user from the server
 
 ### Flags
 
-* `--dm-user` - Sends the reason for the warning to the user's DMs
-* `--no-infraction` - Does not log an infraction. Log entry is still sent
+* `dm-user` - Sends the reason for the warning to the user's DMs
+* `no-infraction` - Does not log an infraction. Log entry is still sent
 
 ### **Usage**
 
