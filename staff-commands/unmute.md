@@ -15,10 +15,9 @@ While this command creates an infraction, it cannot DM the reason to the user, n
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
+* `no-infraction` - Does not log an infraction. Log entry is still sent
 
-### Flags
-
-* `--no-infraction` - Does not log an infraction. Log entry is still sent
+Optional arguments can be specified in any order, as long as they're part of the same Slash Command.
 
 ### **Usage**
 
