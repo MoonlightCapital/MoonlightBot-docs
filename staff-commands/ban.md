@@ -12,7 +12,7 @@ This command is used to ban an user from the server
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
 
-### Flags
+### Options
 
 * `dm-user` - Sends the reason for the warning to the user's DMs
 * `no-infraction` - Does not log an infraction. Log entry is still sent
