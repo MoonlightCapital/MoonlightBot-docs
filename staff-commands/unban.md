@@ -15,12 +15,8 @@ This command is used to unban an user from the server
 ### **Usage**
 
 ```
-m:unban <user> [reason]
+/unban <user> [reason]
 ```
-
-### **Aliases**
-
-`ub`
 
 ### **Required permission**
 

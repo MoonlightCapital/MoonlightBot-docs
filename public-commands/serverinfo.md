@@ -19,12 +19,8 @@ MoonlightBot needs to be in the server you want information on
 ### **Usage**
 
 ```
-m:serverinfo [server]
+/serverinfo [server]
 ```
-
-### **Aliases**
-
-`sinfo`, `server`
 
 ### **Required permission**
 

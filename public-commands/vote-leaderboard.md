@@ -15,12 +15,8 @@ None
 ### **Usage**
 
 ```
-m:vote-leaderboard
+/vote-leaderboard
 ```
-
-### **Aliases**
-
-`lb`
 
 ### **Required arguments**
 

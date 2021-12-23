@@ -15,12 +15,8 @@ None
 ### **Usage**
 
 ```
-m:stats
+/stats
 ```
-
-### **Aliases**
-
-None
 
 ### **Required permissions**
 

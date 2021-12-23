@@ -14,16 +14,13 @@ Creates a new reminder. It will then be delivered once the duration expires.
 
 * `duration` - The time after the reminder is sent **(required)**
 * `content` - The content of the reminder message. All markdown supported **(required)**
+* `recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 #### Usage
 
 ```
-m:reminder add <duration> <content>
+/reminder add <duration> <content> [recurring]
 ```
-
-#### Flags
-
-* `--recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 ### Edit
 
@@ -37,7 +34,7 @@ Edits the content of an existing reminder.
 #### Usage
 
 ```
-m:reminder edit <id> <content>
+/reminder edit <id> <content>
 ```
 
 ### Delete
@@ -51,7 +48,7 @@ Deletes a reminder, meaning it will not be delivered anymore. You will be asked 
 #### Usage
 
 ```
-m:reminder delete <id>
+/reminder delete <id>
 ```
 
 ### List
@@ -61,7 +58,7 @@ Sends a list of all your reminders, containing ID, expiration date and content. 
 #### Usage
 
 ```
-m:reminder list
+/reminder list
 ```
 
 ### Clear
@@ -71,12 +68,8 @@ Deletes all your reminders at once. You will be asked to confirm your choice thr
 #### Usage
 
 ```
-m:reminder clear
+/reminder clear
 ```
-
-## Aliases
-
-`r`, `remindme`
 
 ## Required permissions
 

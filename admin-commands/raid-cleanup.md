@@ -12,33 +12,26 @@ This command cleans up any raid invasion by banning all users who joined after a
 
 ### **Optional arguments**
 
-* `joinThreshold` - The difference between the moment the command is used and the server join time of the accounts. It's a duration type of argument.
+* `join_threshold` - The difference between the moment the command is used and the server join time of the accounts. It's a duration type of argument.
   * For example, setting this to `1 hour` will target accounts who joined the server less than one hour ago.
   * If not a valid duration, this will be considered part of the `reason` argument.
   * This value cannot exceed 24 hours.
 * `reason` - The reason to provide in the logs.
-
-### Flags
-
-* `--clean-messages` - Setting this flag will delete the messages sent by the banned users in the last 7 days.
+* `clean-messages` - Setting this flag will delete the messages sent by the banned users in the last 7 days.
 
 ### **Usage**
 
 ```
-m:raid-cleanup <age> [joinThreshold] [...reason]
+/raid-cleanup <age> [join_threshold] [clean-messages] [...reason]
 ```
 
 {% hint style="info" %}
-The `age` and `joinThreshold` parameters are connected through a logical AND, meaning both conditions need to be satisfied at the same time by the same user
+The `age` and `join_threshold` parameters are connected through a logical AND, meaning both conditions need to be satisfied at the same time by the same user
 {% endhint %}
 
 {% hint style="warning" %}
 This command does not issue infractions to the banned users.
 {% endhint %}
-
-### **Aliases**
-
-`launch-cybernuke`, `rcl`
 
 ### **Required permissions**
 

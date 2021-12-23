@@ -21,12 +21,8 @@ The server admins need to make a role self-assignable before you can use it. [**
 ### **Usage**
 
 ```
-m:selfrole [role]
+/selfrole [role]
 ```
-
-### **Aliases**
-
-`selfroles`, `sr`
 
 ### **Required permissions**
 

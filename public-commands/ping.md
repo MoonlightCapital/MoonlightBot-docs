@@ -15,12 +15,8 @@ None
 ### **Usage**
 
 ```
-m:ping
+/ping
 ```
-
-### **Aliases**
-
-`pong`, `bean`
 
 ### **Required arguments**
 

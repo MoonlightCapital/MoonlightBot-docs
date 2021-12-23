@@ -19,16 +19,12 @@ Use reactions to scroll to different pages.
 ### **Usage**
 
 ```
-m:help [command]
+/help [command]
 ```
 
 {% hint style="info" %}
 If an argument is provided but there's no command or alias with that name, it will try to show commands with similar names.
 {% endhint %}
-
-### **Aliases**
-
-None
 
 ### **Required permissions**
 

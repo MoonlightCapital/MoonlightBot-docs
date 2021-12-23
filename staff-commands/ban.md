@@ -11,21 +11,14 @@ This command is used to ban an user from the server
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
-
-### Flags
-
-* `--dm-user` - Sends the reason for the warning to the user's DMs
-* `--no-infraction` - Does not log an infraction. Log entry is still sent
+* `dm-user` - Sends the reason for the warning to the user's DMs
+* `no-infraction` - Does not log an infraction. Log entry is still sent
 
 ### **Usage**
 
 ```
-m:ban <user> [reason]
+/ban <user> [reason] [dm-user] [no-infraction]
 ```
-
-### **Aliases**
-
-`forceban`, `b`
 
 ### **Required permission**
 

@@ -15,12 +15,8 @@ None‌
 ### **Usage**
 
 ```
-m:userinfo [user]
+/userinfo [user]
 ```
-
-### **Aliases**
-
-`uinfo‌`, `user`
 
 ### **Required permissions**
 

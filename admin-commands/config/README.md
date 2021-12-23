@@ -40,6 +40,3 @@ There are four main data types:
 | MuteEvasionBan            | Bans an user if they send a message with the mute role on                           | Boolean                             | false   | Can be disabled in specific channels with the `IgnoreMuteEvasionBan` option                                           |
 | TemproleExpirationActions | Actions to perform when a temporary role expires                                    | Category of options                 |         |                                                                                                                       |
 
-### Aliases
-
-`set`

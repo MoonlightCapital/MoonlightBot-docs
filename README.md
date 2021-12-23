@@ -4,7 +4,7 @@ MoonlightBot is a powerful Discord bot designed to help server moderation withou
 
 ## Getting started
 
-The first step in using MoonlightBot is to invite it to your server. [Click here](https://discordapp.com/api/oauth2/authorize?client\_id=314110696071888896\&permissions=470133958\&scope=bot) for a link that lets you invite the bot with all permissions it requires to work.
+The first step in using MoonlightBot is to invite it to your server. [Click here](https://discord.com/api/oauth2/authorize?client_id=314110696071888896\&scope=bot+applications.commands\&permissions=470150342) for a link that lets you invite the bot with all permissions it requires to work.
 
 {% hint style="info" %}
 Only servers in which you have **Manage Server **permission will show there.
@@ -18,14 +18,14 @@ Feel good and want early access to new things? Check out [MoonlightBot beta](ver
 
 ### Commands
 
-You can use MoonlightBot's commands by sending a message starting with its prefix, which is by default `m:`. Additionally, you can start the message by mentioning the bot mention or with the server's custon prefix.
+You can use MoonlightBot's commands by sending a Slash Command. We're currently removing support for legacy prefixes, due to changes being made by Discord.
 
 ![An example of a command](<.gitbook/assets/immagine (13).png>)
 
 {% hint style="info" %}
 This guide will always use the default prefix which will not change and cannot be removed for clarity. If you are using other versions of the bot, adjust the prefix accordingly.
 
-Use `m:help <name of a command>` to know how to use a command, as well as to know if the command exists.
+Use `/help <name of a command>` to know how to use a command, as well as to know if the command exists.
 {% endhint %}
 
 ### Configuration

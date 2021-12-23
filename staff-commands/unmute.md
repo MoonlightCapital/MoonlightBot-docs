@@ -15,22 +15,17 @@ While this command creates an infraction, it cannot DM the reason to the user, n
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
+* `no-infraction` - Does not log an infraction. Log entry is still sent
 
-### Flags
-
-* `--no-infraction` - Does not log an infraction. Log entry is still sent
+Options can be specified in any order, as long as they're part of the same Slash Command.
 
 ### **Usage**
 
 ```
-m:unmute <user> [reason]
+/unmute <user> [reason] [no-infraction]
 ```
-
-### **Aliases**
-
-`um`
 
 ### **Required permission:**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.

@@ -2,7 +2,7 @@
 
 ### **Description**
 
-This command is used to manage infractions, both show and delete them.
+This command is used to manage infractions, both show and delete them. It is broken down into multiple Slash Commands, all of which begin with `/infractions `
 
 ### **Options**
 
@@ -37,7 +37,7 @@ Valid filters are: `user`, `moderator`, `type`, `reason`, `partialreason`.
 So for example, an execution like this:
 
 ```
-m:infractions list user:314110696071888896;type:warning
+/infractions list user:314110696071888896;type:warning
 ```
 
 Will list all infractions issued to the user `314110696071888896` and of type `warning`.
@@ -52,19 +52,15 @@ User and moderator options only support user IDs. You risk of getting no results
 
 This is pretty much like `list`, but you can get even higher precision and without filters. You can freely input anything. Check [here](https://fusejs.io/examples.html#extended-search) to see how special characters affect your search.
 
-### Flags
+### Options
 
-* `--format=<format>` Selects the format for the `list` and `archive` options. Replace `<format>` with your desired format.
+* `format=<format>` Selects the format for the `list` and `archive` options. Replace `<format>` with your desired format.
 
 ### **Usage**
 
 ```
-m:infractions (summary|archive|detailed|delete|list|search) [extra arguments]
+/infractions (summary|archive|detailed|delete|list|search) [extra arguments]
 ```
-
-### **Aliases**
-
-`inf`
 
 ### **Required permission**
 
