@@ -27,4 +27,4 @@ The server admins need to make a role self-assignable before you can use it. [**
 ### **Required permissions**
 
 This command's level is 0 by default.\
-The bot needs **Read Messages, Send Messages, Embed Links, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Embed Links, Manage Roles** permissions in order to be able to execute this command.

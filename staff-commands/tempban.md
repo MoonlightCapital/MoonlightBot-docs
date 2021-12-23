@@ -24,4 +24,4 @@ This command is used to temporarily ban an user from the server.
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Ban Members **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Ban Members** permissions in order to be able to execute this command.

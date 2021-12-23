@@ -28,4 +28,4 @@ We are not responsible if the muted user can still talk even with the mute role 
 ### **Required permission:**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.
