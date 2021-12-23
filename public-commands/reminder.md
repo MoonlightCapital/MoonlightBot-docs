@@ -23,7 +23,7 @@ Creates a new reminder. It will then be delivered once the duration expires.
 
 #### Flags
 
-* `--recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
+* `recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 ### Edit
 
