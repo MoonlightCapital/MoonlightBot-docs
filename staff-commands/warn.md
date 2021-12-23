@@ -22,7 +22,7 @@ Options can be specified in any order, as long as they're part of the same Slash
 ### **Usage**
 
 ```
-/warn <user> [reason]
+/warn <member> [...reason] [dm-user] [no-infraction]
 ```
 
 ### **Required permission**

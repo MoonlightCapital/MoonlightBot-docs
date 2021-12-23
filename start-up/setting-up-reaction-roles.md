@@ -107,7 +107,7 @@ Group settings are independent from each other, meaning someone can click a reac
 
 ### How do I make reaction roles temporary?
 
-Use `/config reactionroles <group> duration <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the `temprole` command.
+Use `/config arguments: reactionroles <group> duration <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the `temprole` command.
 
 ### How do I disable notifications that are sent to the user?
 
@@ -121,6 +121,6 @@ If a message has multiple groups, notifications will still be sent, providing at
 
 #### If you are an user:
 
-You can disable all reaction role notifications in every server with `m:userconfig reactionrolenotifications false` for your account. This will take precedence over server settings regardless.
+You can disable all reaction role notifications in every server with `/userconfig arguments: reactionrolenotifications false` for your account. This will take precedence over server settings regardless.
 
 You can re-enable both at any time replacing `false` with `true`.

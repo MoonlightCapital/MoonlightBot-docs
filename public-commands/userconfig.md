@@ -1,9 +1,5 @@
 # Userconfig
 
-{% hint style="warning" %}
-This command is available in version `2.5.0` and above.
-{% endhint %}
-
 The userconfig command works in the same exact way as [config](../admin-commands/config/), except it modifies some settings for the user who uses it. See the config page for details on syntax.
 
 ### Main options
