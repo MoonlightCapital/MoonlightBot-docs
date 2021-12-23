@@ -14,10 +14,6 @@ You can reduce the total duration of a temprole by setting a negative duration
 * `role` - The role you want to assign to the user
 * `duration` - Check the [duration](../start-up/arguments.md#durations) section for more information
 
-### **Optional arguments**
-
-`tr`
-
 ### **Usage**
 
 ```
@@ -27,4 +23,4 @@ You can reduce the total duration of a temprole by setting a negative duration
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.
