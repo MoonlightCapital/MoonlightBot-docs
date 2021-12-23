@@ -15,14 +15,10 @@ None
 ### **Usage**
 
 ```
-m:ping
+/ping
 ```
-
-### **Aliases**
-
-`pong`, `bean`
 
 ### **Required arguments**
 
 This command's level is 0 by default.\
-The bot needs **Read Messages, Send Messages **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages** permissions in order to be able to execute this command.

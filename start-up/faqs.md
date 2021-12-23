@@ -28,7 +28,7 @@ There are different types of temprole offered:
 You can cancel a temprole to force an immediate expiration by using the `temprole` command with a duration that would make it expire in the past. Say you want to cancel a temprole that has 3 days left of time:
 
 ```
-m:temprole <user> <role> -3d
+/temprole <user> <role> -3d
 ```
 
 Any value lower than `-3d` will work.

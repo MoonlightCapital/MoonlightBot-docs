@@ -15,18 +15,14 @@ This command is used to update the reason for an infraction
 ### **Usage**
 
 ```
-m:reason <infraction> [reason]
+/reason <infraction> [reason]
 ```
 
 {% hint style="info" %}
 You can put `%OLD%` in the reason and it will be automatically be replaced with the old reason so you don't have to retype everything again.
 {% endhint %}
 
-### **Aliases**
-
-None
-
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages** permissions in order to be able to execute this command.

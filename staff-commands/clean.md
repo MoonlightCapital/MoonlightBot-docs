@@ -2,43 +2,30 @@
 
 ### **Description**
 
-This command is used to delete multiple messages from the channel it's used in. Additional options can be provided to delete only messages meeting certain characteristics.
+This command is used to delete multiple messages from the channel it's used in. Arguments serve as filter to fine-tune which criteria the messages must meet to be deleted. If multiple filters are provided, messages will be deleted if they meet all the requirements.
 
 ### Required arguments
 
-* `amount` - The amount of messages to delete. If not provided, the default is 100
+None
 
 ### Optional arguments
 
-* `data` - Data to supply for the filter
+* `user` - Deletes messages sent by this user
+* `startswith` - Deletes messages with the content starting with this option
+* `endswith` - Deletes messages with the content ending with this option
+* `contains` - Deletes messages containing this option
+* `bots` - Deletes messages sent by bots
+* `system` - Deletes system messages
+* `amount` - The amount of messages to delete (defaults to 100)
+* `preserve-pins` - This flag is used to not purge pinned messages
+* `no-trace` - Makes the response ephemeral, effectively leaving no trace in the cleaned channel
 
-### Flags
-
-* `--preserve-pins` - This flag is used to not purge pinned messages
-* `--no-trace` - Putting this flag deletes the command message, plus the bot will not reply if the execution is successful
-
-### **Options**
-
-| Option name | Description                                                                                    | Data wanted                                      |
-| ----------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| all         | Cleans all messages                                                                            | None                                             |
-| user        | Cleans messages sent by a specific user                                                        | The user you want to clean the messages of       |
-| matching    | Cleans all messages matching a specific regex                                                  | The regex you want the messages to match with    |
-| notmatching | Opposite of matching                                                                           | The regex you want the messages to match without |
-| bots        | Cleans messages sent by bots                                                                   | None                                             |
-| system      | Cleans system messages (like boost notifications, "User pinned a message to this channel" etc) | None                                             |
-| startswith  | Cleans messages that start with a specific content                                             | The content the messages have to start with      |
-| endswith    | Cleans messages that end with a specific content                                               | The content the messages have to end with        |
 
 ### Usage
 
 ```
-m:clean (all|user|matching|notmatching|bots|system|startswith|endswith) [...data] <amount>
+/clean [user] [startswith] [endswith] [contains] [bots] [system] [amount] [no-trace] [preserve-pins]
 ```
-
-### Aliases
-
-`purge`
 
 ### Required permission
 

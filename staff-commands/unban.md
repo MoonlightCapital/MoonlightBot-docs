@@ -15,14 +15,10 @@ This command is used to unban an user from the server
 ### **Usage**
 
 ```
-m:unban <user> [reason]
+/unban <user> [...reason]
 ```
-
-### **Aliases**
-
-`ub`
 
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Ban Members **permissions in order to be able to execute this command
+The bot needs **Read Messages, Send Messages, Ban Members** permissions in order to be able to execute this command

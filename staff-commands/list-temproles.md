@@ -6,27 +6,17 @@ This command is used to lists all temproles from a given query
 
 ### **Required arguments**
 
-* `extras` - User or role, they can be IDs or mentions
+* `extras` - User or role, if not provided the whole list is returned
 
 ### **Optional arguments**
 
-None
-
-### **Options**
-
-| **all**                         | user                                                   | role                                                  |
-| ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
-| This option doesn't need extras | This option needs an user as argument in order to work | This option needs a role as argument in order to work |
+* `target` - User or role to restrict the field of search to
 
 ### **Usage**
 
 ```
-m:list-temproles (all|user|role) <extras>
+/list-temproles [target]
 ```
-
-### **Aliases**
-
-`ltr`
 
 ### **Required permission**
 

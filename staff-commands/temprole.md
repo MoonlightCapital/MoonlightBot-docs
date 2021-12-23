@@ -16,19 +16,15 @@ You can reduce the total duration of a temprole by setting a negative duration
 
 ### **Optional arguments**
 
-`tr`
+* `reason` - The reason for this action for logging purposes.
 
 ### **Usage**
 
 ```
-m:temprole <user> <role> <duration>
+/temprole <user> <role> <duration> [reason]
 ```
-
-### **Aliases**
-
-None
 
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.

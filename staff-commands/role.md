@@ -8,20 +8,16 @@ If the user specified in the command is not in the server, a persistency will be
 
 ### **Required arguments**
 
-* `user` - The user you want to toggle the role from
+* `member` - The member you want to toggle the role from
 * `role` - The role you want to toggle from the user
 
 ### **Usage**
 
 ```
-m:role <user> <role>
+/role <member> <role>
 ```
-
-### **Aliases**
-
-None
 
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages** permissions in order to be able to execute this command.

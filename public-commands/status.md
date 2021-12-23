@@ -15,12 +15,8 @@ None
 ### Usage
 
 ```
-m:status
+/status
 ```
-
-### Aliases
-
-None
 
 ### Required permissions
 
