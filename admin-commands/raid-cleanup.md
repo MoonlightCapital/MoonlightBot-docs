@@ -20,7 +20,7 @@ This command cleans up any raid invasion by banning all users who joined after a
 
 ### Flags
 
-* `--clean-messages` - Setting this flag will delete the messages sent by the banned users in the last 7 days.
+* `clean-messages` - Setting this flag will delete the messages sent by the banned users in the last 7 days.
 
 ### **Usage**
 
