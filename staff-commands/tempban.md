@@ -12,6 +12,9 @@ This command is used to temporarily ban an user from the server.
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
+
+### **Options**
+
 * `dm-user` - Sends the reason for the warning to the user's DMs - can be set to true or false
 * `no-infraction` - Does not log an infraction. Log entry is still sent
 
