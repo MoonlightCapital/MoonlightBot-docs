@@ -2,7 +2,7 @@
 
 ### **Description**
 
-This command is used to manage infractions, both show and delete them.
+This command is used to manage infractions, both show and delete them. It is broken down into multiple Slash Commands, all of which begin with `/infractions `
 
 ### **Options**
 
@@ -52,9 +52,9 @@ User and moderator options only support user IDs. You risk of getting no results
 
 This is pretty much like `list`, but you can get even higher precision and without filters. You can freely input anything. Check [here](https://fusejs.io/examples.html#extended-search) to see how special characters affect your search.
 
-### Flags
+### Options
 
-* `--format=<format>` Selects the format for the `list` and `archive` options. Replace `<format>` with your desired format.
+* `format=<format>` Selects the format for the `list` and `archive` options. Replace `<format>` with your desired format.
 
 ### **Usage**
 
