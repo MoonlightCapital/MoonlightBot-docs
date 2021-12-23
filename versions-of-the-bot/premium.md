@@ -68,7 +68,7 @@ Tiers are scalar. Purchasing a tier means getting all perks of the previous tier
 
 ### For tiers that involve the premium bot
 
-1. Invite [MoonlightBot premium](https://discordapp.com/api/oauth2/authorize?client\_id=693017883566931999\&permissions=470133958\&scope=bot) to your server
+1. Invite [MoonlightBot premium](https://discord.com/api/oauth2/authorize?client_id=693017883566931999\&scope=bot+applications.commands\&permissions=470150342) to your server
 2. You have 30 minutes of time to complete the operation, the premium bot will leave the server if not activated.
 3. A Staff member will DM you a key to activate.
 4. Use the command `/premium activate <key>` (replace `<key>` with the key you received) in the server

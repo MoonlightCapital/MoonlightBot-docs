@@ -5,7 +5,7 @@
 This is a command to help you get a binary representation, timestamp (in milliseconds), and date of a Discord snowflake.
 
 {% hint style="info" %}
-See[ https://discordapp.com/developers/docs/reference#snowflakes](https://discordapp.com/developers/docs/reference#snowflakes) for more information on what snowflakes are
+See[ https://discord.com/developers/docs/reference#snowflakes](https://discord.com/developers/docs/reference#snowflakes) for more information on what snowflakes are
 {% endhint %}
 
 ### **Required arguments**

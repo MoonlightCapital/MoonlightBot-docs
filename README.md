@@ -4,7 +4,7 @@ MoonlightBot is a powerful Discord bot designed to help server moderation withou
 
 ## Getting started
 
-The first step in using MoonlightBot is to invite it to your server. [Click here](https://discordapp.com/api/oauth2/authorize?client\_id=314110696071888896\&permissions=470133958\&scope=bot) for a link that lets you invite the bot with all permissions it requires to work.
+The first step in using MoonlightBot is to invite it to your server. [Click here](https://discord.com/api/oauth2/authorize?client_id=314110696071888896\&scope=bot+applications.commands\&permissions=470150342) for a link that lets you invite the bot with all permissions it requires to work.
 
 {% hint style="info" %}
 Only servers in which you have **Manage Server **permission will show there.
