@@ -28,4 +28,4 @@ Optional arguments can be specified in any order, as long as they're part of the
 ### **Required permission:**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.
