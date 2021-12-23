@@ -12,6 +12,9 @@ This command is used to temporarily mute an user from the server. Just like `mut
 ### **Optional arguments**
 
 * `reason` - The reason for the infraction. It will be shown in bot logs
+
+### **Options**
+
 * `dm-user` - Sends the reason for the warning to the user's DMs - can be True or False
 * `no-infraction` - Does not log an infraction. Log entry is still sent
 * `purge-roles` - This argument is used to remove every possible (counting hierarchy) role before muting.
