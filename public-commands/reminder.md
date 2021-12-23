@@ -14,16 +14,13 @@ Creates a new reminder. It will then be delivered once the duration expires.
 
 * `duration` - The time after the reminder is sent **(required)**
 * `content` - The content of the reminder message. All markdown supported **(required)**
+* `recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 #### Usage
 
 ```
-/reminder add <duration> <content>
+/reminder add <duration> <content> [recurring]
 ```
-
-#### Flags
-
-* `recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 ### Edit
 
