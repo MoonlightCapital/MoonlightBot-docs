@@ -14,6 +14,10 @@ You can reduce the total duration of a temprole by setting a negative duration
 * `role` - The role you want to assign to the user
 * `duration` - Check the [duration](../start-up/arguments.md#durations) section for more information
 
+### **Optional arguments**
+
+* `reason` - The reason for this action for logging purposes.
+
 ### **Usage**
 
 ```
