@@ -2,7 +2,7 @@
 
 ### **Description**
 
-This command is used to create a mute role and setup channel permissions. This is a guided procedure, so answer to what the bot says in the channel you used the command in.
+This command is used to create a mute role and setup channel permissions.
 
 ### **Required arguments**
 
@@ -10,7 +10,7 @@ None
 
 ### **Optional arguments**
 
-None
+An existing role name can be specified to apply permissions to. If none is specified, a new role is created for this purpose.
 
 ### **Usage**
 
