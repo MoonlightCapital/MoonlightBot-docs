@@ -25,4 +25,4 @@ This command is used to temporarily mute an user from the server. Just like `mut
 ### **Required permission**
 
 This command's level is 50 by default.\
-The bot needs **Read Messages, Send Messages, Manage Roles ** permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Manage Roles** permissions in order to be able to execute this command.
