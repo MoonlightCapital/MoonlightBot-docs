@@ -21,4 +21,4 @@ None
 ### **Required permissions**
 
 This command's level is 0 by default.\
-The bot needs **Read Messages, Send Messages, Embed Links **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Embed Links ** permissions in order to be able to execute this command.

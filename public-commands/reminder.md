@@ -74,4 +74,4 @@ Deletes all your reminders at once. You will be asked to confirm your choice thr
 ## Required permissions
 
 This command is level 0 by default\
-The bot needs **Read Messages, Send Messages, Embed Links, Attach Files **permissions in order to be able to execute this command.
+The bot needs **Read Messages, Send Messages, Embed Links, Attach Files ** permissions in order to be able to execute this command.
