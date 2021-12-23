@@ -22,7 +22,7 @@ We are not responsible if the muted user can still talk even with the mute role 
 ### **Usage**
 
 ```
-/mute <user> [reason] [dm-user] [no-infraction] [purge-roles]
+/mute <member> [...reason] [dm-user] [no-infraction] [purge-roles]
 ```
 
 ### **Required permission:**

@@ -22,14 +22,6 @@ They are marked with `[...argument]` in this guide. They are joined together and
 
 ![The reason for the warning is optional and allows spaces, as marked in green in the above image.](<../.gitbook/assets/immagine (16).png>)
 
-## Options
-
-Unlike other arguments, options are not variables, but are needed for commands that have multiple purposes and tell them exactly what to do. Options are usually required, and can be followed by other arguments.
-
-Options are marked with the notation `(option1|option2|option3)`. This means you must write **exactly** `option1`, `option2`, `option3`. They are case-insensitive.
-
-![The argument highlighted in green is an option. This command requires an additional argument as shown in yellow.](<../.gitbook/assets/immagine (17).png>)
-
 ## Type of arguments
 
 ### Durations

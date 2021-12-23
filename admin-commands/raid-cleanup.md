@@ -17,6 +17,9 @@ This command cleans up any raid invasion by banning all users who joined after a
   * If not a valid duration, this will be considered part of the `reason` argument.
   * This value cannot exceed 24 hours.
 * `reason` - The reason to provide in the logs.
+
+### Flags
+
 * `clean-messages` - Setting this flag will delete the messages sent by the banned users in the last 7 days.
 
 ### **Usage**

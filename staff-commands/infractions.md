@@ -4,7 +4,7 @@
 
 This command is used to manage infractions, both show and delete them. It is broken down into multiple Slash Commands, all of which begin with `/infractions `
 
-### **Options**
+### **Subcommands**
 
 #### **Summary**
 
@@ -59,7 +59,17 @@ This is pretty much like `list`, but you can get even higher precision and witho
 ### **Usage**
 
 ```
-/infractions (summary|archive|detailed|delete|list|search) [extra arguments]
+/infractions summary <user>
+
+/infractions list <query> [case-insensitive] [format]
+
+/infractions search <query> [format]
+
+/infractions detailed <id>
+
+/infractions archive [format]
+
+/infractions delete <id> [...reason]
 ```
 
 ### **Required permission**
@@ -67,6 +77,6 @@ This is pretty much like `list`, but you can get even higher precision and witho
 This command's level is 50 by default.\
 The bot needs **Read Messages, Send Messages, Embed Links, Attach Files** permissions in order to be able to execute this command.
 
-### List of formats
+### List of available export formats
 
 `txt`, `csv`, `json`, `html`

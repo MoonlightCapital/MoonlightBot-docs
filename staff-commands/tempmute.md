@@ -19,7 +19,7 @@ This command is used to temporarily mute an user from the server. Just like `mut
 ### **Usage**
 
 ```
-/tempmute <user> <duration> [reason] [dm-user] [no-infraction] [purge-roles]
+/tempmute <member> <duration> [...reason] [dm-user] [no-infraction] [purge-roles]
 ```
 
 ### **Required permission**

@@ -8,7 +8,7 @@ This command is used to manage all settings for reaction roles.
 This page covers in-depth technical details about the command. For a start-up guide on reaction roles, see [Setting up reaction roles](../start-up/setting-up-reaction-roles.md).
 {% endhint %}
 
-### Options
+### Subcommands
 
 #### Create
 
@@ -21,7 +21,7 @@ The only required argument for this option is `name`, which will later be used t
 This command starts a guided prompt to assign emojis and roles to a group. First, you will be asked to send a message with the role (can be a name, mention or ID), then, you'll be asked to add a reaction to confirm. You can end the guided configuration at any time.
 
 {% hint style="warning" %}
-Using this command on a group that has been previously set will delete all existing emojis and roles and make you start again. If you don't want to overwrite any previously set option, add the `--no-overwrite` flag.
+Using this command on a group that has been previously set will delete all existing emojis and roles and make you start again. If you don't want to overwrite any previously set option, add the `no-overwrite` argument.
 {% endhint %}
 
 #### Apply
@@ -32,11 +32,11 @@ Applies the selected group to a given message. The arguments are `group`, which 
 More than one group can be applied to a same message at any time. The same group can be applied to a maximum of 5 different messages.
 {% endhint %}
 
-#### Remove
+#### Unapply
 
 Has the opposite effect of `apply`, ergo, it will remove the group from the specified message. Arguments are the same as the apply option.
 
-#### Delete
+#### Delete-group
 
 This deletes a given group as required argument.
 
@@ -44,7 +44,7 @@ This deletes a given group as required argument.
 This action is irreversible. You will be allowed to create a new group with the same name as a deleted group.
 {% endhint %}
 
-#### Groupinfo
+#### Group-info
 
 Takes a group name as required argument, and shows some informations, such as the emoji/role couples and settings for the group.
 
@@ -63,7 +63,21 @@ This removes any deleted emoji/role from the group passed as argument, cleaning 
 ### Usage
 
 ```
-/reaction-roles (create|setroles|apply|delete|groupinfo|listgroups|autorepair) [group]
+/reaction-roles create <name>
+
+/reaction-roles setroles <group> [no-overwrite]
+
+/reaction-roles apply <group> <message>
+
+/reaction-roles unapply <group> <message>
+
+/reaction-roles delete-group <group>
+
+/reaction-roles group-info <group>
+
+/reaction-roles list-groups 
+
+/reaction-roles autorepair <group>
 ```
 
 ### Required permissions

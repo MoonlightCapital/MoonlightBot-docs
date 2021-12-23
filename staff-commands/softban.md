@@ -17,7 +17,7 @@ This command is used to Ban an user from the server and immediately unban it. Th
 ### **Usage**
 
 ```
-/softban <user> [reason] [dm-user] [no-infraction]
+/softban <user> [...reason] [dm-user] [no-infraction]
 ```
 
 ### **Required permission**

@@ -6,7 +6,7 @@ This command is used to kick an user from the server.
 
 ### **Required arguments**
 
-* `user` - The user you want to kick
+* `member` - The member you want to kick
 
 ### **Optional arguments**
 
@@ -17,12 +17,8 @@ This command is used to kick an user from the server.
 ### **Usage**
 
 ```
-/kick <user> [reason] [dm-user] [no-infraction]
+/kick <member> [...reason] [dm-user] [no-infraction]
 ```
-
-{% hint style="info" %}
-**The user must be userID or mention**
-{% endhint %}
 
 ### **Required permission**
 

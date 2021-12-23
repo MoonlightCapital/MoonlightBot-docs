@@ -23,8 +23,6 @@ You can use MoonlightBot's commands by sending a Slash Command. We're currently 
 ![An example of a command](<.gitbook/assets/immagine (13).png>)
 
 {% hint style="info" %}
-This guide will always use the default prefix which will not change and cannot be removed for clarity. If you are using other versions of the bot, adjust the prefix accordingly.
-
 Use `/help <name of a command>` to know how to use a command, as well as to know if the command exists.
 {% endhint %}
 
@@ -32,7 +30,7 @@ Use `/help <name of a command>` to know how to use a command, as well as to know
 
 Once the bot is added into the server, you can start using commands straight away.
 
-By default, there's nothing to configure to use the core features, but if you want to set permissions for commands, or log actions, or use a custom prefix etc, you can edit all of that with the `config` command. A detailed explanation of this command can be found [at the command's page](admin-commands/config/).
+By default, there's nothing to configure to use the core features, but if you want to set permissions for commands, or log actionsetc, you can edit all of that with the `config` command. A detailed explanation of this command can be found [at the command's page](admin-commands/config/).
 
 ### Support us
 

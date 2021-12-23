@@ -18,7 +18,7 @@ This command is used to temporarily ban an user from the server.
 ### **Usage**
 
 ```
-/tempban <user> <duration> [reason] [dm-user] [no-infraction]
+/tempban <user> <duration> [...reason] [dm-user] [no-infraction]
 ```
 
 ### **Required permission**

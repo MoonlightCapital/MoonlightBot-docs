@@ -4,7 +4,7 @@
 
 This command is used to send reminders to you at a certain time in DMs.
 
-## Options
+## Subcommands
 
 ### Add
 
@@ -12,14 +12,14 @@ Creates a new reminder. It will then be delivered once the duration expires.
 
 #### Arguments
 
-* `duration` - The time after the reminder is sent **(required)**
 * `content` - The content of the reminder message. All markdown supported **(required)**
+* `duration` - The time after the reminder is sent **(required)**
 * `recurring` - If set, the reminder will be sent every `<duration>` instead of only once. You will have to delete it manually to stop.
 
 #### Usage
 
 ```
-/reminder add <duration> <content> [recurring]
+/reminder add <content> <duration> [recurring]
 ```
 
 ### Edit

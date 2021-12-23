@@ -22,7 +22,7 @@ Options can be specified in any order, as long as they're part of the same Slash
 ### **Usage**
 
 ```
-/unmute <user> [reason] [no-infraction]
+/unmute <user> [...reason]
 ```
 
 ### **Required permission:**

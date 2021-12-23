@@ -6,7 +6,7 @@ The userinfo command shows information about an user, or yourself if no user spe
 
 ### **Required arguments**
 
-None‌
+None
 
 ### **Optional arguments**
 

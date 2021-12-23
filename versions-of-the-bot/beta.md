@@ -12,10 +12,6 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 2. Go to the **#get-beta** channel
 3. Click on the invite link, then proceed to invite it like any other bot
 
-## Beta's prefix
-
-MoonlightBot beta now uses Slash Commands, so the "prefix" is `/`
-
 ## Debunking common misconceptions and FAQs
 
 ### It does not have the "Verified bot" checkmark

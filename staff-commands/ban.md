@@ -17,7 +17,7 @@ This command is used to ban an user from the server
 ### **Usage**
 
 ```
-/ban <user> [reason] [dm-user] [no-infraction]
+/ban <user> [...reason] [dm-user] [no-infraction]
 ```
 
 ### **Required permission**

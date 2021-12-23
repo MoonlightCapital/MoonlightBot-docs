@@ -8,13 +8,13 @@ If the user specified in the command is not in the server, a persistency will be
 
 ### **Required arguments**
 
-* `user` - The user you want to toggle the role from
+* `member` - The member you want to toggle the role from
 * `role` - The role you want to toggle from the user
 
 ### **Usage**
 
 ```
-/role <user> <role>
+/role <member> <role>
 ```
 
 ### **Required permission**
