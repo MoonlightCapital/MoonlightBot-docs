@@ -21,7 +21,7 @@ You can reduce the total duration of a temprole by setting a negative duration
 ### **Usage**
 
 ```
-/temprole <user> <role> <duration>
+/temprole <user> <role> <duration> [reason]
 ```
 
 ### **Required permission**
