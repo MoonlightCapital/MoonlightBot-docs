@@ -14,8 +14,8 @@ This command is used to delete multiple messages from the channel it's used in. 
 
 ### Flags
 
-* `--preserve-pins` - This flag is used to not purge pinned messages
-* `--no-trace` - Putting this flag deletes the command message, plus the bot will not reply if the execution is successful
+* `preserve-pins` - This flag is used to not purge pinned messages
+* `no-trace` - Putting this flag deletes the command message, plus the bot will not reply if the execution is successful
 
 ### **Options**
 
