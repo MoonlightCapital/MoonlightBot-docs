@@ -108,6 +108,10 @@ There's a three days grace period. After that, commands will not work anymore un
 
 Contact Staff so your data can be transferred from one bot to another.
 
+#### Can I gift MoonlightBot Premium to another server?
+
+Yes, we now support this and you can get up to two gift subs at once. For example, you can get the Advanced tier subscription for yourself plus a gift for $15. You can then use the gift on yourself or give it to someone else if you wish.
+
 ## Disclaimer
 
 Premium users are still subject to the Acceptable Use Policy.
