@@ -32,7 +32,7 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 {% endtab %}
 
 {% tab title="Super" %}
-**Cost:** 25$/month
+**Cost:** 15$/month
 
 * Custom role in MoonlightBot's support server, role name and color can be picked
 * Up to 6 collaborators
@@ -40,7 +40,7 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 {% endtab %}
 
 {% tab title="Lifetime" %}
-**Cost:** 100$ (only paid once)
+**Cost:** 50$ (only paid once)
 
 * Up to 15 collaborators
 * Behind-the scenes peeks
