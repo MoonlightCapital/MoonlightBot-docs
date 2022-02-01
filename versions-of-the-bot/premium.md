@@ -29,6 +29,7 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 * MoonlightBot premium for one server
 * Allow the addition of up to three collaborators
 * Feature requests with higher priority
+* The ability to buy up to two gift subscriptions at half price
 {% endtab %}
 
 {% tab title="Super" %}
@@ -37,6 +38,7 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 * Custom role in MoonlightBot's support server, role name and color can be picked
 * Up to 6 collaborators
 * Custom server-specific features
+* The ability to buy up to two gift subscriptions at half price
 {% endtab %}
 
 {% tab title="Lifetime" %}
@@ -110,7 +112,7 @@ Contact Staff so your data can be transferred from one bot to another.
 
 #### Can I gift MoonlightBot Premium to another server?
 
-Yes, we now support this and you can get up to two gift subs at once for half the price of the tier each. For example, you can get the Advanced tier subscription for yourself plus a gift for $15. You can then use the gift on yourself or give it to someone else if you wish.
+Yes, we now support this and you can get up to two gift subs at once for half the price of the tier each. For example, you can get the Advanced tier subscription for yourself plus a gift for $15. You can then use the gift on yourself or give it to someone else if you wish. This perk applies to the Advanced and Super tiers only.
 
 ## Disclaimer
 
