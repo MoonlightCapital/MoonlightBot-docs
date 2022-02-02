@@ -35,7 +35,6 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 {% tab title="Super" %}
 **Cost:** 15$/month
 
-* Custom role in MoonlightBot's support server, role name and color can be picked
 * Up to 6 collaborators
 * Custom server-specific features
 * The ability to buy up to two gift subscriptions at half price
