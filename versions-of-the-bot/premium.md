@@ -29,7 +29,6 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 * MoonlightBot premium for one server
 * Allow the addition of up to three collaborators
 * Feature requests with higher priority
-* The ability to buy up to two gift subscriptions at half price
 {% endtab %}
 
 {% tab title="Super" %}
@@ -37,7 +36,6 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 
 * Up to 6 collaborators
 * Custom server-specific features
-* The ability to buy up to two gift subscriptions at half price
 {% endtab %}
 
 {% tab title="Lifetime" %}
