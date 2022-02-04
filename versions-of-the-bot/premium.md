@@ -43,7 +43,6 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 
 * Up to 15 collaborators
 * Behind-the scenes peeks
-* Get sent cute stuff idk lol
 {% endtab %}
 {% endtabs %}
 
