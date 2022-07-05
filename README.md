@@ -20,7 +20,7 @@ Feel good and want early access to new things? Check out [MoonlightBot beta](ver
 
 You can use MoonlightBot's commands by sending a Slash Command. We're currently removing support for legacy prefixes, due to changes being made by Discord.
 
-![An example of a command](<.gitbook/assets/immagine (13).png>)
+![An example of a command](<.gitbook/assets/PingExample.png>)
 
 {% hint style="info" %}
 Use `/help <name of a command>` to know how to use a command, as well as to know if the command exists.
