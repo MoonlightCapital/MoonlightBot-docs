@@ -24,6 +24,10 @@ To create a group, use this command:
 
 Replace `<name>` with a short, memorable name that you will remember later for every reaction roles operation.
 
+{% hint style="info" %}
+Screenshots in this page will show old, message-based commands. Type `/reaction-roles` while using any command now. We are working to replace the outdated illustrations as soon as possible.
+{% endhint %}
+
 ![Creation of a group named "pets"](<../.gitbook/assets/immagine (9).png>)
 
 Group names can contain only alphanumeric characters, underscores and dashes. They must be unique and no longer than 32 characters.

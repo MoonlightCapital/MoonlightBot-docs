@@ -2,15 +2,13 @@
 
 Arguments follow the name of the command and are used to give options to run the command itself. Separe each argument with a space.
 
-![Example of a command executed successfully with all the required arguments. Each argument is highlighted with a different color for clarity.](<../.gitbook/assets/immagine (14).png>)
+![Example of a command executed successfully with all the required arguments.](<../.gitbook/assets/slashrequiredarguments.png>)
 
 ## Required arguments
 
-Required arguments need to be input for the command to work correctly. You will receive an error message or a warning otherwise.
+Required arguments need to be input for the command to work correctly. You will not be able to send the command otherwise.
 
 In this guide, required arguments are marked as `<argument>` with the angle brackets. It is important to **not put** the angle brackets in the actual command, as they are used as a placeholder to indicate an argument is required.
-
-![As you can see, the angle brackets cause the input to be different, so the command won't work.](<../.gitbook/assets/immagine (15).png>)
 
 ## Optional arguments
 
@@ -20,7 +18,7 @@ Optional arguments are not needed for a command to work, but they may be used to
 
 They are marked with `[...argument]` in this guide. They are joined together and allow spaces in there, unlike other arguments that break up on spaces.
 
-![The reason for the warning is optional and allows spaces, as marked in green in the above image.](<../.gitbook/assets/immagine (16).png>)
+![The reason for the warning is optional.](<../.gitbook/assets/slashoptionalarguments.png>)
 
 ## Type of arguments
 
@@ -41,6 +39,6 @@ Durations are a combinations of numbers and letters rappresenting units of measu
 If no unit is specified the bot will default to millisecond
 {% endhint %}
 
-![Duration argument is highlighted in yellow.](<../.gitbook/assets/immagine (18).png>)
+![A duration argument.](<../.gitbook/assets/slashtypeofarguments.png>)
 
-![Another example of duration.](<../.gitbook/assets/immagine (19).png>)
+![Another example of duration. As you can see, you can extend or reduce the length to a temporary role by adding or substracting time to it.](<../.gitbook/assets/slashtypeofarguments2.png>)
