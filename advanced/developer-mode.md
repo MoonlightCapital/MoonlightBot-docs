@@ -16,15 +16,15 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/immagine (20).png>)
+![](<../.gitbook/assets/DevModeDesktopStep1.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/immagine (21).png>)
+![](<../.gitbook/assets/DevModeDesktopStep2.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/immagine (22).png>)
+![](<../.gitbook/assets/DevModeDesktopStep3.png>)
 {% endtab %}
 {% endtabs %}
 
@@ -37,19 +37,19 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/immagine (24).png>)
+![](<../.gitbook/assets/DevModeAndroidStep1.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/immagine (25).png>)
+![](<../.gitbook/assets/DevModeAndroidStep2.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/immagine (26).png>)
+![](<../.gitbook/assets/DevModeAndroidStep3.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![](<../.gitbook/assets/immagine (27).png>)
+![](<../.gitbook/assets/DevModeAndroidStep4.png>)
 {% endtab %}
 {% endtabs %}
 
@@ -62,19 +62,19 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/immagine (29).png>)
+![](<../.gitbook/assets/DevModeIosStep1.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/immagine (30).png>)
+![](<../.gitbook/assets/DevModeIosStep2.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/immagine (31).png>)
+![](<../.gitbook/assets/DevModeIosStep3.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![](<../.gitbook/assets/immagine (32).png>)
+![](<../.gitbook/assets/DevModeIosStep4.png>)
 {% endtab %}
 {% endtabs %}
 

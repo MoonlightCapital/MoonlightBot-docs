@@ -24,7 +24,7 @@ MoonlightBot beta shares most of the codebase with the verified MoonlightBot, wh
 
 Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and volunteers. The chance of bugs is pretty low, and you can always [report bugs](https://discord.gg/hNQWVVC) for them to be fixed quickly, for a greater good.
 
-![A simple explanation of how beta works. If a bug is not found in beta, it will appear on stable, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](<../.gitbook/assets/immagine (28).png>)
+![A simple explanation of how beta works. If a bug is not found in beta, it will appear on stable, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](<../.gitbook/assets/DifferenceBetweenBetaAndStable.png>)
 
 ### I don't want to lose all my temproles, infractions and server configuration
 

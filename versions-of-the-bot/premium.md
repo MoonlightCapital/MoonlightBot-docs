@@ -29,6 +29,7 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 * MoonlightBot premium for one server
 * Allow the addition of up to three collaborators
 * Feature requests with higher priority
+* No necessity to sustain temproles
 {% endtab %}
 
 {% tab title="Super" %}
