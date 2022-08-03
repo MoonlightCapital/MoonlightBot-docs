@@ -29,22 +29,21 @@ This tier is personal and doesn't grant access to the MoonlightBot premium bot.
 * MoonlightBot premium for one server
 * Allow the addition of up to three collaborators
 * Feature requests with higher priority
+* No necessity to sustain temproles
 {% endtab %}
 
 {% tab title="Super" %}
-**Cost:** 25$/month
+**Cost:** 15$/month
 
-* Custom role in MoonlightBot's support server, role name and color can be picked
 * Up to 6 collaborators
 * Custom server-specific features
 {% endtab %}
 
 {% tab title="Lifetime" %}
-**Cost:** 100$ (only paid once)
+**Cost:** 50$ (only paid once)
 
 * Up to 15 collaborators
 * Behind-the scenes peeks
-* Get sent cute stuff idk lol
 {% endtab %}
 {% endtabs %}
 
@@ -107,6 +106,10 @@ There's a three days grace period. After that, commands will not work anymore un
 #### I want to switch to MoonlightBot premium, but I still have temproles ongoing on the stable one. What will happen to them?
 
 Contact Staff so your data can be transferred from one bot to another.
+
+#### Can I gift MoonlightBot Premium to another server?
+
+Yes, we now support this and you can get up to two gift subs at once for half the price of the tier each. For example, you can get the Advanced tier subscription for yourself plus a gift for $15. You can then use the gift on yourself or give it to someone else if you wish. This perk applies to the Advanced and Super tiers only.
 
 ## Disclaimer
 
