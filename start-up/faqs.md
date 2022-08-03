@@ -33,6 +33,24 @@ You can cancel a temprole to force an immediate expiration by using the `temprol
 
 Any value lower than `-3d` will work.
 
+## How does the temprole sustain mechanic work?
+
+In order to encourage good support practices, a new system for temproles to be sustained to make them function has been introduced.
+
+When operating a temporary role, you need to satisfy either of the following conditions:
+- Your maximum duration allowed to set must be the same when you add it, and when the duration expires
+- While the temporary role is active, have gained [a vote](../support/upvote-moonlightbot.md) for at least half of the days. For example, a 30 days temprole is sustained by at least 15 votes
+
+If neither condition is satisfied, the temprole will not removed from the target user. You can check if everything is sustained with the `/status` command, and eventually how to correct it.
+
+{% hint style="info" %}
+[Premium subscribers](../versions-of-the-bot/premium.md) of tier Advanced and above do not need to sustain their temproles.
+{% endhint %}
+
+If someone is threatening to stop sustaining temproles to damage your server, [contact support](https://discord.gg/hNQWVVC). We will investigate the matter and render any threat ineffective.
+
+You can also contact support to receive a temporary exemption from sustaining, if necessary.
+
 ## MoonlightBot is sending me offensive messages. What can I do?
 
 This is happening because someone is abusing the infraction system to harass you. Our Staff does not tolerate this use at all. Please report it at the [support server](https://discord.gg/hNQWVVC).
@@ -54,4 +72,3 @@ If your bug can be used to compromise the bot or end user's security, **message 
 ## Who is the owner of MoonlightBot?
 
 MoonlightBot is owned by MoonlightCapital. With tag `MoonlightCapital#0001` and ID `256460316660072448` on Discord.
-
