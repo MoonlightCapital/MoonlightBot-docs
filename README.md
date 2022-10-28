@@ -1,10 +1,10 @@
 # MoonlightBot Documentation
 
-MoonlightBot is a powerful Discord bot designed to help server moderation without bloat. It features extremely customizable logging, easy to use commands, management of temporary actions, and much much more to make your server life easier.
+MoonlightBot is a powerful Discord bot designed to help server moderation without bloat. It features extremely customizable logging, easy to use commands, management of temporary actions, and much much more to make your server life easier. It is very easy to setup and learn its commands.
 
 ## Getting started
 
-The first step in using MoonlightBot is to invite it to your server. [Click here](https://discord.com/api/oauth2/authorize?client_id=314110696071888896\&scope=bot+applications.commands\&permissions=470150342) for a link that lets you invite the bot with all permissions it requires to work.
+The first step in using MoonlightBot is to invite it to your server. [Click here](https://discord.com/api/oauth2/authorize?client_id=314110696071888896&permissions=1512298638534&scope=applications.commands%20bot) for a link that lets you invite the bot with all permissions it requires to work.
 
 {% hint style="info" %}
 Only servers in which you have **Manage Server** permission will show there.
@@ -12,18 +12,14 @@ Only servers in which you have **Manage Server** permission will show there.
 The bot can still work without its managed role, but some commands may not work if proper permissions are not set.
 {% endhint %}
 
-{% hint style="success" %}
-Feel good and want early access to new things? Check out [MoonlightBot beta](versions-of-the-bot/beta.md).
-{% endhint %}
-
 ### Commands
 
-You can use MoonlightBot's commands by sending a Slash Command. We're currently removing support for legacy prefixes, due to changes being made by Discord.
+MoonlightBot uses Slash Commands. Type a slash (`/`) into the send message box to see all commands.
 
 ![An example of a command](<.gitbook/assets/PingExample.png>)
 
 {% hint style="info" %}
-Use `/help <name of a command>` to know how to use a command, as well as to know if the command exists.
+Use `/help <name of a command>` for information on a command.
 {% endhint %}
 
 ### Configuration
@@ -34,14 +30,12 @@ By default, there's nothing to configure to use the core features, but if you wa
 
 ### Support us
 
-{% hint style="success" %}
-If you've been enjoying MoonlightBot, please [upvote it on bot listing sites](support/upvote-moonlightbot.md). This really helps speeding up the development of the bot.
-{% endhint %}
+MoonlightBot is fully funded by [Premium Subscriptions](./versions-of-the-bot/premium.md) and ran by a small group of volunteers. Please help us out cover hosting costs or [Vote](support/upvote-moonlightbot.md) to give us more visibility!
 
-### Extras
+### Next steps
 
-Confused on the syntax of arguments? [Check the arguments page.](start-up/arguments.md)
+- [Learn the syntax of arguments](start-up/arguments.md)
 
-Have a question not answered here? [Read the FAQ.](start-up/faqs.md)
+- [Read the FAQs](start-up/faqs.md)
 
-This guide still does not help you or you want to suggest improvements? [Join the support server.](https://discord.gg/hNQWVVC)
+- [Join the support server](https://discord.gg/hNQWVVC) to get answers by humans
