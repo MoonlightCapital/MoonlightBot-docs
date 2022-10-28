@@ -16,6 +16,10 @@ The database is hosted in a VPS residing in the United Kingdom.
 
 The Discord.js library automatically caches many things that come from Discord directly, they can range from avatars to message contents, to meta parameters such as role colors, names, user tags, user flags (badges). Most of this content is used to provide logs or command output, and is deleted on bot shutdown, as it is put into a volatile storage.
 
+## Message content
+
+MoonlightBot is approved for the "message content privileged intent", which means it **can see the content of messages you send**. Message contents are only stored in the cache for a brief period of time, and are used to provide message deletion and edit logs. If you are a server administrator and wish to opt-out a channel from being logged, please disable the bot's permission to read messages in such channel.
+
 ## Stored in Discord
 
 Output of bot commands that is sent to Discord may include things like names, IDs and icons/avatars. Those things cannot be deleted by us as there's no feasible way to do so. This also includes server mod logs that belong to the service the bot provides, which will not be deleted by us.
@@ -39,7 +43,7 @@ Bot logs will not be deleted, as they are necessary to keep the service healthy.
 
 Sometimes data from the database is cleaned, this usually relates to unnecessary data (such as config and other things related to the server itself) for merely technical reasons. If you disagree, please inform the Staff promptly.
 
-The MoonlightBot Staff deserves the right to modify or delete any data at any given time, without notice or warning.
+The MoonlightBot Staff deserves the right to modify or delete any data stored at any given time, without notice or warning.
 {% endhint %}
 
 ## TL;DR

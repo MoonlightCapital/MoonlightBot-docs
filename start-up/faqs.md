@@ -8,11 +8,11 @@ Try doing the following things:
 * [ ] Try checking channel permission. If needed, you can add to the bot channel-specific permissions such as Read Messages, Send Messages, Embed Links and View Message History.
 * [ ] It can happen that the server admins disabled the `showPermissionError` option and you do not have permissions to use the command you're trying to use. Contact the server admins.
 
-If the problem persists, please ask in the [support server](https://discord.gg/hNQWVVC).
+If the problem persists, please [contact support](https://discord.gg/hNQWVVC).
 
 ## Can I use bots to trigger MoonlightBot commands?
 
-For security reasons, MoonlightBot will ignore messages sent by bots and webhooks.
+No, other bots and webhooks cannot trigger MoonlightBot, due to safety reasons. Using [selfbots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-) is a violation of Discord's Terms of Service.
 
 ## How does the temprole feature work?
 
@@ -51,7 +51,11 @@ If someone is threatening to stop sustaining temproles to damage your server, [c
 
 You can also contact support to receive a temporary exemption from sustaining, if necessary.
 
-## MoonlightBot is sending me offensive messages. What can I do?
+## Will my temproles be erased if a bot downtime happens?
+
+No! There's absolutely no reason to worry about potential data losses as MoonlightBot is designed to be resilient. We are committed to 99% uptime, but if it ever happens that the bot goes down, your temproles will be removed as nothing happened.
+
+## MoonlightBot is sending me offensive direct messages. What can I do?
 
 This is happening because someone is abusing the infraction system to harass you. Our Staff does not tolerate this use at all. Please report it at the [support server](https://discord.gg/hNQWVVC).
 

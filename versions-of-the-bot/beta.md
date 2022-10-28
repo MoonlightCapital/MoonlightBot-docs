@@ -3,16 +3,20 @@
 MoonlightBot beta is a public beta version of the bot that let users who want the upcoming features be able to try out these features before they get publicly released to MoonlightBot. Beta also gets bug fixes early.
 
 {% hint style="warning" %}
-To keep MoonlightBot beta in a server, any member with manage server permissions must be in the support server, and respond within a reasonable time to MoonlightBot's staff. Failing the first requirement at any time will result in an automatic removal of the bot.
+To keep MoonlightBot beta in a server, any member with manage server permissions must be in the support server, to act as a point of contact for us. Failing to meet this requirement at any time will result in an automatic removal of the bot.
 {% endhint %}
 
 ## How to get MoonlightBot beta
 
-1. Join [MoonlightBot's support server](https://discord.gg/hNQWVVC)
-2. Go to the **#get-beta** channel
+1. Join [MoonlightBot's support server](https://discord.gg/8376ZVg)
+2. Go to the **#get-beta** channel (the link above will take you directly)
 3. Click on the invite link, then proceed to invite it like any other bot
 
 ## Debunking common misconceptions and FAQs
+
+### Will I have to keep both stable and beta if I want to use it?
+
+No, you don't need to clutter your server with two almost identical bots. As stated above, you can ask support for a data transfer, then remove stable. Transferrals are free and instant.
 
 ### It does not have the "Verified bot" checkmark
 
@@ -34,7 +38,6 @@ You can seamlessly switch to beta by asking for all your data to be transferred 
 
 Having MoonlightBot beta in a server requires someone with "Manage server" permission to be in the support server, so the Staff can have a point of contact to refer that server by.
 
-### Will I have to keep both stable and beta if I want to use it?
+### I have no time/I don't know how to look for bugs
 
-No, you don't need to clutter your server with two almost identical bots. As stated above, you can ask for a data transfer, then remove stable.
-
+No problem! You are not required to actively find bugs, rather, use the features you'd normally use and report any bugs you may find.
