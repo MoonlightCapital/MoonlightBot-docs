@@ -9,7 +9,6 @@ MoonlightBot allows users to assign or remove roles from themselves by reacting 
 Before beginning, make sure of the following things:
 
 * MoonlightBot has View Messages, Send Messages, Add Reactions and Manage Messages permissions in both the channel you're using commands in and the one you want reaction roles to be applied to
-* You have developer mode enabled. [Here's a guide on how to enable it](https://moonlightbot.gitbook.io/docs/advanced/developer-mode)
 * Plan ahead what roles and emojis you want to use
 
 ## Creating a group
@@ -68,13 +67,17 @@ To do this, you simply need to use the following command:
 /reaction-roles apply <group> <message>
 ```
 
-Once again, `<group>` is a group you created before, and `<message>` is an argument that can be resolved to a message. The following are valid message identifiers:
+Once again, `<group>` is a group you created before, and `<message>` is for the message the reaction roles will work on. The following are valid message identifiers:
 
-* A simple message ID, like `663696313086509106.` This only works if the message was sent in the channel you're using the command in.
+* A simple message ID, like `663696313086509106`. This only works if the message was sent in the channel you're using the command in.
 * A Channel ID and a message ID, separed by a single dash, like `659297716920254465-663696313086509106`. You can get this by holding the SHIFT key while copying the message ID. This works if you want to keep the reaction roles channel clean.
-* A message link, composed of Server ID/Channel ID/Message ID, like `https://discord.com/channels/359057740200673280/659297716920254465/663696313086509106`. This is the easiest option which combines ease of use from mobile devices and keeping the channel clean, as point 2.
+* **(recommended)** A message link, composed of Server ID/Channel ID/Message ID, like `https://discord.com/channels/359057740200673280/659297716920254465/663696313086509106`. Right click (or long press) the message from mobile then click "Copy Link". You can then paste the link from your clipboard.
 
-And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This may take a while (say, 21 seconds in the worst case scenario).
+{% hint style="warning" %}
+To copy message IDs, you first need to [enable developer mode](../advanced/developer-mode.md). It is not necessary for links.
+{% endhint %}
+
+And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions.
 
 ![](<../.gitbook/assets/immagine (12).png>)
 
@@ -99,25 +102,23 @@ For an in-depth view of all options, see the [Configuring Reaction Roles](../adm
 
 ## FAQ
 
-### How can I make the same emoji add/remove more than one role?
-
-{% hint style="warning" %}
-This is no longer necessary as version `2.17.0`, as you can set more than one role per reaction in the same group
-{% endhint %}
-
-Create multiple groups, map the same emoji to different roles, and apply them to the same message. Keep in mind that you may need to re-add some reactions that aren't in common for both roles as the autopurge on apply takes effect.
-
-Group settings are independent from each other, meaning someone can click a reaction and get both a temporary and a permanent role.
-
 ### How do I make reaction roles temporary?
 
 Use `/config arguments: reactionroles <group> duration <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the `temprole` command.
+
+### Can I make a single click of a reaction give out more than one role?
+
+Yes! However, group settings are common for each role in the group. Though you can apply multiple groups to the same message, which will allow you to:
+
+- Make some roles temporary, and other ones permanent
+- Make some roles only joinable, while removing other ones on click
+... And much more, you can experiment which settings works best for you.
 
 ### How do I disable notifications that are sent to the user?
 
 #### If you are a server admin:
 
-Use `/config reactionroles <group> dmnotification false` to disable notifications for a group.
+Use `/config arguments:reactionroles <group> dmnotification false` to disable notifications for a group.
 
 {% hint style="warning" %}
 If a message has multiple groups, notifications will still be sent, providing at least one of the other groups has notifications enabled
