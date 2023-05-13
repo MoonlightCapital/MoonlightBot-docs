@@ -69,7 +69,7 @@ To do this, you simply need to follow the following steps:
 2. Select the "`Apps`" option.
 3. Select "`Apply Reaction Roles`" ![](<../.gitbook/assets/immagine (11).png>)
 4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one(s) you want to use. ![](<../.gitbook/assets/immagine (12).png>)
-5. The bot will give you a confirmation message. !(<../.gitbook/assets/immagine (13).png>)
+5. The bot will give you a confirmation message. ![](<../.gitbook/assets/immagine (13).png>)
 
 Once again, `<group>` is a group you created before, and `<message>` is for the message the reaction roles will work on. The following are valid message identifiers:
 
@@ -83,7 +83,7 @@ To copy message IDs, you first need to [enable developer mode](../advanced/devel
 
 And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions.
 
-![](<../.gitbook/assets/immagine (13).png>)
+<!-- ![](<../.gitbook/assets/immagine (13).png>) -->
 
 If you add more roles later on, you can use this command again to refresh the reactions.
 
