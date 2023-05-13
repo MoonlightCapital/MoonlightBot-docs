@@ -2,7 +2,7 @@
 
 ## What are reaction roles?
 
-MoonlightBot allows users to assign or remove roles from themselves by reacting to specific messages that server admins set up for. There are several customization options to supercharge your server to the top.
+MoonlightBot allows users to assign/remove roles to/from themselves by reacting to specific messages that server admins set up. There are several customization options to optimize your needs.
 
 ## Preliminary
 
@@ -13,7 +13,7 @@ Before beginning, make sure of the following things:
 
 ## Creating a group
 
-A group is a collection of emoji to role pairs and settings. Groups are independent for each other. After setting the appropriate pairs, you can apply the group to messages so users can start interacting with the bot and gain roles.
+A group is a collection of emoji to role pairs and settings. Groups are independent for each other. After setting the appropriate pairs, you can apply the group to messages so members can use the reactions to manage their roles.
 
 To create a group, use this command:
 
@@ -33,21 +33,23 @@ Group names can contain only alphanumeric characters, underscores and dashes. Th
 
 ## Matching the pairs together
 
-Now that you have a group made, you need to configure what emoji users need to react to get roles.
+Now that you have a group made, you need to configure which emojis users need to react with to get roles.
 
-You do that with the `setroles` command in this fashion:
+You do that with the `set` command in this fashion:
 
 ```
-/reaction-roles setroles <group>
+/reaction-roles set <group> <emoji> <role>
 ```
 
-The argument, `<group>` is the name of your group. Using this command will begin a guided process to set your roles. First, you will be asked to input a role (with a name, ID or mention), then react to the reply message to tie it to an emoji.
+* <group> = the name of the group you set up before.
+* <emoji> = the emoji you want to be used
+* <role> = the role you want the emoji to be paired to
 
-![Step 1: the role (yellow), step 2: the reaction (green)](<../.gitbook/assets/immagine (10).png>)
+!(<../.gitbook/assets/immagine (10).png>)
 
-Add as many as you want, or stop adding roles with `cancel`
+You can use this command as many times as you want to add multiple pairs to your group.
 
-![](<../.gitbook/assets/immagine (11).png>)
+<!-- !(<../.gitbook/assets/immagine (11).png>) -->
 
 You can use custom emojis as well, but they must be uploaded in the same server as you're setting it up.
 
@@ -59,13 +61,15 @@ There are a few things to note:
 
 ## Applying your group to messages
 
-This is the last required step to do before making reaction roles operative for your users. This consists in making the bot acknowledge that reactions in that group have to assign roles.
+This is the last required step to do before making reaction roles operative for your users. This consists of making the bot acknowledge that reactions in that group have to assign roles.
 
-To do this, you simply need to use the following command:
+To do this, you simply need to follow the following steps:
 
-```
-/reaction-roles apply <group> <message>
-```
+1. Right click (or press and hold if you're on mobile) the message you want to apply reaction roles to.
+2. Select the "`Apps`" option.
+3. Select "`Apply Reaction Roles`" !(<../.gitbook/assets/immagine (11).png>)
+4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one(s) you want to use. !(<../.gitbook/assets/immagine (12).png>)
+5. The bot will give you a confirmation message. !(<../.gitbook/assets/immagine (13).png>)
 
 Once again, `<group>` is a group you created before, and `<message>` is for the message the reaction roles will work on. The following are valid message identifiers:
 

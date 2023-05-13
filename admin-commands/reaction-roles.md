@@ -4,9 +4,9 @@
 
 This command is used to manage all settings for reaction roles.
 
-{% hint style="info" %}
+
 This page covers in-depth technical details about the command. For a start-up guide on reaction roles, see [Setting up reaction roles](../start-up/setting-up-reaction-roles.md).
-{% endhint %}
+
 
 ### Subcommands
 
