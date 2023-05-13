@@ -18,16 +18,12 @@ A group is a collection of emoji to role pairs and settings. Groups are independ
 To create a group, use this command:
 
 ```
-/reaction-roles create <name>
+/config reaction-roles <group>
 ```
 
-Replace `<name>` with a short, memorable name that you will remember later for every reaction roles operation.
+Replace `<group>` with a short, memorable name that you will remember later for every reaction roles operation.
 
-{% hint style="info" %}
-Screenshots in this page will show old, message-based commands. Type `/reaction-roles` while using any command now. We are working to replace the outdated illustrations as soon as possible.
-{% endhint %}
-
-![Creation of a group named "pets"](<../.gitbook/assets/immagine (9).png>)
+![](<../.gitbook/assets/immagine (9).png>)
 
 Group names can contain only alphanumeric characters, underscores and dashes. They must be unique and no longer than 32 characters.
 
@@ -47,11 +43,7 @@ You do that with the `set` command in this fashion:
 
 ![](<../.gitbook/assets/immagine (10).png>)
 
-You can use this command as many times as you want to add multiple pairs to your group.
-
-<!-- !(<../.gitbook/assets/immagine (11).png>) -->
-
-You can use custom emojis as well, but they must be uploaded in the same server as you're setting it up.
+You can use this command as many times as you want to add multiple pairs to your group. You can use custom emojis as well, but they must be uploaded in the same server as you're setting it up.
 
 There are a few things to note:
 
