@@ -27,6 +27,16 @@ Replace `<group>` with a short, memorable name that you will remember later for 
 
 Group names can contain only alphanumeric characters, underscores and dashes. They must be unique and no longer than 32 characters.
 
+### Optional arguments
+
+* `join-only`: Prevents the user from removing their role(s).
+* `leave-only`: Prevents the user from assigning the role(s).
+* `reverse`: When the message is reacted on, it will remove the role instead of assigning it, and vice versa.
+* `max-roles`: The maximum amount of roles within the group a user can asign themselves (0 = unrestricted).
+* `dm-notification`: When a role is assigned/removed, the bot will message the user.
+* `freeze`: When true, the group will not function.
+* `duration`: How long the user will keep their assigned role. This will *not* give a role back (in case of `reverse` being enabled).
+
 ## Matching the pairs together
 
 Now that you have a group made, you need to configure which emojis users need to react with to get roles.
@@ -37,9 +47,9 @@ You do that with the `set` command in this fashion:
 /reaction-roles set <group> <emoji> <role>
 ```
 
-* <group> = the name of the group you set up before.
-* <emoji> = the emoji you want to be used
-* <role> = the role you want the emoji to be paired to
+* `<group>` = the name of the group you set up before.
+* `<emoji>` = the emoji you want to be used
+* `<role>` = the role you want the emoji to be paired to
 
 ![](<../.gitbook/assets/immagine (10).png>)
 
@@ -106,13 +116,13 @@ Use `/config arguments: reactionroles <group> duration <duration>` to add a time
 
 Yes! However, group settings are common for each role in the group. Though you can apply multiple groups to the same message, which will allow you to:
 
-- Make some roles temporary, and other ones permanent
-- Make some roles only joinable, while removing other ones on click
+* Make some roles temporary, and other ones permanent
+* Make some roles only joinable, while removing other ones on click
 ... And much more, you can experiment which settings works best for you.
 
 ### How do I disable notifications that are sent to the user?
 
-#### If you are a server admin:
+#### If you are a server admin
 
 Use `/config arguments:reactionroles <group> dmnotification false` to disable notifications for a group.
 
@@ -120,7 +130,7 @@ Use `/config arguments:reactionroles <group> dmnotification false` to disable no
 If a message has multiple groups, notifications will still be sent, providing at least one of the other groups has notifications enabled
 {% endhint %}
 
-#### If you are an user:
+#### If you are an user
 
 You can disable all reaction role notifications in every server with `/userconfig arguments: reactionrolenotifications false` for your account. This will take precedence over server settings regardless.
 
