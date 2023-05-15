@@ -10,72 +10,61 @@ This page covers in-depth technical details about the command. For a start-up gu
 
 ### Subcommands
 
-#### Create
+#### Config
 
 This command creates a new group, given a name. A server can have a maximum of 10 groups.
 
-The only required argument for this option is `name`, which will later be used to identify your group.
+The only required argument for this option is `group`, which will later be used to identify your group.
 
-#### Setroles
+#### Set
 
-This command starts a guided prompt to assign emojis and roles to a group. First, you will be asked to send a message with the role (can be a name, mention or ID), then, you'll be asked to add a reaction to confirm. You can end the guided configuration at any time.
+This command adds pairs to the group (a pair being an emoji connect to a role). A group can have a maximum of 20 pairs.
 
-{% hint style="warning" %}
-Using this command on a group that has been previously set will delete all existing emojis and roles and make you start again. If you don't want to overwrite any previously set option, add the `no-overwrite` argument.
-{% endhint %}
+The required arguments for this option are `group`, `emoji`, and `role`. `Group` is the group that you want to apply pairs to and `emoji` is the emoji you want the user to react with to toggle the `role`.
+
 
 #### Apply
 
-Applies the selected group to a given message. The arguments are `group`, which is the name of the group you want to assign and `message`, corresponding to a message ID or link to the message you want the group to be applied to.
+Applies the selected group to a given message. Instructions on how to do this are given [here](../start-up/setting-up-reaction-roles.md#applying-your-group-to-messages).
 
-{% hint style="info" %}
 More than one group can be applied to a same message at any time. The same group can be applied to a maximum of 5 different messages.
-{% endhint %}
 
 #### Unapply
 
-Has the opposite effect of `apply`, ergo, it will remove the group from the specified message. Arguments are the same as the apply option.
+Has the opposite effect of `apply`, ergo, it will remove the group from the specified message. 
 
-#### Delete-group
+#### Delete
 
-This deletes a given group as required argument.
+This deletes a given group(`group` is the required argument.).
 
-{% hint style="danger" %}
 This action is irreversible. You will be allowed to create a new group with the same name as a deleted group.
-{% endhint %}
 
-#### Group-info
+#### Info
 
-Takes a group name as required argument, and shows some informations, such as the emoji/role couples and settings for the group.
+Takes a group name as required argument, and shows some information, such as the emoji/role couples and settings for the group.
 
-{% hint style="info" %}
 You can edit group options with the `config` command
-{% endhint %}
 
-#### Listgroups
+#### List
 
-This option lists all the available groups by name and n° of roles set. No arguments needed.
+This option lists all the available groups by name and amount of roles set. No arguments required.
 
 #### Autorepair
 
-This removes any deleted emoji/role from the group passed as argument, cleaning things up. It will not search for deleted messages.
+This removes any deleted emoji/role from the group(the only required argument), cleaning things up. It will not search for deleted messages.
 
 ### Usage
 
 ```
-/reaction-roles create <name>
+/config reaction-roles <group>
 
-/reaction-roles setroles <group> [no-overwrite]
+/reaction-roles set <group> <emoji> <role>
 
-/reaction-roles apply <group> <message>
+/reaction-roles delete <group>
 
-/reaction-roles unapply <group> <message>
+/reaction-roles info <group>
 
-/reaction-roles delete-group <group>
-
-/reaction-roles group-info <group>
-
-/reaction-roles list-groups 
+/reaction-roles list 
 
 /reaction-roles autorepair <group>
 ```
