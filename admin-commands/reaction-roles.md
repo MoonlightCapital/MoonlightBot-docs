@@ -61,5 +61,6 @@ This removes any deleted emoji/role from the group (the only required argument),
 
 ### Required permissions
 
-This command's level is 100 by default.\
-The bot needs **Read Messages, Send Messages, Embed Links, Add Reactions** permissions in order to be able to execute this command. For some options, the bot may need **Manage Messages** and **Add Reactions** in specific channels.
+The bot needs **Send Messages, Embed Links, Manage Roles, and Add Reactions** permissions in order to be able to execute this command. For some options, the bot may need **Manage Messages, ViewChannel, and Add Reactions** in specific channels.
+
+To utilize these commands, the **Manage Server** permission is required.
