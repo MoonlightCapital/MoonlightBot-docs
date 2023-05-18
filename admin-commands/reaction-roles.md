@@ -14,7 +14,9 @@ This page covers in-depth technical details about the command. For a start-up gu
 #### Set
 
 This command adds pairs to the group (a pair being an emoji connect to a role). A group can have a maximum of 20 pairs.
+
 ![](<../.gitbook/assets/ReactionRoleSetup2.png>)
+
 The required arguments for this option are `group`, `emoji`, and `role`. `Group` is the group that you want to apply pairs to and `emoji` is the emoji you want the user to react with to toggle the `role`.
 
 #### Delete
