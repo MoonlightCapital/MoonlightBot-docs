@@ -43,6 +43,10 @@ This option lists all the available groups by name and amount of roles set. No a
 
 This removes any deleted emoji/role from the group (the only required argument), cleaning things up. It will not search for deleted messages.
 
+{% hint style="info" %}
+There is an optional argument (`disconnect-messages`) that removes the group from all messages it is applied to. This is meant to be used if a group reaches the maximum of 5 messages, because there is (currently) no way to remove a group from an individual message (not even by deleting the message). 
+{% endhint %}
+
 ### Usage
 
 ```
