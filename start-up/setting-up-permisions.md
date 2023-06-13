@@ -4,7 +4,7 @@
 
 When utilizing the bot, it is important to give the bot certain permissions so it can complete the task successfully. This guide will help you recognize what each permissions does and why the bot needs it.
 
-### Basic Permissions
+### **Basic Permissions**
 
 These permissions establish the basic functionality of the bot.
 
@@ -16,7 +16,7 @@ This permission allows the bot to perform actions such as distributing reaction 
 
 Although this permission is only required to clean messages, it is also helpful if you want feedback from the bot after performing an action.
 
-### Moderation
+### **Moderation**
 
 These permissions allow the bot to assist your moderation.
 
@@ -32,7 +32,7 @@ This permission is required if you want to ban a member via MoonlightBot.
 
 This permission is required if you want to timeout a member via MoonlightBot.
 
-### Utility
+### **Utility**
 
 These permissions allow the bot to complete actions such as manage reaction roles, manage mute roles, and more.
 
