@@ -4,6 +4,24 @@
 
 When utilizing the bot, it is important to give the bot certain permissions so it can complete the task successfully. This guide will help you recognize what each permissions does and why the bot needs it.
 
+## Setup Guide
+
+Click on your server name and select `Server Settings`.
+![](../.gitbook/assets/permissions1.png)
+
+In the settings list, click on `roles`.
+![](../.gitbook/assets/permissions2.png)
+
+In the roles list, click on `MoonlightBot`.
+![](../.gitbook/assets/permissions3.png)
+
+Finally, click on the `Permissions` tab.
+![](../.gitbook/assets/permissions4.png)
+
+Now you can start toggling permissions using the list below!
+
+## Permissions List
+
 ### **Basic Permissions**
 
 These permissions establish the basic functionality of the bot.
