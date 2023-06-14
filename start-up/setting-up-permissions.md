@@ -6,19 +6,19 @@ When utilizing the bot, it is important to give the bot certain permissions so i
 
 ## Setup Guide
 
-Click on your server name and select `Server Settings`.
+Click your server name and select `Server Settings`.
 
 ![](../.gitbook/assets/permissions1.png)
 
-In the settings list, click on `roles`.
+In the settings list, select `roles`.
 
 ![](../.gitbook/assets/permissions2.png)
 
-In the roles list, click on `MoonlightBot`.
+In the roles list, select `MoonlightBot`.
 
 ![](../.gitbook/assets/permissions3.png)
 
-Finally, click on the `Permissions` tab.
+Finally, select the `Permissions` tab.
 
 ![](../.gitbook/assets/permissions4.png)
 
