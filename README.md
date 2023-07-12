@@ -36,6 +36,6 @@ MoonlightBot is fully funded by [Premium Subscriptions](./versions-of-the-bot/pr
 
 - [Learn the syntax of arguments](start-up/arguments.md)
 
-- [Read the FAQs](start-up/faqs.md)
+- [Read the Frequently Asked Questions](start-up/faqs.md)
 
 - [Join the support server](https://discord.gg/hNQWVVC) to get answers by humans

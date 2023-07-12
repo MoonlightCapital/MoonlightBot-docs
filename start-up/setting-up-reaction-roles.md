@@ -100,7 +100,7 @@ The `config` command offers a voice to edit group settings. Those are completely
 
 For an in-depth view of all options, see the [Configuring Reaction Roles](../admin-commands/config/configuring-reaction-roles.md) page.
 
-## FAQ
+## Frequently Asked Questions
 
 ### How do I make reaction roles temporary?
 
