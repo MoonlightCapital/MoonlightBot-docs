@@ -73,7 +73,7 @@ Tiers are scalar. Purchasing a tier means getting all perks of the previous tier
 4. Use the command `/premium activate <key>` (replace `<key>` with the key you received) in the server
 5. If every step was done correctly, you should now be able to use MoonlightBot premium. Congratulations!
 
-## Premium FAQs
+## Premium Frequently Asked Questions
 
 #### What is a collaborator?
 
