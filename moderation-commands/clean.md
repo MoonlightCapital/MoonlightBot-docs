@@ -20,7 +20,7 @@ For more information on editing permission requirements for specific users/roles
 ## Syntax
 
 ```text
-<commandUsage>
+/clean [amount] [user] [starts-with] [ends-with] [contains] [bots] [system] [preserve-pins] [no-trace]
 ```
 
 ### Options

@@ -17,7 +17,7 @@ For more information on editing permission requirements for specific users/roles
 ## Syntax
 
 ```text
-<commandUsage>
+/check-duration [debug]
 ```
 
 ### Options
