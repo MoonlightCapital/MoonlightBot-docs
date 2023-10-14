@@ -11,16 +11,12 @@
 * [Acceptable Use Policy](start-up/acceptable-use-policy.md)
 * [Privacy policy](start-up/privacy-policy.md)
 
-## Support
+## Support Our Work
 
+* [Premium Subscriptions](support/premium.md)
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
 * [Support server](https://discord.gg/hNQWVVC)
-
-## Versions of the bot
-
-* [Beta](versions-of-the-bot/beta.md)
-* [Test](versions-of-the-bot/test.md)
-* [Premium](versions-of-the-bot/premium.md)
+* [MoonlightBot Beta (early access)](support/beta.md)
 
 ## Admin commands
 
