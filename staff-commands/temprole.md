@@ -25,7 +25,7 @@ You can reduce the total duration of a temprole by setting a negative duration
 ```
 
 {% hint style="info" %}
-The [FAQs page](../start-up/faqs.md) has answers for some of the most common temprole-related questions
+The [Frequently Asked Questions](../start-up/faqs.md) has answers for some of the most common temprole-related questions
 {% endhint %}
 
 ### **Required permission**

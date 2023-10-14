@@ -5,7 +5,7 @@
 ## Start up
 
 * [Arguments](start-up/arguments.md)
-* [FAQs](start-up/faqs.md)
+* [Frequently Asked Questions](start-up/faqs.md)
 * [Working with levels](start-up/working-with-levels.md)
 * [Setting up reaction roles](start-up/setting-up-reaction-roles.md)
 * [Acceptable Use Policy](start-up/acceptable-use-policy.md)

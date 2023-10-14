@@ -12,7 +12,7 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 2. Go to the **#get-beta** channel (the link above will take you directly)
 3. Click on the invite link, then proceed to invite it like any other bot
 
-## Debunking common misconceptions and FAQs
+## Debunking common misconceptions and Frequently Asked Questions
 
 ### Will I have to keep both stable and beta if I want to use it?
 
