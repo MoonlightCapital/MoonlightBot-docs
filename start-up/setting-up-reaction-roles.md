@@ -50,13 +50,13 @@ You can use this command as many times as you want to add multiple pairs to your
 There are a few things to note:
 
 * The same role can be given by multiple different emojis in the same group
-* You can assign multiple roles to an emoji by using the set comman multiple times.
+* You can assign multiple roles to an emoji by using the set command multiple times.
   * Example: 
   `/ reaction-roles set group1 emoji1 role1`
 
   `/ reaction-roles set group1 emoji1 role2`
 
-  Doing this will give both roles at the press of the reaction. To remove role1 from the emoji you can use `/ reaction-roles set group1 emoji1 role1`
+  Doing this will give both roles at the press of the reaction. To remove role1 from the emoji you can use the same command as to add it.
 
 * You can only add up to 20 pairs per group (Discord only allows 20 different reactions per message)
 
