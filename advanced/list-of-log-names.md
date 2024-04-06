@@ -1,72 +1,76 @@
 ---
-description: In this page all the available logs are listed
+description: On this page all the available logs are listed
 ---
 
 # List of log names
 
-## Categories
+Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names(which can be used in place of individual log names, see [configuring channels](../admin-commands/config/configuring-channels.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates.
 
 {% hint style="warning" %}
-Log names are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names are _Capitalized_
+Some logs require the bot to have the "View Audit Logs" permission enabled.
 {% endhint %}
+
+## Moderation
+
+This category is used for actions by moderators or ones that moderators could use. Most of them are fired when a command is run unless they start with AUDIT_. In that case, actions that are done with or without using the bot are logged.
+
+| Name              | Emitted when     |
+| ----------------- | ---------------- |
+| BAN               | Someone gets banned |
+| INFRACTION_DELETE | Someone removes an infraction|
+| KICK              | Someone gets kicked |
+| MUTE              | Someone gets muted |
+| PAUSE_ROLE_ADD    | An expiring role gets added  |
+| PAUSE_ROLE_EXTEND | A role expiration date gets extended |
+| PAUSE_ROLE_REMOVE | A role gets temporarily removed |
+| REASON_UPDATE     | A reason for an infraction gets updated |
+| ROLE_ADD          | Someone adds a role |
+| ROLE_REMOVE       | Someone removes a role|
+| SELFROLE_ADD      | Someone adds a user-assignable role |
+| SELFROLE_REMOVE   | Someone removes a user-assignable role  |
+| SOFTBAN           | Someone gets soft-banned |
+| TEMPBAN_EXTEND    | Someone's temporary ban gets extended |
+| TEMPBAN_REMOVE    | Someone's temporary ban gets removed |
+| TEMPMUTE_EXTEND   | Someone's temporary mute gets extended |
+| TEMPMUTE_REMOVE   | Someone's temporary ban gets removed |
+| TEMPROLE_ADD      | A temporary role gets added |
+| TEMPROLE_EXTEND   | The length of a temporary role gets extended |
+| TEMPROLE_REMOVE   | A temporary role gets removed |
+| TIMEOUT           | Someone gets timed out |
+| TIMEOUT_REMOVE    | Someone's time out gets removed |
+| UNBAN             | Someone gets unbanned |
+| UNMUTE            | Someone gets unmuted |
+| WARNING           | Someone receives a warning |
+
+## Members
+
+This category is for when someone leaves or joins the server.
+
+| Name      | Emitted when     |
+| --------- | ---------------- |
+| USER_JOIN | Someone joins |
+| USER_LEFT | Someone leaves |
+
+## Messages
+
+This category is for things having to do with messages.
+
+| Name                | Emitted when     |
+| ------------------- | ---------------- |
+| CHANNEL_CLEAN       | Someone cleans all the messages from a channel |
+| MESSAGE_BULK_DELETE | Someone bulk deletes a set of messages |
+| MESSAGE_DELETE      | Anyone deletes a message |
+| MESSAGE_EDIT        | Anyone edits a message |
+| MESSAGE_PIN_ADD     | A message gets pinned |
+| MESSAGE_PIN_REMOVE  | A message gets unpinned |
+
+## Debug
 
 {% hint style="info" %}
-If you want everything to be logged, use `*` as name. This will also include logs that will be introduced **after** you set it.
+This category is for debugging purposes. Logs in this category are meant to aid in fixing errors that may prevent the bot from functioning correctly.
+
 {% endhint %}
 
-### Moderation
-
-| Type               | Description                                               |
-| ------------------ | --------------------------------------------------------- |
-| BAN                | Emitted when an user is banned                            |
-| UNBAN              | Emitted when an user is unbanned                          |
-| MUTE               | Emitted when an user is muted                             |
-| UNMUTE             | Emitted when an user is unmuted                           |
-| KICK               | Emitted when an user is kicked                            |
-| WARNING            | Emitted when an user is warned                            |
-| SOFTBAN            | Emitted when an user is softbanned                        |
-| TEMPBAN\_ADD       | Emitted when an user is tempbanned                        |
-| TEMPMUTE\_ADD      | Emitted when an user is tempmuted                         |
-| TEMPROLE\_ADD      | Emitted when a temprole is added to an user               |
-| REASON\_UPDATE     | Emitted when the reason of an infraction is changed       |
-| TEMPROLE\_EXTEND   | Emitted when a temprole is extended                       |
-| TEMPMUTE\_EXTEND   | Emitted when a tempmute is extended                       |
-| TEMPBAN\_EXTEND    | Emitted when a tempban is extended                        |
-| TEMPROLE\_REMOVE   | Emitted when a temprole is removed/has expired            |
-| TEMPMUTE\_REMOVE   | Emitted when a tempmute is removed/has expired            |
-| TEMPBAN\_REMOVE    | Emitted when a tempban is removed/has expired             |
-| AUDIT\_KICK        | Emitted when a user is kicked but not by the bot          |
-| AUDIT\_BAN\_ADD    | Emitted when a user is banned, but not by the bot         |
-| ROLE\_ADD          | Emitted when a role is added through the `role` command   |
-| ROLE\_REMOVE       | Emitted when a role is removed through the `role` command |
-| SELFROLE\_ADD      | Emitted when a selfrole is added                          |
-| SELFROLE\_REMOVE   | Emitted when a selfrole is removed                        |
-| RAID\_CLEANUP      | Emitted when a raid is cleaned up                         |
-| INFRACTION\_DELETE | Emitted when an infraction is deleted                     |
-
-### Messages
-
-| Type                 | Description                               |
-| -------------------- | ----------------------------------------- |
-| CHANNEL\_CLEAN       | Emitted when a channel is cleaned         |
-| MESSAGE\_DELETE      | Emitted when a message is deleted         |
-| MESSAGE\_EDIT        | Emitted when a message is edited          |
-| MESSAGE\_PIN\_ADD    | Emitted when a message is pinned          |
-| MESSAGE\_PIN\_REMOVE | Emitted when a pinned message is unpinned |
-
-### Members
-
-| Type       | Description                            |
-| ---------- | -------------------------------------- |
-| USER\_JOIN | Emitted when an user joins the server  |
-| USER\_LEFT | Emitted when an user leaves the server |
-
-### Debug
-
-{% hint style="info" %}
-This category is for debugging purposes. Logs in this category are meant to aid in fixing errors that may prevent the bot for functioning correctly
-{% endhint %}
-
-| Type                    | Description                              |
-| ----------------------- | ---------------------------------------- |
-| REACTION\_ROLE_\__DEBUG | Debug for reaction roles related actions |
+| Name                | Emitted when     |
+| ------------------- | ---------------- |
+| REACTION_ROLE_DEBUG | Someone uses a reaction role |
