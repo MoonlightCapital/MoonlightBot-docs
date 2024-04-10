@@ -2,7 +2,7 @@
 description: On this page all the available logs are listed
 ---
 
-# List of log names
+# [List of log names](list-of-log-names.md#list-of-log-names)
 
 Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates.
 
@@ -12,35 +12,35 @@ Some logs require the bot to have the "View Audit Log" permission enabled.
 
 ## Moderation
 
-This category is used for actions by moderators or ones that moderators could use. Most of them are fired when a command is run unless they start with AUDIT_, which uses the values in the server's audit log. In that case, actions that are done with or without using the bot are logged.
+This category is to log actions taken by moderators. Most of them are triggered by using bot commands, but those starting with `AUDIT_` will read the data from Discord's audit log providing MoonlightBot has permission to do so.
 
 | Name              | Emitted when     |
 | ----------------- | ---------------- |
-| BAN               | A user gets banned |
-| INFRACTION_DELETE | A moderator removes an infraction|
-| KICK              | A user gets kicked |
-| MUTE              | A user gets muted |
-| PAUSE_ROLE_ADD    | A role gets temporarily removed |
+| BAN               | A user [gets banned](../moderation-commands/ban.md) |
+| INFRACTION_DELETE | A moderator [deletes an infraction](../moderation-commands/infractions.md)|
+| KICK              | A user [gets kicked](../moderation-commands/kick.md) |
+| MUTE              | A user [gets muted](../moderation-commands/mute.md) |
+| PAUSE_ROLE_ADD    | A role [gets temporarily removed](../role-management-commands/pause-role.md) |
 | PAUSE_ROLE_EXTEND | A role's length of time to be removed gets adjusted |
 | PAUSE_ROLE_REMOVE | A role gets added back |
-| REASON_UPDATE     | A reason for an infraction gets updated |
-| ROLE_ADD          | A role gets added |
+| REASON_UPDATE     | A [reason for an infraction](../moderation-commands/infractions.md) gets updated |
+| ROLE_ADD          | A [role](../role-management-commands/role.md) gets added |
 | ROLE_REMOVE       | A role gets removed|
-| SELFROLE_ADD      | A user adds a self-assignable role (see [Selfrole](../role-management-commands/selfrole.md)) |
-| SELFROLE_REMOVE   | A user removes a user-assignable role  |
-| SOFTBAN           | A user gets soft-banned |
-| TEMPBAN_EXTEND    | A temporary ban gets extended |
+| SELFROLE_ADD      | A user adds a [self-assignable role](../role-management-commands/selfrole.md) to themselves |
+| SELFROLE_REMOVE   | A user removes a self-assignable role  |
+| SOFTBAN           | A user gets [soft-banned](../moderation-commands/softban.md) |
+| TEMPBAN_EXTEND    | A [temporary ban](../moderation-commands/tempban.md) gets extended |
 | TEMPBAN_REMOVE    | A temporary ban gets removed |
-| TEMPMUTE_EXTEND   | A temporary mute gets extended |
+| TEMPMUTE_EXTEND   | A [temporary mute](../moderation-commands/tempmute.md) gets extended |
 | TEMPMUTE_REMOVE   | A temporary ban gets removed |
-| TEMPROLE_ADD      | A temporary role gets added |
+| TEMPROLE_ADD      | A [temporary role](../role-management-commands/temprole.md) gets added |
 | TEMPROLE_EXTEND   | The length of a temporary role gets extended |
 | TEMPROLE_REMOVE   | A temporary role gets removed |
-| TIMEOUT           | A user gets timed out |
+| TIMEOUT           | A user gets [timed out](../moderation-commands/timeout.md) |
 | TIMEOUT_REMOVE    | A time out gets removed |
-| UNBAN             | A user gets unbanned |
-| UNMUTE            | A user gets unmuted |
-| WARNING           | A user receives a warning |
+| UNBAN             | A user gets [unbanned](../moderation-commands/unban.md) |
+| UNMUTE            | A user gets [unmuted](../moderation-commands/unmute.md) |
+| WARNING           | A user [receives a warning](../moderation-commands/warn.md) |
 
 ## Members
 
@@ -57,7 +57,7 @@ This category is for things having to do with messages.
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |
-| CHANNEL_CLEAN       | A moderator cleans all the messages from a channel (which creates a file with the deleted messages) |
+| CHANNEL_CLEAN       | Messages get [cleaned](../moderation-commands/clean.md) from a channel. Includes a file with a backup of the deleted messages |
 | MESSAGE_BULK_DELETE | A moderator bulk deletes a set of messages |
 | MESSAGE_DELETE      | A message is deleted |
 | MESSAGE_EDIT        | A user edits a message |
@@ -73,4 +73,4 @@ This category is for debugging purposes. Logs in this category are meant to aid 
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |
-| REACTION_ROLE_DEBUG | A user triggers a reaction role, and something goes wtong |
+| REACTION_ROLE_DEBUG | Permissions are misconfigured or someone tries to get a join only role  |
