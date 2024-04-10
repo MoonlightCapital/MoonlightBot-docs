@@ -4,7 +4,7 @@ description: On this page all the available logs are listed
 
 # [List of log names](list-of-log-names.md#list-of-log-names)
 
-Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates.
+Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates. All logs require the bot to have permission to view and send messages in the logging channel. It must also be able to send embeds and files there.
 
 {% hint style="warning" %}
 Some logs require the bot to have the "View Audit Log" permission enabled.
