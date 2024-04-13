@@ -2,13 +2,10 @@
 description: On this page all the available logs are listed
 ---
 
-# [List of log names](list-of-log-names.md#list-of-log-names)
 
-Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates. All logs require the bot to have permission to view and send messages in the logging channel. It must also be able to send embeds and files there.
+# [List Of Log Names](../advanced/list-of-log-names.md#ListOfLogNames)
 
-{% hint style="warning" %}
-Some logs require the bot to have the "View Audit Log" permission enabled.
-{% endhint %}
+Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates. All logs require the bot to have permission to view and send messages in the logging channel. It must also be able to send embeds and files there,and some logs require the bot to have the "View Audit Log" permission enabled.
 
 ## Moderation
 
@@ -23,11 +20,11 @@ This category is to log actions taken by moderators. Most of them are triggered 
 | PAUSE_ROLE_ADD    | A role [gets temporarily removed](../role-management-commands/pause-role.md) |
 | PAUSE_ROLE_EXTEND | A role's length of time to be removed gets adjusted |
 | PAUSE_ROLE_REMOVE | A role gets added back |
-| REASON_UPDATE     | A [reason for an infraction](../moderation-commands/infractions.md) gets updated |
+| REASON_UPDATE     | A [reason for an infraction](../moderation-commands/infractions.md#reason ) gets updated |
 | ROLE_ADD          | A [role](../role-management-commands/role.md) gets added |
 | ROLE_REMOVE       | A role gets removed|
 | SELFROLE_ADD      | A user adds a [self-assignable role](../role-management-commands/selfrole.md) to themselves |
-| SELFROLE_REMOVE   | A user removes a self-assignable role  |
+| SELFROLE_REMOVE   | A user removes a self-assignable role from themselves  |
 | SOFTBAN           | A user gets [soft-banned](../moderation-commands/softban.md) |
 | TEMPBAN_EXTEND    | A [temporary ban](../moderation-commands/tempban.md) gets extended |
 | TEMPBAN_REMOVE    | A temporary ban gets removed |
@@ -44,7 +41,7 @@ This category is to log actions taken by moderators. Most of them are triggered 
 
 ## Members
 
-This category is for when someone leaves or joins the server.
+This category is for actions relating to members interacting with the server.
 
 | Name      | Emitted when     |
 | --------- | ---------------- |
@@ -60,7 +57,7 @@ This category is for things having to do with messages.
 | CHANNEL_CLEAN       | Messages get [cleaned](../moderation-commands/clean.md) from a channel. Includes a file with a backup of the deleted messages |
 | MESSAGE_BULK_DELETE | A moderator bulk deletes a set of messages |
 | MESSAGE_DELETE      | A message is deleted |
-| MESSAGE_EDIT        | A user edits a message |
+| MESSAGE_EDIT        | A message gets edited |
 | MESSAGE_PIN_ADD     | A message gets pinned |
 | MESSAGE_PIN_REMOVE  | A message gets unpinned |
 
@@ -73,4 +70,4 @@ This category is for debugging purposes. Logs in this category are meant to aid 
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |
-| REACTION_ROLE_DEBUG | Permissions are misconfigured or someone tries to get a join only role  |
+| REACTION_ROLE_DEBUG | Someone tries to get a join only role or something else goes wrong in the process of adding a reaction role |
