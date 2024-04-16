@@ -11,6 +11,14 @@
 * [Acceptable Use Policy](start-up/acceptable-use-policy.md)
 * [Privacy policy](start-up/privacy-policy.md)
 
+## Support Our Work
+
+* [Premium Subscriptions](support/premium.md)
+* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
+* [Support server](https://discord.gg/hNQWVVC)
+* [MoonlightBot Beta (early access)](support/beta.md)
+
+
 ## Management Commands
 
 * [config](management-commands/config.md)
@@ -52,17 +60,6 @@
 * [serverinfo](utilities-commands/serverinfo.md)
 * [snowflake](utilities-commands/snowflake.md)
 * [userinfo](utilities-commands/userinfo.md)
-
-## Support
-
-* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
-* [Support server](https://discord.gg/hNQWVVC)
-
-## Versions of the bot
-
-* [Beta](versions-of-the-bot/beta.md)
-* [Test](versions-of-the-bot/test.md)
-* [Premium](versions-of-the-bot/premium.md)
 
 ## Advanced
 
