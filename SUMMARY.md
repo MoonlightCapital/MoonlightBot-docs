@@ -18,49 +18,48 @@
 * [Support server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
 
-## Admin commands
 
-* [Config](admin-commands/config/README.md)
-  * [Configuring commands](admin-commands/config/configuring-commands.md)
-  * [Configuring channels](admin-commands/config/configuring-channels.md)
-  * [Configuring roles](admin-commands/config/configuring-roles.md)
-  * [Configuring reaction roles](admin-commands/config/configuring-reaction-roles.md)
-  * [Configuring actions that are performed when a temporary role expires](admin-commands/config/configuring-actions-that-are-performed-when-a-temporary-role-expires.md)
-* [Create-muterole](admin-commands/create-muterole.md)
-* [Raid-cleanup](admin-commands/raid-cleanup.md)
-* [Reaction-roles](admin-commands/reaction-roles.md)
+## Management Commands
 
-## Public commands
+* [config](management-commands/config.md)
+* [create-muterole](management-commands/create-muterole.md)
+* [reaction-roles](management-commands/reaction-roles.md)
 
-* [Help](public-commands/help.md)
-* [Ping](public-commands/ping.md)
-* [Reminder](public-commands/reminder.md)
-* [Selfrole](public-commands/selfrole.md)
-* [Serverinfo](public-commands/serverinfo.md)
-* [Snowflake](public-commands/snowflake.md)
-* [Stats](public-commands/stats.md)
-* [Status](public-commands/status.md)
-* [Userconfig](public-commands/userconfig.md)
-* [Userinfo](public-commands/userinfo.md)
-* [Vote-leaderboard](public-commands/vote-leaderboard.md)
+## Miscellaneous Commands
 
-## Staff commands
+* [check-duration](miscellaneous-commands/check-duration.md)
+* [premium](miscellaneous-commands/premium.md)
+* [userconfig](miscellaneous-commands/userconfig.md)
 
-* [Ban](staff-commands/ban.md)
-* [Clean](staff-commands/clean.md)
-* [Infractions](staff-commands/infractions.md)
-* [Kick](staff-commands/kick.md)
-* [List-temproles](staff-commands/list-temproles.md)
-* [Mute](staff-commands/mute.md)
-* [Reason](staff-commands/reason.md)
-* [Role](staff-commands/role.md)
-* [Softban](staff-commands/softban.md)
-* [Tempban](staff-commands/tempban.md)
-* [Tempmute](staff-commands/tempmute.md)
-* [Temprole](staff-commands/temprole.md)
-* [Unban](staff-commands/unban.md)
-* [Unmute](staff-commands/unmute.md)
-* [Warn](staff-commands/warn.md)
+## Moderation Commands
+
+* [ban](moderation-commands/ban.md)
+* [clean](moderation-commands/clean.md)
+* [infractions](moderation-commands/infractions.md)
+* [kick](moderation-commands/kick.md)
+* [mute](moderation-commands/mute.md)
+* [softban](moderation-commands/softban.md)
+* [tempban](moderation-commands/tempban.md)
+* [tempmute](moderation-commands/tempmute.md)
+* [timeout](moderation-commands/timeout.md)
+* [unban](moderation-commands/unban.md)
+* [unmute](moderation-commands/unmute.md)
+* [warn](moderation-commands/warn.md)
+
+## Role management Commands
+
+* [list-temproles](role-management-commands/list-temproles.md)
+* [pause-role](role-management-commands/pause-role.md)
+* [role](role-management-commands/role.md)
+* [selfrole](role-management-commands/selfrole.md)
+* [temprole](role-management-commands/temprole.md)
+
+## Utility  Commands
+
+* [reminder](utilities-commands/reminder.md)
+* [serverinfo](utilities-commands/serverinfo.md)
+* [snowflake](utilities-commands/snowflake.md)
+* [userinfo](utilities-commands/userinfo.md)
 
 ## Advanced
 
