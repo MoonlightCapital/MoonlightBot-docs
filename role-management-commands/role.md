@@ -28,8 +28,6 @@ For more information on editing permission requirements for specific users/roles
 
 ## Logs
 
-* `ROLE_REMOVED`: <TODO: describe>
-* `ROLE_ADD`: <TODO: describe>
 * `ROLE_ADD`: <TODO: describe>
 * `ROLE_REMOVE`: <TODO: describe>
 
