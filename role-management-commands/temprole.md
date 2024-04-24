@@ -35,7 +35,9 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## Logs
 
-* `TEMPROLE_EXTEND`: <TODO: describe>
-* `TEMPROLE_ADD`: <TODO: describe>
+* `TEMPROLE_EXTEND`: This log is triggered when a temporary role's duration is extended/reduced.
+  It will log the user, the role the responsible moderator, the reason and the duration of the extension/reduction.
+* `TEMPROLE_ADD`: This log is triggered when a temporary role is assigned to a user.
+  It will log the user, the role, the responsible moderator, the reason and the duration of the role assignment.
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
