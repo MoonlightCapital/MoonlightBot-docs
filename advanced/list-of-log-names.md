@@ -4,9 +4,9 @@ description: On this page all the available logs are listed
 
 ---
 
-# List Of Log Names
+# List of Log Names  
 
-Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. If you want to log everything, use an asterisk to include all things that can be logged, including ones that will be introduced in future updates. All logs require the bot to have permission to view and send messages in the logging channel. It must also be able to send embeds and files there,and some logs require the bot to have the "View Audit Log" permission enabled.
+Logs, categorized by what they do are listed here, and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [_**configuring channels**_](../management-commands/config.md)) are _Capitalized_. Each one of them is separated by categories in the lists below. To log all events, use an asterisk (`*`). All logs require the bot to have permission to view and send messages, embed links and attach files in the respective channels. Some logs require the bot to have the "View Audit Log" permission enabled at server level.  
 
 ## Moderation
 
@@ -71,4 +71,4 @@ This category is for debugging purposes. Logs in this category are meant to aid 
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |
-| REACTION_ROLE_DEBUG | An error occurs in the process of triggering a [reaction role.](/start-up/setting-up-reaction-roles.md) |  
+| REACTION_ROLE_DEBUG | An error occurs in the process of triggering a [reaction role](/start-up/setting-up-reaction-roles.md) |
