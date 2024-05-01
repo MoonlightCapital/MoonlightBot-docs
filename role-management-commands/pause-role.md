@@ -1,7 +1,7 @@
 # pause-role
 
-This command allows you to pause a role for a user for a specified duration. With a pause is meant that the role is
-removed from the user for the specified duration. After the duration has passed, the role will be reassigned to the
+This command allows you to pause a role for a user for a specified duration. This means that the role is removed from
+the user for the specified duration. After the duration has passed, the role will be automatically reassigned to the
 user.
 
 ## Required permissions
@@ -25,14 +25,12 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `user`: The user to pause the role for. You can mention the user or use their ID to specify the user.
-* `role`: The role to pause for the user. You can mention the role or use its ID to specify the role.
-* `duration`: The duration for which the role should be paused for the user. You can specify the duration in the
-  format `1w2d3h4m5s` where `w` stands for weeks, `d` for days, `h` for hours, `m` for minutes, and `s` for seconds.
-  Note that you can omit any of the units if you don't want to specify them, know that you need to specify at least
-  one unit.
+* `user`: The user to pause the role for.
+* `role`: The role to pause for the user.
+* `duration`: The duration for which the role should be paused for the user. For more information on the duration
+  format, refer to the [duration format](../start-up/arguments.md#durations)
 * `reason`: The reason for pausing the role for the user. This is an optional parameter, which can be used for
-  moderation.
+  record-keeping.
 
 ## Logs
 
