@@ -1,6 +1,11 @@
 # selfrole
 
-<TODO: describe>
+This command allows you to assign or remove a role from yourself.
+
+{% hint style="warning" %}
+The server admins need to make a role self-assignable before you can use it. 
+[**Learn how to do this.**](../management-commands/config.md#self-assignable)
+{% endhint %}
 
 ## Required permissions
 
@@ -12,7 +17,8 @@ By default, a user is required to have the following permissions to use this com
 
 *No specific permissions required*
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to
+the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## Syntax
 
@@ -22,11 +28,13 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `role`: <TODO: describe>
+* `role`: The role to assign/remove from yourself. If no role is specified, the command will list all self-assignable roles
 
 ## Logs
 
-* `SELFROLE_REMOVE`: <TODO: describe>
-* `SELFROLE_ADD`: <TODO: describe>
+* `SELFROLE_REMOVE`: This log is triggered when a selfrole is removed by the user.
+  It will log the user and the role that was removed.
+* `SELFROLE_ADD`: This log is triggered when a selfrole is added by the user.
+  It will log the user and the role that was added.
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)

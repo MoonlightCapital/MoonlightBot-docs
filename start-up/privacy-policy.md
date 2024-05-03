@@ -10,7 +10,7 @@ This policy sums up all you need to know about what Discord data we store, what 
 * Discord role IDs: server configuration, handling temporary roles/mutes, and persistencies.
 * Parts of message contents: those are always provided by the user, and are used for reminder contents and infractions reasons, as well occasionally for configuration (such as log names).
 
-The database is hosted in a VPS residing in the United Kingdom.
+The database is hosted in a VPS residing in the United States.
 
 ## Stored in cache
 

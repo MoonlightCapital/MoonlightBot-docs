@@ -1,6 +1,10 @@
 # role
 
-<TODO: describe>
+This command allows you to assign or remove a role from a user. If the role is already assigned to the user, it will be
+removed and vice versa.
+
+Note that you can also target users who are currently not on the server. By doing so, it creates/removes a persistence.
+This will cause the role to be assigned to the user when they join the server.
 
 ## Required permissions
 
@@ -12,7 +16,8 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Roles
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to
+the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## Syntax
 
@@ -22,15 +27,16 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
-* `role`: <TODO: describe>
-* `reason`: <TODO: describe>
+* `user`: The user to assign/remove the role to/from
+* `role`: The role to assign/remove from the user
+* `reason`: The reason for assigning/removing the role from the user. This is an optional parameter, which can be used
+  for record-keeping
 
 ## Logs
 
-* `ROLE_REMOVED`: <TODO: describe>
-* `ROLE_ADD`: <TODO: describe>
-* `ROLE_ADD`: <TODO: describe>
-* `ROLE_REMOVE`: <TODO: describe>
+* `ROLE_ADD`: This log is triggered when a role is assigned to a user.
+  It will log the user, the role, the responsible moderator, and the reason for the role assignment.
+* `ROLE_REMOVE`: This log is triggered when a role is removed from a user.
+  It will log the user, the role, the responsible moderator, and the reason for the role removal.
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
