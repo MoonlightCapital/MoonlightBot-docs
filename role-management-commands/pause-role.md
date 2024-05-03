@@ -25,12 +25,12 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `user`: The user to pause the role for.
-* `role`: The role to pause for the user.
+* `user`: The user to pause the role for
+* `role`: The role to pause for the user
 * `duration`: The duration for which the role should be paused for the user. For more information on the duration
-  format, refer to the [duration format](../start-up/arguments.md#durations)
+  format, refer to the [arguments page](../start-up/arguments.md#durations)
 * `reason`: The reason for pausing the role for the user. This is an optional parameter, which can be used for
-  record-keeping.
+  record-keeping
 
 ## Logs
 

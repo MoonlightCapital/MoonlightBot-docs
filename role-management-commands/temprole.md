@@ -24,12 +24,12 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `user`: The user to assign the role to. 
-* `role`: The role to assign to the user. 
+* `user`: The user to assign the role to
+* `role`: The role to assign to the user
 * `duration`: The duration for which the role should be assigned to the user. For more information on the duration
-  format, refer to the [duration format](../start-up/arguments.md#durations)
+  format, refer to the [arguments page](../start-up/arguments.md#durations)
 * `reason`: The reason for assigning the role to the user. This is an optional parameter, which can be used for
-  record-keeping.
+  record-keeping
 
 ## Logs
 

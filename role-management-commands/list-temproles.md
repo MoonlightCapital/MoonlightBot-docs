@@ -34,7 +34,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `target`: Here you can specify a user or a role to filter the results.
+* `target`: Here you can specify a user or a role to filter the results
 
 ## Logs
 

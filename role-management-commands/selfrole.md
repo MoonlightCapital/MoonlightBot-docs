@@ -28,7 +28,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `role`: The role to assign/remove from yourself. If no role is specified, the command will list all self-assignable roles.
+* `role`: The role to assign/remove from yourself. If no role is specified, the command will list all self-assignable roles
 
 ## Logs
 

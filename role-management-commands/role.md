@@ -1,11 +1,10 @@
 # role
 
-This command allows you to assign or remove a role from a user. It works on a vice versa basis, meaning that if the role
-is already assigned to the user, it will be removed, and if it is not assigned, it will be assigned.
+This command allows you to assign or remove a role from a user. If the role is already assigned to the user, it will be
+removed and vice versa.
 
-Note that you can also target users who are currently not on the server. By doing so, it creates persistence. This will
-cause the role to be assigned/removed from the user when they join the server.
-
+Note that you can also target users who are currently not on the server. By doing so, it creates/removes a persistence.
+This will cause the role to be assigned to the user when they join the server.
 
 ## Required permissions
 
@@ -28,10 +27,10 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ### Options
 
-* `user`: The user to assign/remove the role to/from.
-* `role`: The role to assign/remove from the user.
+* `user`: The user to assign/remove the role to/from
+* `role`: The role to assign/remove from the user
 * `reason`: The reason for assigning/removing the role from the user. This is an optional parameter, which can be used
-  for record-keeping.
+  for record-keeping
 
 ## Logs
 
