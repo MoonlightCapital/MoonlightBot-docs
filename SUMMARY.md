@@ -2,22 +2,23 @@
 
 * [MoonlightBot Documentation](README.md)
 
-## Start up
+## Get Started
 
 * [Arguments](start-up/arguments.md)
 * [Frequently Asked Questions](start-up/faqs.md)
-* [Working with levels](start-up/working-with-levels.md)
+* [Permission tutorial](start-up/permission-tutorial.md)
+* [Moderation tutorial](start-up/moderation-tutorial.md)
 * [Setting up reaction roles](start-up/setting-up-reaction-roles.md)
 * [Acceptable Use Policy](start-up/acceptable-use-policy.md)
 * [Privacy policy](start-up/privacy-policy.md)
 
 ## Support Our Work
 
+* [Volunteer Opportunities](support/volunteering.md)
 * [Premium Subscriptions](support/premium.md)
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
 * [Support server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
-
 
 ## Management Commands
 
