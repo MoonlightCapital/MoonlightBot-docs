@@ -56,5 +56,5 @@ Note: You can only vote once on this site!
 
 ## Voting Reminders
 
-You can vote once on each site every 12 hours
+You can vote once on each site every 12 hours.
 When it is time to vote again, MoonlightBot will send you a reminder on Discord with the links when you can vote again, and you can repeat the procedure faster.
