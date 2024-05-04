@@ -2,7 +2,6 @@
 
 By upvoting MoonlightBot on bot listing sites, you help us reach a wider audience and speed up the development of new features, as well as improve the support system.
 
-
 ## Why should you vote? And how does it help us?
 
 1. If we helped you or your server, you should vote so that other people can discover MoonlightBot's amazing features!
@@ -20,10 +19,11 @@ Ensure you allow Direct Messages from a mutual server so MoonlightBot can messag
 
 ## Voting on each site
 
+To vote follow these steps:
+
 ### Bots for Discord
 
-To vote follow these steps:
-1. [Click here to visit the site](https://discords.com/bots/bot/314110696071888896/vote)
+1. [Click here to visit the page](https://discords.com/bots/bot/314110696071888896/vote)
 2. Click the button that says "Upvote"
 3. Authorize log in with your Discord account if requested, then click Upvote again
 You have now successfully voted for MoonlightBot!
@@ -33,10 +33,10 @@ You have now successfully voted for MoonlightBot!
 1. [Click here to visit the page](https://discordbots.co/bot/314110696071888896)
 2. Click "Login with Discord" in the top right corner
 3. Click the blue button that says "Authorize" to sign in
-4. Click the blue button that says "Vote"
+4. Click the blue button that says "Vote" located under the Brief Description of the bot page
 You have now successfully voted for MoonlightBot!
 
-### DiscordList
+### DiscordList.gg
 
 1. [Click here to visit the page](https://discordlist.gg/bot/314110696071888896/vote)
 2. Click "Sign in to vote"
@@ -49,11 +49,12 @@ You have now successfully voted for MoonlightBot!
 1. [Click here to visit the page](https://discordextremelist.xyz/en-US/bots/314110696071888896/upvote)
 2. Click the purple button in the middle that says "Continue" to sign in
 3. Click the blue button that says "Authorize" to sign in
-4. Click the up pointing arrow to upvote
+4. Click the up pointing arrow next to the bot avatar to upvote
 You have now successfully voted for MoonlightBot!
+
 Note: You can only vote once on this site!
 
 ## Voting Reminders
 
-You can vote once on each site every 12 Hours
-When it is time to vote again, MoonlightBot will send you a reminder on Discord with the links when you can vote again, and you can repeat the procedure much more rapidly
+You can vote once on each site every 12 hours
+When it is time to vote again, MoonlightBot will send you a reminder on Discord with the links when you can vote again, and you can repeat the procedure faster.
