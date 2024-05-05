@@ -10,7 +10,7 @@ By upvoting MoonlightBot on bot listing sites, you help us reach a wider audienc
 
 ## Perks/Rewards for voting
 
-For your first ever vote or after a 30 consecutive days of voting, you will receive one free week of [MoonlightBot Premium](/support/premium.md). The bot will DM you with a button to claim it.
+For your first ever vote or after a 30 consecutive days of voting, you will receive one free week of [MoonlightBot Premium](../support/premium.md). The bot will DM you with a button to claim it.
 By having voted in the past 72 hours, your max durations will be doubled. Voting also extends your premium duration by 48 hours. Be sure to vote for MoonlightBot often!
 
 {% hint style="warning" %}
