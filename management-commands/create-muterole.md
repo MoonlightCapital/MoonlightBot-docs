@@ -1,6 +1,7 @@
 # create-muterole
 
-<TODO: describe>
+This command sets up a role to be used as the mute role for the server. It will edit the permissions of all channels to
+deny the role from sending messages.
 
 ## Required permissions
 
@@ -13,7 +14,8 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to
+the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## Syntax
 
@@ -23,7 +25,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `role`: <TODO: describe>
+* `role`: The role to be used as the mute role. If not provided, a new role will be created
 
 ## Logs
 
