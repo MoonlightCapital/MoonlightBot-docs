@@ -1,6 +1,8 @@
 # reaction-roles
 
-<TODO: describe>
+This command allows you to set up reaction roles in your server. Reaction roles allow users to assign/remove roles
+to/from themselves by reacting to specific messages that server admins set up. There are several customization options
+to optimize your needs.
 
 ## Required permissions
 
@@ -12,19 +14,20 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to
+the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## set
 
-<TODO: describe>
+This command allows you to apply a role to an emoji in a group, if the group is not set up, it will be created.
 
 ```text
 /reaction-roles set <group> <emoji> <role>
 ```
 
-* `group`: <TODO: describe>
-* `emoji`: <TODO: describe>
-* `role`: <TODO: describe>
+* `group`: The name of the group to add the pair to
+* `emoji`: The emoji to be used
+* `role`: The role to be assigned
 
 ### Required permissions
 
@@ -34,7 +37,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## list
 
-<TODO: describe>
+This command allows you to view all the groups of reaction roles that have been set up.
 
 ```text
 /reaction-roles list
@@ -50,13 +53,13 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## info
 
-<TODO: describe>
+This command allows you to view information about a group of reaction roles.
 
 ```text
 /reaction-roles info <group>
 ```
 
-* `group`: <TODO: describe>
+* `group`: The name of the group to view information about
 
 ### Required permissions
 
@@ -66,13 +69,13 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## delete
 
-<TODO: describe>
+This command allows you to delete a group of reaction roles.
 
 ```text
 /reaction-roles delete <group>
 ```
 
-* `group`: <TODO: describe>
+* `group`: The name of the group to be deleted
 
 ### Required permissions
 
@@ -82,14 +85,14 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## autorepair
 
-<TODO: describe>
+This command automatically repairs errors in a group.
 
 ```text
 /reaction-roles autorepair <group> [disconnect-messages]
 ```
 
-* `group`: <TODO: describe>
-* `disconnect-messages`: <TODO: describe>
+* `group`: The name of the group to be repaired
+* `disconnect-messages`: Removes the group form all messages applied to (True/False)
 
 ### Required permissions
 
