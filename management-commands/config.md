@@ -1,6 +1,7 @@
 # config
 
-<TODO: describe>
+The `config` command allows you to configure various settings for the server, such as roles, channels, reaction roles,
+and settings.
 
 ## Required permissions
 
