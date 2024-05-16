@@ -96,7 +96,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 This command automatically "repairs" errors in a group. With "repair" is meant that it will remove the IDs of roles that
 do not exist anymore from the pairings.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 The `disconnect-messages` option is a dangerous option to use and only should be used if you know what you are doing.
 It is a disruptive operation and will make reaction roles on messages to which this group was applied non-functional.
 They need to be reapplied appropriately afterwards to work again.
