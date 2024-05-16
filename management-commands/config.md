@@ -169,7 +169,7 @@ reaction roles, refer to the [`Setting up reaction roles`](../start-up/setting-u
 * `reverse`: When the message is reacted on, it will remove the role instead of assigning it, and vice versa
 * `max-roles`: The maximum amount of roles within the group a user can assign themselves
 * `dm-notification`: When a role is assigned/removed, the bot will message the user (true by default)
-* `freeze`: When true, the group will not function this is a quick way to disable reaction roles without taking
+* `freeze`: When true, the group will not function. This is a quick way to disable reaction roles without taking
   irreversible actions, such as deleting group/message or removing reactions from the message
 * `duration`: How long the user will keep their assigned role(s)
 
