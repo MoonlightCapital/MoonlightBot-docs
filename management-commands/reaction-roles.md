@@ -4,6 +4,12 @@ This command allows you to set up reaction roles in your server. Reaction roles 
 to/from themselves by reacting to specific messages that server admins set up. There are several customization options
 to optimize your needs.
 
+{% hint style="warning" %}
+This is only the technical documentation of the command and not intended to be a tutorial on how to set up reaction
+roles. For a tutorial on how to set up reaction roles, refer to the
+[Setting up reaction roles](../start-up/setting-up-reaction-roles.md) guide.
+{% endhint %}
+
 ## Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this command:
@@ -19,7 +25,9 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 
 ## set
 
-This command allows you to apply a role to an emoji in a group, if the group is not set up, it will be created.
+This command allows you to pair a role with an emoji in a group, if the group is not set up, it will be created. You can
+use the same command to unpair the role from the emoji. Also, you can pair multiple roles to the same emoji, and they
+will be given to the user at the same time.
 
 ```text
 /reaction-roles set <group> <emoji> <role>
@@ -85,7 +93,18 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## autorepair
 
-This command automatically repairs errors in a group.
+This command automatically "repairs" errors in a group. With "repair" is meant that it will remove the IDs of roles that
+do not exist anymore from the pairings.
+
+{% hint style="warning" %}
+The `disconnect-messages` option is a dangerous option to use and only should be used if you know what you are doing.
+It is a disruptive operation and will make reaction roles on messages to which this group was applied non-functional.
+They need to be reapplied appropriately afterwards to work again.
+<br>
+If you only want to remove a group from a message, right-click the message and select "Remove reaction roles" instead.
+{% endhint %}
+
+```text
 
 ```text
 /reaction-roles autorepair <group> [disconnect-messages]

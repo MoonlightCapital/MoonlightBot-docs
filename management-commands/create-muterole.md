@@ -3,6 +3,16 @@
 This command sets up a role to be used as the mute role for the server. It will edit the permissions of all channels to
 deny the role from sending messages.
 
+It will edit the following permissions form channels and set them to `false` for the role:
+
+* SendMessages
+* AddReactions
+* Speak
+* CreatePrivateThreads
+* CreatePublicThreads
+* SendMessagesInThreads
+* UseApplicationCommands
+
 ## Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this command:
