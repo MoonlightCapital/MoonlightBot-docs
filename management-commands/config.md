@@ -31,7 +31,7 @@ This command allows you to set a role to be persistent or not. A persistent role
 server, they will automatically get the role back.
 
 {% hint style="info" %}
-Note that this command may be expanded in the future to allow for more role settings.
+This command may be expanded in the future to allow for more role settings.
 {% endhint %}
 
 ```text
