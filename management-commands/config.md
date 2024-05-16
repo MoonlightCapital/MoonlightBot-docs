@@ -185,7 +185,7 @@ This command allows you to set up the settings for the server, such as the mute 
 
 {% hint style="info" %}
 Note that you can make exceptions to the `mute-evasion-ban` via the
-[`channels`](../management-commands/config.md#channels) command.
+[`channels`](../management-commands/config.md#channels) subcommand.
 {% endhint %}
 
 ```text
