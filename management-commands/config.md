@@ -88,7 +88,8 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## join-assignable
 
-This command allows you to set up a role to be assigned to a user when they join the server.
+This command allows you to set up a role to be assigned to a user when they join the server. This role can be set up to
+be a temporary role, and it can be set up to be assigned a maximum number of times.
 
 ```text
 /config roles join-assignable <role> [enabled] [duration] [max-times]
