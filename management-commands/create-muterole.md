@@ -5,13 +5,13 @@ deny the role from sending messages.
 
 It will edit the following permissions form channels and set them to `false` for the role:
 
-* SendMessages
-* AddReactions
+* Send Messages
+* Send Messages In Threads
+* Create Public Threads
+* Create Private Threads
+* Add Reactions
+* Use Application Commands
 * Speak
-* CreatePrivateThreads
-* CreatePublicThreads
-* SendMessagesInThreads
-* UseApplicationCommands
 
 ## Required permissions
 
