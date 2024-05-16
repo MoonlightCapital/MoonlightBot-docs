@@ -111,6 +111,11 @@ MoonlightBot requires the following permissions to successfully execute this sub
 This command allows you to set up a detection system for a role that is assigned to a user by another bot or a
 moderator. It will change the role to a temporary role and remove it after a certain duration.
 
+{% hint style="warning" %}
+This setting requires that MonnlightBot has access to the audit logs to detect the assignment of roles by other bots or
+moderators.
+{% endhint %}
+
 ```text
 /config roles detect-assignment <role> [enabled] [duration] [include-bots]
 ```
@@ -124,7 +129,7 @@ moderator. It will change the role to a temporary role and remove it after a cer
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*View Audit Log*
+*No specific permissions required*
 
 ## channels
 
