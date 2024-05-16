@@ -9,7 +9,7 @@ If an argument provides you with the option `Open Editor` like the argument `cus
 the [`roles on-expire`](../management-commands/config.md#on-expire) command, it means that a modal textbox will open for
 you to input your desired text.
 <br>
-All default values are either `0`,`empty` or `false` for their respective arguments, unless stated otherwise.
+All default values are either `0`, `false` or empty for their respective arguments, unless stated otherwise.
 {% endhint %}
 
 ## Required permissions
