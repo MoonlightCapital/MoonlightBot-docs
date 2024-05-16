@@ -105,8 +105,6 @@ If you only want to remove a group from a message, right-click the message and s
 {% endhint %}
 
 ```text
-
-```text
 /reaction-roles autorepair <group> [disconnect-messages]
 ```
 
