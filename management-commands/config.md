@@ -112,7 +112,7 @@ This command allows you to set up a detection system for a role that is assigned
 moderator. It will change the role to a temporary role and remove it after a certain duration.
 
 {% hint style="warning" %}
-This setting requires that MonnlightBot has access to the audit logs to detect the assignment of roles by other bots or
+This setting requires that MoonlightBot has access to the audit logs to detect the assignment of roles by other bots or
 moderators.
 {% endhint %}
 

@@ -3,6 +3,7 @@
 This command sets up a role to be used as the mute role for the server. It will edit the permissions of all channels to
 deny the role from sending messages.
 
+{% hint style="info" %}
 It will edit the following permissions form channels and set them to `false` for the role:
 
 * Send Messages
@@ -12,6 +13,13 @@ It will edit the following permissions form channels and set them to `false` for
 * Add Reactions
 * Use Application Commands
 * Speak
+
+{% endhint %}
+
+{% hint style="warning" %}
+MoonlightBot needs to have the permission to manage each channel that is set up in your server to correctly set up the
+permissions.
+{% endhint %}
 
 ## Required permissions
 
