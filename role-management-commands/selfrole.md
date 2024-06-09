@@ -4,7 +4,7 @@ This command allows you to assign or remove a role from yourself.
 
 {% hint style="warning" %}
 The server admins need to make a role self-assignable before you can use it. 
-[**Learn how to do this.**](../management-commands/config.md#self-assignable)
+[**Learn how to do this.**](../management-commands/config.md#roles-self-assignable)
 {% endhint %}
 
 ## Required permissions

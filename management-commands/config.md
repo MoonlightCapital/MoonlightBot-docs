@@ -6,7 +6,7 @@ corresponding sub command without any optional arguments.
 
 {% hint style="info" %}
 If an argument provides you with the option `Open Editor` like the argument `custom-notification-text` of
-the [`roles on-expire`](../management-commands/config.md#on-expire) command, it means that a modal textbox will open for
+the [`roles on-expire`](../management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
 you to input your desired text.
 <br>
 All default values are either `0`, `false` or empty for their respective arguments, unless stated otherwise.
@@ -25,7 +25,7 @@ By default, a user is required to have the following permissions to use this com
 For more information on editing permission requirements for specific users/roles, refer to
 the [permissions tutorial](<linkToPermissionsTutorial>)
 
-## edit
+## roles edit
 
 This command allows you to set a role to be persistent or not. A persistent role means that when the user rejoins the
 server, they will automatically get the role back.
@@ -47,7 +47,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *No specific permissions required*
 
-## on-expire
+## roles on-expire
 
 This command allows you to set up a custom notification for when a temporary role expires.
 
@@ -65,7 +65,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *No specific permissions required*
 
-## self-assignable
+## roles self-assignable
 
 This command allows you to set up a role to be self-assignable by users. This allows them to assign the role to
 themselves via the [`selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it
@@ -86,7 +86,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *No specific permissions required*
 
-## join-assignable
+## roles join-assignable
 
 This command allows you to set up a role to be assigned to a user when they join the server. This role can be set up to
 be a temporary role, and it can be set up to be assigned a maximum number of times.
@@ -106,7 +106,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *No specific permissions required*
 
-## detect-assignment
+## roles detect-assignment
 
 This command allows you to set up a detection system for a role that is assigned to a user by another bot or a
 moderator. It will change the role to a temporary role and remove it after a certain duration.
