@@ -6,18 +6,18 @@
 
 * [Arguments](start-up/arguments.md)
 * [Frequently Asked Questions](start-up/faqs.md)
-* [Permission tutorial](start-up/permission-tutorial.md)
-* [Moderation tutorial](start-up/moderation-tutorial.md)
-* [Setting up reaction roles](start-up/setting-up-reaction-roles.md)
+* [Permission Tutorial](start-up/permission-tutorial.md)
+* [Moderation Tutorial](start-up/moderation-tutorial.md)
+* [Setting up Reaction Roles](start-up/setting-up-reaction-roles.md)
 * [Acceptable Use Policy](start-up/acceptable-use-policy.md)
-* [Privacy policy](start-up/privacy-policy.md)
+* [Privacy Policy](start-up/privacy-policy.md)
 
 ## Support Our Work
 
 * [Volunteer Opportunities](support/volunteering.md)
 * [Premium Subscriptions](support/premium.md)
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
-* [Support server](https://discord.gg/hNQWVVC)
+* [Support Server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
 
 ## Management Commands
