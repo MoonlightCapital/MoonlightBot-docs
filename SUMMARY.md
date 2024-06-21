@@ -31,7 +31,7 @@
 * [check-duration](miscellaneous-commands/check-duration.md)
 * [premium](miscellaneous-commands/premium.md)
 * [userconfig](miscellaneous-commands/userconfig.md)
-* [other-minor-commands](miscellaneous-commands/other-minor-commands.md)
+* [Other Minor Commands](miscellaneous-commands/other-minor-commands.md)
 
 ## Moderation Commands
 
