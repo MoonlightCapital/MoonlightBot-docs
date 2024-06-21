@@ -1,6 +1,6 @@
 # Other Minor Commands
 
-These commands are too minor to have thier own pages, so they are listed here.
+These commands are too minor to have their own pages, so they are listed here.
 
 ## help
 
@@ -22,7 +22,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 /ping
 ```
 
-This command checks the latency and response time of the bot, which can be useful for dignosiong connection issues.
+This command checks the latency and response time of the bot, which can be useful for diagnosing connection issues.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
@@ -34,7 +34,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 /stats
 ```
 
-This commands shows information and statistics about the bot. It shows the uptime, sever count, memory usage, version, and branch of the bot, which all are useful information for diagnosing issues.
+This command shows information and statistics about the bot. It shows the uptime, server count, memory usage, version, and branch of the bot, all useful information for visualizing MoonlightBot's well-being.  
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
