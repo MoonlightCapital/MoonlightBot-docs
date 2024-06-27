@@ -8,8 +8,12 @@
 * [Frequently Asked Questions](start-up/faqs.md)
 * [Working with levels](start-up/working-with-levels.md)
 * [Setting up reaction roles](start-up/setting-up-reaction-roles.md)
-* [Acceptable Use Policy](start-up/acceptable-use-policy.md)
-* [Privacy policy](start-up/privacy-policy.md)
+
+## Policies
+
+* [Acceptable Use Policy](policies/acceptable-use-policy.md)
+* [Volunteer Code of Conduct](policies/volunteer-code-of-conduct.md)
+* [Privacy Policy](start-up/privacy-policy.md)
 
 ## Management Commands
 
