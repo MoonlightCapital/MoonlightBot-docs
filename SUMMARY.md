@@ -2,12 +2,21 @@
 
 * [MoonlightBot Documentation](README.md)
 
-## Start up
+## Get Started
 
 * [Arguments](start-up/arguments.md)
 * [Frequently Asked Questions](start-up/faqs.md)
-* [Working with levels](start-up/working-with-levels.md)
-* [Setting up reaction roles](start-up/setting-up-reaction-roles.md)
+* [Permission Tutorial](start-up/permission-tutorial.md)
+* [Moderation Tutorial](start-up/moderation-tutorial.md)
+* [Setting up Reaction Roles](start-up/setting-up-reaction-roles.md)
+
+## Support Our Work
+
+* [Volunteer Opportunities](support/volunteering.md)
+* [Premium Subscriptions](support/premium.md)
+* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
+* [Support Server](https://discord.gg/hNQWVVC)
+* [MoonlightBot Beta (early access)](support/beta.md)
 
 ## Policies
 
@@ -26,6 +35,7 @@
 * [check-duration](miscellaneous-commands/check-duration.md)
 * [premium](miscellaneous-commands/premium.md)
 * [userconfig](miscellaneous-commands/userconfig.md)
+* [Other Minor Commands](miscellaneous-commands/other-minor-commands.md)
 
 ## Moderation Commands
 
@@ -56,17 +66,6 @@
 * [serverinfo](utilities-commands/serverinfo.md)
 * [snowflake](utilities-commands/snowflake.md)
 * [userinfo](utilities-commands/userinfo.md)
-
-## Support
-
-* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
-* [Support server](https://discord.gg/hNQWVVC)
-
-## Versions of the bot
-
-* [Beta](versions-of-the-bot/beta.md)
-* [Test](versions-of-the-bot/test.md)
-* [Premium](versions-of-the-bot/premium.md)
 
 ## Advanced
 
