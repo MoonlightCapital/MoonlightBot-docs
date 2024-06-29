@@ -20,7 +20,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 ## Syntax
 
 ```text
-/pause-role <user> <role> <duration> [reason]
+/pause-role <user> <role> <duration> [reason] [notify]
 ```
 
 ### Options
@@ -31,6 +31,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
   format, refer to the [arguments page](../start-up/arguments.md#durations)
 * `reason`: The reason for pausing the role for the user. This is an optional parameter, which can be used for
   record-keeping
+* `notify`: Sends a Direct Message to inform the user about the role pause. This is optional and contains the role name, duration, expiration date and reason
 
 ## Logs
 

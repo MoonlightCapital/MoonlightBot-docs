@@ -19,7 +19,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 ## Syntax
 
 ```text
-/temprole <user> <role> <duration> [reason]
+/temprole <user> <role> <duration> [reason] [notify]
 ```
 
 ### Options
@@ -30,6 +30,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
   format, refer to the [arguments page](../start-up/arguments.md#durations)
 * `reason`: The reason for assigning the role to the user. This is an optional parameter, which can be used for
   record-keeping
+* `notify`: Sends a Direct Message to inform the user about the temporary role addition. This is optional and contains the role name, duration, expiration date and reason
 
 ## Logs
 
