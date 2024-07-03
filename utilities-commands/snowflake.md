@@ -1,6 +1,6 @@
 # snowflake
 
-<TODO: describe>
+The `snowflake` command displays information about a [snowflake](https://discord.com/developers/docs/reference#snowflakes), a Discord-generated ID. It is useful to know when a certain entity such as a message, channel or role was created to millisecond precision.
 
 ## Required permissions
 
@@ -22,7 +22,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `snowflake`: <TODO: describe>
+* `snowflake`: The snowflake to show information of. An example could be `314110696071888896`, MoonlightBot's user ID
 
 ## Logs
 

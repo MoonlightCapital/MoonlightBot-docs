@@ -1,6 +1,8 @@
 # userinfo
 
-<TODO: describe>
+The `userinfo` command displays information about a user. The information shown is their ID, if they are a bot, the creation date, and the avatar.
+
+If the user is in the current server, it will also show when they joined and their roles.
 
 ## Required permissions
 
@@ -22,7 +24,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
+* `user`: The user to show information of; if this is not provided, it defaults to yourself
 
 ## Logs
 

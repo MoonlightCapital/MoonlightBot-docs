@@ -1,6 +1,8 @@
 # reminder
 
-<TODO: describe>
+The `reminder` command allows you to use the bot to manage reminder messages that will be delivered to Direct Messages. You can have up to 10 reminders active at once, which increases to 20 with [MoonlightBot Premium](../support/premium.md).
+
+Each reminder is automatically assigned an ID to perform operations on it. All options that require an ID will show a brief list of your reminders in the autocomplete menu along with the beginning of the reminder content.
 
 ## Required permissions
 
@@ -16,15 +18,15 @@ For more information on editing permission requirements for specific users/roles
 
 ## add
 
-<TODO: describe>
+The `reminder add` subcommand allows you to write a reminder to yourself sometime in the future. You can write anything and set any time.
 
 ```text
 /reminder add <reminder> <time> [recurring]
 ```
 
-* `reminder`: <TODO: describe>
-* `time`: <TODO: describe>
-* `recurring`: <TODO: describe>
+- `reminder`: The reminder to be set
+- `time`: The time in the future when you will receive the reminder. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
+- `recurring`: Whether the reminder will be recurring or not (True/False); uses `time` as the interval. For example, if you set the time as `3 days`, the bot will send it to you every three days until you delete it manually.
 
 ### Required permissions
 
@@ -34,7 +36,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## list
 
-<TODO: describe>
+The `reminder list` command lists your currently active reminders.
 
 ```text
 /reminder list
@@ -50,13 +52,17 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## delete
 
-<TODO: describe>
+The `reminder delete` subcommand deletes a pending reminder.
+
+{% hint style="danger" %}
+The deletion is irreversible, and you cannot restore a deleted reminder.
+{% endhint %}
 
 ```text
 /reminder delete <id>
 ```
 
-* `id`: <TODO: describe>
+- `id`: The ID assigned to your reminder; the bot will ask you to press a button to confirm the deletion.
 
 ### Required permissions
 
@@ -66,15 +72,15 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## edit
 
-<TODO: describe>
+The `reminder edit` subcommand allows you to edit a pending reminder. It asks you to change the content of the reminder and/or the time you receive it.
 
 ```text
 /reminder edit <id> [reminder] [time]
 ```
 
-* `id`: <TODO: describe>
-* `reminder`: <TODO: describe>
-* `time`: <TODO: describe>
+- `id`: The ID of your reminder
+- `reminder`: The new content of the reminder; you can insert `%%%` to copy over the old content so you don't have to type it again.
+- `time`: How much time you would like to add or subtract to the reminder. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
 
 ### Required permissions
 
@@ -84,7 +90,11 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## clear
 
-<TODO: describe>
+The `reminder clear` subcommand deletes all your pending reminders; the bot will ask you to press a button to confirm the deletion.
+
+{% hint style="danger" %}
+The deletion is irreversible, and you cannot restore the deleted reminders.
+{% endhint %}
 
 ```text
 /reminder clear
