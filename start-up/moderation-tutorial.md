@@ -16,7 +16,7 @@ Arguments are options you may use while executing moderation commands. You can f
 - **`no-infraction`**: Whether or not the command will count towards the user's infractions
 
 {% hint style="info" %}
-If both the `notify` and `no-infraction` arguments are true, the target will not be notified in order to prevent harrassment via MoonlightBot
+If both the `notify` and `no-infraction` arguments are true, the target will not be notified in order to prevent harassment via MoonlightBot
 {% endhint %}
 
 - **`duration`**: The amount of time for which the user will be affected by the command. For more information about this argument, refer to the [arguments page](/start-up/arguments.md#durations)
