@@ -1,6 +1,6 @@
 # serverinfo
 
-<TODO: describe>
+The `serverinfo` command displays information about the server you are in or another server that has MoonlightBot. The information shown is its ID, the owner, the creation date, the member, emoji, role and channel counts and the icon.
 
 ## Required permissions
 
@@ -22,7 +22,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `server`: <TODO: describe>
+* `server`: The ID of the server to show information of; this is not necessary if you want to display information of the current server
 
 ## Logs
 
