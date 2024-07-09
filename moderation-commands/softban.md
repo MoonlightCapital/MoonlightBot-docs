@@ -22,7 +22,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
+* `user`: The user you wish to softban - this is mandatory
 * `reason`: <TODO: describe>
 * `notify`: <TODO: describe>
 * `no-infraction`: <TODO: describe>

@@ -1,6 +1,6 @@
 # unban
 
-<TODO: describe>
+Unban a user that is currently banned and allow them to access the server again
 
 ## Required permissions
 
