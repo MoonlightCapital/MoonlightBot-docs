@@ -1,6 +1,6 @@
 # warn
 
-<TODO: describe>
+Issues a Warning to the specified user for breaking your server rules. You can choose to specify a reason if you wish
 
 ## Required permissions
 
@@ -22,7 +22,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
+* `user`: The user you wish to Warn - this is mandatory
 * `reason`: <TODO: describe>
 * `notify`: <TODO: describe>
 * `no-infraction`: <TODO: describe>
