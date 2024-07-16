@@ -31,7 +31,7 @@ These features help ensure a seamless moderation experience with MoonlightBot
 ![An example of the Infractions Summary command](/.gitbook/assets/InfractionsExample.png "Infractions Example")
 
 Infractions help staff members keep track of a user's bad conduct and make informed decisions while moderating. This is a versatile tool with multiple submcommands to assist your moderation needs.
-- 
+
 More information about infractions can be found in the [infractions page](/moderation-commands/infractions.md)
 
 ### Logs
