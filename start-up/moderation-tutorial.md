@@ -58,7 +58,7 @@ All the commands listed can be found in the "Moderation Commands" and "Role Mana
 The mute commands requires a mute role. You can make one by using [`/create-muterole`](/management-commands/create-muterole.md); MoonlightBot will set everything up for you!
 {% endhint %}
 
-- [**`/mute`**](/moderation-commands/mute.md): This command suppresses a user from sending messages, creating threads, and adding reactions.
+- [**`/mute`**](/moderation-commands/mute.md): This command suppresses a user from sending messages, creating threads, and adding reactions
 - [**`/tempmute`**](/moderation-commands/tempmute.md): This command temporarily mutes a user for a set amount of time
 - [**`/unmute`**](/moderation-commands/unmute.md): This command unmutes a user, allowing them to send messages again
 
