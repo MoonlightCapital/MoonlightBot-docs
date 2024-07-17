@@ -15,7 +15,11 @@ These are options you may use while executing moderation commands. You can find 
 - `no-infraction`: Whether or not the command will count towards the user's infractions
 
 {% hint style="info" %}
+<<<<<<< HEAD
 If both the `notify` and `no-infraction` options are true, the target will not be notified in order to prevent harassment via MoonlightBot
+=======
+If both the `notify` and `no-infraction` arguments are true, the target will not be notified in order to prevent harassment via MoonlightBot
+>>>>>>> dba639d9aac2597201ee18e160f3818a1ba90be0
 {% endhint %}
 
 - `duration`: The amount of time for which the user will be affected by the effects of the command. You can use any duration ranging from weeks to milliseconds. For example, `1w2d` and `1 week 2 days` will both affect the target of the command for 1 week and 2 days.
