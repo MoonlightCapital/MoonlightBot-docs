@@ -1,6 +1,6 @@
 # Moderation Tutorial
 
-This guide will give you the basic information needed to moderate your Discord server with MoonlightBot. It includes a list of commands and how they work, complete with their options, infractions, and log information to help you better understand how to use them
+This guide will give you the basic information needed to moderate your Discord server with MoonlightBot. It features a list of commands and how they work, complete with their options, infractions, and log information to help you better understand how to use them.
 
 ## Command Options
 
