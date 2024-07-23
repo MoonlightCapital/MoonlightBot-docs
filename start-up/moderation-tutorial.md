@@ -1,6 +1,6 @@
 # Moderation Tutorial
 
-This guide will give you the basic information needed to moderate your Discord server with MoonlightBot. It features a list of commands and how they work, complete with their options, infractions, and log information to help you better understand how to use them.
+This guide will give you the basic information needed to moderate your Discord server with MoonlightBot. It features a list of commands and how they work, complete with their options, infractions, and log information to help you better understand how to use them
 
 ## Command Options
 
@@ -18,27 +18,42 @@ These are options you may use while executing moderation commands. You can find 
 If both the `notify` and `no-infraction` options are true, the target will **not** be notified in order to prevent harassment via MoonlightBot
 {% endhint %}
 
-- `duration`: The amount of time for which the user will be affected by the effects of the command. You can use any duration ranging from weeks to milliseconds. For example, `1w2d` and `1 week 2 days` will both affect the target of the command for 1 week and 2 days.
-- `remove-roles`: Exclusive to the mute commands, this option will remove all of the user's roles except the muterole if true. This is to ensure the permissions of other roles don't interfere with the effectiveness of the mute.
+- `duration`: The amount of time for which the action taken will last. For information on the format used, refer to the [options page](/start-up/arguments.md#Durations)
+- `remove-roles`: Exclusive to the mute commands, this option will remove all of the user's roles except the muterole if true. This is to facilitate the effectiveness of the mute command
+
+{% hint style="info" %}
+You can configure MoonlightBot to ban someone if they send a message while they have the mute role by running the command `/config settings mute-evasion-ban:True`. This is a helpful backup if the mute isn't working as intended
+{% endhint %}
+
 - `role`: The role to assign/remove in a role command
 
 ## Moderation Tools
 
 These features help ensure a seamless moderation experience with MoonlightBot
 
+### User IDs
+
+A user ID is a string of numbers that is unique to a Discord account. Unlike usernames, the user ID cannot be changed, which is useful for various purposes, such as locating a user (even if they have changed their username to avoid detection) and executing commands for a user who has left the server. A great place to use IDs is the search bar, located at the top of the page.
+![The search bar at the top of the page](/.gitbook/assets/searchBar.jpg "Search Bar")
+To access user IDs, it is recommended that you enable [Developer Mode](/advanced/developer-mode.md), but MoonlightBot also displays user IDs next to usernames in command outputs
+
 ### Infractions
+
+Infractions help staff members keep track of a user's bad conduct and make informed decisions while moderating. This is a versatile tool with multiple subcommands to assist your moderation needs
 
 ![An example of the Infractions Summary command](/.gitbook/assets/InfractionsExample.png "Infractions Example")
 
-Infractions help staff members keep track of a user's bad conduct and make informed decisions while moderating. This is a versatile tool with multiple submcommands to assist your moderation needs.
-
-More information about infractions can be found in the [infractions page](/moderation-commands/infractions.md)
+- [**`/infractions summary`**](/moderation-commands/infractions.md#summary): This command shows the 3 most recent infractions, and the infraction count of each different infraction type. If a tempban/mute/timeout is active, the command will show that as well
+- [**`/infractions detailed`**](/moderation-commands/infractions.md#detailed): This command shows the infraction type, user affected, moderator who enforced it, reason, and date created
+- [**`/infractions reason`**](/moderation-commands/infractions.md#reason): This command displays the reason given to the infraction, and allows you to edit it
+- [**`/infractions search`**](/moderation-commands/infractions.md#search): This command allows you to see a list of infractions within given parameters, such as the moderator who executed them
+- [**`/infractions delete`**](/moderation-commands/infractions.md#delete): This command deletes a specified infraction
 
 ### Logs
 
-![A log example containg a mute infraction](/.gitbook/assets/LogExample.png "Logs Example")
-
 When moderators execute an action such as a warn, MoonlightBot will send a message in the designated logs channel in order to keep track of moderation events. For more information on setting up logs, refer to the logs section of the [main page](/README.md)
+
+![A log example containg a mute infraction](/.gitbook/assets/LogExample.png "Logs Example")
 
 ## Commands
 
