@@ -1,6 +1,6 @@
 # clean
 
-Delete a large amount of messages within the parameters given
+Delete a large amount of messages. Determine which messages are deleted using parameters. Parameters are options that distinguish messages such as those that contain a specific phrase. Moderators can delete at most 100 messages within the last 14 days.
 
 ## Required permissions
 
@@ -25,25 +25,24 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `amount`: The amount of messages you want to clean (The default is 100)
+* `amount`: The amount of messages you want to clean (The default/maximum amount is 100 messages)
 * `user`: The user you want to do delete the messages of
 * `starts-with`: Delete messages that start with this value
 * `ends-with`: Delete messages that end with this value
 * `contains`: Delete messages that contain this value
-* `bots`: Whether or not to delete messages sent by bots (The default is false)
+* `bots`: Whether or not to delete messages sent by bots
 * `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages
-![An example of a system message](/.gitbook/assets/SystemMessage.png "System Message Example")
 * `preserve-pins`: If true, pinned messages will not be deleted
 * `no-trace`: If true, the confirmation message will only be visible to you
 
 ## Logs
 
-* `CHANNEL_CLEAN`: MoonlightBot will send two things: an HTML message that, when opened, displays the deleted messages, and a message detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied
+* `CHANNEL_CLEAN`: MoonlightBot will send a message with two things: an HTML file that displays the deleted messages when opened and an embed detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied
 
 ![An example of logs sent by the bot after a clean command execution](/.gitbook/assets/CleanLogs.png "Clean Logs")
 
 {% hint style="info" %}
-To open an HTML file, download it and open the file explorer. Double-click the file, and your computer will open a new tab in your browser to display the executed code
+To open an HTML file, download it and open the file explorer. Double-click the file, and your computer will open a new tab in your browser to display a visualization of the messages deleted
 {% endhint %}
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
