@@ -12,7 +12,7 @@ MoonlightBot Premium greatly enhances the tools at your disposal to manage your 
 * **Access to a premium support channel** for your privacy and comfort with faster response times and more informational answers
 * **Custom code evalutation** to assist you with server maintenance tasks (requires developer intervention)
 * Your name in the **special thanks page** in this documentation (currently in progress, will appear once released)
-* **60 days** maximum duration allowed for temporary actions
+* **90 days** maximum duration allowed for temporary actions
 * **Reminder limit** increased from 10 to 20 per user
 
 {% hint style="warning" %}

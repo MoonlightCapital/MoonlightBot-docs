@@ -1,6 +1,6 @@
 # userconfig
 
-<TODO: describe>
+This command lets you configure some personal settings regarding the types of notifications you get from MoonlightBot.
 
 ## Required permissions
 
@@ -22,8 +22,9 @@ For more information on editing permission requirements for specific users/roles
 /userconfig settings [reaction-role-notifications] [vote-reminders]
 ```
 
-* `reaction-role-notifications`: <TODO: describe>
-* `vote-reminders`: <TODO: describe>
+* `reaction-role-notifications`: This subcommand lets you enable or disable notifications when you add or remove [a reaction role](/start-up/setting-up-reaction-roles.md) from yourself.
+* `vote-reminders`: This subcommand will remind you daily to [vote for MoonlightBot.](/MoonlightBot-docs/support/upvote-moonlightbot.md)
+* `locale`: This subcommand lets you choose what language you want your notifications to be in. For example, if you live in Canada, you can set the locale to French or English. If you'd rather have the bot automatically determine the locale, you can set it to "Auto" and it will automatically determine the locale.
 
 ### Required permissions
 
