@@ -1,6 +1,6 @@
 # clean
 
-This command deletes a large amount of messages from a channel. Determine which messages are deleted using parameters. Parameters are options that distinguish messages such as those that contain a specific phrase. Up to 100 messages can be deleted in a single execution of the command, and only those sent within the last 14 days.
+This command deletes a large amount of messages from a channel. Determine which messages are deleted using criteria. Criteria are options that distinguish messages such as those that contain a specific phrase. Up to 100 messages can be deleted in a single execution of the command, and only those sent within the last 14 days.
 
 ## Required permissions
 

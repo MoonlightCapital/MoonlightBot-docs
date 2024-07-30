@@ -65,7 +65,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## search
 
-View a list of infractions that fit the parameters, such as the moderator who executed them
+View a list of infractions that fit the criteria, such as the moderator who executed them
 
 ```text
 /infractions search [target] [moderator] [type] [before] [after]
