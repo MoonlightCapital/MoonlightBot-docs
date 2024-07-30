@@ -25,7 +25,7 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `amount`: The amount of messages you want to clean (The default/maximum amount is 100 messages)
+* `amount`: The amount of messages you want to clean (The default/maximum amount is 100)
 * `user`: The user you want to do delete the messages of
 * `starts-with`: Delete messages that start with this value
 * `ends-with`: Delete messages that end with this value
