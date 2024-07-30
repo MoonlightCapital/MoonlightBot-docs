@@ -37,7 +37,7 @@ For more information on editing permission requirements for specific users/roles
 
 ## Logs
 
-* `CHANNEL_CLEAN`: MoonlightBot will send a message with two things: an HTML file that displays the deleted messages when opened and an embed detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied
+* `CHANNEL_CLEAN`: MoonlightBot will send a message with two things: an HTML file that contains the history of the deleted messages and an embed detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied
 
 ![An example of logs sent by the bot after a clean command execution](/.gitbook/assets/CleanLogs.png "Clean Logs")
 
