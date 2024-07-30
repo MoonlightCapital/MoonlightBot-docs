@@ -48,7 +48,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## reason
 
-Change the reason of the infraction. If the `reason` option is left blank, it will simply display the current one
+Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one
 
 ```text
 /infractions reason <id> [reason]
