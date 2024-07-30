@@ -1,6 +1,6 @@
 # clean
 
-This command deletes a large amount of messages from a channel. Determine which messages are deleted using criteria. Criteria are options that distinguish messages such as those that contain a specific phrase. Up to 100 messages can be deleted in a single execution of the command, and only those sent within the last 14 days.
+This command deletes a large amount of messages from a channel. Determine which messages are deleted using criteria. Criteria are options that distinguish messages such as those that contain a specific phrase. Using multiple criteria will narrow the selection to only messages that fit all of them. Up to 100 messages can be deleted in a single execution of the command, and only those sent within the last 14 days.
 
 ## Required permissions
 
@@ -30,7 +30,7 @@ For more information on editing permission requirements for specific users/roles
 * `starts-with`: Delete messages that start with this value
 * `ends-with`: Delete messages that end with this value
 * `contains`: Delete messages that contain this value
-* `bots`: Whether or not to delete messages sent by bots
+* `bots`: Whether or not to delete messages sent by bots. If this option is left blank, the bot will delete these messages, but if left as true, the bot will only delete messages by bots, otherwise it will only delete messages not sent by bots
 * `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages
 * `preserve-pins`: If true, pinned messages will not be deleted
 * `no-trace`: If true, the confirmation message will only be visible to you
