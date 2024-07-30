@@ -54,7 +54,7 @@ Changes the reason of the infraction. If the `reason` option is left blank, it w
 /infractions reason <id> [reason]
 ```
 
-* `id`: The ID of the cinfraciton you want to view
+* `id`: The ID of the infraciton you want to edit
 * `reason`: What you want to change the reason to
 
 ### Required permissions
