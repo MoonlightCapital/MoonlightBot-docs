@@ -85,7 +85,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## delete
 
-Delete an infraction
+Deletes an infraction
 
 ```text
 /infractions delete <id> [reason]
