@@ -1,6 +1,6 @@
 # userconfig
 
-This command lets you configure some personal settings regarding the types of notifications you get from MoonlightBot.
+This command lets you configure some personal settings regarding the types of notifications you get from MoonlightBot, and other prefrences regarding your experince with MoonlightBot.
 
 ## Required permissions
 
@@ -22,9 +22,9 @@ For more information on editing permission requirements for specific users/roles
 /userconfig settings [reaction-role-notifications] [vote-reminders]
 ```
 
-* `reaction-role-notifications`: This subcommand lets you enable or disable notifications when you add or remove [a reaction role](/start-up/setting-up-reaction-roles.md) from yourself.
-* `vote-reminders`: This subcommand will remind you daily to [vote for MoonlightBot.](/MoonlightBot-docs/support/upvote-moonlightbot.md)
-* `locale`: This subcommand lets you choose what language you want your notifications to be in. For example, if you live in Canada, you can set the locale to French or English. If you'd rather have the bot automatically determine the locale, you can set it to "Auto" and it will automatically determine the locale.
+* `reaction-role-notifications`: This option lets you enable or disable notifications when you add or remove [a reaction role](/start-up/setting-up-reaction-roles.md) from yourself. Normally, this option is set to true, and the server owner will determine whether or not you get a notification.By setting it to false, it overrides what the server is set to do, and does not send you notifications regardless of server settings.
+* `vote-reminders`: This option will remind you daily to [vote for MoonlightBot.](/MoonlightBot-docs/support/upvote-moonlightbot.md) By voting for the first time, it will trugger it to remind you to vote again.
+* `locale`: This option lets you choose what language you want your interactions with MoonlightBot to be in. If you'd rather have the bot automatically determine the locale from the language you use commands in, you can set it to "Auto" and it will automatically determine the locale.
 
 ### Required permissions
 

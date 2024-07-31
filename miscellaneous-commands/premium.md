@@ -1,6 +1,6 @@
 # premium
 
-This command links you to the help doccument where you can [learn more about MoonlightBot Premium.](/support/premium.md)
+This command links you to the help doccument where you can [learn more about MoonlightBot Premium.](/support/premium.md) If your server had it but you don't personally have it, it will tell you who does. If you are the owner of the premium subscription, it will give you information about your subscription (when it ends, what servers you represent, and how you got your subscription.)
 
 ## Required permissions
 
@@ -16,15 +16,14 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This subcommand links you to the help doccument where you can [learn more about MoonlightBot Premium.](/support/premium.md) 
-
+This subcommand does what is stated above. It wil ether link to the [doccumentaton page to learn more about premium](/support/premium.md), tell you who the representative is, or infor about your subscription.
 ```text
 /premium info
 ```
 
 *This subcommand does not have any options.*
 
-## Required permissions
+### Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
