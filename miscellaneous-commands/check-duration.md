@@ -12,7 +12,7 @@ If you [vote for MoonlightBot](/support/upvote-moonlightbot.md), purchase a [pre
 | Joining [the support server](https://discord.com/invite/hNQWVVC) or for your first 7 days |30 Days |
 | Being a [Premium Subscriber (Basic Tier)](/support/premium.md#tiers) |90 Days  |
 | Being a [Premium Subscriber (Advanced and greater Tiers)](/support/premium.md#tiers) |1 Year  |
-| Having [Voted within the past 72 hours](/support/upvote-moonlightbot.md) |Double your current maximum |
+| Having [Voted within the past 72 hours](/support/upvote-moonlightbot.md) |Double your current maximum|
 
 {% hint style="info" %}
 When your maximum allowed duration changes, we recommend that you use [`/list-temproles`](/role-management-commands/list-temproles.md) to check if all of your temporary and pause roles are [sustained](/start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work).

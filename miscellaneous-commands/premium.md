@@ -16,7 +16,7 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This subcommand does what is stated above. It wil ether link to the [doccumentaton page to learn more about premium](/support/premium.md), tell you who the representative is, or infor about your subscription.
+This subcommand does what is stated above. It wil ether link to the [doccumentaton page to learn more about premium](/support/premium.md), tell you who the representative is, or info about your subscription.
 ```text
 /premium info
 ```
