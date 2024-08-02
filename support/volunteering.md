@@ -8,7 +8,7 @@ Their mission is to uncover bugs and annoyances that might hinder a smooth user 
 
 ### Benefits
 
-- A colourful, prominent role in the server to show everyone you're one of us
+- A colorful, prominent role in the server to show everyone you're one of us
 - MoonlightBot Premium subscription (duration varies based on your contributions)
 - An opportunity to learn how to get the most from MoonlightBot - and many other Discord apps
 - Access to and testing of new features as they are developed
@@ -18,3 +18,29 @@ Their mission is to uncover bugs and annoyances that might hinder a smooth user 
 ### Becoming a Tester
 
 The tester community programme is currently by invitation only. To ensure a minimum standard of quality and fairness, we accept members who are on the [Support Server](https://discord.gg/hNQWVVC). It helps your chances of receiving an invitation from a Staff member if you follow the rules, send messages, and support MoonlightBot in other ways.
+
+## Translator
+
+MoonlightBot translators assist in translating the commands, responses and messages shown when interacting with the bot.
+
+![The /temprole command translated to Italian](<../.gitbook/assets/TemproleItalianTranslationExample.png>)
+
+### Benefits
+
+- A colorful, prominent role in the server to show everyone you're one of us
+- MoonlightBot Premium (basic tier), once you have translated 50 strings
+- Your name on the [Special Thanks Page](./special-thanks.md#translators)
+
+### Becoming a Translator
+
+To become a translator, you need to possess the following requirements:
+
+- You must be a native (or near-native) speaker of the language you're applying for
+- You must have a level of English comparable to B1 or higher in the [CEFR scale](<https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52>)
+- You must be at least 16 years old
+- You (or the server you represent) must have used MoonlightBot for more than two weeks
+- You must not have any significative infraction history
+
+If you meet the requirements above (some can be skipped in certain cases with Staff consent), you can then apply in the `#apply-for-translator` channel in the [Support Server](https://discord.gg/hNQWVVC). There you will find a button to press and fill out the application form.
+
+Your application will be looked at, and if we're satisfied that you'd make a good candidate, we will create a private thread and ask you to complete a few short translation trials. If you pass the trial, we will give you full access to the translation program. This means you can get translating straight ahead! Usually this process takes less than 24 hours.
