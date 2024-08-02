@@ -16,9 +16,10 @@
 
 * [Volunteer Opportunities](support/volunteering.md)
 * [Premium Subscriptions](support/premium.md)
-* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
+* [Upvote MoonlightBot](support/upvote-moonlightbot.md)activation
 * [Support Server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
+* [Special Thanks](support/special-thanks.md)
 
 ## Management Commands
 
