@@ -19,6 +19,7 @@
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
 * [Support Server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
+* [Special Thanks](support/special-thanks.md)
 
 ## Management Commands
 
