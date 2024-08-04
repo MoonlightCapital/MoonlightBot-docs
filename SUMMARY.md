@@ -9,8 +9,6 @@
 * [Permission Tutorial](start-up/permission-tutorial.md)
 * [Moderation Tutorial](start-up/moderation-tutorial.md)
 * [Setting up Reaction Roles](start-up/setting-up-reaction-roles.md)
-* [Acceptable Use Policy](start-up/acceptable-use-policy.md)
-* [Privacy Policy](start-up/privacy-policy.md)
 
 ## Support Our Work
 
@@ -20,6 +18,12 @@
 * [Support Server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
 * [Special Thanks](support/special-thanks.md)
+
+## Policies
+
+* [Acceptable Use Policy](policies/acceptable-use-policy.md)
+* [Volunteer Code of Conduct](policies/volunteer-code-of-conduct.md)
+* [Privacy Policy](start-up/privacy-policy.md)
 
 ## Management Commands
 
