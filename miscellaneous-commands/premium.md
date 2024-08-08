@@ -1,6 +1,6 @@
 # premium
 
-This command links you to the help doccument where you can [learn more about MoonlightBot Premium.](/support/premium.md) If your server had it but you don't personally have it, it will tell you who does. If you are the owner of the premium subscription, it will give you information about your subscription (when it ends, what servers you represent, and how you got your subscription.)
+This command allows you to manage your [Premium](/support/premium.md) subscription or links to the documentation page if you are not a subscriber.
 
 ## Required permissions
 
@@ -16,7 +16,8 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This subcommand does what is stated above. It wil ether link to the [doccumentaton page to learn more about premium](/support/premium.md), tell you who the representative is, or info about your subscription.
+This subcommand will either link to the [doccumentaton page to learn more about premium](/support/premium.md) if you do not have it, tell you who the representative is if your server has a premium subscription, or info about your subscription if you are a subscription holder yourself.
+
 ```text
 /premium info
 ```
