@@ -60,7 +60,7 @@ When operating a temporary or pause role, you must satisfy at least one of the f
 
 4. **Exemption Request**: The adder must have requested and received an exemption from bot staff
 
-If none of these conditions are met, the temprole will be removed from the target user.
+If none of these conditions are met, the operation at the end of expiration will not be executed.
 
 If someone is threatening to stop sustaining temproles to damage your server, [contact support](https://discord.gg/hNQWVVC). We will investigate the matter and render any threat ineffective.
 
