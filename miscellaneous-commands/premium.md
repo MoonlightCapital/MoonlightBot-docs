@@ -1,6 +1,6 @@
 # premium
 
-<TODO: describe>
+This command allows you to manage your [Premium](/support/premium.md) subscription or links to the documentation page if you are not a subscriber.
 
 ## Required permissions
 
@@ -12,11 +12,11 @@ By default, a user is required to have the following permissions to use this com
 
 *No specific permissions required*
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToTermissionsTutorial>)
 
 ## info
 
-<TODO: describe>
+This subcommand will either link to the [doccumentaton page to learn more about premium](/support/premium.md) if you do not have it, tell you who the representative is if your server has a premium subscription, or info about your subscription if you are a subscription holder yourself.
 
 ```text
 /premium info
@@ -29,6 +29,8 @@ For more information on editing permission requirements for specific users/roles
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
 *No specific permissions required*
+
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToTermissionsTutorial>)
 
 ## Logs
 
