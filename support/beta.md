@@ -18,12 +18,6 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 
 No, you don't need to clutter your server with two almost identical bots. As stated above, you can ask support for a data transfer, then remove stable. Transferrals are free and instant.
 
-### It does not have the "Verified bot" checkmark
-
-A bot is eligible for verification once it [reaches 75 servers](https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting). The checkmark only signifies that a bot has been reviewed by Discord, and allows it to join more than 100 servers.
-
-MoonlightBot beta shares most of the codebase with the verified MoonlightBot, which complies with Discord's requirements. Since those two bots do essentially the same things, you can add beta safely even if it doesn't have a checkmark.
-
 ### I have a fear it may break from a moment to another
 
 Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and volunteers. The chance of bugs is pretty low, and you can always [report bugs](https://discord.gg/hNQWVVC) for them to be fixed quickly, for a greater good.
