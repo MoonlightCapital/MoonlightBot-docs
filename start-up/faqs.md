@@ -52,7 +52,7 @@ In order to encourage good support practices, a system has been introduced for s
 
 When operating a temporary or pause role, you must satisfy at least one of the following conditions:
 
-1. **Maximum Duration Consistency**: The maximum duration allowed for the role setter (adder) at the time of the role's expiration must be equal to or greater than the maximum duration allowed at the time the role was added.
+1. **Maximum Duration Consistency**: The maximum duration allowed for the role adder at the time of the role's expiration must be equal to or greater than their maximum duration allowed at the time the role was added
 
 2. **Vote Requirement**: The number of votes received by the adder must be equal to or greater than the number of days the temporary role lasts. For example, a 30-day temprole requires at least 30 votes to be sustained.
 
