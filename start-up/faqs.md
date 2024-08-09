@@ -48,7 +48,7 @@ Any value lower than `-3d` will work as well.
 
 ## How does the temprole sustain mechanic work?
 
-In order to encourage good support practices, a system has been introduced for sustaining temproles to ensure they remain functional.
+In order to encourage good support practices, a system has been introduced for sustaining temproles to ensure they remain functional and fair for all servers and users.
 
 When operating a temporary or pause role, you must satisfy at least one of the following conditions:
 
