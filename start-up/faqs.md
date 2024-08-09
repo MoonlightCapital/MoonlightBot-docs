@@ -50,7 +50,7 @@ Any value lower than `-3d` will work as well.
 
 In order to encourage good support practices, a system has been introduced for sustaining temproles to ensure they remain functional.
 
-When operating a temporary role, you must satisfy one of the following conditions:
+When operating a temporary or pause role, you must satisfy at least one of the following conditions:
 
 1. **Maximum Duration Consistency**: The maximum duration allowed for the role setter (adder) at the time of the role's expiration must be equal to or greater than the maximum duration allowed at the time the role was added.
 
