@@ -25,7 +25,7 @@ For more information on editing permission requirements for specific users/roles
 * `user`: The user that you want to Warn - this is mandatory
 * `reason`: The reason you want to warn them. This is an optional parameter, which can be used for record-keeping
 * `notify`: Whether the target user will be notified by Direct Message (True/False)
-* `no-infraction`: Whether the ban counts as an infraction or not (True/False). This is optional and contains the server name and reason
+* `no-infraction`: Whether the warning counts as an infraction or not (True/False). This is optional and contains the server name and reason
 
 {% hint style="warning" %}
 The user will not be notified if both `notify` and `no-infraction` are set to True
