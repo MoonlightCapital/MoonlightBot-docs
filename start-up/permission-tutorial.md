@@ -4,7 +4,7 @@ Discord has a built-in permission system to configure who can or cannot execute 
 
 ## Open the server settings
 
-1. To start setting up permissions, you need to open the server settings. Click on the server name to open the server menu, then click on "Server Settings".
+1. Click on the server name to open the server menu, then click on "Server Settings"
 2. In the server settings, click on "Integrations" in the left sidebar.
 3. Here you'll see a list of all the bots and integrations in your server. Click on the "MoonlightBot" entry to open the bot command permissions menu.
 ![PermissionTutorialStep1](<../.gitbook/assets/PermissionTutorialStep1.png>)
