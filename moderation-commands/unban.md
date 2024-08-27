@@ -1,6 +1,6 @@
 # unban
 
-<TODO: describe>
+Unban a user that is currently banned and allow them to access the server again
 
 ## Required permissions
 
@@ -22,9 +22,9 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
-* `reason`: <TODO: describe>
-* `no-infraction`: <TODO: describe>
+* `user`: The user you wish to Unban - this is mandatory
+* `reason`: You can enter a reason as to why the unban was issued - this is optional but recommended and will show in the logs
+* `no-infraction`: Set this to true if you DON'T want to record an infraction - this is optional and if left blank, an infraction will be recorded
 
 ## Logs
 
