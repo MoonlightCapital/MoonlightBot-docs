@@ -33,6 +33,6 @@ The user will not be notified if both `notify` and `no-infraction` are set to Tr
 
 ## Logs
 
-* `BAN`: This log is triggered when a user is successfully unmuted. It will log the user, the responsible moderator and the reason for the unmute. If an infraction is created, it will also include the infraction ID
+* `UNMUTE`: This log is triggered when a user is successfully unmuted. It will log the user, the responsible moderator and the reason for the unmute. If an infraction is created, it will also include the infraction ID
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
