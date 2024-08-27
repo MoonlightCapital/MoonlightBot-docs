@@ -22,12 +22,12 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: The user you wish to Unban - this is mandatory
-* `reason`: You can enter a reason as to why the unban was issued - this is optional but recommended and will show in the logs
-* `no-infraction`: Set this to true if you DON'T want to record an infraction - this is optional and if left blank, an infraction will be recorded
+* `user`: The user that you want to unban
+* `reason`: The reason you want to ban them. This is an optional parameter, which can be used for record-keeping
+* `no-infraction`: Whether the ban counts as an infraction or not (True/False). This is optional and contains the server name and reason
 
 ## Logs
 
-* `UNBAN`: <TODO: describe>
+* `UNBAN`: This log is triggered when a user is successfully unbanned. It will log the user, the responsible moderator and the reason for the unban. If an infraction is created, it will also include the infraction ID
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
