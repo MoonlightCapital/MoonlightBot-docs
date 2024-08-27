@@ -1,6 +1,6 @@
 # warn
 
-Issues a Warning to the specified user for breaking your server rules. You can choose to specify a reason if you wish
+The `warn` command issues a warning to a user in the current server.
 
 ## Required permissions
 
