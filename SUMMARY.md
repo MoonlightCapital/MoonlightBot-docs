@@ -23,7 +23,7 @@
 
 * [Acceptable Use Policy](policies/acceptable-use-policy.md)
 * [Volunteer Code of Conduct](policies/volunteer-code-of-conduct.md)
-* [Privacy Policy](start-up/privacy-policy.md)
+* [Privacy Policy](policies/privacy-policy.md)
 
 ## Management Commands
 
@@ -61,7 +61,7 @@
 * [selfrole](role-management-commands/selfrole.md)
 * [temprole](role-management-commands/temprole.md)
 
-## Utility  Commands
+## Utility Commands
 
 * [reminder](utilities-commands/reminder.md)
 * [serverinfo](utilities-commands/serverinfo.md)
