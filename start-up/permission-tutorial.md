@@ -11,7 +11,7 @@ Discord has a built-in permission system to configure who can or cannot execute 
 
 ## Set up Permissions
 
-{% hint style="info" %}
+{% hint style="warning" %}
 
 **Remember to save your changes!**
 
@@ -22,15 +22,18 @@ From now on, each time you make a change on the permissions configuration be sur
 On the command permissions menu, you can configure two types of permissions:
 
 - **General Permissions**: These permissions apply to all commands of the bot, the default option is that everyone can use bot commands in every channel. If you want to restrict commands to specific roles, users or channels click the corresponding "Add" button and be sure to deny the default "everyone" role or "All channels" setting. Note that members who have Administrator permission can bypass these restrictions.
+
 ![Command permissions page](<../.gitbook/assets/PermissionTutorialStep2.png>)
 
 - **Command-specific Permissions**: These permissions apply to specific commands of the bot and they override the general permissions. To set up command-specific permissions, select the command you want to configure from the list and add the rules for roles, members or channels as you like. Be sure to deny the default "everyone" role or "All channels" setting if you want to restrict the command only for the selected roles, members or channels.
+
 ![Permission configuration menu of a command](<../.gitbook/assets/PermissionTutorialStep3.png>)
 
 ## Default Overrides
 
 Some commands have required permissions by default, for example the [`/ban`](<../moderation-commands/ban.md>) command requires the "Ban Members" permission. This is a security mesaure in order to hide moderation commands to normal users. You can check the required permissions of each command by clicking it on the permission configuration menu or by visiting its documentation page.
 You can still override these default permissions by setting up command-specific permissions as explained above, this can be useful if you want for example allow some users to use the [`/temprole`](<../role-management-commands/temprole.md>) command without giving them the "Manage Roles" permission.
+
 ![Permission configuration menu of a command](<../.gitbook/assets/PermissionTutorialStep4.png>)
 
 ## Test your Permissions
