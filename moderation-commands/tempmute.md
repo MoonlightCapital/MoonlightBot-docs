@@ -35,7 +35,7 @@ The user will not be notified if both `notify` and `no-infraction` are set to Tr
 
 ## Logs
 
-* `TEMPMUTE_EXTEND`: <TODO: describe>
-* `MUTE`: <TODO: describe>
+* `TEMPMUTE_EXTEND`: This log is triggered when a tempmute is successfully extended. It will log the user, the responsible moderator and the reason for the extended mute.
+* `MUTE`: This log is triggered when a user is muted. It will log the user, the responsible moderator and the reason for the muting. If an infraction is created, it will also include the infraction ID
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
