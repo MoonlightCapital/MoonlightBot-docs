@@ -24,7 +24,7 @@ For more information on editing permission requirements for specific users/roles
 
 * `user`: The user that you want to unban
 * `reason`: The reason you want to unban them. This is an optional parameter, which can be used for record-keeping
-* `no-infraction`: Whether the unban counts as an infraction or not (True/False). This is optional and contains the server name and reason
+* `no-infraction`: Whether the unban counts as an infraction or not (True/False).
 
 ## Logs
 
