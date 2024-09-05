@@ -1,6 +1,6 @@
 # tempban
 
-<TODO: describe>
+The `tempban` command temporarily bans a user from the current server.
 
 ## Required permissions
 
@@ -22,15 +22,19 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
-* `duration`: <TODO: describe>
-* `reason`: <TODO: describe>
-* `notify`: <TODO: describe>
-* `no-infraction`: <TODO: describe>
+* `user`: The user that you want to ban
+* `duration`: The duration you want to ban them for. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
+* `reason`: The reason you want to ban them. This is an optional parameter, which can be used for record-keeping
+* `notify`: Whether the target user will be notified by Direct Message (True/False). This is optional and contains the server name and reason
+* `no-infraction`: Whether the ban counts as an infraction or not (True/False).
+
+{% hint style="warning" %}
+The user will not be notified if both `notify` and `no-infraction` are set to True
+{% endhint %}
 
 ## Logs
 
-* `TEMPBAN_EXTEND`: <TODO: describe>
-* `BAN`: <TODO: describe>
+* `TEMPBAN_EXTEND`: This log is triggered when a tempban is successfully extended. It will log the user, the responsible moderator and the reason for the extended ban.
+* `BAN`: This log is triggered when a user is successfully banned. It will log the user, the responsible moderator and the reason for the ban. If an infraction is created, it will also include the infraction ID
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)

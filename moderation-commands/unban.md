@@ -1,6 +1,6 @@
 # unban
 
-<TODO: describe>
+The `unban` command unbans a user from the current server.
 
 ## Required permissions
 
@@ -22,12 +22,12 @@ For more information on editing permission requirements for specific users/roles
 
 ### Options
 
-* `user`: <TODO: describe>
-* `reason`: <TODO: describe>
-* `no-infraction`: <TODO: describe>
+* `user`: The user that you want to unban
+* `reason`: The reason you want to unban them. This is an optional parameter, which can be used for record-keeping
+* `no-infraction`: Whether the unban counts as an infraction or not (True/False).
 
 ## Logs
 
-* `UNBAN`: <TODO: describe>
+* `UNBAN`: This log is triggered when a user is successfully unbanned. It will log the user, the responsible moderator and the reason for the unban. If an infraction is created, it will also include the infraction ID
 
 For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
