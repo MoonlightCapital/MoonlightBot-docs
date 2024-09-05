@@ -16,11 +16,11 @@ By default, a user is required to have the following permissions to use this com
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](linkToPermissionsTutorial/)
 
 ## Syntax
 
-```text
+```
 /mute <user> [reason] [notify] [no-infraction] [remove-roles]
 ```
 
@@ -28,9 +28,9 @@ For more information on editing permission requirements for specific users/roles
 
 * `user`: The user that you want to mute
 * `reason`: The reason you want to mute them. This is an optional parameter, which can be used for record-keeping
-* `notify`: Whether they will be notified by Direct Message (True/False)
+* `notify`: Whether they will be notified by Direct Message (True/False) This is optional and contains the server name and reason
 * `no-infraction`: Whether the mute counts as an infraction or not (True/False)
-* `remove-roles`: Whether the user's other roles will be removed (True/False). This is optional and contains the server name and reason
+* `remove-roles`: Whether the user's other roles will be removed (True/False)
 
 {% hint style="warning" %}
 The user will not be notified if both `notify` and `no-infraction` are set to True
@@ -40,4 +40,4 @@ The user will not be notified if both `notify` and `no-infraction` are set to Tr
 
 * `MUTE`: This log is triggered when a user is muted. It will log the user, the responsible moderator and the reason for the muting. If an infraction is created, it will also include the infraction ID
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](linkToLogTutorial/)

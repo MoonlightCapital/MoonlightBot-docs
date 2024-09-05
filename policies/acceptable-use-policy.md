@@ -21,20 +21,16 @@ This includes, but is not limited to Discord's [Terms of Service](https://discor
 MoonlightBot is ran by volunteers. These regulations ensure that volunteering with us remains a pleasant, satisfactory and positive experience. If you are involved in our volunteer activities, our [Volunteer Code of Conduct](volunteer-code-of-conduct.md) applies in addition to this policy.
 
 1. **Do not harass volunteers:** Any form of harassment, bullying, or disrespectful behavior towards our volunteers is strictly prohibited. This includes derogatory comments, personal attacks, or any action meant to cause emotional or psychological harm, distress or anxiety.
-
 2. **Do not make unreasonable demands or expectations:** Volunteers have limitations and commitments outside of their volunteer role. Making unreasonable demands or expecting immediate responses at all times is not appropriate.
-
 3. **Do not disrupt or sabotage the service:** You must not disrupt the work or sabotage the efforts of our volunteers. This includes intentional interference, spreading false information, or engaging in malicious activities that hinder our ability to perform our duties effectively or enjoy the results of our work.
-
 4. **Do not diminish or vilify the work of volunteers:** You must not take any action that diminishes or vilifies the efforts of our volunteers. Our developers, translators, quality control testers, documentation writers and other officially recognized collaborators are hard-working, so we request that you relation with them in an understanding, collaborative, and accepting manner. This includes but is not limited to displays of indifference about sensitive topics such as struggles faced in their process of expanding and relating with our volunteer team, engaging with our users, and the finding and maintaining of resources, as well as personal hardships.
-
 5. **Do not mislead our support team:** You must not submit any false or malicious report, application, request, statement or interaction to our volunteers while acting in official capacity. you are responsible for correcting and updating us on the applicability of your previous statements in clear writing.
 
 ## 4 - Respect Other Users
 
 You must not use our services:
 
-1. If you are under the age of 13, or higher minumum applicable age in your jurisdiction without parental consent
+1. If you are under the age of 13, or higher minimum applicable age in your jurisdiction without parental consent
 2. For any unlawful purpose
 3. To send unsolicited marketing, advertising, or other promotional material (also known as spam)
 4. For the purpose of inciting or glorifying suicide, self-harm, eating disorders, violence or terrorism
@@ -58,15 +54,15 @@ Do not do, or attempt to do any of the following against our services:
 
 ## 6 - Resource provider/Donation policy
 
-This section applies to you if you are, or have been in the past:
+**This section applies to you if you are, or have been in the past:**
 
-- A MoonlightBot Premium subscriber
-- Boosting our support server
-- Offering us currency, virtual goods or other content that benefit, enhance or collectively benefits our services, users or volunteers (referred to by the term "resources" in this section)
+* A MoonlightBot Premium subscriber
+* Boosting our Support Server
+* Offering us currency, virtual goods or other content that benefit, enhance or collectively benefits our services, users or volunteers (referred to by the term "resources" in this section)
 
 By providing us resources, you affirm that the sole purpose you are doing so is to help maintain the service operational, improve its capabilities and increase our satisfaction.
 
-As a resource provider, you are expected to uphold this policy in order to receive the benefits associated with the resources.
+Upon ceasing to provide a resource, the service is provided to you at the additional condition that you will show an understanding of the implications of resource absence, scarcity, and emotional impact on the resource beneficiary.
 
 ## 7 - Reporting abuse, bugs, or other concerns
 
@@ -90,13 +86,13 @@ Enforcement of this policy is at the discretion of our Staff. We may additionall
 
 Enforcement actions we may take (in no particular order) include, but are not limited to:
 
-- Attempting to reach you out to seek clarification to address any possible suspicious conduct
-- A written warning
-- Exclusion from participating in volunteer programs
-- Moderation actions in our Discord server (mute, kick, timeout, ban, etc)
-- Applying temporary or permanent, partial or complete blocks that restrict your access to our services
-- Reporting abusive behavior to involved third-party platforms, law enforcement agencies, or others we deem to be interested in having a report
-- Direct compensatory actions
+* Attempting to reach you out to seek clarification to address any possible suspicious conduct
+* A written warning
+* Exclusion from participating in volunteer programs
+* Moderation actions in our Discord server (mute, kick, timeout, ban, etc)
+* Applying temporary or permanent, partial or complete blocks that restrict your access to our services
+* Reporting abusive behavior to involved third-party platforms, law enforcement agencies, or others we deem to be interested in having a report
+* Direct compensatory actions
 
 This list is non-exhaustive and representative of only a handful of methods we will try to enforce our policies. It is your responsibility to ensure that you follow the policy, allow the delivery of enforcement notifications and maintain open lines of communication with our systems, adhering to applicable regulations.
 
