@@ -25,7 +25,7 @@ For more information on editing permission requirements for specific users/roles
 * `user`: The user that you want to ban
 * `duration`: The duration you want to ban them for. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
 * `reason`: The reason you want to ban them. This is an optional parameter, which can be used for record-keeping
-* `notify`: Whether they will be notified by Direct Message (True/False)
+* `notify`: Whether the target user will be notified by Direct Message (True/False)
 * `no-infraction`: Whether the ban counts as an infraction or not (True/False). This is optional and contains the server name and reason
 
 {% hint style="warning" %}
