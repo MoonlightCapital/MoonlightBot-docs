@@ -86,7 +86,7 @@ In the support server, we may run giveaways or offer [volunteering opportunities
 Activating your subscription is a seamless process that only requires four steps to complete:
 
 1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully.
-2.  If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance&#x20;
+2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance&#x20;
 
     <figure><img src="../.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance was instead created on March 27, 2020 but does not have a verification symbol (see the FAQ below for an explanation) !["MoonlightBot Premium was created on March 27, 2020"](../.gitbook/assets/PremiumMiniProfile.png)
