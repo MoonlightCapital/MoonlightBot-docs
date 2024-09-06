@@ -52,7 +52,7 @@ The bot can mute users both temporarily and permanently. To use mute features, u
 ```
 to automatically create a mute role with the correct permissions. You can specify a role to be used, or leave it blank and the bot will automatically create a new role.
 
-![Result of /create-muterole command](./.gitbook/assets/MainpageMuterole.png)
+![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
 
 You should now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
 
