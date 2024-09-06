@@ -10,7 +10,7 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 ### On the Discord desktop app
 
-1. Go to **User Settings **by clicking the gear icon in the bottom left of the window;
+1. Go to **User Settings** by clicking the gear icon in the bottom left of the window;
 2. Go to "**Advanced**";
 3. Click on the **Developer mode** toggle and you're done!
 
