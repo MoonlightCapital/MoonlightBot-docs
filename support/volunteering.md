@@ -44,3 +44,26 @@ To become a translator, you need to possess the following requirements:
 If you meet the requirements above (some can be skipped in certain cases with Staff consent), you can then apply in the `#apply-for-translator` channel in the [Support Server](https://discord.gg/hNQWVVC). There you will find a button to press and fill out the application form.
 
 Your application will be looked at, and if we're satisfied that you'd make a good candidate, we will create a private thread and ask you to complete a few short translation trials. If you pass the trial, we will give you full access to the translation program. This means you can get translating straight ahead! Usually this process takes less than 24 hours.
+
+## Documentation Writer
+
+Documentation writers provide the information that users need to use MoonlightBot. They describe the bot's features and commands in detail. They create new documentation pages as new functions are added to the bot, and update existing pages to reflect changes.
+
+### Benefits
+
+- A colorful, prominent role in the server to show everyone you're one of us
+- MoonlightBot Premium subscription
+- Access to and testing of new features as they are developed
+- Your name on the [Special Thanks Page](./special-thanks.md#documentation-writers)
+
+### Becoming a Documentation Writer
+
+The documentation writer program is currently by invitation only, though we may open applications from time to time. To ensure a minimum standard of quality and fairness, we accept members who are on the [Support Server](https://discord.gg/hNQWVVC). It helps your chances of receiving an invitation from a Staff member if you follow the rules, send messages, and support MoonlightBot in other ways.
+
+To be a documentation writer, you should fulfill the following requirements:
+
+- You must have a level of English comparable to B2 or higher in the [CEFR scale](<https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52>)
+- You must demonstrate an understanding of Markdown and GitBook formatting
+- You must have been a user of MoonlightBot (either you, or the server you represent) for at least 1 month
+- You must demonstrate strong attention to detail and proofreading skills
+- You must not have any significative infraction history
