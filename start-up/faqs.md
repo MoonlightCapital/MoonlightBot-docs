@@ -31,14 +31,14 @@ MoonlightBot is owned by MoonlightCapital. With tag `moonlightcapital` and ID `2
 
 There are different types of temprole offered:
 
-* The [Temprole](../role-management-commands/temprole.md) command, which allows a privileged user (usually a moderator) to give someone a role, and make MoonlightBot remove the role after a set duration.
-* Self-assignable temproles, that allow users to assign themselves a role through the [Selfrole](../role-management-commands/selfrole.md) command. See how to set this up at [Configuring roles](../management-commands/config.md#roles-self-assignable).
+* The [/temprole](../role-management-commands/temprole.md) command, which allows a privileged user (usually a moderator) to give someone a role, and make MoonlightBot remove the role after a set duration.
+* Self-assignable temproles, that allow users to assign themselves a role through the [/selfrole](../role-management-commands/selfrole.md) command. See how to set this up at [Configuring roles](../management-commands/config.md#roles-self-assignable).
 * Join-assigned temproles. Take a look at [Configuring roles](../management-commands/config.md#roles-join-assignable).
 * Reaction roles have an option to make their roles temporary. To see how to set up reaction roles, see [Setting up reaction roles](setting-up-reaction-roles.md).
 
 ## How do I cancel a temprole?
 
-You can cancel a temprole to force an immediate expiration by using the `temprole` command with a duration that would make it expire in the past. Say you want to cancel a temprole that has 3 days left:
+You can cancel a temprole to force an immediate expiration by using the `/temprole` command with a duration that would make it expire in the past. Say you want to cancel a temprole that has 3 days left:
 
 ```
 /temprole <user> <role> -3d
@@ -54,13 +54,13 @@ When operating a temporary or pause role, you must satisfy at least one of the f
 
 1. **Maximum Duration Consistency**: The maximum duration allowed for the role adder at the time of the role's expiration must be equal to or greater than their maximum duration allowed at the time the role was added
 
-2. **Vote Requirement**: The number of votes received by the adder must be equal to or greater than the number of days the temporary role lasts. For example, a 30-day temprole requires at least 30 votes to be sustained.
+2. **Vote Requirement**: The [number of votes](../support/upvote-moonlightbot.md) received by the adder must be equal to or greater than half the number of days the temporary role lasts, rounded up. For example, a 30-day temprole requires at least 15 votes to be sustained
 
-3. **Premium Instance**: The server must be on a premium instance (Advance+ tier).
+3. **Premium Instance**: The server uses a [MoonlightBot Premium instance](../support/premium.md) (Advanced tier or higher)
 
-4. **Exemption Request**: The adder must have requested and received an exemption from bot staff
+4. **Be Exempted**: The adder must have requested and received an exemption from bot staff
 
-If none of these conditions are met, the operation at the end of expiration will not be executed.
+If none of these conditions are met, the operation at the end of expiration will not be executed. You can check if your temproles are sustained with [`/list-temproles`](../role-management-commands/list-temproles.md).
 
 If someone is threatening to stop sustaining temproles to damage your server, [contact support](https://discord.gg/hNQWVVC). We will investigate the matter and render any threat ineffective.
 
