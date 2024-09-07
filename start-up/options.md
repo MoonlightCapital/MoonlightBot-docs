@@ -39,3 +39,13 @@ If no unit is specified, the bot will default to millisecond
 ![A duration options.](<../.gitbook/assets/slashtypeofoptions.png>)
 
 ![Another example of duration. As you can see, you can extend or reduce the length to a temporary role by adding or substracting time to it.](<../.gitbook/assets/slashtypeofoptions2.png>)
+
+### Entity IDs
+
+Discord uses IDs, also called ["snowflakes"](https://discord.com/developers/docs/reference#snowflakes), internally to refer to users, roles, and messages, among other things. These can be used in commands as options in place of usernames, roles, and channels. For example, if you wanted to assign or remove a role with the ID `484794065825824778` from a user with the ID `314110696071888896`:
+
+```
+/role user:314110696071888896 role:484794065825824778
+```
+
+For more information on how to obtain these IDs, see the [Developer Mode](../advanced/developer-mode.md) page.

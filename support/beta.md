@@ -16,7 +16,7 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 
 ### Will I have to keep both stable and beta if I want to use it?
 
-No, you don't need to clutter your server with two almost identical bots. As stated above, you can ask support for a data transfer, then remove stable. Transferrals are free and instant.
+No, you don't need to clutter your server with two almost identical bots. The server administrator can use the `/transfer data` command to transfer data from any other version of MoonlightBot to Beta. Transferrals are free and instant.
 
 ### I have a fear it may break from a moment to another
 
@@ -26,7 +26,7 @@ Before any major breaking change is sent to beta, it's carefully reviewed in ano
 
 ### I don't want to lose all my temproles, infractions and server configuration
 
-You can seamlessly switch to beta by asking for all your data to be transferred by a MoonlightBot Staff member. This operation usually takes a few minutes with no downtime. [Join the support server](https://discord.gg/hNQWVVC) so we can help you out with this.
+If you choose to transfer your data, you won't! You can seamlessly switch to beta by [transferring your data as described above](#will-i-have-to-keep-both-stable-and-beta-if-i-want-to-use-it).
 
 ### I don't comply with the requirement of having at least a server admin in MoonlightBot's support server
 
