@@ -27,7 +27,7 @@ the [permissions tutorial](<linkToPermissionsTutorial>)
 * `user`: The user to assign the role to
 * `role`: The role to assign to the user
 * `duration`: The duration for which the role should be assigned to the user. For more information on the duration
-  format, refer to the [arguments page](../start-up/arguments.md#durations)
+  format, refer to the [options page](../start-up/options.md#durations)
 * `reason`: The reason for assigning the role to the user. This is an optional parameter, which can be used for
   record-keeping
 * `notify`: Sends a Direct Message to inform the user about the temporary role addition. This is optional and contains the role name, duration, expiration date and reason

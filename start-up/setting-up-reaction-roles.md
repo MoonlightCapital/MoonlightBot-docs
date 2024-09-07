@@ -101,7 +101,7 @@ For an in-depth view of all options, see the [relevant section of the config com
 
 ### How do I make reaction roles temporary?
 
-Use `/config reaction-roles <group> <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](arguments.md#durations) you use the [`/temprole`](../role-management-commands/temprole.md) command.
+Use `/config reaction-roles <group> <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](options.md#durations) you use the [`/temprole`](../role-management-commands/temprole.md) command.
 
 ### Can I make a single click of a reaction give out more than one role?
 

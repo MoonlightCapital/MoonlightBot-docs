@@ -2,14 +2,14 @@
 
 The `config` command allows you to configure all settings for the server, such as roles, channels, reaction roles,
 and other customizable behavior of MoonlightBot. To get the current configuration of a setting, just use the
-corresponding sub command without any optional arguments.
+corresponding sub command without any optional options.
 
 {% hint style="info" %}
-If an argument provides you with the option `Open Editor` like the argument `custom-notification-text` of
+If an option provides you with the option `Open Editor` like the option `custom-notification-text` of
 the [`roles on-expire`](../management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
 you to input your desired text.
 <br>
-All default values are either `0`, `false` or empty for their respective arguments, unless stated otherwise.
+All default values are either `0`, `false` or empty for their respective options, unless stated otherwise.
 {% endhint %}
 
 ## Required permissions

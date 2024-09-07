@@ -4,7 +4,7 @@
 
 ## Get Started
 
-* [Arguments](start-up/arguments.md)
+* [Options](start-up/options.md)
 * [Frequently Asked Questions](start-up/faqs.md)
 * [Permission Tutorial](start-up/permission-tutorial.md)
 * [Moderation Tutorial](start-up/moderation-tutorial.md)

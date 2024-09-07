@@ -11,7 +11,7 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 To use developer mode, you need to enable it first. Instructions for enabling developer mode are provided in the next section ([Enabling developer mode](#enabling-developer-mode)).
 
-Whenever MoonlightBot asks for something like a user, chanel, etc., you can provide the ID as an argument to make sure it is pointing to exactly what you want.
+Whenever MoonlightBot asks for something like a user, chanel, etc., you can provide the ID as an option to make sure it is pointing to exactly what you want.
 
 ## Desktop/Web App
 
