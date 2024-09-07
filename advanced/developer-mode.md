@@ -1,12 +1,8 @@
-# What is developer mode?
+# What is Developer Mode?
 
-Developer mode is a feature in Discord that allows you to copy the ID of any object in Discord, such as users, channels, roles, servers, etc. This is useful for MoonlightBot, as it allows you to provide the exact object you want to interact with, without any ambiguity.
+Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain objects, such as users, servers, messages, channels, and roles. These can be used in place of such options in MoonlightBot's commands.
 
-{% hint style="success" %}
-You're not required to have bot developer skills to use developer mode. It does not also hinder your normal Discord usage in any way.
-{% endhint %}
-
-# Using developer mode
+# Using Developer Mode
 
 To use developer mode, you need to enable it first. Instructions for enabling developer mode are provided [in the next section](#enabling-developer-mode).
 
@@ -24,7 +20,7 @@ For example, to copy the ID of a user in the Android app, tap on the user's prof
 
 For example, to copy the ID of a user in the iOS app, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
 
-# Enabling developer mode
+# Enabling Developer Mode
 
 ## Desktop/Web App
 
