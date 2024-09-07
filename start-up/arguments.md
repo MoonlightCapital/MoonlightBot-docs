@@ -1,6 +1,6 @@
 # Arguments
 
-Arguments follow the name of the command and are used to give options to run the command itself. Separe each argument with a space.
+Arguments follow the name of the command and are used to give options to run the command itself. Separate each argument with a space.
 
 ![Example of a command executed successfully with all the required arguments.](<../.gitbook/assets/slashrequiredarguments.png>)
 
@@ -8,11 +8,11 @@ Arguments follow the name of the command and are used to give options to run the
 
 Required arguments need to be input for the command to work correctly. You will not be able to send the command otherwise.
 
-In this guide, required arguments are marked as `<argument>` with the angle brackets. It is important to **not put** the angle brackets in the actual command, as they are used as a placeholder to indicate an argument is required.
+In this guide, required arguments are marked as `<argument>` with the angle brackets. It is important to **not put** the angle brackets in the actual command, as they are used as a placeholder to indicate that an argument is required.
 
 ## Optional arguments
 
-Optional arguments are not needed for a command to work, but they may be used to provide additional information or add extra details to a command. In this guide, they are marked as `[argument]`, with the square bracket not needed.
+Optional arguments are not necessary for a command to work, but they may be used to provide additional information or add extra details to a command. In this guide, they are marked as `[argument]`, with the square bracket not needed.
 
 ### Optional arguments with spaces
 
@@ -24,7 +24,8 @@ They are marked with `[...argument]` in this guide. They are joined together and
 
 ### Durations
 
-Durations are a combinations of numbers and letters rappresenting units of measure of time: for example 4w5h means 4 weeks and 5 hours. Below you can see a table with all supported abbreviations.
+Durations are a combination of numbers and letters representing units of a measure of time: for example, 4w5h means 4 weeks and 5 hours.
+Below, you can see a table with all supported abbreviations.
 
 | Duration                   | Supported Abbrevations          |
 | -------------------------- | ------------------------------- |
@@ -36,7 +37,7 @@ Durations are a combinations of numbers and letters rappresenting units of measu
 | Millisecond                | ms - millisecond - milliseconds |
 
 {% hint style="warning" %}
-If no unit is specified the bot will default to millisecond
+If no unit is specified, the bot will default to millisecond
 {% endhint %}
 
 ![A duration argument.](<../.gitbook/assets/slashtypeofarguments.png>)

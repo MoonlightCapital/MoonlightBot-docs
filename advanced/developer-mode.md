@@ -1,14 +1,35 @@
-# Using developer mode
+# What is developer mode?
 
-Discord has a developer mode feature that lets you copy IDs of nearly anything that has one, such as servers, users, channels, roles... etc. You can use developer mode to greatly skim through MoonlightBot's features.
+Developer mode is a feature in Discord that allows you to copy the ID of any object in Discord, such as users, channels, roles, servers, etc. This is useful for MoonlightBot, as it allows you to provide the exact object you want to interact with, without any ambiguity.
 
 {% hint style="success" %}
 You're not required to have bot developer skills to use developer mode. It does not also hinder your normal Discord usage in any way.
 {% endhint %}
 
-## Enabling developer mode
 
-### On the Discord desktop app
+# Using developer mode
+
+To use developer mode, you need to enable it first. Instructions for enabling developer mode are provided in the next section ([Enabling developer mode](#enabling-developer-mode)).
+
+Whenever MoonlightBot asks for something like a user, chanel, etc., you can provide the ID as an argument to make sure it is pointing to exactly what you want.
+
+## Desktop/Web App
+
+To copy the ID of an object in the desktop or web app, right-click the object and click on the **Copy ID** option.
+
+## Android App
+
+For example, to copy the ID of a user in the Android app, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
+
+
+## iOS App
+
+For example, to copy the ID of a user in the iOS app, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
+
+
+# Enabling developer mode
+
+## Desktop/Web App
 
 1. Go to **User Settings** by clicking the gear icon in the bottom left of the window;
 2. Go to "**Advanced**";
@@ -16,72 +37,66 @@ You're not required to have bot developer skills to use developer mode. It does 
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/DevModeDesktopStep1.png>)
+![](<../.gitbook/assets/dev-mode/desktop/step_one.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/DevModeDesktopStep2.png>)
+![](<../.gitbook/assets/dev-mode/desktop/step_two.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/DevModeDesktopStep3.png>)
+![](<../.gitbook/assets/dev-mode/desktop/step_three.png>)
 {% endtab %}
 {% endtabs %}
 
-### On the Android app
+## Android App
 
-1. Go to **User Settings** by clicking your avatar in the bottom right corner of the channel drawer;
-2. Scroll down until the **Behavior** section;
-3. Open **Behavior**;
-4. Click on the **Developer mode** toggle and you're done!
+1. Go to **User Profile** by clicking your avatar in the bottom right corner;
+2. Click again on your avatar in the bottom right corner or on the three dots in the top right corner;
+3. Scroll down until the **Advanced** section;
+4. Open **Advanced**;
+5. Click on the **Developer Mode** toggle and you're done!
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/DevModeAndroidStep1.png>)
+![](<../.gitbook/assets/dev-mode/android/step_one.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/DevModeAndroidStep2.png>)
+![](<../.gitbook/assets/dev-mode/android/step_two.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/DevModeAndroidStep3.png>)
+![](<../.gitbook/assets/dev-mode/android/step_three.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![](<../.gitbook/assets/DevModeAndroidStep4.png>)
+![](<../.gitbook/assets/dev-mode/android/step_four.png>)
 {% endtab %}
 {% endtabs %}
 
-### On the iOS app
+### iOS App
 
-1. &#x20;Go to **User Settings** by clicking your avatar in the bottom right corner of the channel drawer;
-2. &#x20;Scroll down until the **Appearance** section;
-3. &#x20;Open **Appearance**;
-4. &#x20;Click on the **Developer Mode** toggle and you're done!
+1. Go to **User Profile** by clicking your avatar in the bottom right corner;
+2. Click again on your avatar in the bottom right corner or on the three dots in the top right corner;
+3. Scroll down until the **Advanced** section;
+4. Open **Advanced**;
+5. Click on the **Developer Mode** toggle and you're done!
 
 {% tabs %}
 {% tab title="Step 1" %}
-![](<../.gitbook/assets/DevModeIosStep1.png>)
+![](<../.gitbook/assets/dev-mode/ios/step_one.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![](<../.gitbook/assets/DevModeIosStep2.png>)
+![](<../.gitbook/assets/dev-mode/ios/step_two.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![](<../.gitbook/assets/DevModeIosStep3.png>)
+![](<../.gitbook/assets/dev-mode/ios/step_three.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![](<../.gitbook/assets/DevModeIosStep4.png>)
+![](<../.gitbook/assets/dev-mode/ios/step_four.png>)
 {% endtab %}
 {% endtabs %}
-
-## Using developer mode
-
-After you toggled developer mode nothing happened right? Well, try right clicking or going on an user's profile on mobile.
-
-![Whoa!](../.gitbook/assets/DevModeEffectsEdited.png)
-
-You can also do this for channels, roles, servers and messages. Whenever MoonlightBot asks for something like that, you can provide the ID as argument to make sure it's pointing to exactly what you want.
