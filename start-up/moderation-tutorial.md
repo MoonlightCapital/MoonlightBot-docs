@@ -4,9 +4,9 @@ This guide will give you the basic information needed to moderate your Discord s
 
 ## Command Options
 
-These are options you may use while executing moderation commands. You can find a more in-depth guide about options in the [arguments page](/start-up/arguments.md)
+These are options you may use while executing moderation commands. You can find a more in-depth guide about options in the [options page](/start-up/options.md)
 
-![A list of example options in a mute command](/.gitbook/assets/MuteArguments.png "Options Example")
+![A list of example options in a mute command](/.gitbook/assets/MuteOptions.png "Options Example")
 
 - `user`: The user to execute the moderation action on
 - `reason`: The reason for which you are taking the action, useful for record keeping. The reason shows up in infractions, logs, and notifications from the bot
@@ -18,7 +18,7 @@ These are options you may use while executing moderation commands. You can find 
 If both the `notify` and `no-infraction` options are true, the target will **not** be notified in order to prevent harassment via MoonlightBot
 {% endhint %}
 
-- `duration`: The amount of time for which the action taken will last. For information on the format used, refer to the [options page](/start-up/arguments.md#Durations)
+- `duration`: The amount of time for which the action taken will last. For information on the format used, refer to the [options page](/start-up/options.md#Durations)
 - `remove-roles`: Exclusive to the mute commands, this option will remove all of the user's roles except the muterole if true. This is to facilitate the effectiveness of the mute command
 
 {% hint style="info" %}
