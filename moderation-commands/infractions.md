@@ -12,7 +12,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## summary
 
@@ -48,7 +48,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## reason
 
-Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one
+Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one. You can alternatively use `%%%` to automatically copy the old content so you don't have to type it again
 
 ```text
 /infractions reason <id> [reason]
@@ -74,8 +74,8 @@ Shows a list of infractions that fit all the specified criteria, such as the mod
 * `target`: The user you want to see the infractions of
 * `moderator`: The infractions executed by a specific moderator
 * `type`: The type of the infractions you want to view
-* `before`: View infractions executed before this date
-* `after`: View infractions after this date
+* `before`: View infractions executed before this duration
+* `after`: View infractions after this duration
 
 ### Required permissions
 
@@ -86,6 +86,10 @@ MoonlightBot requires the following permissions to successfully execute this sub
 ## delete
 
 Deletes an infraction
+
+{% hint style="danger" %}
+This cannot be undone! Be absolutely sure that you want to delete the infraction before running this command.
+{% endhint %}
 
 ```text
 /infractions delete <id> [reason]
@@ -105,4 +109,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 * `REASON_UPDATE`: Shows the user the infraction affects, the moderator who executed it, and the updated reason
 * `INFRACTION_DELETE`: Same as above, with the reason being why the infraction was deleted
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

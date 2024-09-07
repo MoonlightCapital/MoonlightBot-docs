@@ -51,7 +51,7 @@ Infractions help staff members keep track of a user's bad conduct and make infor
 
 ### Logs
 
-When moderators execute an action such as a warn, MoonlightBot will send a message in the designated logs channel in order to keep track of moderation events. For more information on setting up logs, refer to the logs section of the [main page](/README.md)
+When moderators execute an action such as a warn, MoonlightBot will send a message in the designated logs channel in order to keep track of moderation events. For more information on setting up logs, refer to the logs section of the [main page](/README.md#logging)
 
 ![A log example containg a mute infraction](/.gitbook/assets/LogExample.png "Logs Example")
 

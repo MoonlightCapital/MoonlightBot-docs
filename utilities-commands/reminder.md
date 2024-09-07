@@ -55,7 +55,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 The `reminder delete` subcommand deletes a pending reminder.
 
 {% hint style="danger" %}
-The deletion is irreversible, and you cannot restore a deleted reminder.
+This cannot be undone! Be absolutely sure that you want to delete the reminder before running this command.
 {% endhint %}
 
 ```text

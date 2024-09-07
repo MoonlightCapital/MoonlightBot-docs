@@ -12,7 +12,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -37,4 +37,4 @@ The user will not be notified if both `notify` and `no-infraction` are set to Tr
 * `TIMEOUT_REMOVE`: This log is triggered when a user is removed from timeout. It will log the user, the responsible moderator and the reason for the timeout removal.
 * `TIMEOUT`: This log is triggered when a user is timed out. It will log the user, the responsible moderator and the reason for the timeout. If an infraction is created, it will also include the infraction ID
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

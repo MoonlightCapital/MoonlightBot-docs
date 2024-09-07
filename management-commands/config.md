@@ -23,7 +23,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Server
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](<linkToPermissionsTutorial>)
+the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## roles edit
 
@@ -68,7 +68,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 ## roles self-assignable
 
 This command allows you to set up a role to be self-assignable by users. This allows them to assign the role to
-themselves via the [`selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it
+themselves via the [`/selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it
 for them, and they can remove it themselves as well. It works on a vice versa basis.
 
 ```text
@@ -160,7 +160,7 @@ This command allows you to set up and manage groups for reaction roles. If the g
 
 {% hint style="info" %}
 For information on how to delete a group, refer to
-the [`reaction-roles`](../management-commands/reaction-roles.md#delete) command and for information on how to set up
+the [`/reaction-roles delete`](../management-commands/reaction-roles.md#delete) command and for information on how to set up
 reaction roles, refer to the [`Setting up reaction roles`](../start-up/setting-up-reaction-roles.md) tutorial.
 {% endhint %}
 
@@ -171,11 +171,11 @@ reaction roles, refer to the [`Setting up reaction roles`](../start-up/setting-u
 * `group`: The group to be configured or created
 * `join-only`: Prevents the user from removing their role(s)
 * `leave-only`: Prevents the user from assigning the role(s)
-* `reverse`: When the message is reacted on, it will remove the role instead of assigning it, and vice versa
+* `reverse`: When the message is reacted to, it will remove the role instead of assigning it, and vice versa
 * `max-roles`: The maximum amount of roles within the group a user can assign themselves
 * `dm-notification`: When a role is assigned/removed, the bot will message the user (true by default)
 * `freeze`: When true, the group will not function. This is a quick way to disable reaction roles without taking
-  irreversible actions, such as deleting group/message or removing reactions from the message
+  irreversible actions, such as deleting the group/message or removing reactions from the message
 * `duration`: How long the user will keep their assigned role(s)
 
 ### Required permissions
@@ -198,7 +198,7 @@ Note that you can make exceptions to the `mute-evasion-ban` via the
 ```
 
 * `mute-role`: The role to be used as the mute role which can be created via the
-  [`create-muterole`](../management-commands/create-muterole.md#create-muterole) command
+  [`/create-muterole`](../management-commands/create-muterole.md#create-muterole) command
 * `mute-evasion-ban`: If the bot should automatically ban anyone who sends a message and has the mute role to avoid
   punishment evasion
 * `locale`: The language to be used for the server
@@ -213,4 +213,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
