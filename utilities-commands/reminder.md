@@ -25,7 +25,7 @@ The `reminder add` subcommand allows you to write a reminder to yourself sometim
 ```
 
 - `reminder`: The reminder to be set
-- `time`: The time in the future when you will receive the reminder. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
+- `time`: The time in the future when you will receive the reminder. For more information on the duration format, refer to the [options page](../start-up/options.md#durations)
 - `recurring`: Whether the reminder will be recurring or not (True/False); uses `time` as the interval. For example, if you set the time as `3 days`, the bot will send it to you every three days until you delete it manually.
 
 ### Required permissions
@@ -55,7 +55,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 The `reminder delete` subcommand deletes a pending reminder.
 
 {% hint style="danger" %}
-The deletion is irreversible, and you cannot restore a deleted reminder.
+This cannot be undone! Be absolutely sure that you want to delete the reminder before running this command.
 {% endhint %}
 
 ```text
