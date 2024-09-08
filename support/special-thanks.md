@@ -49,6 +49,7 @@ They have contributed to writing and expanding this very documentation you're re
 - Darkfinst
 - Irisplooshi
 - Kalosianlitten
+- Miky88
 - Princess Lillie of the Stars
 
 ## Testers
@@ -81,4 +82,4 @@ They are passionate about their native language, and know that not everyone has 
 - **Turkish:** *No information available*
 - **Czech:** Esterze
 - **Russian:** Cloud
-- **Traditional Chinese:** AhMing, Lerp_Ant
+- **Traditional Chinese:** AhMing, 冰塊icecube - ic1_2, Lerp_Ant
