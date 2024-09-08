@@ -20,7 +20,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Server
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](<linkToPermissionsTutorial>)
+the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## set
 
@@ -121,4 +121,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

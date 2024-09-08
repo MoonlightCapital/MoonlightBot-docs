@@ -14,7 +14,7 @@ By default, a user is required to have the following permissions to use this com
 
 *No specific permissions required*
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](<linkToPermissionsTutorial>)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## add
 
@@ -80,7 +80,7 @@ The `reminder edit` subcommand allows you to edit a pending reminder. It asks yo
 
 - `id`: The ID of your reminder
 - `reminder`: The new content of the reminder; you can insert `%%%` to copy over the old content so you don't have to type it again.
-- `time`: How much time you would like to add or subtract to the reminder. For more information on the duration format, refer to the [arguments page](../start-up/arguments.md#durations)
+- `time`: How much time you would like to add or subtract to the reminder. For more information on the duration format, refer to the [options page](../start-up/options.md#durations)
 
 ### Required permissions
 
@@ -112,4 +112,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](<linkToLogTutorial>)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
