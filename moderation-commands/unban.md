@@ -12,11 +12,11 @@ By default, a user is required to have the following permissions to use this com
 
 * Ban Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../get-started/permission-tutorial.md)
 
 ## Syntax
 
-```text
+```
 /unban <user> [reason] [no-infraction]
 ```
 
@@ -30,4 +30,4 @@ For more information on editing permission requirements for specific users/roles
 
 * `UNBAN`: This log is triggered when a user is successfully unbanned. It will log the user, the responsible moderator and the reason for the unban. If an infraction is created, it will also include the infraction ID
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](../#logging)
