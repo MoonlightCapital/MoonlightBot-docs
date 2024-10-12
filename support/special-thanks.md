@@ -9,7 +9,6 @@ This page serves as a memorial to all of those who have contributed their time, 
 They are in charge of administrating MoonlightBot, the server, moderating conversations, running volunteer programs, and are blazing fast at answering people who need help.
 
 - Blastoise186
-- chefy
 - Darkfinst
 - Kalosianlitten
 - Irishplooshi
@@ -45,7 +44,6 @@ They have contributed to writing and expanding this very documentation you're re
 
 - Ade23
 - Blastoise186
-- chefy
 - Darkfinst
 - Irisplooshi
 - Kalosianlitten
@@ -57,7 +55,6 @@ They have contributed to writing and expanding this very documentation you're re
 They have had the opportunity to test MoonlightBot pre-releases and looked every nook and cranny for bugs, oversights and imperfection. If MoonlightBot today is working perfectly and is pleasant to use, you should thank them!
 
 - Barney2goose
-- chefy
 - Cloud
 - dpduk2021
 - I_mundercover
