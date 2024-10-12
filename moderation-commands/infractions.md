@@ -6,19 +6,19 @@ Infractions are records of moderation actions such as mutes or warnings. This to
 
 MoonlightBot requires the following permissions to successfully execute this command:
 
-_No specific permissions required_
+*No specific permissions required*
 
 By default, a user is required to have the following permissions to use this command:
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../get-started/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## summary
 
 Shows the three most recent infractions of a user, along with counts of each different infraction type. If a tempban/mute is active, it will show that as well
 
-```
+```text
 /infractions summary <user>
 ```
 
@@ -28,13 +28,13 @@ Shows the three most recent infractions of a user, along with counts of each dif
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## detailed
 
 Shows the type of infraction, the user the command targeted, who executed the infraction, the reason for the infraction, and the date it was executed
 
-```
+```text
 /infractions detailed <id>
 ```
 
@@ -44,13 +44,13 @@ Shows the type of infraction, the user the command targeted, who executed the in
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## reason
 
 Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one. You can alternatively use `%%%` to automatically copy the old content so you don't have to type it again
 
-```
+```text
 /infractions reason <id> [reason]
 ```
 
@@ -61,13 +61,13 @@ Changes the reason of the infraction. If the `reason` option is left blank, it w
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## search
 
 Shows a list of infractions that fit all the specified criteria, such as the moderator who executed them
 
-```
+```text
 /infractions search [target] [moderator] [type] [before] [after]
 ```
 
@@ -81,7 +81,7 @@ Shows a list of infractions that fit all the specified criteria, such as the mod
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## delete
 
@@ -91,7 +91,7 @@ Deletes an infraction
 This cannot be undone! Be absolutely sure that you want to delete the infraction before running this command.
 {% endhint %}
 
-```
+```text
 /infractions delete <id> [reason]
 ```
 
@@ -102,11 +102,11 @@ This cannot be undone! Be absolutely sure that you want to delete the infraction
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## Logs
 
 * `REASON_UPDATE`: Shows the user the infraction affects, the moderator who executed it, and the updated reason
 * `INFRACTION_DELETE`: Same as above, with the reason being why the infraction was deleted
 
-For more information on setting up those logs, refer to the [log setup tutorial](../#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

@@ -1,9 +1,14 @@
 # config
 
-The `config` command allows you to configure all settings for the server, such as roles, channels, reaction roles, and other customizable behavior of MoonlightBot. To get the current configuration of a setting, just use the corresponding sub command without any optional options.
+The `config` command allows you to configure all settings for the server, such as roles, channels, reaction roles,
+and other customizable behavior of MoonlightBot. To get the current configuration of a setting, just use the
+corresponding sub command without any optional options.
 
 {% hint style="info" %}
-If an option provides you with the option `Open Editor` like the option `custom-notification-text` of the [`roles on-expire`](config.md#roles-on-expire) command, it means that a modal textbox will open for you to input your desired text.\
+If an option provides you with the option `Open Editor` like the option `custom-notification-text` of
+the [`roles on-expire`](../management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
+you to input your desired text.
+<br>
 All default values are either `0`, `false` or empty for their respective options, unless stated otherwise.
 {% endhint %}
 
@@ -11,23 +16,25 @@ All default values are either `0`, `false` or empty for their respective options
 
 MoonlightBot requires the following permissions to successfully execute this command:
 
-_No specific permissions required_
+*No specific permissions required*
 
 By default, a user is required to have the following permissions to use this command:
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../get-started/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to
+the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## roles edit
 
-This command allows you to set a role to be persistent or not. A persistent role means that when the user rejoins the server, they will automatically get the role back.
+This command allows you to set a role to be persistent or not. A persistent role means that when the user rejoins the
+server, they will automatically get the role back.
 
 {% hint style="info" %}
 This command may be expanded in the future to allow for more role settings.
 {% endhint %}
 
-```
+```text
 /config roles edit <role> [persistent]
 ```
 
@@ -38,13 +45,13 @@ This command may be expanded in the future to allow for more role settings.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## roles on-expire
 
 This command allows you to set up a custom notification for when a temporary role expires.
 
-```
+```text
 /config roles on-expire <role> [notify] [custom-notification-text]
 ```
 
@@ -56,13 +63,15 @@ This command allows you to set up a custom notification for when a temporary rol
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## roles self-assignable
 
-This command allows you to set up a role to be self-assignable by users. This allows them to assign the role to themselves via the [`/selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it for them, and they can remove it themselves as well. It works on a vice versa basis.
+This command allows you to set up a role to be self-assignable by users. This allows them to assign the role to
+themselves via the [`/selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it
+for them, and they can remove it themselves as well. It works on a vice versa basis.
 
-```
+```text
 /config roles self-assignable <role> [enabled] [duration] [max-times]
 ```
 
@@ -75,13 +84,14 @@ This command allows you to set up a role to be self-assignable by users. This al
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## roles join-assignable
 
-This command allows you to set up a role to be assigned to a user when they join the server. This role can be set up to be a temporary role, and it can be set up to be assigned a maximum number of times.
+This command allows you to set up a role to be assigned to a user when they join the server. This role can be set up to
+be a temporary role, and it can be set up to be assigned a maximum number of times.
 
-```
+```text
 /config roles join-assignable <role> [enabled] [duration] [max-times]
 ```
 
@@ -94,17 +104,19 @@ This command allows you to set up a role to be assigned to a user when they join
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## roles detect-assignment
 
-This command allows you to set up a detection system for a role that is assigned to a user by another bot or a moderator. It will change the role to a temporary role and remove it after a certain duration.
+This command allows you to set up a detection system for a role that is assigned to a user by another bot or a
+moderator. It will change the role to a temporary role and remove it after a certain duration.
 
 {% hint style="warning" %}
-This setting requires that MoonlightBot has access to the audit logs to detect the assignment of roles by other bots or moderators.
+This setting requires that MoonlightBot has access to the audit logs to detect the assignment of roles by other bots or
+moderators.
 {% endhint %}
 
-```
+```text
 /config roles detect-assignment <role> [enabled] [duration] [include-bots]
 ```
 
@@ -117,36 +129,42 @@ This setting requires that MoonlightBot has access to the audit logs to detect t
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## channels
 
-This command allows you to set up in which channels MoonlightBot logs, ignores mute evasion bans, and sends ephemeral replies.
+This command allows you to set up in which channels MoonlightBot logs, ignores mute evasion bans, and sends ephemeral
+replies.
 
-```
+```text
 /config channels <channel> [logs] [ignore-mute-evasion-ban] [ephemeral-replies]
 ```
 
 * `channel`: The channel to be configured
-* `logs`: To open the editor to set up the logs. You can view the available logs under the [List of log names](../advanced/list-of-log-names.md)
-* `ignore-mute-evasion-ban`: Whether the Bot should consider messages sent in this channel to be an evasion of a mute or not (True/False)
-* `ephemeral-replies`: Whether the Bot should mark command replies as only viewable by the user who triggered the command (True/False)
+* `logs`: To open the editor to set up the logs. You can view the available logs under
+  the [List of log names](../advanced/list-of-log-names.md)
+* `ignore-mute-evasion-ban`: Whether the Bot should consider messages sent in this channel to be an evasion of a mute or
+  not (True/False)
+* `ephemeral-replies`: Whether the Bot should mark command replies as only viewable by the user who triggered the
+  command (True/False)
 
 ### Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## reaction-roles
 
 This command allows you to set up and manage groups for reaction roles. If the group does not exist, it will be created.
 
 {% hint style="info" %}
-For information on how to delete a group, refer to the [`/reaction-roles delete`](reaction-roles.md#delete) command and for information on how to set up reaction roles, refer to the [`Setting up reaction roles`](../get-started/setting-up-reaction-roles.md) tutorial.
+For information on how to delete a group, refer to
+the [`/reaction-roles delete`](../management-commands/reaction-roles.md#delete) command and for information on how to set up
+reaction roles, refer to the [`Setting up reaction roles`](../start-up/setting-up-reaction-roles.md) tutorial.
 {% endhint %}
 
-```
+```text
 /config reaction-roles <group> [join-only] [leave-only] [reverse] [max-roles] [dm-notification] [freeze] [duration]
 ```
 
@@ -156,39 +174,43 @@ For information on how to delete a group, refer to the [`/reaction-roles delete`
 * `reverse`: When the message is reacted to, it will remove the role instead of assigning it, and vice versa
 * `max-roles`: The maximum amount of roles within the group a user can assign themselves
 * `dm-notification`: When a role is assigned/removed, the bot will message the user (true by default)
-* `freeze`: When true, the group will not function. This is a quick way to disable reaction roles without taking irreversible actions, such as deleting the group/message or removing reactions from the message
+* `freeze`: When true, the group will not function. This is a quick way to disable reaction roles without taking
+  irreversible actions, such as deleting the group/message or removing reactions from the message
 * `duration`: How long the user will keep their assigned role(s)
 
 ### Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## settings
 
 This command allows you to set up the settings for the server, such as the mute role, mute evasion ban, and locale.
 
 {% hint style="info" %}
-Note that you can make exceptions to the `mute-evasion-ban` via the [`channels`](config.md#channels) subcommand.
+Note that you can make exceptions to the `mute-evasion-ban` via the
+[`channels`](../management-commands/config.md#channels) subcommand.
 {% endhint %}
 
-```
+```text
 /config settings [mute-role] [mute-evasion-ban] [locale]
 ```
 
-* `mute-role`: The role to be used as the mute role which can be created via the [`/create-muterole`](create-muterole.md#create-muterole) command
-* `mute-evasion-ban`: If the bot should automatically ban anyone who sends a message and has the mute role to avoid punishment evasion
+* `mute-role`: The role to be used as the mute role which can be created via the
+  [`/create-muterole`](../management-commands/create-muterole.md#create-muterole) command
+* `mute-evasion-ban`: If the bot should automatically ban anyone who sends a message and has the mute role to avoid
+  punishment evasion
 * `locale`: The language to be used for the server
 
 ### Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-_No specific permissions required_
+*No specific permissions required*
 
 ## Logs
 
-_This command does not trigger any log events._
+*This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](../#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

@@ -15,11 +15,11 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Messages
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../get-started/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## Syntax
 
-```
+```text
 /clean [amount] [user] [starts-with] [ends-with] [contains] [bots] [system] [preserve-pins] [no-trace]
 ```
 
@@ -39,10 +39,10 @@ For more information on editing permission requirements for specific users/roles
 
 * `CHANNEL_CLEAN`: MoonlightBot will send a message with two things: an HTML file that contains the history of the deleted messages and an embed detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied
 
-![An example of logs sent by the bot after a clean command execution](../.gitbook/assets/CleanLogs.png)
+![An example of logs sent by the bot after a clean command execution](/.gitbook/assets/CleanLogs.png "Clean Logs")
 
 {% hint style="info" %}
 Rather than rendering them like other downloadable files, Discord displays the raw content of HTML files. To download the HTML file, click the download button at the bottom-right of the file display. Double-click the file, and your computer will open a new tab in your browser to display a visualization of the messages deleted
 {% endhint %}
 
-For more information on setting up those logs, refer to the [log setup tutorial](../#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)

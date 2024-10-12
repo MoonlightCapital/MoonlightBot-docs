@@ -4,20 +4,20 @@
 
 ## Get Started
 
-* [Options](get-started/options.md)
-* [Frequently Asked Questions](get-started/faqs.md)
-* [Permission Tutorial](get-started/permission-tutorial.md)
-* [Moderation Tutorial](get-started/moderation-tutorial.md)
-* [Setting up Reaction Roles](get-started/setting-up-reaction-roles.md)
+* [Options](start-up/options.md)
+* [Frequently Asked Questions](start-up/faqs.md)
+* [Permission Tutorial](start-up/permission-tutorial.md)
+* [Moderation Tutorial](start-up/moderation-tutorial.md)
+* [Setting up Reaction Roles](start-up/setting-up-reaction-roles.md)
 
 ## Support Our Work
 
-* [Volunteer Opportunities](support-our-work/volunteering.md)
-* [Premium Subscriptions](support-our-work/premium.md)
-* [Upvote MoonlightBot](support-our-work/upvote-moonlightbot.md)
+* [Volunteer Opportunities](support/volunteering.md)
+* [Premium Subscriptions](support/premium.md)
+* [Upvote MoonlightBot](support/upvote-moonlightbot.md)
 * [Support Server](https://discord.gg/hNQWVVC)
-* [MoonlightBot Beta (early access)](support-our-work/beta.md)
-* [Special Thanks](support-our-work/special-thanks.md)
+* [MoonlightBot Beta (early access)](support/beta.md)
+* [Special Thanks](support/special-thanks.md)
 
 ## Policies
 
@@ -63,10 +63,10 @@
 
 ## Utility Commands
 
-* [reminder](utility-commands/reminder.md)
-* [serverinfo](utility-commands/serverinfo.md)
-* [snowflake](utility-commands/snowflake.md)
-* [userinfo](utility-commands/userinfo.md)
+* [reminder](utilities-commands/reminder.md)
+* [serverinfo](utilities-commands/serverinfo.md)
+* [snowflake](utilities-commands/snowflake.md)
+* [userinfo](utilities-commands/userinfo.md)
 
 ## Advanced
 
