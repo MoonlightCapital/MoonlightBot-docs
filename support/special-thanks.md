@@ -56,7 +56,6 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 
 - Barney2goose
 - Cloud
-- dpduk2021
 - I_mundercover
 - [m]
 - Oshi Tamtam
@@ -66,6 +65,7 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 
 They are passionate about their native language, and know that not everyone has the privilege of being able to speak English well, so they took their time to translate MoonlightBot to let more people enjoy and understand it. You can become one of them, too. [Find out how](volunteering.md#translator).
 
+- **Danish:** The-God-Of-Noise
 - **German:** Darkfinst, I_mundercover, [m]
 - **Latin American Spanish:** selffinS, zSnails
 - **French:** tchoupi253
