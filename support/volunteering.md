@@ -23,6 +23,8 @@ Their mission is to uncover bugs and annoyances that might hinder a smooth user 
 
 The tester community programme is currently by invitation only. To ensure a minimum standard of quality and fairness, we accept members who are on the [Support Server](https://discord.gg/hNQWVVC). It helps your chances of receiving an invitation from a Staff member if you follow the rules, send messages, and support MoonlightBot in other ways.
 
+{% hint style="info" %} When we send you an invitation, we have already done our due diligence in ensuring you already follow the requirements for the position. {% endhint %}
+
 ## Translator
 
 MoonlightBot translators assist in translating the commands, responses and messages shown when interacting with the bot.
