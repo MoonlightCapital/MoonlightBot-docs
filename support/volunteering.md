@@ -6,14 +6,14 @@ Volunteering is a nice way to show your support for our charitable activities, c
 
 ## Tester
 
-MoonlightBot testers act as the guardians of quality in the bot development process. They carefully examine new updates with a special copy of the bot, functioning as the voice of the end user.
+MoonlightBot testers act as the keepers of quality in the bot development process. They carefully examine new updates with a special copy of the bot, functioning as the voice of the end user.
 
 Their mission is to uncover bugs and annoyances that might hinder a smooth user experience, before they even reach the Beta release. This collaborative spirit ensures that issues are reported and then effectively addressed by the developer, making MoonlightBot not only functional but also enjoyable and user-friendly!
 
 ### Benefits
 
 - A colorful, prominent role in the server to show everyone you're one of us
-- MoonlightBot Premium subscription (duration varies based on your contributions)
+- MoonlightBot Premium subscription (Advanced tier, duration varies based on your contributions)
 - An opportunity to learn how to get the most from MoonlightBot - and many other Discord apps
 - Access to and testing of new features as they are developed
 - The ability to request small changes, work closely with the developer, and have a voice in important decisions
