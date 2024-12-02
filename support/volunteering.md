@@ -1,5 +1,9 @@
 # Volunteer Opportunities
 
+MoonlightBot is exclusively ran by volunteers - yes, even the developer - and we will be glad to accept you as part of our team! No coding skills required. In this page, you will find all the positions and tasks we are looking for.
+
+Volunteering is a nice way to show your support for our charitable activities, connect with the community, and hone your server management skills. We offer generous benefits for all our volunteers akin to those of Premium subscribers.
+
 ## Tester
 
 MoonlightBot testers act as the guardians of quality in the bot development process. They carefully examine new updates with a special copy of the bot, functioning as the voice of the end user.
