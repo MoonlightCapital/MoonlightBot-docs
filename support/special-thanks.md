@@ -22,6 +22,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 ### Advanced Members
 
 - 7alisman/TonyM - HF
+- NXTCY
 
 ### Lifetime Members
 
