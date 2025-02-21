@@ -36,7 +36,7 @@ MoonlightBot uses Discord's built-in permissions system to configure who should 
 
 ## Logging
 
-The bot has configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
+MoonlightBot offers configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
 ```
 /config channels channel:LOG-CHANNEL logs:Open editor
 ```
@@ -46,7 +46,7 @@ It will ask you for the log actions, and you can enter your choice of items or c
 
 ## Mute Setup
 
-The bot can mute users both temporarily and permanently. To use mute features, use the command
+MoonlightBot can mute users both temporarily and permanently. To use mute features, use the command
 ```
 /create-muterole
 ```
@@ -58,7 +58,7 @@ You should now be able to use [`/mute`](./moderation-commands/mute.md),  [`/temp
 
 ## Changing the Bot's Language
 
-The bot supports multiple languages in its responses. This can be set globally for the server, or specifically for you. You can set this by using
+MoonlightBot supports multiple languages for its commands and responses. This can be set globally for the server, or specifically for you. You can set this by using
 ```
 /config settings locale:LANG
 ```
