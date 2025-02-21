@@ -11,7 +11,7 @@ If the problem persists, please [contact support](https://discord.gg/hNQWVVC).
 
 ## MoonlightBot is sending me offensive direct messages. What can I do?
 
-This is happening because someone is abusing the infraction system to harass you. Our Staff does not tolerate this use at all. Please report it at the [support server](https://discord.gg/hNQWVVC).
+This is happening because someone is abusing the infraction system to harass you. Our Staff does not tolerate this use at all. Please report it in the [support server](https://discord.gg/hNQWVVC).
 
 ## How does the temprole feature work?
 
@@ -22,6 +22,7 @@ There are different types of temprole offered:
 * [Join-assigned temproles](../management-commands/config.md#roles-join-assignable) that assign a role automatically to a user upon joining the server
 * [Reaction roles](setting-up-reaction-roles.md) have an option to make their roles temporary
 * Any role assigned to a user can automatically be changed to a temporary role with the [`roles detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
+* The [`/pause-role`](../role-management-commands/pause-role.md) command does the opposite thing! It removes a role and automatically adds it back after the duration set
 
 ## How do I cancel a temporary action?
 
@@ -31,7 +32,7 @@ You can cancel a temporary action to force an immediate expiration by using the 
 /temprole user:<user> role:<role> duration:-3d
 ```
 
-Any value lower than `-3d` will work as well. This same principle applies to the `/tempban`, `/tempmute`, and `/timeout` commands.
+Any value lower than `-3d` will work as well. This same principle applies to the `/tempban`, `/tempmute`, `/timeout` and `/pause-role` commands.
 
 ## How does the temprole sustain mechanic work?
 
@@ -39,17 +40,17 @@ In order to encourage good support practices, a system has been introduced for s
 
 When operating a temporary or pause role, you must satisfy at least one of the following conditions:
 
-1. **Maximum Duration Consistency**: The maximum duration allowed for you at the time of the role's expiration must be equal to or greater than their maximum duration allowed at the time the role was added
+1. **Maximum Duration Consistency**: The [maximum duration allowed](../miscellaneous-commands/check-duration.md) for you at the time of the role's expiration must be equal to or greater than their maximum duration allowed at the time the role was added
 
-2. **Vote Requirement**: The [number of votes](../support/upvote-moonlightbot.md) received from you must be equal to or greater than half the number of days the temporary role lasts, rounded up. For example, a 30-day temprole requires at least 15 votes to be sustained
+2. **Vote Requirement**: The [number of votes](../support/upvote-moonlightbot.md) received from you must be equal to or greater than half the number of days the temporary role lasts, rounded up. For example, a 30-day temprole meets this requirement if you have cast at least 15 votes after its beginning. Each vote counts towards **all** of your active temporary/pause roles
 
 3. **Premium Instance**: The server uses a [MoonlightBot Premium instance](../support/premium.md) (Advanced tier or higher)
 
-4. **Be Exempted**: You must have requested and received an exemption from the above requirements from bot Staff
+4. **Be Exempted**: You must have requested and received an exemption from the above requirements from bot Staff. Simply ask in the support channel and they will guide you through the exemption process
 
 If none of these conditions are met, the operation at the end of expiration will not be executed. You can check if your temproles are sustained with [`/list-temproles`](../role-management-commands/list-temproles.md).
 
-If someone is threatening to stop sustaining temproles to damage your server, [contact support](https://discord.gg/hNQWVVC). We will begin investigating the threat and will work to prevent damage to your server.
+If someone is threatening to stop sustaining temproles to damage your server, [contact support](https://discord.gg/hNQWVVC). We will begin investigating the threat and will work to prevent abuse towards your server.
 
 ## Will my temproles be erased if bot downtime happens?
 
@@ -69,7 +70,7 @@ MoonlightBot is owned by MoonlightCapital. With tag `moonlightcapital` and ID `2
 
 ## How can I get access to new features early?
 
-Take a look at the [Beta](../support/beta.md) version of MoonlightBot.
+Take a look at the [Beta](../support/beta.md) version of MoonlightBot. We also have a more advanced [Tester Program](../support/volunteering.md#tester).
 
 ## I found a bug. How do I report it?
 
