@@ -76,8 +76,8 @@ They are passionate about their native language, and know that not everyone has 
 - **Lithuanian:** MoonlightCapital
 - **Dutch:** *No information available*
 - **Norwegian:** Catus
-- **Brazilian Portuguese:** *No information available*
+- **Brazilian Portuguese:** LK4z
 - **Turkish:** *No information available*
 - **Czech:** Esterze
 - **Russian:** Cloud
-- **Traditional Chinese:** AhMing, 冰塊icecube - ic1_2, Lerp_Ant
+- **Traditional Chinese:** AhMing, Lerp_Ant
