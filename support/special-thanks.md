@@ -74,7 +74,7 @@ They are passionate about their native language, and know that not everyone has 
 - **Korean:** mars, Yuria
 - **Italian:** Miky88, MoonlightCapital
 - **Lithuanian:** MoonlightCapital
-- **Dutch:** *No information available*
+- **Dutch:** AmmoKa
 - **Norwegian:** Catus
 - **Brazilian Portuguese:** LK4z
 - **Turkish:** *No information available*
