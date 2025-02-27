@@ -38,6 +38,7 @@ They are [boosting](https://support.discord.com/hc/en-us/articles/360028038352-S
 - Irisplooshi
 - Kalosianlitten
 - Miky88
+- Raulix64 - it’s Connections ⚡️
 
 ## Documentation Writers
 
@@ -69,7 +70,7 @@ They are passionate about their native language, and know that not everyone has 
 - **Danish:** The-God-Of-Noise
 - **German:** Darkfinst, I_mundercover, [m]
 - **Latin American Spanish:** selffinS, zSnails
-- **French:** tchoupi253
+- **French:** Michael Ngeleka, tchoupi253, Teren
 - **Hindi:** Sai Mehar
 - **Korean:** mars, Yuria
 - **Italian:** Miky88, MoonlightCapital
