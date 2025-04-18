@@ -30,15 +30,15 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 
 {% tabs %}
 {% tab title="Step 1" %}
-![Image depicting step one on desktop](<../.gitbook/assets/dev-mode/desktop/step_one.png>)
+![Image depicting step one on desktop](<../.gitbook/assets/dev-mode/desktop/StepOne.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![Image depicting step two on desktop](<../.gitbook/assets/dev-mode/desktop/step_two.png>)
+![Image depicting step two on desktop](<../.gitbook/assets/dev-mode/desktop/StepTwo.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![Image depicting step three on desktop](<../.gitbook/assets/dev-mode/desktop/step_three.png>)
+![Image depicting step three on desktop](<../.gitbook/assets/dev-mode/desktop/StepThree.png>)
 {% endtab %}
 {% endtabs %}
 
