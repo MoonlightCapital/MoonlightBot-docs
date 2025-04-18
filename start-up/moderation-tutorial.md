@@ -11,9 +11,9 @@ These are options you may use while executing moderation commands. You can find 
 - `user`: The user to execute the moderation action on
 - `reason`: The reason for which you are taking the action, useful for record keeping. The reason shows up in infractions, logs, and notifications from the bot
 - `notify`: Whether or not the bot will message the user after the command is executed, as shown below
-
-![An example of a notification from the bot](/.gitbook/assets/NotifyExample.png "Notify Example")
-
+<div style="text-align: center;">
+    <img src="/.gitbook/assets/NotifyExample.png" alt="Notify Example" title="Notify Example" />
+</div>
 - `no-infraction`: Whether or not the command will count towards the user's infractions
 
 {% hint style="info" %}
@@ -36,9 +36,10 @@ These features help ensure a seamless moderation experience with MoonlightBot
 ### User IDs
 
 A user ID is a string of numbers that is unique to a Discord account. Unlike usernames, the user ID cannot be changed, which is useful for various purposes, such as locating a user (even if they have changed their username to avoid detection) and executing commands for a user who has left the server. A great place to use IDs is the search bar, located at the top of the page.
-
+<div style="text-align: center;">
+    <img src="/.gitbook/assets/NotifyExample.png" alt="Search Bar" title="Search Bar" style="width: auto;" />
+</div>
 ![The search bar at the top of the page](/.gitbook/assets/SearchBar.png "Search Bar")
-
 To access user IDs, it is recommended that you enable [Developer Mode](/advanced/developer-mode.md), but MoonlightBot also displays user IDs next to usernames in command outputs
 
 ### Infractions
