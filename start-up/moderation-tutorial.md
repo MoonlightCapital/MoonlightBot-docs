@@ -34,7 +34,7 @@ These features help ensure a seamless moderation experience with MoonlightBot
 ### User IDs
 
 A user ID is a string of numbers that is unique to a Discord account. Unlike usernames, the user ID cannot be changed, which is useful for various purposes, such as locating a user (even if they have changed their username to avoid detection) and executing commands for a user who has left the server. A great place to use IDs is the search bar, located at the top of the page.
-![The search bar at the top of the page](/.gitbook/assets/searchBar.jpg "Search Bar")
+![The search bar at the top of the page](/.gitbook/assets/SearchBar.png "Search Bar")
 To access user IDs, it is recommended that you enable [Developer Mode](/advanced/developer-mode.md), but MoonlightBot also displays user IDs next to usernames in command outputs
 
 ### Infractions

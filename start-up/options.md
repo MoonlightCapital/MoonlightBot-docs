@@ -2,7 +2,7 @@
 
 Options follow the name of the command and are used to give options to run the command itself. Separate each option with a space.
 
-![Example of a command executed successfully with all the required option.](<../.gitbook/assets/slashrequiredoptions.png>)
+![Example of a command executed successfully with all the required option.](<../.gitbook/assets/RequiredOptions.png>)
 
 ## Required options
 
@@ -14,7 +14,7 @@ In this guide, required options are marked as `<option>` with the angle brackets
 
 Optional options are not necessary for a command to work, but they may be used to provide additional information or add extra details to a command. In this guide, they are marked as `[option]`, with the square bracket not needed.
 
-![The reason for the warning is optional.](<../.gitbook/assets/slashoptionaloptions.png>)
+![The reason for the warning is optional.](<../.gitbook/assets/OptionalOptions.png>)
 
 ## Type of options
 
@@ -36,9 +36,9 @@ Below, you can see a table with all supported abbreviations.
 If no unit is specified, the bot will default to millisecond
 {% endhint %}
 
-![A duration options.](<../.gitbook/assets/slashtypeofoptions.png>)
+![A duration options.](<../.gitbook/assets/OptionTypes1.png>)
 
-![Another example of duration. As you can see, you can extend or reduce the length to a temporary role by adding or substracting time to it.](<../.gitbook/assets/slashtypeofoptions2.png>)
+![Another example of duration. As you can see, you can extend or reduce the length to a temporary role by adding or substracting time to it.](<../.gitbook/assets/OptionTypes2.png>)
 
 ### Entity IDs
 
