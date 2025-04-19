@@ -4,11 +4,11 @@ Welcome to the documentation for MoonlightBot! MoonlightBot is a powerful modera
 
 ## Getting Started
 
-First, add the bot to your server using [this invite link](https://discord.com/api/oauth2/authorize?client_id=314110696071888896&permissions=1512298638534&scope=applications.commands%20bot). It's recommended (but not required) that you grant it all permissions it requests, so all its features will work correctly.
+First, add MoonlightBot to your server using [this invite link](https://discord.com/api/oauth2/authorize?client_id=314110696071888896&permissions=1512298638534&scope=applications.commands%20bot). It is recommended (but not required) that you grant all requested permissions to ensure all features work correctly.
 
 {% hint style="info" %} You can only add bots to servers in which you have the Manage Server permission. {% endhint %}
 
-Once you've added it to your server, you can verify that it's working by using the [`/ping`](./miscellaneous-commands/other-minor-commands.md#ping) command.
+Once you've added MoonlightBot to your server, you can verify that it's working by using the [`/ping`](./miscellaneous-commands/other-minor-commands.md#ping) command.
 
 ![Result of /ping command](./.gitbook/assets/MainPagePing.png)
 
@@ -16,7 +16,7 @@ If this is your first time using MoonlightBot, you'll receive a Direct Message w
 
 ![Welcome message](./.gitbook/assets/MainPageWelcome.png)
 
-We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server moderators and administrators once you've configured the bot.
+We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server staff once you've finished configuring MoonlightBot.
 
 ## Temporary Roles
 
@@ -32,7 +32,7 @@ The bot can assign and remove specified roles to a user temporarily.
 
 ## Command Permissions
 
-MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set up by default, and all commands can have overrides for specific roles or users. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
+MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set up by default, and overrides for specific users and roles can be applied to all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
 
 ## Logging
 
@@ -50,7 +50,7 @@ MoonlightBot can mute users both temporarily and permanently. Use the command
 ```
 /create-muterole
 ```
-to set up a new `Muted` role with the correct permissions, or to specify a pre-existing role to be used.
+to set up a new `@Muted` role with the correct permissions, or to specify an existing role to be used.
 
 ![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
 
@@ -68,9 +68,9 @@ for server-wide configuration, or
 ```
 for user-specific configuration, where `LANG` is the language you want MoonlightBot to respond in.
 
-A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales). Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
+A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
-{% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and some may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md">please consider becoming a translator!</a> {% endhint %}
+{% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md">please consider becoming a translator!</a> {% endhint %}
 
 ## Support the Development of MoonlightBot
 
