@@ -8,7 +8,7 @@ First, add the bot to your server using [this invite link](https://discord.com/a
 
 {% hint style="info" %} You can only add bots to servers in which you have the Manage Server permission. {% endhint %}
 
-Once you've added it to your server, you can verify that it's working by using the `/ping` command, which simply checks the bot's latency.
+Once you've added it to your server, you can verify that it's working by using the [`/ping`](./miscellaneous-commands/other-minor-commands.md#ping) command.
 
 ![Result of /ping command](./.gitbook/assets/MainPagePing.png)
 
@@ -16,7 +16,7 @@ If this is your first time using MoonlightBot, you'll receive a Direct Message w
 
 ![Welcome message](./.gitbook/assets/MainPageWelcome.png)
 
-We suggest that you also review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server moderators and administrators following the configuration of the bot.
+We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server moderators and administrators once you've configured the bot.
 
 ## Temporary Roles
 
@@ -32,33 +32,33 @@ The bot can assign and remove specified roles to a user temporarily.
 
 ## Command Permissions
 
-MoonlightBot uses Discord's built-in permissions system to configure who should and should not be able to execute certain commands. Some commands have required permissions set up by default, and all commands can have permissions overridden for specific roles or users. To set up permissions properly, follow the [Permission Tutorial](./start-up/permission-tutorial.md).
+MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set up by default, and all commands can have overrides for specific roles or users. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
 
 ## Logging
 
-MoonlightBot offers configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
+MoonlightBot offers highly-configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
 ```
 /config channels channel:LOG-CHANNEL logs:Open editor
 ```
 where `LOG-CHANNEL` is the channel you want logs posted to.
 
-It will ask you for the log actions, and you can enter your choice of items or categories from the [list of log names](./advanced/list-of-log-names.md) or simply enter an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
+An editor will open where you can enter items or categories from the [list of log names](./advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
 
 ## Mute Setup
 
-MoonlightBot can mute users both temporarily and permanently. To use mute features, use the command
+MoonlightBot can mute users both temporarily and permanently. Use the command
 ```
 /create-muterole
 ```
-to automatically create a mute role with the correct permissions. You can specify a role to be used, or leave it blank and the bot will automatically create a new role.
+to set up a new `Muted` role with the correct permissions, or to specify a pre-existing role to be used.
 
 ![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
 
-You should now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
+You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
 
 ## Changing the Bot's Language
 
-MoonlightBot supports multiple languages for its commands and responses. This can be set globally for the server, or specifically for you. You can set this by using
+MoonlightBot supports multiple languages for its commands and responses, and can be set server-wide or per-user. Set the language using
 ```
 /config settings locale:LANG
 ```
@@ -68,14 +68,14 @@ for server-wide configuration, or
 ```
 for user-specific configuration, where `LANG` is the language you want MoonlightBot to respond in.
 
-You can find a list of all valid languages [on the Discord Developer Portal](https://discord.com/developers/docs/reference#locales). Locale, Language Name, and Native Name are all valid inputs. You can also use `auto` and MoonlightBot will attempt to auto-detect your preferred language from your Discord settings.
+A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales). Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
 {% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and some may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md">please consider becoming a translator!</a> {% endhint %}
 
 ## Support the Development of MoonlightBot
 
-MoonlightBot is run and maintained by volunteers, and is currently funded entirely by [Premium Subscriptions](./support/premium.md). These subscriptions help us fund hosting and give you great benefits, making them a fantastic way to support us. You can also help by [upvoting the bot](./support/upvote-moonlightbot.md) on bot lists or by [joining our team of testers, translators, and documentation writers](./support/volunteering.md).
+MoonlightBot is run and maintained by volunteers, and is funded entirely by [Premium Subscriptions](./support/premium.md). These subscriptions help us fund hosting and give you great benefits, making them a fantastic way to support us. You can also help by [upvoting the bot](./support/upvote-moonlightbot.md) on bot lists or by [joining our team of testers, translators, and documentation writers](./support/volunteering.md).
 
 ## Questions? Problems?
 
-Please [read the Frequently Asked Questions first](./start-up/faqs.md) to see if your question or problem is answered there. If your question or problem is still unanswered, [join the support server](https://discord.gg/hNQWVVC) and we will help you as best we can!
+Please read the [Frequently Asked Questions](./start-up/faqs.md) first to see if your question or problem is answered there. If your question or problem is still unanswered, [join the support server](https://discord.gg/hNQWVVC) and we will help you as best we can!
