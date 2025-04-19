@@ -1,6 +1,6 @@
 # MoonlightBot Documentation
 
-Welcome to the documentation for MoonlightBot! MoonlightBot is a powerful moderation bot for Discord with a focus on user-friendliness and efficiency. It's simple to use and easy to set up, and is run and maintained entirely by volunteers. This documentation will teach you everything you need to know to use it to its fullest potential.
+Welcome to the documentation for MoonlightBot! MoonlightBot is a powerful moderation bot for Discord with a focus on user-friendliness and efficiency. It's simple to use and easy to set up, and is run and maintained entirely by volunteers. This documentation will teach you everything you need to know to use MoonlightBot to its fullest potential.
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ The bot can assign and remove specified roles to a user temporarily.
 
 ## Command Permissions
 
-MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set up by default, and overrides for specific users and roles can be applied to all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
+MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set by default, and overrides for specific users and roles can be applied to all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
 
 ## Logging
 
@@ -74,7 +74,7 @@ A list of supported languages is available on the [Discord Developer Portal](htt
 
 ## Support the Development of MoonlightBot
 
-MoonlightBot is run and maintained by volunteers, and is funded entirely by [Premium Subscriptions](./support/premium.md). These subscriptions help us fund hosting and give you great benefits, making them a fantastic way to support us. You can also help by [upvoting the bot](./support/upvote-moonlightbot.md) on bot lists or by [joining our team of testers, translators, and documentation writers](./support/volunteering.md).
+MoonlightBot is run and maintained by volunteers, and is funded entirely by [Premium Subscriptions](./support/premium.md). These subscriptions help us fund hosting and give you great benefits, making them a fantastic way to support us. You can also help by [upvoting the bot](./support/upvote-moonlightbot.md) or by [joining our team of testers, translators, and documentation writers](./support/volunteering.md).
 
 ## Questions? Problems?
 
