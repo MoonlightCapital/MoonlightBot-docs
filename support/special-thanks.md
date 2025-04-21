@@ -79,7 +79,7 @@ They are passionate about their native language, and know that not everyone has 
 - **Dutch:** AmmoKa
 - **Norwegian:** catus
 - **Brazilian Portuguese:** LK4z
-- **Turkish:** *No information available*
+- **Turkish:** *catus*
 - **Czech:** Esterze
 - **Russian:** Cloud
 - **Traditional Chinese:** AhMing, Lerp_Ant
