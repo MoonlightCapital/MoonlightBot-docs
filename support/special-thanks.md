@@ -16,6 +16,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 - MoonlightCapital
 - Princess Lillie of the Stars
 - Samplasion
+- catus
 
 ## Premium Subscribers
 
@@ -72,11 +73,11 @@ They are passionate about their native language, and know that not everyone has 
 - **Latin American Spanish:** selffinS, zSnails
 - **French:** Michael Ngeleka, tchoupi253, Teren
 - **Hindi:** Sai Mehar
-- **Korean:** mars, Yuria
+- **Korean:** mars
 - **Italian:** Miky88, MoonlightCapital
 - **Lithuanian:** MoonlightCapital
 - **Dutch:** AmmoKa
-- **Norwegian:** Catus
+- **Norwegian:** catus
 - **Brazilian Portuguese:** LK4z
 - **Turkish:** *No information available*
 - **Czech:** Esterze
