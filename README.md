@@ -16,7 +16,7 @@ If this is your first time using MoonlightBot, you'll receive a Direct Message w
 
 ![Welcome message](./.gitbook/assets/MainPageWelcome.png)
 
-We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server staff once you've finished configuring MoonlightBot.
+We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server moderators and administrators once you've finished configuring MoonlightBot.
 
 ## Temporary Roles
 
