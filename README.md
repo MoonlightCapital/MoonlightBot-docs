@@ -44,17 +44,35 @@ where `LOG-CHANNEL` is the channel you want logs posted to.
 
 An editor will open where you can enter items or categories from the [list of log names](./advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
 
+![Log editor popup](./.gitbook/assets/LogEditor.png)
+
 ## Mute Setup
 
 MoonlightBot can mute users both temporarily and permanently. Use the command
 ```
 /create-muterole
 ```
-to set up a new `@Muted` role with the correct permissions, or to specify an existing role to be used.
+to set up a mute role. Specifying the `role` [option](./start-up/options.md) allows you to set up an existing role, or you can leave it out to create a new `@Muted` role.
 
 ![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
 
 You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
+
+## Evasion Bans
+
+Evasions bans are a fallback moderation feature to ensure muted users cannot abuse improperly configured channels. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
+```
+/config settings mute-evasion-ban:True
+```
+All channels will now be monitored for new messages sent by muted users. To create an exception to the evasion ban and allow muted users to talk in a channel, use
+```
+/config channels channel:IGNORED-CHANNEL ignore-mute-evasion-ban:True
+```
+where `IGNORED-CHANNEL` is the channel you want ignored.
+
+It is recommended to set up at least one [logging channel](./README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
+
+![Ban log of an evasion ban](./.gitbook/assets/EvasionBanLog.png)
 
 ## Changing the Bot's Language
 
