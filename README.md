@@ -60,7 +60,7 @@ You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmu
 
 ## Evasion Bans
 
-Evasions bans are a fallback moderation feature to ensure muted users cannot abuse improperly configured channels. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
+Evasions bans are a fallback moderation feature to ensure muted users cannot abuse improperly configured permissions. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
 ```
 /config settings mute-evasion-ban:True
 ```
