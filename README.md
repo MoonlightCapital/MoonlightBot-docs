@@ -85,7 +85,7 @@ All channels will now be monitored for new messages sent by muted members. To cr
 ```
 /config channels channel:IGNORED-CHANNEL ignore-mute-evasion-ban:True
 ```
-where `IGNORED-CHANNEL` is the channel you want ignored.
+where `IGNORED-CHANNEL` is the channel you want ignored. Ignoring a channel will also ignore threads made in the channel.
 
 It is recommended to set up at least one [logging channel](./README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
 
