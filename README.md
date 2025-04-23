@@ -18,62 +18,6 @@ If this is your first time using MoonlightBot, you'll receive a Direct Message w
 
 We also suggest that you review the [Moderation Tutorial](./start-up/moderation-tutorial.md) and share it with your server moderators and administrators once you've finished configuring MoonlightBot.
 
-## Temporary Roles
-
-The bot can assign and remove specified roles to a user temporarily.
-
-* You can assign or remove a temporary role to a user with [`/temprole`](./role-management-commands/temprole.md)
-* All temporary roles currently active in the server can be listed with [`/list-temproles`](./role-management-commands/list-temproles.md)
-* You can permanently assign or remove any role to a user with [`/role`](./role-management-commands/role.md)
-* Users can assign and remove selected roles to themselves with [`/selfrole`](./role-management-commands/selfrole.md)
-* You also have the option of using [Reaction Roles](./start-up/setting-up-reaction-roles.md) in place of the `/selfrole` command
-* A role assigned to a user can automatically be changed to a temporary role with the [`roles detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
-* Any role assigned to a user can also be temporarily removed with [`/pause-role`](./role-management-commands/pause-role.md)
-
-## Command Permissions
-
-MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set by default, and overrides for specific users and roles can be applied to all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
-
-## Logging
-
-MoonlightBot offers highly-configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
-```
-/config channels channel:LOG-CHANNEL logs:Open editor
-```
-where `LOG-CHANNEL` is the channel you want logs posted to.
-
-An editor will open where you can enter items or categories from the [list of log names](./advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
-
-![Log editor popup](./.gitbook/assets/LogEditor.png)
-
-## Mute Setup
-
-MoonlightBot can mute users both temporarily and permanently. Use the command
-```
-/create-muterole
-```
-to set up a mute role. Specifying the `role` [option](./start-up/options.md) allows you to set up an existing role, or you can leave it out to create a new `@Muted` role.
-
-![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
-
-You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
-
-## Evasion Bans
-
-Evasions bans are a fallback moderation feature to ensure muted users cannot abuse improperly configured permissions. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
-```
-/config settings mute-evasion-ban:True
-```
-All channels will now be monitored for new messages sent by muted users. To create an exception to the evasion ban and allow muted users to talk in a channel, use
-```
-/config channels channel:IGNORED-CHANNEL ignore-mute-evasion-ban:True
-```
-where `IGNORED-CHANNEL` is the channel you want ignored.
-
-It is recommended to set up at least one [logging channel](./README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
-
-![Ban log of an evasion ban](./.gitbook/assets/EvasionBanLog.png)
-
 ## Changing the Bot's Language
 
 MoonlightBot supports multiple languages for its commands and responses, and can be set server-wide or per-user. Set the language using
@@ -89,6 +33,72 @@ for user-specific configuration, where `LANG` is the language you want Moonlight
 A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
 {% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md">please consider becoming a translator!</a> {% endhint %}
+
+## Temporary Roles
+
+The bot can assign and remove specified roles to a user temporarily.
+
+* You can assign or remove a temporary role to a user with [`/temprole`](./role-management-commands/temprole.md)
+* All temporary roles currently active in the server can be listed with [`/list-temproles`](./role-management-commands/list-temproles.md)
+* You can permanently assign or remove any role to a user with [`/role`](./role-management-commands/role.md)
+* Users can assign and remove selected roles to themselves with [`/selfrole`](./role-management-commands/selfrole.md)
+* You also have the option of using [Reaction Roles](./start-up/setting-up-reaction-roles.md) in place of the `/selfrole` command
+* A role assigned to a user can automatically be changed to a temporary role with the [`roles detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
+* Any role assigned to a user can also be temporarily removed with [`/pause-role`](./role-management-commands/pause-role.md)
+
+## Command Permissions
+
+MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set by default, and overrides for specific members and roles can be applied to any and all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
+
+## Logging
+
+MoonlightBot offers highly-configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
+```
+/config channels channel:LOG-CHANNEL logs:Open editor
+```
+where `LOG-CHANNEL` is the channel you want logs posted to.
+
+An editor will open where you can enter items or categories from the [list of log names](./advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
+
+![Log editor popup](./.gitbook/assets/LogEditor.png)
+
+## Mute Setup
+
+MoonlightBot can mute members both temporarily and permanently. Use the command
+```
+/create-muterole
+```
+to set up a mute role. Specifying the `role` [option](./start-up/options.md) allows you to set up an existing role, or you can leave it out to create a new `@Muted` role.
+
+![Result of /create-muterole command](./.gitbook/assets/MainPageMuterole.png)
+
+You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmute`](./moderation-commands/tempmute.md), and [`/unmute`](./moderation-commands/unmute.md).
+
+## Evasion Bans
+
+**Evasion Bans required Premium. [Vote for MoonlightBot](./support/upvote-moonlightbot.md) to receive a renewable free trial of premium!**
+Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
+```
+/config settings mute-evasion-ban:True
+```
+All channels will now be monitored for new messages sent by muted members. To create an exception to the evasion ban and allow muted members to talk in a channel, use
+```
+/config channels channel:IGNORED-CHANNEL ignore-mute-evasion-ban:True
+```
+where `IGNORED-CHANNEL` is the channel you want ignored.
+
+It is recommended to set up at least one [logging channel](./README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
+
+![Ban log of an evasion ban](./.gitbook/assets/EvasionBanLog.png)
+
+To troubleshoot why the muted member was able to send a message in the unintended channel, check the following:
+
+* Does the muted role have the `Send messages` permission?
+  * Check in Server Settings > Roles > [Your Mute Role] > Permissions; If so, disable it.
+* Does the muted role have a category-specific override with the `Send messages` permission?
+  * Check by Right Clicking on the Channel's Category > Edit Category > Permissions; If so, remove the role override or disable the permission.
+* Does the muted role have a channel-specific override, or is the channel not synced to the category?
+  * Check by Right Clicking on the Channel > Edit Channel > Permissions; If so, sync the channel to the category, remove the override or disable the permission.
 
 ## Support the Development of MoonlightBot
 
