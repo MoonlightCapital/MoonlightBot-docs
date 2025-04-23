@@ -76,7 +76,8 @@ You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmu
 
 ## Evasion Bans
 
-**Evasion Bans required Premium. [Vote for MoonlightBot](./support/upvote-moonlightbot.md) to receive a renewable free trial of premium!**
+{% hint style="info" %} Evasion Bans required Premium. <a href="./support/upvote-moonlightbot.md">Vote for MoonlightBot</a> to receive a renewable free trial of premium! {% endhint %}
+
 Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
 ```
 /config settings mute-evasion-ban:True
@@ -90,15 +91,6 @@ where `IGNORED-CHANNEL` is the channel you want ignored. Ignoring a channel will
 It is recommended to set up at least one [logging channel](./README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
 
 ![Ban log of an evasion ban](./.gitbook/assets/EvasionBanLog.png)
-
-To troubleshoot why the muted member was able to send a message in the unintended channel, check the following:
-
-* Does the muted role have the `Send messages` permission?
-  * Check in Server Settings > Roles > [Your Mute Role] > Permissions; If so, disable it.
-* Does the muted role have a category-specific override with the `Send messages` permission?
-  * Check by Right Clicking on the Channel's Category > Edit Category > Permissions; If so, remove the role override or disable the permission.
-* Does the muted role have a channel-specific override, or is the channel not synced to the category?
-  * Check by Right Clicking on the Channel > Edit Channel > Permissions; If so, sync the channel to the category, remove the override or disable the permission.
 
 ## Support the Development of MoonlightBot
 
