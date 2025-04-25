@@ -76,7 +76,7 @@ You will now be able to use [`/mute`](./moderation-commands/mute.md),  [`/tempmu
 
 ## Evasion Bans
 
-{% hint style="info" %} Evasion Bans required Premium. <a href="./support/upvote-moonlightbot.md">Vote for MoonlightBot</a> to receive a renewable free trial of premium! {% endhint %}
+{% hint style="info" %} Evasion Bans can only be set up with <a href="./support/premium.md">MoonlightBot Premium</a>. If you think this feature can help you, <a href="./support/upvote-moonlightbot.md">vote for MoonlightBot</a> to earn an infinitely extendable free trial. {% endhint %}
 
 Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
 ```
