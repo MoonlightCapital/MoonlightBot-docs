@@ -48,7 +48,7 @@ For more information on setting up those logs, refer to the [log setup tutorial]
 
 ## Troubleshooting
 
-To troubleshoot why a muted member was able to send a message in an unintended channel, check the following:
+To troubleshoot why a muted member was able to send a message in an unintended channel despite having the role set up, check the following:
 
 * Does the muted role have the `Send messages` permission?
   * Check in Server Settings > Roles > [Your Mute Role] > Permissions; If so, disable it.
