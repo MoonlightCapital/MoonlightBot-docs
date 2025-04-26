@@ -48,6 +48,7 @@ They have contributed to writing and expanding this very documentation you're re
 - Blastoise186
 - Darkfinst
 - Irisplooshi
+- JSP
 - Kalosianlitten
 - Miky88
 - Princess Lillie of the Stars

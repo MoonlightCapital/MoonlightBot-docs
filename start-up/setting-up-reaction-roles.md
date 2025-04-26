@@ -67,13 +67,13 @@ To do this, you simply need to follow the following steps:
 2. Select the "`Apps`" option.
 3. Select "`Apply Reaction Roles`"&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup3.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/ReactionRoleSetup3.png" alt="" width="375"></figure>
 4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one you want to use.&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup4.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/ReactionRoleSetup4.png" alt="" width="375"></figure>
 5. And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions.&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup5.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/ReactionRoleSetup5.png" alt="" width="375"></figure>
 
 If you add more roles later on, you can use this command again to refresh the reactions.
 

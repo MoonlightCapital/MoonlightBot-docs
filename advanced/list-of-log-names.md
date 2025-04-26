@@ -14,6 +14,8 @@ This category is to log actions taken by moderators. Most of them are triggered 
 
 | Name              | Emitted when     |
 | ----------------- | ---------------- |
+| AUDIT_BAN_ADD     | A user is banned without using MoonlightBot |
+| AUDIT_KICK        | A user is kicked without using MoonlightBot |
 | BAN               | A user [gets banned](../moderation-commands/ban.md) |
 | INFRACTION_DELETE | A moderator [deletes an infraction](../moderation-commands/infractions.md)|
 | KICK              | A user [gets kicked](../moderation-commands/kick.md) |
