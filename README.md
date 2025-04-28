@@ -48,7 +48,7 @@ The bot can assign and remove specified roles to a user temporarily.
 
 ## Command Permissions
 
-MoonlightBot uses Discord's built-in permissions system to control who is and is not be able to execute certain commands. Some commands have required permissions set by default, and overrides for specific members and roles can be applied to any and all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
+MoonlightBot uses Discord's built-in permissions system to control who is and is not able to execute certain commands. Some commands have required permissions set by default, and overrides for specific members and roles can be applied to any and all commands. To set up permissions properly, please follow the [Permission Tutorial](./start-up/permission-tutorial.md).
 
 ## Logging
 
