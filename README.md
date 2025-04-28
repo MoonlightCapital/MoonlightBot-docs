@@ -32,7 +32,7 @@ for user-specific configuration, where `LANG` is the language you want Moonlight
 
 A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
-{% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md">please consider becoming a translator!</a> {% endhint %}
+{% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="./support/volunteering.md#translator">please consider becoming a translator!</a> {% endhint %}
 
 ## Temporary Roles
 
