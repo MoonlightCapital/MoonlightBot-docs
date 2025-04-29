@@ -12,7 +12,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Roles
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md).
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -33,4 +33,4 @@ For more information on editing permission requirements for specific users/roles
 * `PAUSE_ROLE_EXTEND`: This log is triggered when a role pause's duration is extended/reduced. It will log the user, the role, the responsible moderator, the reason and the duration of the extension/reduction
 * `PAUSE_ROLE_ADD`: This log is triggered when a role is paused for a user. It will log the user, the role, the responsible moderator, the reason and the duration of the role pause
 
-For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging).
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

@@ -13,14 +13,13 @@ All default values are either `0`, `false` or empty for their respective options
 
 MoonlightBot requires the following permissions to successfully execute this command:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 By default, a user is required to have the following permissions to use this command:
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](/start-up/permission-tutorial.md).
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## roles edit
 
@@ -41,7 +40,7 @@ This command may be expanded in the future to allow for more role settings.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## roles on-expire
 
@@ -59,7 +58,7 @@ This command allows you to set up a custom notification for when a temporary rol
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## roles self-assignable
 
@@ -78,7 +77,7 @@ This command allows you to set up a role to be self-assignable by users. This al
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## roles join-assignable
 
@@ -97,7 +96,7 @@ This command allows you to set up a role to be assigned to a user when they join
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## roles detect-assignment
 
@@ -120,7 +119,7 @@ This setting requires that MoonlightBot has access to the audit logs to detect t
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## channels
 
@@ -139,7 +138,7 @@ This command allows you to set up in which channels MoonlightBot logs, ignores m
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## reaction-roles
 
@@ -166,7 +165,7 @@ For information on how to delete a group, refer to the [`/reaction-roles delete`
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## settings
 
@@ -188,10 +187,10 @@ Note that you can make exceptions to the `mute-evasion-ban` via the [`channels`]
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## Logs
 
-*This command does not trigger any log events.*
+*This command does not trigger any log events*
 
 For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

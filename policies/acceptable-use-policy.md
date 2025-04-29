@@ -1,10 +1,10 @@
 # Acceptable Use Policy
 
-Last updated: June 27th, 2024
-
 This policy explains the regulations for using our services (also called "MoonlightBot", "Moonlight Labs", "we", "our" or "us" in this document) and participating with our community.
 
 **By using our services, you affirm that you have fully read, understood, and agree to be bound by this policy, as written and unconditionally. If you do not agree, stop using our services immediately.**
+
+Last updated: June 27th, 2024
 
 ## 1 - Protect your Account
 

@@ -16,7 +16,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md).
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## set
 
@@ -34,7 +34,7 @@ This command allows you to pair a role with an emoji in a group, if the group is
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## list
 
@@ -44,13 +44,13 @@ This command allows you to view all the groups of reaction roles that have been 
 /reaction-roles list
 ```
 
-*This subcommand does not have any options.*
+*This subcommand does not have any options*
 
 ### Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## info
 
@@ -67,7 +67,7 @@ via the [`config reaction-roles`](/management-commands/config.md#reaction-roles)
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## delete
 
@@ -83,7 +83,7 @@ This command allows you to delete a group of reaction roles.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## autorepair
 
@@ -109,10 +109,10 @@ If you only want to remove a group from a message, right-click the message and s
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## Logs
 
-*This command does not trigger any log events.*
+*This command does not trigger any log events*
 
-For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging).
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

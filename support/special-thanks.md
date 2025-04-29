@@ -47,7 +47,7 @@ They are [boosting](https://support.discord.com/hc/en-us/articles/360028038352-S
 They have contributed to writing and expanding this very documentation you're reading. 
 
 {% hint type="info" %}
-P.S. [it's on GitHub](https://github.com/MoonlightCapital/MoonlightBot-docs/) and you can contribute too!
+This documentation is open for contributions on [GitHub](https://github.com/MoonlightCapital/MoonlightBot-docs/) or via suggestions in the [support server](https://discord.gg/hNQWVVC).
 {% endhint %}
 
 * Ade23

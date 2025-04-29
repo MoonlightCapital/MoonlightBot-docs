@@ -39,7 +39,7 @@ For more information on editing permission requirements for specific users/roles
 
 ## Logs
 
-*This command does not trigger any log events.*
+*This command does not trigger any log events*
 
 For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)
 

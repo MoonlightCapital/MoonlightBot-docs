@@ -20,7 +20,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Roles
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md).
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -34,6 +34,6 @@ For more information on editing permission requirements for specific users/roles
 
 ## Logs
 
-*This command does not trigger any log events.*
+*This command does not trigger any log events*
 
-For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging).
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

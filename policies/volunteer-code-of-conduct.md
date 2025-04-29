@@ -1,10 +1,10 @@
 # Volunteer Code of Conduct
 
-Last updated: June 27th, 2024
-
 We allow users to participate in volunteering to keep our services running and appreciate your commitment to help us. To ensure that our management remains a positive and productive environment, we have established this Volunteer Code of Conduct.
 
 **By submitting a volunteer application or participating in any of our community programs, you affirm that you have fully read, understood, and agree to be bound by this policy, as written and unconditionally.**
+
+Last updated: June 27th, 2024
 
 ## 1 - Submission of Applications
 

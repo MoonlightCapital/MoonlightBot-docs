@@ -90,7 +90,8 @@ Activating your subscription is a seamless process that only requires four steps
 
 <figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 
-3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance was instead created on March 27, 2020 but does not have a verification symbol (see the FAQ below for an explanation) !["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
+3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020!
+["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
 4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative
 
 Done!
@@ -111,7 +112,7 @@ For any question regarding custom commands, or to get started with their develop
 
 ### Will I lose bot configuration and other data by switching to Premium?
 
-Absolutely not! A Staff member will assist you by moving data to the premium instance. In the future, there will be an automatic process that will only require you to press a button for the transfer to begin.
+Absolutely not! The server administrator can use the `/transfer data` command to transfer data from the free version of MoonlightBot to Premium. Transferrals are free and instant.
 
 ### If I have any temporary action still ongoing and my subscription expires, what happens?
 

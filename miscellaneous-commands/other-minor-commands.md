@@ -14,7 +14,7 @@ This command shows a list of commands, or info about a specific command if you s
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## ping
 
@@ -26,7 +26,7 @@ This command checks the latency and response time of the bot, which can be usefu
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*
 
 ## stats
 
@@ -38,4 +38,4 @@ This command shows information and statistics about the bot. It shows the uptime
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required.*
+*No specific permissions required*

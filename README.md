@@ -35,20 +35,19 @@ for user-specific configuration, where `LANG` is the language you want Moonlight
 A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
 {% hint style="info" %}
-MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="/support/volunteering.md#translator">please consider becoming a translator!</a>
+MoonlightBot is translated entirely by volunteers, so not all languages are complete or not yet translated at all. Incomplete and missing translations will be show in English. If you would like to help us with your native language, please consider <a href="/support/volunteering.md#translator">becoming a translator!</a>
 {% endhint %}
 
 ## Temporary Roles
 
-The bot can assign and remove specified roles to a user temporarily.
+MoonlightBot provides easy and dynamic role management by staff and members alike, including Reaction Roles.
 
-* You can assign or remove a temporary role to a user with [`/temprole`](/role-management-commands/temprole.md)
-* All temporary roles currently active in the server can be listed with [`/list-temproles`](/role-management-commands/list-temproles.md)
-* You can permanently assign or remove any role to a user with [`/role`](/role-management-commands/role.md)
-* Users can assign and remove selected roles to themselves with [`/selfrole`](/role-management-commands/selfrole.md)
-* You also have the option of using [Reaction Roles](/start-up/setting-up-reaction-roles.md) in place of the `/selfrole` command
-* A role assigned to a user can automatically be changed to a temporary role with the [`roles detect-assignment` config option](/management-commands/config.md#roles-detect-assignment)
-* Any role assigned to a user can also be temporarily removed with [`/pause-role`](/role-management-commands/pause-role.md)
+* A role can be temporarily added with [`/temprole`](./role-management-commands/temprole.md)
+* A role can be temporarily removed with [`/pause-role`](./role-management-commands/pause-role.md)
+* All active temporary roles can be listed with [`/list-temproles`](./role-management-commands/list-temproles.md)
+* Roles added to members can be automatically changed to a temporary role using the [`detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
+
+You can also permanently assign or remove any role to a user with [`/role`](./role-management-commands/role.md), or setup [Reaction Roles](./start-up/setting-up-reaction-roles.md) and [`/selfrole`](./role-management-commands/selfrole.md)s that members can self-assign
 
 ## Command Permissions
 
