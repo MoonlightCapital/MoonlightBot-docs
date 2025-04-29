@@ -21,7 +21,7 @@ No, you don't need to clutter your server with two almost identical bots. The se
 
 ### I fear it may break from time to time
 
-Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and [volunteers](./volunteering.md#tester). The beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where test is used for heavy debugging and major corrections. Due to this, the chance of bugs on beta is pretty low. If you do find a bug, you are encouraged to [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
+Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and [volunteers](/volunteering.md#tester). The beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where test is used for heavy debugging and major corrections. Due to this, the chance of bugs on beta is pretty low. If you do find a bug, you are encouraged to [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
 
 ![A visual representation of how beta works. If a bug is not found in beta, it will appear on stable, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](</.gitbook/assets/DifferenceBetweenBetaAndStable.png>)
 

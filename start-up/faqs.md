@@ -21,7 +21,7 @@ There are different types of Temporary Roles offered:
 * [Self-assignable temproles](/management-commands/config.md#roles-self-assignable) that allow users to assign themselves a role through the [`/selfrole`](/role-management-commands/selfrole.md) command
 * [Join-assigned temproles](/management-commands/config.md#roles-join-assignable) that assign a role automatically to a user upon joining the server
 * [Reaction roles](setting-up-reaction-roles.md) have an option to make their roles temporary
-* Any role assigned to a user can automatically be changed to a temporary role with the [`detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
+* Any role assigned to a user can automatically be changed to a temporary role with the [`detect-assignment` config option](/management-commands/config.md#roles-detect-assignment)
 * The [`/pause-role`](/role-management-commands/pause-role.md) command removes a role and automatically adds it back after the set duration
 
 ## How do I cancel a temporary action?
