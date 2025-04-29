@@ -23,7 +23,7 @@ On the command permissions menu, you can configure two types of permissions:
 * **General Permissions**: These permissions apply to all commands of the bot, the default option is that everyone can use bot commands in every channel. If you want to restrict commands to specific roles, users or channels click the corresponding "Add" button and be sure to deny the default "everyone" role or "All channels" setting
 
 {% hint style="warning" %}
-Members who have Administrator permission can bypass these restrictions.
+Members who have the Administrator permission bypass these restrictions.
 {% endhint %}
 
 ![Command permissions page](/.gitbook/assets/PermissionTutorialStep2.png)
