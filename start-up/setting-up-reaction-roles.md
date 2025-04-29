@@ -50,11 +50,9 @@ You can use this command as many times as you want to add multiple pairs to your
 There are a few things to note:
 
 * The same role can be given by multiple different emojis in the same group
-* You can assign multiple roles to an emoji by using the set command multiple times.
-
+* You can assign multiple roles to an emoji by using the set command multiple times
     * Example: `/reaction-roles set group1 emoji1 role1`; `/reaction-roles set group1 emoji1 role2`. <br>
-    Doing this will give both roles at the press of the reaction. To remove role1 from the emoji you can use the same command as to add it.
-
+    Doing this will give both roles at the press of the reaction. To remove role1 from the emoji you can use the same command as to add it
 * You can only add up to 20 pairs per group (Discord only allows 20 different reactions per message)
 
 ## Applying your group to messages
@@ -63,17 +61,17 @@ This is the last required step to do before making reaction roles operative for 
 
 To do this, you simply need to follow the following steps:
 
-1. Right click (or press and hold if you're on mobile) the message you want to apply reaction roles to.
-2. Select the "`Apps`" option.
-3. Select "`Apply Reaction Roles`"&#x20;
+1. Right click (or press and hold if you're on mobile) the message you want to apply reaction roles to
+2. Select the "`Apps`" option
+3. Select "`Apply Reaction Roles`"
 
 <figure><img src="/.gitbook/assets/ReactionRoleSetup3.png" alt="" width="375"></figure>
 
-4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one you want to use.&#x20;
+4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one you want to use
 
 <figure><img src="/.gitbook/assets/ReactionRoleSetup4.png" alt="" width="375"></figure>
 
-5. And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions.&#x20;
+5. And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions
 
 <figure><img src="/.gitbook/assets/ReactionRoleSetup5.png" alt="" width="375"></figure>
 
@@ -110,7 +108,7 @@ Use `/config reaction-roles <group> <duration>` to add a timer that starts when 
 Yes! While group settings are common for each role in the group, you can apply multiple groups to the same message, which will allow you to:
 
 * Make some roles temporary, and other ones permanent
-* Make some roles only joinable, while removing other ones on click\
+* Make some roles only joinable, while removing other ones on click
 
 ... And much more, you can experiment which settings works best for you
 

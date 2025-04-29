@@ -6,7 +6,9 @@ Welcome to the documentation for MoonlightBot! MoonlightBot is a powerful modera
 
 First, add MoonlightBot to your server using [this invite link](https://discord.com/api/oauth2/authorize?client_id=314110696071888896&permissions=1512298638534&scope=applications.commands%20bot). It is recommended (but not required) that you grant all requested permissions to ensure all features work correctly.
 
-{% hint style="info" %} You can only add bots to servers in which you have the Manage Server permission. {% endhint %}
+{% hint style="info" %}
+You can only add bots to servers in which you have the Manage Server permission.
+{% endhint %}
 
 Once you've added MoonlightBot to your server, you can verify that it's working by using the [`/ping`](/miscellaneous-commands/other-minor-commands.md#ping) command.
 
@@ -32,7 +34,9 @@ for user-specific configuration, where `LANG` is the language you want Moonlight
 
 A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
-{% hint style="info" %} MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="/support/volunteering.md#translator">please consider becoming a translator!</a> {% endhint %}
+{% hint style="info" %}
+MoonlightBot is translated entirely by volunteers, so not all languages are complete and may have translation errors. If you speak one of the supported languages proficiently and would like to help us translate MoonlightBot, <a href="/support/volunteering.md#translator">please consider becoming a translator!</a>
+{% endhint %}
 
 ## Temporary Roles
 
@@ -76,7 +80,9 @@ You will now be able to use [`/mute`](/moderation-commands/mute.md),  [`/tempmut
 
 ## Evasion Bans
 
-{% hint style="info" %} Evasion Bans can only be set up with <a href="/support/premium.md">MoonlightBot Premium</a>. If you think this feature can help you, <a href="/support/upvote-moonlightbot.md">vote for MoonlightBot</a> to earn an infinitely extendable free trial. {% endhint %}
+{% hint style="info" %}
+Evasion Bans can only be set up with <a href="/support/premium.md">MoonlightBot Premium</a>. If you think this feature can help you, <a href="/support/upvote-moonlightbot.md">vote for MoonlightBot</a> to earn an infinitely extendable free trial.
+{% endhint %}
 
 Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
 ```

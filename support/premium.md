@@ -85,8 +85,8 @@ In the support server, we may run giveaways or offer [volunteering opportunities
 
 Activating your subscription is a seamless process that only requires four steps to complete:
 
-1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully.
-2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance&#x20;
+1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
+2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
 
 <figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ We can now create custom commands in your servers! They can combine parts of alr
 As those custom commands are tailored for your experience, they will have to be developed on the fly at your request. This may usually take up to a week for your commands to be available.
 
 {% hint style="warning" %}
-All custom features must comply with Discord's [Developer Policy](https://discord.com/developers/docs/policies-and-agreements/developer-policy) and [Developer Terms of Service](https://discord.com/developers/docs/policies-and-agreements/developer-terms-of-service)
+All custom features must comply with Discord's [Developer Policy](https://discord.com/developers/docs/policies-and-agreements/developer-policy) and [Developer Terms of Service](https://discord.com/developers/docs/policies-and-agreements/developer-terms-of-service).
 {% endhint %}
 
 For any question regarding custom commands, or to get started with their development, please contact a Staff member in our support server and we will be happy to assist you as best as we can.

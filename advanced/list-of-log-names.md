@@ -68,7 +68,6 @@ This category is for things having to do with messages.
 
 {% hint style="info" %}
 This category is for debugging purposes. Logs in this category are meant to aid in fixing errors that may prevent the bot from functioning correctly.
-
 {% endhint %}
 
 | Name                | Emitted when     |

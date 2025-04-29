@@ -4,8 +4,8 @@
 
 Try doing the following things:
 
-* Make sure it's online. If it shows as offline, please join the support server and let the Staff know.
-* Try checking channel permission. If needed, you can add to the bot channel-specific permissions such as Read Messages, Send Messages, Embed Links and View Message History.
+* Make sure it's online. If it shows as offline, please join the support server and let the Staff know
+* Try checking channel permission. If needed, you can add to the bot channel-specific permissions such as Read Messages, Send Messages, Embed Links and View Message History
 
 If the problem persists, please [contact support](https://discord.gg/hNQWVVC).
 

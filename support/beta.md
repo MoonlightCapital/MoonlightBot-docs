@@ -11,7 +11,7 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 1. Join [MoonlightBot's support server](https://discord.gg/hNQWVVC)
 2. Go to the **#get-beta** channel (the link above will take you directly)
 3. Click on the invite link, then proceed to invite it like any other bot
-4. If you've used the main version and want to transfer your data, run `/transfer data`.
+4. If you've used the main version and want to transfer your data, run `/transfer data`
 
 ## Common Misconceptions and Frequently Asked Questions
 

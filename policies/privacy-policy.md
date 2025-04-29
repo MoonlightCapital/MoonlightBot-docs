@@ -8,11 +8,11 @@ This Privacy Policy describes how our services collects, uses, and protects your
 
 We may collect certain information when you are using our services. This information include:
 
-- Discord IDs: We store references to Discord entities (such as users, servers, channels, roles) and other provided IDs to provide the features described in this documentation, technical support and diagnose errors.
-- Command usage data: We may collect data about the usage of bot commands to improve our services and enhance user experience, and for the purpose of detecting abuse.
-- Server information: We may collect and store server-related data, such as server IDs and server settings, to provide the functionalities stated in the services' descriptions.
-- Logs: The service sends logs of events that occur with the bot to a private Discord server, of which only our bots, (trial) Staff and helpers for the purposes of understanding how our services are used, provide you technical support, background checks for [volunteer conduct](/volunteer-code-of-conduct.md) and investigate potential abuse.
-- Memberships, permissions, role names, bots, privileged users (commonly named moderators/administrators) and their metadata in servers: to verify your authorization to allow our support team to assist you with sensitive operations or provide guidance, to verify the truthfulness of your statements and investigate/action potential abuse.
+* Discord IDs: We store references to Discord entities (such as users, servers, channels, roles) and other provided IDs to provide the features described in this documentation, technical support and diagnose errors.
+* Command usage data: We may collect data about the usage of bot commands to improve our services and enhance user experience, and for the purpose of detecting abuse.
+* Server information: We may collect and store server-related data, such as server IDs and server settings, to provide the functionalities stated in the services' descriptions.
+* Logs: The service sends logs of events that occur with the bot to a private Discord server, of which only our bots, (trial) Staff and helpers for the purposes of understanding how our services are used, provide you technical support, background checks for [volunteer conduct](/volunteer-code-of-conduct.md) and investigate potential abuse.
+* Memberships, permissions, role names, bots, privileged users (commonly named moderators/administrators) and their metadata in servers: to verify your authorization to allow our support team to assist you with sensitive operations or provide guidance, to verify the truthfulness of your statements and investigate/action potential abuse.
 
 ## Data Security
 

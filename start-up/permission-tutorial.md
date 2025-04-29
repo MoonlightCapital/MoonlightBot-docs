@@ -6,7 +6,7 @@ Discord has a built-in permission system to configure who can or cannot execute 
 
 1. Click on the server name to open the context menu, then click on Server Settings
 2. In the server settings, click on Integrations in the left sidebar
-3. Here you'll see a list of all the bots and integrations in your server. Click on the "MoonlightBot" entry to open the bot command permissions menu&#x20;
+3. Here you'll see a list of all the bots and integrations in your server. Click on the "MoonlightBot" entry to open the bot command permissions menu
 
 <figure><img src="/.gitbook/assets/PermissionTutorialStep1.png" alt=""><figcaption><p>The Integrations tab of server settings</p></figcaption></figure>
 
@@ -20,7 +20,7 @@ From now on, each time you make a change on the permissions configuration, be su
 
 On the command permissions menu, you can configure two types of permissions:
 
-* **General Permissions**: These permissions apply to all commands of the bot, the default option is that everyone can use bot commands in every channel. If you want to restrict commands to specific roles, users or channels click the corresponding "Add" button and be sure to deny the default "everyone" role or "All channels" setting. 
+* **General Permissions**: These permissions apply to all commands of the bot, the default option is that everyone can use bot commands in every channel. If you want to restrict commands to specific roles, users or channels click the corresponding "Add" button and be sure to deny the default "everyone" role or "All channels" setting
 
 {% hint style="warning" %}
 Members who have Administrator permission can bypass these restrictions.

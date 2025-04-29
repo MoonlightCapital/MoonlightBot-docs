@@ -1,12 +1,9 @@
 # reaction-roles
 
-This command allows you to set up reaction roles in your server. Reaction roles allow users to assign/remove roles
-to/from themselves by reacting to specific messages that server admins set up. There are several customization options
-to optimize your needs.
+This command allows you to set up reaction roles in your server. Reaction roles allow users to assign/remove roles to/from themselves by reacting to specific messages that server admins set up. There are several customization options to optimize your needs.
 
 {% hint style="warning" %}
-This is only the technical documentation of the command and not intended to be a tutorial on how to set up reaction
-roles. For a tutorial on how to set them up, refer to the respective [guide](/start-up/setting-up-reaction-roles.md).
+This is only the technical documentation of the command and not intended to be a tutorial on how to set up reaction roles. For a tutorial on how to set them up, refer to the respective [guide](/start-up/setting-up-reaction-roles.md).
 {% endhint %}
 
 ## Required permissions
@@ -19,14 +16,11 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](/start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md).
 
 ## set
 
-This command allows you to pair a role with an emoji in a group, if the group is not set up, it will be created. You can
-use the same command to unpair the role from the emoji. Also, you can pair multiple roles to the same emoji, and they
-will be given to the user at the same time.
+This command allows you to pair a role with an emoji in a group, if the group is not set up, it will be created. You can use the same command to unpair the role from the emoji. Also, you can pair multiple roles to the same emoji, and they will be given to the user at the same time.
 
 ```text
 /reaction-roles set <group> <emoji> <role>
@@ -40,7 +34,7 @@ will be given to the user at the same time.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required*
+*No specific permissions required.*
 
 ## list
 
@@ -56,7 +50,7 @@ This command allows you to view all the groups of reaction roles that have been 
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required*
+*No specific permissions required.*
 
 ## info
 
@@ -73,7 +67,7 @@ via the [`config reaction-roles`](/management-commands/config.md#reaction-roles)
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required*
+*No specific permissions required.*
 
 ## delete
 
@@ -89,7 +83,7 @@ This command allows you to delete a group of reaction roles.
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required*
+*No specific permissions required.*
 
 ## autorepair
 
@@ -115,10 +109,10 @@ If you only want to remove a group from a message, right-click the message and s
 
 MoonlightBot requires the following permissions to successfully execute this subcommand:
 
-*No specific permissions required*
+*No specific permissions required.*
 
 ## Logs
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging).
