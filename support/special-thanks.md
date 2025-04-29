@@ -3,7 +3,7 @@
 This page serves as a memorial to all of those who have contributed their time, money and passion to turn MoonlightBot into what it is now.
 
 {% hint type="info" %}
-Note: Only users as of June 28th, 2024 and beyond or who have contributed to the v4 release are listed. We made this decision to preserve the privacy of people who could not be reached for comment, or have given up their privilege to be listed here for severe misbehavior.
+Only users as of June 28th, 2024 and beyond or who have contributed to the v4 release are listed. We made this decision to preserve the privacy of people who could not be reached for comment, or have given up their privilege to be listed here for severe misbehavior.
 {% endhint %}
 
 ## Staff and Helpers
