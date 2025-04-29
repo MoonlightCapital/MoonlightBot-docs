@@ -2,7 +2,9 @@
 
 This page serves as a memorial to all of those who have contributed their time, money and passion to turn MoonlightBot into what it is now.
 
-*Note: Only users as of June 28th, 2024 and beyond or who have contributed to the v4 release are listed. We made this decision to preserve the privacy of people who could not be reached for comment, or have given up their privilege to be listed here for severe misbehavior.*
+{% hint type="info" %}
+Note: Only users as of June 28th, 2024 and beyond or who have contributed to the v4 release are listed. We made this decision to preserve the privacy of people who could not be reached for comment, or have given up their privilege to be listed here for severe misbehavior.*
+{% endhint %}
 
 ## Staff and Helpers
 
@@ -42,7 +44,11 @@ They are [boosting](https://support.discord.com/hc/en-us/articles/360028038352-S
 
 ## Documentation Writers
 
-They have contributed to writing and expanding this very documentation you're reading. P.S. [it's on GitHub](https://github.com/MoonlightCapital/MoonlightBot-docs/) and you can contribute too!
+They have contributed to writing and expanding this very documentation you're reading. 
+
+{% hint type="info" %}
+P.S. [it's on GitHub](https://github.com/MoonlightCapital/MoonlightBot-docs/) and you can contribute too!
+{% endhint %}
 
 - Ade23
 - Blastoise186
@@ -66,7 +72,7 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 
 ## Translators
 
-They are passionate about their native language, and know that not everyone has the privilege of being able to speak English well, so they took their time to translate MoonlightBot to let more people enjoy and understand it. You can become one of them, too. [Find out how](volunteering.md#translator).
+They are passionate about their native language, and know that not everyone has the privilege of being able to speak English well, so they took their time to translate MoonlightBot to let more people enjoy and understand it. [Find out how to become one.](volunteering.md#translator).
 
 - **Danish:** The-God-Of-Noise
 - **German:** Darkfinst, I_mundercover, [m]

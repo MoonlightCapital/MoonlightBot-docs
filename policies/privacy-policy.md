@@ -1,8 +1,8 @@
 # Privacy Policy
 
-This Privacy Policy describes how our services collects, uses, and protects your personal information. By using MoonlightBot or other services we provide, you consent to the practices outlined in this policy.
-
 Last updated: June 27th, 2024
+
+This Privacy Policy describes how our services collects, uses, and protects your personal information. By using MoonlightBot or other services we provide, you consent to the practices outlined in this policy.
 
 ## Information Collection and Use
 

@@ -29,7 +29,7 @@ The tester community programme is currently by invitation only. To ensure a mini
 
 MoonlightBot translators assist in translating the commands, responses and messages shown when interacting with the bot.
 
-![The /temprole command translated to Italian](<../.gitbook/assets/TemproleItalianTranslationExample.png>)
+![The /temprole command translated to Italian](</.gitbook/assets/TemproleItalianTranslationExample.png>)
 
 ### Benefits
 

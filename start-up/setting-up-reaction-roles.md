@@ -25,7 +25,7 @@ To create a group, use this command:
 
 Replace `<group>` with a short, memorable name that you will remember later for every reaction roles operation.
 
-![](../.gitbook/assets/ReactionRoleSetup1.png)
+![](/.gitbook/assets/ReactionRoleSetup1.png)
 
 Group names can contain only alphanumeric characters, underscores and dashes. They must be unique and no longer than 32 characters.
 
@@ -43,7 +43,7 @@ You do that with the `set` command in this fashion:
 * `emoji`: the emoji you want to be used
 * `role`: the role you want the emoji to be paired to
 
-![](../.gitbook/assets/ReactionRoleSetup2.png)
+![](/.gitbook/assets/ReactionRoleSetup2.png)
 
 You can use this command as many times as you want to add multiple pairs to your group. You can use custom emojis as well, but they must be uploaded in the same server as you're setting it up.
 
@@ -52,9 +52,9 @@ There are a few things to note:
 * The same role can be given by multiple different emojis in the same group
 * You can assign multiple roles to an emoji by using the set command multiple times.
 
-    * Example: `/reaction-roles set group1 emoji1 role1`; `/reaction-roles set group1 emoji1 role2`
-
+    * Example: `/reaction-roles set group1 emoji1 role1`; `/reaction-roles set group1 emoji1 role2`. <br>
     Doing this will give both roles at the press of the reaction. To remove role1 from the emoji you can use the same command as to add it.
+
 * You can only add up to 20 pairs per group (Discord only allows 20 different reactions per message)
 
 ## Applying your group to messages
@@ -67,13 +67,15 @@ To do this, you simply need to follow the following steps:
 2. Select the "`Apps`" option.
 3. Select "`Apply Reaction Roles`"&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup3.png" alt="" width="375"></figure>
+<figure><img src="/.gitbook/assets/ReactionRoleSetup3.png" alt="" width="375"></figure>
+
 4. A private dropdown menu will be sent from the bot displaying the groups you have made. Select the one you want to use.&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup4.png" alt="" width="375"></figure>
+<figure><img src="/.gitbook/assets/ReactionRoleSetup4.png" alt="" width="375"></figure>
+
 5. And voila! The bot will ask you to confirm since already existing reactions will be removed, then, all reactions from the group will be added. This operation may take about 20 seconds to complete, depending on the amount of reactions.&#x20;
 
-    <figure><img src="../.gitbook/assets/ReactionRoleSetup5.png" alt="" width="375"></figure>
+<figure><img src="/.gitbook/assets/ReactionRoleSetup5.png" alt="" width="375"></figure>
 
 If you add more roles later on, you can use this command again to refresh the reactions.
 
@@ -81,7 +83,7 @@ You've done it! You can now pass to more advanced, optional customization.
 
 ## Group configuration
 
-The [`/config`](../management-commands/config.md#reaction-roles) command offers a voice to edit group settings. Those are completely optional and changes are effective immediately, let's see some here:
+The [`/config`](/management-commands/config.md#reaction-roles) command offers a voice to edit group settings. Those are completely optional and changes are effective immediately, let's see some here:
 
 ```
 /config reaction-roles <group>
@@ -95,13 +97,13 @@ The [`/config`](../management-commands/config.md#reaction-roles) command offers 
 * `freeze`: When true, the group will not function. This is intended to disable groups for maintenance or other purposes without having to reconfigure
 * `duration`: How long the user will keep their assigned role. This will _not_ give a role back (in case of `reverse` being enabled)
 
-For an in-depth view of all options, see the [relevant section of the config command page](../management-commands/config.md#reaction-roles).
+For an in-depth view of all options, see the [relevant section of the config command page](/management-commands/config.md#reaction-roles).
 
 ## Frequently Asked Questions
 
 ### How do I make reaction roles temporary?
 
-Use `/config reaction-roles <group> <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](options.md#durations) you use the [`/temprole`](../role-management-commands/temprole.md) command.
+Use `/config reaction-roles <group> <duration>` to add a timer that starts when the reaction is clicked. The duration is provided in, say, [the same way as](options.md#durations) you use the [`/temprole`](/role-management-commands/temprole.md) command.
 
 ### Can I make a single click of a reaction give out more than one role?
 

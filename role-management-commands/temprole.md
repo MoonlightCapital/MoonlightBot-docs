@@ -14,7 +14,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Roles
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](../start-up/permission-tutorial.md)
+the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -27,7 +27,7 @@ the [permissions tutorial](../start-up/permission-tutorial.md)
 * `user`: The user to assign the role to
 * `role`: The role to assign to the user
 * `duration`: The duration for which the role should be assigned to the user. For more information on the duration
-  format, refer to the [options page](../start-up/options.md#durations)
+  format, refer to the [options page](/start-up/options.md#durations)
 * `reason`: The reason for assigning the role to the user. This is an optional parameter, which can be used for
   record-keeping
 * `notify`: Sends a Direct Message to inform the user about the temporary role addition. This is optional and contains the role name, duration, expiration date and reason
@@ -39,4 +39,4 @@ the [permissions tutorial](../start-up/permission-tutorial.md)
 * `TEMPROLE_ADD`: This log is triggered when a temporary role is assigned to a user.
   It will log the user, the role, the responsible moderator, the reason and the duration of the role assignment.
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

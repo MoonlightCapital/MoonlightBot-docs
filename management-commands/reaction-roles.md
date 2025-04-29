@@ -6,7 +6,7 @@ to optimize your needs.
 
 {% hint style="warning" %}
 This is only the technical documentation of the command and not intended to be a tutorial on how to set up reaction
-roles. For a tutorial on how to set them up, refer to the respective [guide](../start-up/setting-up-reaction-roles.md).
+roles. For a tutorial on how to set them up, refer to the respective [guide](/start-up/setting-up-reaction-roles.md).
 {% endhint %}
 
 ## Required permissions
@@ -20,7 +20,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Server
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](../start-up/permission-tutorial.md)
+the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## set
 
@@ -61,7 +61,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 ## info
 
 This command allows you to view information about a group of reaction roles. It will list all options that can be set
-via the [`config reaction-roles`](../management-commands/config.md#reaction-roles) command.
+via the [`config reaction-roles`](/management-commands/config.md#reaction-roles) command.
 
 ```text
 /reaction-roles info <group>
@@ -121,4 +121,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

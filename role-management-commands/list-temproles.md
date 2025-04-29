@@ -5,12 +5,12 @@ role, and the time remaining for each temporary/paused role.
 
 {% hint style="info" %}
 For information on how to assign a temporary role to a user, refer to
-the [`temprole`](../role-management-commands/temprole.md#temprole) command and
+the [`temprole`](/role-management-commands/temprole.md#temprole) command and
 for information on how to pause a role for a user, refer to
-the [`pause-role`](../role-management-commands/pause-role.md#pause-role) command.
+the [`pause-role`](/role-management-commands/pause-role.md#pause-role) command.
 
 If an entry is shown as *Unsustained* it means that the conditions to sustain the role are currently not being met by the moderator who added the temporary action.
-For more information on how this protective mechanic works, check the [FAQ](../start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work)
+For more information on how this protective mechanic works, check the [FAQ](/start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work)
 {% endhint %}
 
 ## Required permissions
@@ -24,7 +24,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Roles
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](../start-up/permission-tutorial.md)
+the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -40,4 +40,4 @@ the [permissions tutorial](../start-up/permission-tutorial.md)
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

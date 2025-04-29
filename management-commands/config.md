@@ -6,7 +6,7 @@ corresponding sub command without any optional options.
 
 {% hint style="info" %}
 If an option provides you with the option `Open Editor` like the option `custom-notification-text` of
-the [`roles on-expire`](../management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
+the [`roles on-expire`](/management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
 you to input your desired text.
 <br>
 All default values are either `0`, `false` or empty for their respective options, unless stated otherwise.
@@ -23,7 +23,7 @@ By default, a user is required to have the following permissions to use this com
 * Manage Server
 
 For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](../start-up/permission-tutorial.md)
+the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## roles edit
 
@@ -68,7 +68,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 ## roles self-assignable
 
 This command allows you to set up a role to be self-assignable by users. This allows them to assign the role to
-themselves via the [`/selfrole`](../role-management-commands/selfrole.md) command without needing a moderator to do it
+themselves via the [`/selfrole`](/role-management-commands/selfrole.md) command without needing a moderator to do it
 for them, and they can remove it themselves as well. It works on a vice versa basis.
 
 ```text
@@ -142,7 +142,7 @@ replies.
 
 * `channel`: The channel to be configured
 * `logs`: To open the editor to set up the logs. You can view the available logs under
-  the [List of log names](../advanced/list-of-log-names.md)
+  the [List of log names](/advanced/list-of-log-names.md)
 * `ignore-mute-evasion-ban`: Whether the Bot should consider messages sent in this channel to be an evasion of a mute or
   not (True/False)
 * `ephemeral-replies`: Whether the Bot should mark command replies as only viewable by the user who triggered the
@@ -160,8 +160,8 @@ This command allows you to set up and manage groups for reaction roles. If the g
 
 {% hint style="info" %}
 For information on how to delete a group, refer to
-the [`/reaction-roles delete`](../management-commands/reaction-roles.md#delete) command and for information on how to set up
-reaction roles, refer to the [`Setting up reaction roles`](../start-up/setting-up-reaction-roles.md) tutorial.
+the [`/reaction-roles delete`](/management-commands/reaction-roles.md#delete) command and for information on how to set up
+reaction roles, refer to the [`Setting up reaction roles`](/start-up/setting-up-reaction-roles.md) tutorial.
 {% endhint %}
 
 ```text
@@ -190,7 +190,7 @@ This command allows you to set up the settings for the server, such as the mute 
 
 {% hint style="info" %}
 Note that you can make exceptions to the `mute-evasion-ban` via the
-[`channels`](../management-commands/config.md#channels) subcommand.
+[`channels`](/management-commands/config.md#channels) subcommand.
 {% endhint %}
 
 ```text
@@ -198,7 +198,7 @@ Note that you can make exceptions to the `mute-evasion-ban` via the
 ```
 
 * `mute-role`: The role to be used as the mute role which can be created via the
-  [`/create-muterole`](../management-commands/create-muterole.md#create-muterole) command
+  [`/create-muterole`](/management-commands/create-muterole.md#create-muterole) command
 * `mute-evasion-ban`: If the bot should automatically ban anyone who sends a message and has the mute role to avoid
   punishment evasion
 * `locale`: The language to be used for the server
@@ -213,4 +213,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 *This command does not trigger any log events.*
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)
