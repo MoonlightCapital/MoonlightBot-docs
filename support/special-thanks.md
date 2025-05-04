@@ -10,15 +10,15 @@ Only users as of June 28th, 2024 and beyond or who have contributed to the v4 re
 
 They are in charge of administrating MoonlightBot, the server, moderating conversations, running volunteer programs, and are blazing fast at answering people who need help.
 
-- Blastoise186
-- Darkfinst
-- Kalosianlitten
-- Irishplooshi
-- [m]
-- MoonlightCapital
-- Princess Lillie of the Stars
-- Samplasion
-- catus
+* Blastoise186
+* Darkfinst
+* Kalosianlitten
+* Irishplooshi
+* [m]
+* MoonlightCapital
+* Princess Lillie of the Stars
+* Samplasion
+* catus
 
 ## Premium Subscribers
 
@@ -75,18 +75,18 @@ They have had the opportunity to test MoonlightBot pre-releases and looked every
 
 They are passionate about their native language, and know that not everyone has the privilege of being able to speak English well, so they took their time to translate MoonlightBot to let more people enjoy and understand it. You can become one of them, too. [Find out how](volunteering.md#translator).
 
-- **Danish:** The-God-Of-Noise
-- **German:** Darkfinst, I_mundercover, [m]
-- **Latin American Spanish:** selffinS, zSnails
-- **French:** Michael Ngeleka, tchoupi253, Teren
-- **Hindi:** Sai Mehar
-- **Korean:** mars
-- **Italian:** Miky88, MoonlightCapital
-- **Lithuanian:** MoonlightCapital
-- **Dutch:** AmmoKa
-- **Norwegian:** catus
-- **Brazilian Portuguese:** LK4z
-- **Turkish:** *catus*
-- **Czech:** Esterze
-- **Russian:** Cloud
-- **Traditional Chinese:** AhMing, Lerp_Ant
+* **Danish:** The-God-Of-Noise
+* **German:** Darkfinst, I_mundercover, [m]
+* **Latin American Spanish:** selffinS, zSnails
+* **French:** Michael Ngeleka, tchoupi253, Teren
+* **Hindi:** Sai Mehar
+* **Korean:** mars
+* **Italian:** Miky88, MoonlightCapital
+* **Lithuanian:** MoonlightCapital
+* **Dutch:** AmmoKa
+* **Norwegian:** catus
+* **Brazilian Portuguese:** LK4z
+* **Turkish:** catus
+* **Czech:** Esterze
+* **Russian:** Cloud
+* **Traditional Chinese:** AhMing, Lerp_Ant
