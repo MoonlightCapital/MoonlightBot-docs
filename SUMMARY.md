@@ -12,10 +12,10 @@
 
 ## Support Our Work
 
+* [Support Server](https://discord.gg/hNQWVVC)
 * [Volunteer Opportunities](support/volunteering.md)
 * [Premium Subscriptions](support/premium.md)
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
-* [Support Server](https://discord.gg/hNQWVVC)
 * [MoonlightBot Beta (early access)](support/beta.md)
 * [Special Thanks](support/special-thanks.md)
 

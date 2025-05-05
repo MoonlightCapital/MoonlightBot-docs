@@ -1,7 +1,6 @@
 # create-muterole
 
-This command sets up a role to be used as the mute role for the server. It will edit the permissions of all channels to
-deny the role from sending messages.
+This command sets up a role to be used as the mute role for the server. It will edit the permissions of all channels to deny the role from sending messages.
 
 ## Required permissions
 
@@ -10,8 +9,7 @@ MoonlightBot requires the following permissions to successfully execute this com
 * Manage Channels
 * Manage Roles
 
-For the successful setup of the mute role, MoonlightBot requires permission to **Manage Permissions** in channels, as
-well as the following permissions enabled, which will be denied to the mute role:
+For the successful setup of the mute role, MoonlightBot requires permission to **Manage Permissions** in channels, as well as the following permissions enabled, which will be denied to the mute role:
 
 * Send Messages
 * Send Messages In Threads
@@ -27,8 +25,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Server
 
-For more information on editing permission requirements for specific users/roles, refer to
-the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -42,9 +39,9 @@ the [permissions tutorial](../start-up/permission-tutorial.md)
 
 ## Logs
 
-*This command does not trigger any log events.*
+*This command does not trigger any log events*
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)
 
 ## Troubleshooting
 

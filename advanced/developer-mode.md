@@ -30,15 +30,15 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 
 {% tabs %}
 {% tab title="Step 1" %}
-![Image depicting step one on desktop](<../.gitbook/assets/dev-mode/desktop/StepOne.png>)
+![Image depicting step one on desktop](</.gitbook/assets/dev-mode/desktop/StepOne.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![Image depicting step two on desktop](<../.gitbook/assets/dev-mode/desktop/StepTwo.png>)
+![Image depicting step two on desktop](</.gitbook/assets/dev-mode/desktop/StepTwo.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![Image depicting step three on desktop](<../.gitbook/assets/dev-mode/desktop/StepThree.png>)
+![Image depicting step three on desktop](</.gitbook/assets/dev-mode/desktop/StepThree.png>)
 {% endtab %}
 {% endtabs %}
 
@@ -52,19 +52,19 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 
 {% tabs %}
 {% tab title="Step 1" %}
-![Image depicting step one on an Android device](<../.gitbook/assets/dev-mode/android/StepOne.png>)
+![Image depicting step one on an Android device](</.gitbook/assets/dev-mode/android/StepOne.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![Image depicting step two on an Android device](<../.gitbook/assets/dev-mode/android/StepTwo.png>)
+![Image depicting step two on an Android device](</.gitbook/assets/dev-mode/android/StepTwo.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![Image depicting step three on an Android device](<../.gitbook/assets/dev-mode/android/StepThree.png>)
+![Image depicting step three on an Android device](</.gitbook/assets/dev-mode/android/StepThree.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![Image depicting step four on an Android device](<../.gitbook/assets/dev-mode/android/StepFour.png>)
+![Image depicting step four on an Android device](</.gitbook/assets/dev-mode/android/StepFour.png>)
 {% endtab %}
 {% endtabs %}
 
@@ -78,18 +78,18 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 
 {% tabs %}
 {% tab title="Step 1" %}
-![Image depicting step one on an iOS device](<../.gitbook/assets/dev-mode/ios/step_one.png>)
+![Image depicting step one on an iOS device](</.gitbook/assets/dev-mode/ios/step_one.png>)
 {% endtab %}
 
 {% tab title="Step 2" %}
-![Image depicting step two on an iOS device](<../.gitbook/assets/dev-mode/ios/step_two.png>)
+![Image depicting step two on an iOS device](</.gitbook/assets/dev-mode/ios/step_two.png>)
 {% endtab %}
 
 {% tab title="Step 3" %}
-![Image depicting step three on an iOS device](<../.gitbook/assets/dev-mode/ios/step_three.png>)
+![Image depicting step three on an iOS device](</.gitbook/assets/dev-mode/ios/step_three.png>)
 {% endtab %}
 
 {% tab title="Step 4" %}
-![Image depicting step four on an iOS device](<../.gitbook/assets/dev-mode/ios/step_four.png>)
+![Image depicting step four on an iOS device](</.gitbook/assets/dev-mode/ios/step_four.png>)
 {% endtab %}
 {% endtabs %}

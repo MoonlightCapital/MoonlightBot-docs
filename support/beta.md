@@ -11,19 +11,19 @@ To keep MoonlightBot beta in a server, any member with manage server permissions
 1. Join [MoonlightBot's support server](https://discord.gg/8376ZVg)
 2. Go to the **#get-beta** channel (the link above will take you directly)
 3. Click on the invite link, then proceed to invite it like any other bot
-4. If you've used the main version and want to transfer your data, run `/transfer data`.
+4. If you've used the main version and want to transfer your data, run `/transfer data`
 
-## Debunking common misconceptions and Frequently Asked Questions
+## Common Misconceptions and Frequently Asked Questions
 
-### Will I have to keep both main and beta if I want to use it?
+### Will I have to keep both main and beta in my server?
 
 No, you don't need to clutter your server with two almost identical bots. The server administrator can use the `/transfer data` command to transfer data from any other version of MoonlightBot to Beta. Transferrals are free and instant.
 
 ### I fear it may break from time to time
 
-Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and [volunteers](./volunteering.md#tester). The beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where test is used for heavy debugging and major corrections. Due to this, the chance of bugs on beta is pretty low. If you do find a bug, you are encouraged to [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
+Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by both developers and [volunteers](/volunteering.md#tester). The beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where test is used for heavy debugging and major corrections. Due to this, the chance of bugs on beta is pretty low. If you do find a bug, you are encouraged to [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
 
-![A simple explanation of how beta works. If a bug is not found in beta, it will appear on stable, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](<../.gitbook/assets/DifferenceBetweenBetaAndStable.png>)
+![A visual representation of how beta works. If a bug is not found in beta, it will appear on stable, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](</.gitbook/assets/DifferenceBetweenBetaAndStable.png>)
 
 ### I don't want to lose all my temproles, infractions and server configuration
 
@@ -35,4 +35,4 @@ Having MoonlightBot beta in a server requires someone with "Manage server" permi
 
 ### I have no time/I don't know how to look for bugs
 
-No problem! You are not required to actively find bugs, rather, use the features you'd normally use and report any bugs you may find.
+No problem! You are not required to actively find bugs. Just use the features you'd normally use and report any bugs you may find.
