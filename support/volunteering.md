@@ -17,7 +17,7 @@ Their mission is to uncover bugs and annoyances that might hinder a smooth user 
 * An opportunity to learn how to get the most from MoonlightBot - and many other Discord apps
 * Access to and testing of new features as they are developed
 * The ability to request small changes, work closely with the developer, and have a voice in important decisions
-* Your name on the [Special Thanks Page](/special-thanks.md#testers)
+* Your name on the [Special Thanks Page](special-thanks.md#testers)
 
 ### Becoming a Tester
 
@@ -37,7 +37,7 @@ MoonlightBot translators assist in translating the commands, responses and messa
 
 * A colorful, prominent role in the server to show everyone you're one of us
 * MoonlightBot Premium (Basic tier), once you have translated 50 strings
-* Your name on the [Special Thanks Page](/special-thanks.md#translators)
+* Your name on the [Special Thanks Page](special-thanks.md#translators)
 
 ### Becoming a Translator
 
@@ -66,7 +66,7 @@ They create new documentation pages as new functions are added to the bot, and u
 * A MoonlightBot Premium subscription (Super tier)
 * Access to and testing of new features as they are developed
 * Earliest possible access to upcoming updates
-* Your name on the [Special Thanks Page](/special-thanks.md#documentation-writers)
+* Your name on the [Special Thanks Page](special-thanks.md#documentation-writers)
 
 ### Becoming a Documentation Writer
 
