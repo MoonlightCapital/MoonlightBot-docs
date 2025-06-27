@@ -4,11 +4,13 @@ This policy explains the regulations for using our services (also called "Moonli
 
 **By using our services, you affirm that you have fully read, understood, and agree to be bound by this policy, as written and unconditionally. If you do not agree, stop using our services immediately.**
 
-Last updated: June 27th, 2024
+Last updated: May 6th, 2025
 
 ## 1 - Protect your Account
 
-You must take adequate measures to protect your account and any third party account used in connection to our services from unauthorized access. If you know or suspect anyone else other than you to have access to your account, you must notify us promptly and provide a detailed explanation of the events leading up to the unauthorized access, and steps taken to regain full control over it.
+You must take adequate measures to protect your account and any third party account used in connection to our services from unauthorized access.
+
+If you know or suspect anyone else other than you to have access to your account, you must notify us promptly and provide a detailed explanation of the events leading up to the unauthorized access, and steps taken to regain full control over it.
 
 ## 2 - Respect Third Party Platforms
 
@@ -18,13 +20,13 @@ This includes, but is not limited to Discord's [Terms of Service](https://discor
 
 ## 3 - Respect our Volunteers
 
-MoonlightBot is ran by volunteers. These regulations ensure that volunteering with us remains a pleasant, satisfactory and positive experience. If you are involved in our volunteer activities, our [Volunteer Code of Conduct](volunteer-code-of-conduct.md) applies in addition to this policy.
+MoonlightBot is ran by [volunteers](../support/volunteering.md). The regulations in this section ensure that volunteering with us remains a pleasant, satisfactory and positive experience. If you are involved in our volunteer activities, our [Volunteer Code of Conduct](volunteer-code-of-conduct.md) applies in addition to this policy.
 
-1. **Do not harass volunteers:** Any form of harassment, bullying, or disrespectful behavior towards our volunteers is strictly prohibited. This includes derogatory comments, personal attacks, or any action meant to cause emotional or psychological harm, distress or anxiety.
-2. **Do not make unreasonable demands or expectations:** Volunteers have limitations and commitments outside of their volunteer role. Making unreasonable demands or expecting immediate responses at all times is not appropriate.
+1. **Do not harass volunteers:** Any form of harassment, bullying, or disrespectful behavior towards volunteers is strictly prohibited. This includes derogatory comments, personal attacks, or any action meant to cause emotional or psychological harm, distress or anxiety.
+2. **Do not make unreasonable demands or expectations:** Volunteers have limitations and commitments outside of their volunteer role. You must not make unreasonable demands or require immediate responses at all times.
 3. **Do not disrupt or sabotage the service:** You must not disrupt the work or sabotage the efforts of our volunteers. This includes intentional interference, spreading false information, or engaging in malicious activities that hinder our ability to perform our duties effectively or enjoy the results of our work.
-4. **Do not diminish or vilify the work of volunteers:** You must not take any action that diminishes or vilifies the efforts of our volunteers. Our developers, translators, quality control testers, documentation writers and other officially recognized collaborators are hard-working, so we request that you relation with them in an understanding, collaborative, and accepting manner. This includes but is not limited to displays of indifference about sensitive topics such as struggles faced in their process of expanding and relating with our volunteer team, engaging with our users, and the finding and maintaining of resources, as well as personal hardships.
-5. **Do not mislead our support team:** You must not submit any false or malicious report, application, request, statement or interaction to our volunteers while acting in official capacity. you are responsible for correcting and updating us on the applicability of your previous statements in clear writing.
+4. **Do not diminish or vilify the work of volunteers:** You must not take any action or omission that diminishes or vilifies the efforts of our volunteers. Our developers, translators, quality control testers, documentation writers and other officially recognized collaborators are hard-working, so we request that you relation with them in an understanding, collaborative, and accepting manner. This includes but is not limited to displays of indifference about sensitive topics such as struggles faced in their process of expanding and relating with our volunteer team, engaging with our users, and the finding and maintaining of resources, as well as personal hardships.
+5. **Do not mislead our support team:** You must not submit any false or malicious report, application, request, statement or interaction to our volunteers while acting in official capacity. You are responsible for correcting and updating us on the validity of any of your previous statements in clear writing before taking any action that can be reasonably believed to be falsifying.
 
 ## 4 - Respect Other Users
 
@@ -48,7 +50,7 @@ Do not do, or attempt to do any of the following against our services:
 2. Make the service, or any of its parts unavailable to users
 3. Evade blocks, bans or other restrictions with multiple accounts or through other users
 4. Gain unauthorized access to source code, user data, privileges or otherwise alter any data in our possession aside from the intended means provided
-5. Hack, crack, decompile, reverse-engineer or denial of service attacks
+5. Hack, crack, decompile, reverse-engineer or participate in denial of service attacks
 6. Intentionally omitting or failing to report malfunctioning or issues, especially in circumstances where it can potentially harm the service, compromise user experience, or pose risks to the security and integrity of our systems
 7. Publicly disclose information about exploits or security flaws in the service. See the section below for instructions on reporting sensitive issues
 
@@ -58,6 +60,7 @@ Do not do, or attempt to do any of the following against our services:
 
 * A MoonlightBot Premium subscriber
 * Boosting our Support Server
+* Upvoting MoonlightBot
 * Offering us currency, virtual goods or other content that benefit, enhance or collectively benefits our services, users or volunteers (referred to by the term "resources" in this section)
 
 By providing us resources, you affirm that the sole purpose you are doing so is to help maintain the service operational, improve its capabilities and increase our satisfaction.
@@ -70,7 +73,7 @@ To report abuse, bugs, or any questions or concerns about our policies, please [
 
 If you are unsatisfied by the result of your inquiry, you may escalate the issue to an administrator or developer.
 
-### 8 - Security Disclosure
+## 8 - Security Disclosure
 
 To report issues that affect the security and integrity of our systems, contact a developer through direct message. Do not make any mention of the issue outside of the conversation until you are authorized by said developer.
 
@@ -90,7 +93,7 @@ Enforcement actions we may take (in no particular order) include, but are not li
 * A written warning
 * Exclusion from participating in volunteer programs
 * Moderation actions in our Discord server (mute, kick, timeout, ban, etc)
-* Applying temporary or permanent, partial or complete blocks that restrict your access to our services
+* Applying temporary or permanent, partial or complete blocks that limit your access to our services
 * Reporting abusive behavior to involved third-party platforms, law enforcement agencies, or others we deem to be interested in having a report
 * Direct compensatory actions
 
