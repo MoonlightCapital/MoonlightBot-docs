@@ -59,7 +59,7 @@ Screenshots:
 - Add screenshots where relevant, clarifying, needed, etc.
 - Set your display name to `MoonlightCapital`
 - Set your profile picture to [this image](https://cdn.discordapp.com/attachments/484218269662707734/1362150383258173491/davatar3.png)
-- Add a role with the color #008080 to yourself and the bot
+- Add a role with the color `#008080` to yourself and the bot
 - Compress screenshots (but don't lose quality); [ImageCompressor](https://imagecompressor.com/) is suitable for this
 - Keep the outer margins/blank space of screenshots uniform
 - Edit out dates, hovered message options, and other visual discrepancies in screenshots
