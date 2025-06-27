@@ -1,32 +1,18 @@
-# What is Developer Mode?
+# Using developer mode
 
-Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain objects, such as users, servers, messages, channels, and roles. These can be used in place of such options in MoonlightBot's commands.
-
-# Using Developer Mode
-
-To use developer mode, you need to enable it first. Instructions for enabling developer mode are provided [in the next section](#enabling-developer-mode).
+Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain objects, such as users, servers, messages, channels, and roles.
 
 Whenever MoonlightBot asks for something like a user, channel, etc., you can provide the ID as an option to make sure it is pointing to exactly what you want.
 
-## Desktop/Web App
+To use developer mode, you need to enable it first. See the next sections for instructions depending on your device.
 
-To copy the ID of an object in the desktop or web app, right-click the object and click on the **Copy ID** option.
-
-## Android App
-
-For example, to copy the ID of a user in the Android app, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
-
-## iOS App
-
-For example, to copy the ID of a user in the iOS app, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
-
-# Enabling Developer Mode
-
-## Desktop/Web App
+# Desktop / Web App
 
 1. Go to **User Settings** by clicking the gear icon in the bottom left of the window
 2. Go to "**Advanced**"
 3. Click on the **Developer mode** toggle and you're done!
+
+To copy the ID of an object (user, channel, etc) in the desktop or web app, right-click the object and click on the **Copy ID** option.
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -42,13 +28,16 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 {% endtab %}
 {% endtabs %}
 
-## Android App
+# Android
 
 1. Go to **User Profile** by clicking your avatar in the bottom right corner
-2. Click again on your avatar in the bottom right corner or on the three dots in the top right corner
+2. Click again on your avatar in the bottom right corner or on the settings icon in the top right corner
 3. Scroll down until the **Advanced** section
 4. Open **Advanced**
 5. Click on the **Developer Mode** toggle and you're done!
+
+To copy the ID of a user, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
+For all other objects, hold the object and click on **Copy ID**.
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -68,13 +57,16 @@ For example, to copy the ID of a user in the iOS app, tap on the user's profile,
 {% endtab %}
 {% endtabs %}
 
-## iOS App
+# iOS
 
 1. Go to **User Profile** by clicking your avatar in the bottom right corner
-2. Click again on your avatar in the bottom right corner or on the three dots in the top right corner
+2. Click again on your avatar in the bottom right corner or on the settings icon in the top right corner
 3. Scroll down until the **Advanced** section
 4. Open **Advanced**
 5. Click on the **Developer Mode** toggle and you're done!
+
+To copy the ID of a user, tap on the user's profile, then tap on the three dots in the top right corner and click on **Copy ID**.
+For all other objects, hold the object and click on **Copy ID**.
 
 {% tabs %}
 {% tab title="Step 1" %}
