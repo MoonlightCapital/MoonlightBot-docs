@@ -38,6 +38,54 @@ Tabs are boxes of content that show a list of tab titles, and the reader can vie
 
 To start a group of tabs, use the `{% tabs %}` tag. For each single tab, wrap them in `{% tab title="TITLE" %}`, replacing the title accordingly, and `{% endtab %}`. End the whole group of tabs with `{% endtabs %}`.
 
+## Style Guide
+
+### Do:
+
+- Communicate! Ask questions and make suggestions. It's ok to be wrong; Learn and try again, we love it!
+- Always add a hyperlink to the command's page when mentioned
+- Submit pull requests to the testing branch, not the main branch
+- Retain as much information as possible while remaining concise. It can be a difficult balance at times, but mistakes are ok! Pull requests and the testing branch allow for plenty of feedback and revision
+- Add additional relevant information when it is missing or improves the section
+- Use info hints for information that is indirectly related
+- Structure pages and sections in the order a user would need to set the bot up, then use comfortably, then in order of importance. I.e., make sure the bot works, then set it to a comfortable language, then continue to moderation set up
+- Tables containing specific values, such as the log names, should be alphabetical
+- Keep the main page as a summary/overview; Add the specific stuff to the dedicated/relevant page
+- Add explanations for suggestions. Your way of thinking might not be immediately clear to others, but that doesn't make it bad or wrong; Even if it's just a gut feeling, let us know!
+
+
+Screenshots:
+
+- Add screenshots where relevant, clarifying, needed, etc.
+- Set your display name to `MoonlightCapital`
+- Set your profile picture to [this image](https://cdn.discordapp.com/attachments/484218269662707734/1362150383258173491/davatar3.png)
+- Add a role with the color #008080 to yourself and the bot
+- Compress screenshots (but don't lose quality); [ImageCompressor](https://imagecompressor.com/) is suitable for this
+- Keep the outer margins/blank space of screenshots uniform
+- Edit out dates, hovered message options, and other visual discrepancies in screenshots
+- Use the "Ash" theme, with default spacing/font size/etc.
+
+
+
+###	Don't:
+
+- Stay silent. We want you to ask questions, we want your input. MoonlightBot is built for you, the user, and your contributions help us improve! Even if you just ask one question, you might be the 15th person to ask it, letting us know our documentation could use improvement! Being an active member of the community helps everyone
+- Ramble about something in the documentation. Keep contributions short and sweet. If you need help, feel free to ask for feedback!
+- Remove information if avoidable. If important information needs to be removed from one section, try to find a new place for it.
+- Make vague statements about functions and features.
+- Randomly add sections or other information, or shuffle orders without a clear improvement in mind.
+- Submit suggestions without some explanation or thought process
+- Go in-depth on the main page
+
+
+Screenshots:
+
+- Use a theme other than "Ash"
+- Have evidence of a Discord client being used (uninstall it or switch to the default client for screenshots, then switch back after)
+- Submit unprocessed screenshots
+- Submit low-resolution screenshots
+- Submit uncompressed screenshots
+
 ## Commit and branch naming
 
 Try to keep the names of branches and commits meaningful.
