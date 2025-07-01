@@ -26,6 +26,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 
 * 7alisman/TonyM - HF
 * NXTCY
+* v4ca
 
 ### Lifetime Members
 
@@ -90,3 +91,4 @@ They are passionate about their native language, and know that not everyone has 
 * **Czech:** Esterze
 * **Russian:** Cloud
 * **Traditional Chinese:** AhMing, Lerp_Ant
+* **Spanish - Latam** v4ca
