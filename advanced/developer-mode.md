@@ -1,8 +1,8 @@
 # Using developer mode
 
-Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain objects, such as users, servers, messages, channels, and roles.
+Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain entities, such as users, servers, messages, channels, and roles.
 
-Whenever MoonlightBot asks you to specify an object you can provide the ID as an option to make sure it is pointing exactly to what you want.
+Whenever MoonlightBot asks you to specify an entity you can provide the ID as an option to make sure it is pointing exactly to what you want.
 
 # Enabling Developer Mode
 
@@ -14,7 +14,7 @@ To use developer mode, you need to enable it first. See the next sections for in
 2. Go to "**Advanced**"
 3. Click on the **Developer mode** toggle and you're done!
 
-To copy the ID of an object in the desktop or web app, right-click the object and click on the **Copy ID** option.
+To copy the ID of an entity in the desktop or web app, right-click the entity and click on the **Copy ID** option.
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -39,7 +39,7 @@ To copy the ID of an object in the desktop or web app, right-click the object an
 5. Tap on the **Developer Mode** toggle and you're done!
 
 To copy the ID of a user, tap on the user's profile, then tap on the three dots in the top right corner and tapping on **Copy User ID**.
-For all other objects, hold the object and tap on **Copy ID**.
+For all other entities, hold the entity and tap on **Copy ID**.
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -68,7 +68,7 @@ For all other objects, hold the object and tap on **Copy ID**.
 5. Tap on the **Developer Mode** toggle and you're done!
 
 To copy the ID of a user, tap on the user's profile, then tap on the three dots in the top right corner and tap on **Copy User ID**.
-For all other objects, hold the object and tap on **Copy ID**.
+For all other entities, hold the entity and tap on **Copy ID**.
 
 {% tabs %}
 {% tab title="Step 1" %}
