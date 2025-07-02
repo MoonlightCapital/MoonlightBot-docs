@@ -26,6 +26,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 
 * 7alisman/TonyM - HF
 * NXTCY
+* v4ca
 
 ### Lifetime Members
 
@@ -77,7 +78,7 @@ They are passionate about their native language, and know that not everyone has 
 
 * **Danish:** The-God-Of-Noise
 * **German:** Darkfinst, I_mundercover, [m]
-* **Latin American Spanish:** selffinS, zSnails
+* **Latin American Spanish:** selffinS, v4ca, zSnails
 * **French:** Michael Ngeleka, tchoupi253, Teren
 * **Hindi:** Sai Mehar
 * **Korean:** mars
