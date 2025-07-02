@@ -2,7 +2,7 @@
 
 Developer mode is a Discord feature that allows you to access the internal IDs used by Discord to refer to certain objects, such as users, servers, messages, channels, and roles.
 
-Whenever MoonlightBot asks you to specify an object you can provide the ID as an option to make sure it is pointing exactly to what you want.
+Whenever MoonlightBot asks you to specify an object you can provide the ID as an option to make sure it is pointing exactly to what you want. Additionally, you can paste IDs into the search bar to quickly retrieve their object's history even if their names change over time.
 
 # Enabling Developer Mode
 
