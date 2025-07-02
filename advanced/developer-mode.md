@@ -38,7 +38,7 @@ To copy the ID of an object in the desktop or web app, right-click the object an
 4. Open **Advanced**
 5. Tap on the **Developer Mode** toggle and you're done!
 
-To copy the ID of a user, tap on the user's profile, then tap on the three dots in the top right corner and tapping on **Copy User ID**.
+To copy the ID of a user, tap on the user's profile, open the menu by tapping on the three dots in the top right corner and finally tap on **Copy User ID**.
 For all other objects, hold the object and tap on **Copy ID**.
 
 {% tabs %}
