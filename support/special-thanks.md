@@ -78,7 +78,7 @@ They are passionate about their native language, and know that not everyone has 
 
 * **Danish:** The-God-Of-Noise
 * **German:** Darkfinst, I_mundercover, [m]
-* **Latin American Spanish:** selffinS, zSnails
+* **Latin American Spanish:** selffinS, v4ca, zSnails
 * **French:** Michael Ngeleka, tchoupi253, Teren
 * **Hindi:** Sai Mehar
 * **Korean:** mars
@@ -91,4 +91,3 @@ They are passionate about their native language, and know that not everyone has 
 * **Czech:** Esterze
 * **Russian:** Cloud
 * **Traditional Chinese:** AhMing, Lerp_Ant
-* **Spanish - Latam** v4ca
