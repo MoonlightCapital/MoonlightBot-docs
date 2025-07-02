@@ -1,6 +1,6 @@
 # Using developer mode
 
-Developer mode is a Discord feature that allows you to access the unique internal IDs used to refer to certain entities, such as users, roles, servers, messages, and channels.
+Developer mode is a Discord feature that allows you to access the unique internal IDs used to refer to certain entities, such as users, roles, servers, messages and channels.
 
 Whenever MoonlightBot asks you to specify an entity you can provide the ID as an option to make sure it is pointing exactly to what you want. Additionally, you can paste IDs into the search bar to quickly retrieve their entity's history even if their names change over time.
 
