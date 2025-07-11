@@ -48,14 +48,14 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## reason
 
-Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one. You can alternatively use `%%%` to automatically copy the old content so you don't have to type it again.
+Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one.
 
 ```text
 /infractions reason <id> [reason]
 ```
 
 * `id`: The ID of the infraction you want to edit
-* `reason`: What you want to change the reason to
+* `reason`: What you want to change the reason to. Use `%%%` to add on to the previous content. If this option is not set, the command will return the existing reason
 
 ### Required permissions
 

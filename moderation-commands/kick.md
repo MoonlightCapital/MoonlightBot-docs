@@ -1,6 +1,6 @@
 # kick
 
-The `kick` command kicks a user from the current server. The user can rejoin the server if they have an invite link.
+The `kick` command kicks a user from the current server. The user can rejoin the server if they have a valid invite link.
 
 ## Required permissions
 

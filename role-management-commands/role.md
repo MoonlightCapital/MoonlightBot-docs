@@ -2,8 +2,9 @@
 
 This command allows you to assign or remove a role from a user. If the role is already assigned to the user, it will be removed and vice versa.
 
-Note that you can also target users who are currently not on the server. By doing so, it creates/removes a persistence.
-This will cause the role to be assigned to the user when they join the server.
+{% hint style="info"}
+you can also target users who are currently not on the server. By doing so, it creates/removes a persistence, meaning the role will be assigned when the user joins the server.
+{% endhint %}
 
 ## Required permissions
 
