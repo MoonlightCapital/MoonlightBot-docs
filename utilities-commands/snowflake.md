@@ -1,6 +1,6 @@
 # snowflake
 
-The `snowflake` command displays information about a [snowflake](https://discord.com/developers/docs/reference#snowflakes), a Discord-generated ID. It is useful to know when a certain entity such as a message, channel or role was created to millisecond precision.
+This command displays information about a [snowflake](https://discord.com/developers/docs/reference#snowflakes), a Discord-generated ID. It is useful to know when a certain entity such as a message, channel or role was created to millisecond precision.
 
 ## Required permissions
 

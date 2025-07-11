@@ -1,6 +1,6 @@
 # serverinfo
 
-The `serverinfo` command displays information about the server you are in or another server that has MoonlightBot. The information shown is its ID, the owner, the creation date, the member, emoji, role and channel counts and the icon.
+This command displays information about the server you are in or another server that has MoonlightBot. The information shown is its ID, the owner, the creation date, the member, emoji, role and channel counts and the icon.
 
 ## Required permissions
 

@@ -1,6 +1,6 @@
 # warn
 
-The `warn` command issues a warning to a user in the current server.
+This command issues a warning to a user in the current server.
 
 ## Required permissions
 

@@ -1,6 +1,6 @@
 # timeout
 
-The `timeout` command temporarily times out a user from the current server.
+This command temporarily times out a user from the current server.
 
 ## Required permissions
 
