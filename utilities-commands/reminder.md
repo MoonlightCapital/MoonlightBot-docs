@@ -1,6 +1,6 @@
 # reminder
 
-The `reminder` command allows you to use the bot to manage reminder messages that will be delivered to Direct Messages. You can have up to 10 reminders active at once, which increases to 20 with [MoonlightBot Premium](/support/premium.md).
+This command allows you to use the bot to manage reminder messages that will be delivered to Direct Messages. You can have up to 10 reminders active at once, which increases to 20 with [MoonlightBot Premium](/support/premium.md).
 
 Each reminder is automatically assigned an ID to perform operations on it. All options that require an ID will show a brief list of your reminders in the autocomplete menu along with the beginning of the reminder content.
 

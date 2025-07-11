@@ -1,6 +1,6 @@
 # softban
 
-The `softban` command bans then immediately unbans a user from the current server, deleting all messages they sent in the past 7 days.
+This command bans then immediately unbans a user from the current server, deleting all messages they sent in the past 7 days.
 
 ## Required permissions
 

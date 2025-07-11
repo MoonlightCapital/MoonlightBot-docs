@@ -1,6 +1,6 @@
 # mute
 
-The `mute` command mutes a user by giving them the server's configured mute role. This is intended to revoke the user's permissions to talk in the server while still being able to read messages, or otherwise restrict accordingly to the server's preferences.
+This command mutes a user by giving them the server's configured mute role. This is intended to revoke the user's permissions to talk in the server while still being able to read messages, or otherwise restrict accordingly to the server's preferences.
 
 {% hint style="info" %}
 A server administrator needs to configure a mute role in order to enable this command. This can be done quickly with the [`/create-muterole`](/management-commands/create-muterole.md) command.

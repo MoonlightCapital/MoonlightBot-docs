@@ -1,6 +1,10 @@
 # clean
 
-This command deletes a large amount of messages from a channel, optionally limited by specifying some deletion criteria. Criteria are options that distinguish messages such as those that contain a specific phrase. Using multiple criteria will narrow the selection to only messages that fit all of them. Due to limitations imposed by Discord, only messages sent within the last 14 days can be deleted.
+This command deletes a specified amount of messages from a channel. The command can be optionally limited by criteria, such as deleting only messages from bots, as seen in the [Options](#options) section below.
+
+{% hint style="info" %}
+Due to limitations imposed by Discord, only messages sent within the last 14 days can be deleted.
+{% endhint %}
 
 ## Required permissions
 

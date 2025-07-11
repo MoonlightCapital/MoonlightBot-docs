@@ -16,7 +16,7 @@ For more information on editing permission requirements for specific users/roles
 
 ## settings
 
-This command lets you configure some personal settings regarding the types of notifications you get from MoonlightBot, and other preferences to customize your experience with the bot.
+This command lets you configure your personal settings, such as the types of notifications MoonlightBot will send you, and the language the bot will use when messaging/replying to you.
 
 ```
 /userconfig settings [reaction-role-notifications] [vote-reminders]

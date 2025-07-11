@@ -1,6 +1,6 @@
 # selfrole
 
-This command allows you to assign or remove a role from yourself.
+This command allows you to assign or remove a role from yourself, or view all existing self assignable roles.
 
 {% hint style="warning" %}
 The server admins need to make a role self-assignable before you can use it. 
