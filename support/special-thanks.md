@@ -56,6 +56,7 @@ This documentation is open for contributions on [GitHub](https://github.com/Moon
 * Darkfinst
 * Irisplooshi
 * JSP
+* Kaiyumari
 * Kalosianlitten
 * Miky88
 * Princess Lillie of the Stars
