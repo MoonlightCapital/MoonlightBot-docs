@@ -19,6 +19,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 * Princess Lillie of the Stars
 * Samplasion
 * catus
+* Teren
 
 ## Premium Subscribers
 
