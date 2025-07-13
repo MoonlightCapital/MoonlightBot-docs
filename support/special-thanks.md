@@ -86,7 +86,7 @@ They are passionate about their native language, and know that not everyone has 
 * **Lithuanian:** MoonlightCapital
 * **Dutch:** AmmoKa
 * **Norwegian:** catus
-* **Brazilian Portuguese:** 
+* **Brazilian Portuguese:** *No information available*
 * **Turkish:** catus
 * **Czech:** Esterze
 * **Russian:** Cloud
