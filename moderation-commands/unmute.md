@@ -1,6 +1,6 @@
 # unmute
 
-The `Unmute` command can be used to Unmute a user that is currently muted - this must have been a mute enacted via MoonlightBot.
+This command can be used to unmute a user that is currently muted - this must have been a mute enacted via MoonlightBot.
 
 ## Required permissions
 

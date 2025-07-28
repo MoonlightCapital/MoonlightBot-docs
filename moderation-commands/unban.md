@@ -1,6 +1,6 @@
 # unban
 
-The `unban` command unbans a user from the current server.
+This command unbans a user from the current server.
 
 ## Required permissions
 

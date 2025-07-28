@@ -1,6 +1,6 @@
 # userinfo
 
-The `userinfo` command displays information about a user. The information shown is their ID, if they are a bot, the creation date, and the avatar.
+This command displays information about a user. The information shown is their ID, if they are a bot, the creation date, and the avatar.
 
 If the user is in the current server, it will also show when they joined and their roles.
 

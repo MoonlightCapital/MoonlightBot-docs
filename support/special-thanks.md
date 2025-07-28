@@ -19,6 +19,7 @@ They are in charge of administrating MoonlightBot, the server, moderating conver
 * Princess Lillie of the Stars
 * Samplasion
 * catus
+* Teren
 
 ## Premium Subscribers
 
@@ -57,6 +58,7 @@ This documentation is open for contributions on [GitHub](https://github.com/Moon
 * Darkfinst
 * Irisplooshi
 * JSP
+* Kaiyumari
 * Kalosianlitten
 * Miky88
 * Princess Lillie of the Stars
@@ -86,7 +88,7 @@ They are passionate about their native language, and know that not everyone has 
 * **Lithuanian:** MoonlightCapital
 * **Dutch:** AmmoKa
 * **Norwegian:** catus
-* **Brazilian Portuguese:** LK4z
+* **Brazilian Portuguese:** *No information available*
 * **Turkish:** catus
 * **Czech:** Esterze
 * **Russian:** Cloud
