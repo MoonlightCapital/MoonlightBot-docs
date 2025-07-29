@@ -2,7 +2,7 @@
 
 This repository hosts the official documentation, that can be comfortably viewed on [GitBook](https://moonlightbot.gitbook.io/docs/). Commits to the `main` branch update the documentation on the site instantly.
 
-To ensure the highest standard of quality, all contributions must come in forms of pull requests directed to the `testing` branch. Said branch is connected to [a pre-testing GitBook space](https://moonlightbot.gitbook.io/moonlightbot-documentation-preview/), to see if in the field everything works as intended before merging into `main`.
+To ensure the highest standard of quality, all contributions must come in forms of pull requests directed to the `testing` branch. Said branch is connected to [a pre-testing GitBook space](https://moonlightbot.gitbook.io/beta/), to see if in the field everything works as intended before merging into `main`.
 
 ## Project structure
 
@@ -37,6 +37,36 @@ To end an hint box, use the `{% endhint %}` tag.
 Tabs are boxes of content that show a list of tab titles, and the reader can view the content of each tab by clicking on the title. They can be used for a compact page layout for repetitive content.
 
 To start a group of tabs, use the `{% tabs %}` tag. For each single tab, wrap them in `{% tab title="TITLE" %}`, replacing the title accordingly, and `{% endtab %}`. End the whole group of tabs with `{% endtabs %}`.
+
+## Style Guide
+
+* _Always_ add a hyperlink to the command's page when mentioned
+* Submit pull requests to the testing branch, not the main branch
+* Retain as much information as possible while remaining concise.
+  * It can be a difficult balance at times, but mistakes are ok! Pull requests and the testing branch allow for plenty of feedback and revision
+* Add additional relevant information when it is missing or improves the section
+* Use info hints for information that is indirectly related
+* Structure pages and sections in the order a user would need to set the bot up, then use comfortably, then in order of importance
+  * I.e., make sure the bot works, then set it to a comfortable language, then continue to moderation set up
+* Tables containing specific values, such as the [log names](/advanced/list-of-log-names.md), should be alphabetical
+* Command options are listed in the order they appear in Discord, with required ones going first and optional ones after
+* Keep the main page as a summary/overview; Add the specifics of a command or feature to the dedicated/relevant page
+* New pages need to be added to [SUMMARY.md](/SUMMARY.md), with command pages being sorted alphabetically
+
+Don't forget to communicate! Ask questions and make suggestions. It's ok to be wrong; Learn and try again, we love it! Additionally, your way of thinking might not be immediately clear to others, but that doesn't immediately make it wrong; Even if it's just a gut feeling, let us know why you made the suggestion you did!
+
+### Screenshots
+
+* Add screenshots where relevant, clarifying, needed, etc.
+* Use the standardized profile. This is an imitation of the bot owner's profile to maintain professionalism, and is done with her consent.
+  * Set your display name to `MoonlightCapital`
+  * Set your profile picture to [this image](/.gitbook/assets/ProfilePicture.png)
+  * Add a role with the color `#008080` to yourself and the bot
+* Compress screenshots (but don't lose quality); [ImageCompressor](https://imagecompressor.com/) is suitable for this
+* Keep the outer margins/blank space of screenshots uniform
+* Edit out dates, hovered message options, and other visual discrepancies in screenshots
+* Use the "Ash" theme, with default spacing/font size/etc.
+* Use the official Discord app/client; Do **not** use a modded Discord client for screenshots
 
 ## Commit and branch naming
 
