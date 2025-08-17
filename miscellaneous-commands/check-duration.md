@@ -8,7 +8,7 @@ If you [vote for MoonlightBot](/support/upvote-moonlightbot.md), purchase a [pre
 | ----------------- | ---------------- |
 | Default               |7 Days   |
 | Default [(Beta bot)](/support/beta.md) |14 Days |
-| Joining [the support server](https://discord.com/invite/hNQWVVC) or for your first 7 days |31 Days |
+| Joining [the support server](https://discord.gg/hNQWVVC) or for your first 7 days |31 Days |
 | Being a [Premium Subscriber (Basic Tier)](/support/premium.md#tiers) |90 Days  |
 | Being a [Premium Subscriber (Advanced and greater Tiers)](/support/premium.md#tiers) |1 Year  |
 | Having [Voted within the past 72 hours](/support/upvote-moonlightbot.md) |Double your current maximum|
