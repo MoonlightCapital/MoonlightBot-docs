@@ -12,7 +12,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## summary
 
@@ -32,7 +32,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## detailed
 
-Shows the type of infraction, the user the command targeted, who executed the infraction, the reason for the infraction, and the date it was executed
+Shows the type of infraction, the user the command targeted, who executed the infraction, the reason for the infraction, and the date it was executed.
 
 ```text
 /infractions detailed <id>
@@ -48,14 +48,14 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## reason
 
-Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one. You can alternatively use `%%%` to automatically copy the old content so you don't have to type it again
+Changes the reason of the infraction. If the `reason` option is left blank, it will simply display the current one.
 
 ```text
 /infractions reason <id> [reason]
 ```
 
 * `id`: The ID of the infraction you want to edit
-* `reason`: What you want to change the reason to
+* `reason`: What you want to change the reason to. Use `%%%` to add on to the previous content. If this option is not set, the command will return the existing reason
 
 ### Required permissions
 
@@ -65,7 +65,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## search
 
-Shows a list of infractions that fit all the specified criteria, such as the moderator who executed them
+Shows a list of infractions that fit all the specified criteria, such as the moderator who executed them.
 
 ```text
 /infractions search [target] [moderator] [type] [before] [after]
@@ -85,7 +85,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## delete
 
-Deletes an infraction
+Deletes an infraction.
 
 {% hint style="danger" %}
 This cannot be undone! Be absolutely sure that you want to delete the infraction before running this command.
@@ -109,4 +109,4 @@ MoonlightBot requires the following permissions to successfully execute this sub
 * `REASON_UPDATE`: Shows the user the infraction affects, the moderator who executed it, and the updated reason
 * `INFRACTION_DELETE`: Same as above, with the reason being why the infraction was deleted
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

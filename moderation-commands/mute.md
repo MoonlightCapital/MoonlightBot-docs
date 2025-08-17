@@ -1,9 +1,9 @@
 # mute
 
-The `mute` command mutes a user by giving them the server's configured mute role. This is intended to revoke the user's permissions to talk in the server while still being able to read messages, or otherwise restrict accordingly to the server's preferences.
+This command mutes a user by giving them the server's configured mute role. This is intended to revoke the user's permissions to talk in the server while still being able to read messages, or otherwise restrict accordingly to the server's preferences.
 
 {% hint style="info" %}
-A server administrator needs to configure a mute role in order to enable this command. This can be done quickly with the [`/create-muterole`](../management-commands/create-muterole.md) command.
+A server administrator needs to configure a mute role in order to enable this command. This can be done quickly with the [`/create-muterole`](/management-commands/create-muterole.md) command.
 {% endhint %}
 
 ## Required permissions
@@ -16,7 +16,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Moderate Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -33,11 +33,11 @@ For more information on editing permission requirements for specific users/roles
 * `remove-roles`: Whether the user's other roles will be removed (True/False)
 
 {% hint style="warning" %}
-The user will not be notified if both `notify` and `no-infraction` are set to True
+The user will not be notified if both `notify` and `no-infraction` are set to True.
 {% endhint %}
 
 ## Logs
 
 * `MUTE`: This log is triggered when a user is muted. It will log the user, the responsible moderator and the reason for the muting. If an infraction is created, it will also include the infraction ID
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

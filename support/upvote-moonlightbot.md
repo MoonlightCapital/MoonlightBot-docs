@@ -2,11 +2,11 @@
 
 By upvoting MoonlightBot on bot listing sites, you help us reach a wider audience and speed up the development of new features, as well as improve the support system.
 
-## Why should you vote? And how does it help us?
+## Why should you vote? How does it help us?
 
 1. If we helped you or your server, you should vote so that other people can discover MoonlightBot's amazing features!
 2. Knowing you're supporting our work makes us motivated to do better. With more motivation, we can quickly ship new features to the bot!
-3. Some people are full of hatred, and they like to attack small bot developers like us. But your votes make us more resilient and allow us to continue offering the service.
+3. Some people are full of hatred, and they like to attack small bot developers like us. But your votes make us more resilient and allow us to continue offering the service
 
 ## Perks/Rewards for voting
 

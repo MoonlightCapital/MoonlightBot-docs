@@ -1,6 +1,6 @@
 # kick
 
-The `kick` command kicks a user from the current server. The user can rejoin the server if they have an invite link.
+This command kicks a user from the current server. The user can rejoin the server if they have a valid invite link.
 
 ## Required permissions
 
@@ -12,7 +12,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Kick Members
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -28,11 +28,11 @@ For more information on editing permission requirements for specific users/roles
 * `no-infraction`: Whether the ban counts as an infraction or not (True/False). This is optional and contains the server name and reason
 
 {% hint style="warning" %}
-The user will not be notified if both `notify` and `no-infraction` are set to True
+The user will not be notified if both `notify` and `no-infraction` are set to True.
 {% endhint %}
 
 ## Logs
 
 * `KICK`: This log is triggered when a user is kicked from a server. It will log the user, the responsible moderator and the reason for the kick. If an infraction is created, it will also include the infraction ID
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)

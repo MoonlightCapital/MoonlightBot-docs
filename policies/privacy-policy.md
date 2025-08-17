@@ -2,7 +2,7 @@
 
 This Privacy Policy describes how our services collects, uses, and protects your personal information. By using MoonlightBot or other services we provide, you consent to the practices outlined in this policy.
 
-Last updated: June 27th, 2024
+Last updated: May 6th, 2025
 
 ## Information Collection and Use
 
@@ -11,8 +11,24 @@ We may collect certain information when you are using our services. This informa
 - Discord IDs: We store references to Discord entities (such as users, servers, channels, roles) and other provided IDs to provide the features described in this documentation, technical support and diagnose errors.
 - Command usage data: We may collect data about the usage of bot commands to improve our services and enhance user experience, and for the purpose of detecting abuse.
 - Server information: We may collect and store server-related data, such as server IDs and server settings, to provide the functionalities stated in the services' descriptions.
-- Logs: The service sends logs of events that occur with the bot to a private Discord server, of which only our bots, (trial) Staff and helpers for the purposes of understanding how our services are used, provide you technical support, background checks for [volunteer conduct](./volunteer-code-of-conduct.md) and investigate potential abuse.
+- Logs: The service sends logs of events that occur with the bot to a private Discord server, of which only our bots, (trial) Staff and helpers for the purposes of understanding how our services are used, provide you technical support, background checks for [volunteer conduct](/volunteer-code-of-conduct.md) and investigate potential abuse.
 - Memberships, permissions, role names, bots, privileged users (commonly named moderators/administrators) and their metadata in servers: to verify your authorization to allow our support team to assist you with sensitive operations or provide guidance, to verify the truthfulness of your statements and investigate/action potential abuse.
+
+## Test Instance Monitoring
+
+The app known as "MoonlightBot test#1483" with ID `546586902728540191` additionally stores in the database some data in order to display it to testers themselves, Staff, helpers and some authorized senior-ranking peer testers. This collection is done to:
+
+- Provide insights about a tester's own activity
+- Indicate how much progress has been made
+- Assist testers with personalized advice
+- Generate a summary of each individual tester's performance and total coverages of the features that required testing
+
+Specifically, the data stored is:
+
+- Names, timestamps and permissions of the commands being used
+- Versions of the app used throughout a testing session
+- Timestamps of last used commands
+- For each command usage, a SHA-256 fingerprint, part of which generated is with the full options of the command used as input
 
 ## Data Security
 

@@ -1,6 +1,10 @@
 # clean
 
-This command deletes a large amount of messages from a channel, optionally limited by specifying some deletion criteria. Criteria are options that distinguish messages such as those that contain a specific phrase. Using multiple criteria will narrow the selection to only messages that fit all of them. Due to limitations imposed by Discord, only messages sent within the last 14 days can be deleted.
+This command deletes a specified amount of messages from a channel. The command can be optionally limited by criteria, such as deleting only messages from bots, as seen in the [Options](#options) section below.
+
+{% hint style="info" %}
+Due to limitations imposed by Discord, only messages sent within the last 14 days can be deleted.
+{% endhint %}
 
 ## Required permissions
 
@@ -15,7 +19,7 @@ By default, a user is required to have the following permissions to use this com
 
 * Manage Messages
 
-For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](../start-up/permission-tutorial.md)
+For more information on editing permission requirements for specific users/roles, refer to the [permissions tutorial](/start-up/permission-tutorial.md)
 
 ## Syntax
 
@@ -42,7 +46,7 @@ For more information on editing permission requirements for specific users/roles
 ![An example of logs sent by the bot after a clean command execution](/.gitbook/assets/CleanLogs.png "Clean Logs")
 
 {% hint style="info" %}
-Rather than rendering them like other downloadable files, Discord displays the raw content of HTML files. To download the HTML file, click the download button at the bottom-right of the file display. Double-click the file, and your computer will open a new tab in your browser to display a visualization of the messages deleted
+Rather than rendering them like other downloadable files, Discord displays the raw content of HTML files. To download the HTML file, click the download button at the bottom-right of the file display. Double-click the file, and your computer will open a new tab in your browser to display a visualization of the messages deleted.
 {% endhint %}
 
-For more information on setting up those logs, refer to the [log setup tutorial](../README.md#logging)
+For more information on setting up those logs, refer to the [log setup tutorial](/README.md#logging)
