@@ -47,7 +47,7 @@ MoonlightBot provides easy and dynamic role management by staff and members alik
 * All active temporary roles can be listed with [`/list-temproles`](./role-management-commands/list-temproles.md)
 * Roles added to members can be automatically changed to a temporary role using the [`detect-assignment` config option](./management-commands/config.md#roles-detect-assignment)
 
-You can also permanently assign or remove any role to a user with [`/role`](./role-management-commands/role.md), or setup [Reaction Roles](./start-up/setting-up-reaction-roles.md) and [`/selfrole`](./role-management-commands/selfrole.md)s that members can self-assign
+You can also permanently assign or remove any role to a user with [`/role`](./role-management-commands/role.md), or setup temporary or permanent [Reaction Roles](./start-up/setting-up-reaction-roles.md) and [`/selfrole`](./role-management-commands/selfrole.md)s that members can self-assign.
 
 ## Command Permissions
 

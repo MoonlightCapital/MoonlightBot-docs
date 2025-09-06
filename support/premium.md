@@ -91,7 +91,9 @@ Activating your subscription is a seamless process that only requires four steps
 <figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 
 3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020!
-["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
+
+<figure><img src="/.gitbook/assets/PremiumMiniProfile.png" alt="MoonlightBot Premium was created on March 27, 2020"><figcaption>MoonlightBot Premium was created on March 27, 2020</figcaption></figure>
+
 4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative
 
 Done!
@@ -130,7 +132,7 @@ If you purchased or received a lifetime subscription in the past, it will remain
 
 ## Disclaimer
 
-Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#6---resource-providerdonation-policy) of the [Acceptable Use Policy](/policies/acceptable-use-policy.md).
+Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#id-6-resource-provider-donation-policy) of the [Acceptable Use Policy](/policies/acceptable-use-policy.md).
 
 All perks are meant to come "within reason". We will turn down requests that cause excessive strain on our systems, personnel or come with certain caveats that may not be appropriate for our ecosystem. In doubt, consult our Staff first.
 
