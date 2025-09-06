@@ -1,6 +1,6 @@
 # tempban
 
-The `tempban` command temporarily bans a user from the current server.
+This command temporarily bans a user from the current server.
 
 ## Required permissions
 

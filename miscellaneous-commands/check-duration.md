@@ -2,13 +2,15 @@
 
 This command is equivalent to the previous version’s `/status` command. It allows you to see how long you can set a temporary action.
 
-If you [vote for MoonlightBot](/support/upvote-moonlightbot.md), purchase a [premium subscription](/support/premium.md), [join the support server](https://discord.gg/hNQWVVC) (which besides support you can also read news and changelogs, participate in [volunteer programs](/support/volunteering.md), giveaways, meet the person who wrote this and the developer, among more), or if you started using MoonlightBot less than 7 days ago, the durations for how long you can set a temporary action to last increases. Refer to the chart to see all available bonuses:
+If you [vote for MoonlightBot](/support/upvote-moonlightbot.md), purchase a [premium subscription](/support/premium.md), [join the support server](https://discord.gg/hNQWVVC) (where you can also read news and changelogs, participate in [volunteer programs](/support/volunteering.md) and giveaways, meet the developer, and more), or started using MoonlightBot less than 7 days ago, the durations for how long you can set a temporary action to last increases. Refer to the chart to see all available bonuses:
+
+
 
 | Status              | Maximum Duration    |
 | ----------------- | ---------------- |
 | Default               |7 Days   |
 | Default [(Beta bot)](/support/beta.md) |14 Days |
-| Joining [the support server](https://discord.gg/hNQWVVC) or for your first 7 days |30 Days |
+| Joining [the support server](https://discord.gg/hNQWVVC) or for your first 7 days |31 Days |
 | Being a [Premium Subscriber (Basic Tier)](/support/premium.md#tiers) |90 Days  |
 | Being a [Premium Subscriber (Advanced and greater Tiers)](/support/premium.md#tiers) |1 Year  |
 | Having [Voted within the past 72 hours](/support/upvote-moonlightbot.md) |Double your current maximum|

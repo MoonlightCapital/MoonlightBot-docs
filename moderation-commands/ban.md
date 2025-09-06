@@ -1,6 +1,6 @@
 # ban
 
-The `ban` command bans a user from the current server.
+This command bans a user from the current server.
 
 ## Required permissions
 
