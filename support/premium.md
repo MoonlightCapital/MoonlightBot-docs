@@ -73,9 +73,10 @@ For your first ever vote, or for voting consecutively for 30 days, you will rece
 
 ### Boost the support server
 
-For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will also receive premium as long as you keep the server boosted.
+For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive premium following a successful security check and security briefing after your initial boost. The premium will last as long as you continue boosting the server.
 
-The tier of booster premium is initially basic, but it will be upgraded to advanced once you have boosted for three months consecutively.
+The tier of premium is initially basic, but this will be upgraded to advanced once you have boosted for three months consecutively.
+If the server is level one or below (<8 boosts) at the time of the boost starting, you will be immediately upgraded to advanced tier, skipping the three month wait.
 
 ### Giveaways, volunteering, and other rewards
 
@@ -90,7 +91,7 @@ Activating your subscription is a seamless process that only requires four steps
 
 <figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 
-3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020!
+3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
 ["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
 4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative
 
