@@ -50,7 +50,7 @@ Each tier includes all the perks described in cheaper tiers.
 
 ## MoonlightBot Premium bot benefits
 
-* Used in less server, with better performance guaranteed
+* Used in less servers, with better performance guaranteed
 * Less likely to experience downtime, and faster recovery times
 * Has a default maximum duration of 1 year for temporary actions
 * Updates are downloaded from MoonlightBot beta, for early access to new features and improvements
@@ -67,9 +67,9 @@ Patreon is a platform we use to manage subscriptions. You can pledge at [https:/
 
 ### Upvote MoonlightBot
 
-You can upvote MoonlightBot and earn some free premium. For more information, see the [voting tutorial](upvote-moonlightbot.md).
+You can upvote MoonlightBot and earn some free Premium. For more information, see the [voting tutorial](upvote-moonlightbot.md).
 
-For your first ever vote, or for voting consecutively for 30 days, you will receive one week of basic tier premium. This will be prolonged as long as you continue voting at least once every 48 hours.
+For your first ever vote, or for voting consecutively for 30 days, you will receive one week of Basic tier Premium. This will be prolonged as long as you continue voting at least once every 48 hours.
 
 ### Boost the support server
 
@@ -80,7 +80,7 @@ If the server is below Level 2 (<7 boosts) at the time of the boost starting, an
 
 ### Giveaways, volunteering, and other rewards
 
-In the support server, we may run giveaways or offer [volunteering opportunities](volunteering.md) - such as translating MoonlightBot into other languages, providing feedback, or reporting bugs to earn premium subscriptions as reward. Join the server to find out more about the specifics of those types of subscription as terms and conditions may vary.
+In the support server, we may run giveaways or offer [volunteering opportunities](volunteering.md) - such as translating MoonlightBot into other languages, providing feedback, or reporting bugs to earn Premium subscriptions as reward. Join the server to find out more about the specifics of those types of subscription as terms and conditions may vary.
 
 ## How to activate your Premium subscription
 
