@@ -76,7 +76,10 @@ For your first ever vote, or for voting consecutively for 30 days, you will rece
 For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive your Premium subscription after having answered a few questions, a security briefing and entering an agreement.
 
 The Premium tier for Server Boosting is initially Basic and will be upgraded to Advanced tier once you have boosted for three months consecutively.
-If the server is below Level 2 (<7 boosts) at the time of the boost starting, and you can guarantee to boost the server for a minimum of one month, you will be immediately upgraded to Advanced tier. This rule is in place to ensure the Support Server remains at minimum Boost Level 2.
+
+If the server boost level is under Level 2 (less than 7 boosts) at the time you add the boost, and you can guarantee to boost the server for at least one month ahead, you will be immediately start from Advanced tier. This deal is to help keeping the Support Server at Boost Level 2 for its important perks without interruption and recover level losses.
+
+When this occurs, an announcement will be posted and a relevant note will appear in MoonlightBot's command responses. Watch out for those so you don't miss the deal!
 
 As well as Premium, you will also receive the 'Booster' role in the support server, so everyone can see your support.
 
