@@ -81,7 +81,7 @@ If the server boost level is under Level 2 (less than 7 boosts) at the time you 
 
 When this occurs, an announcement will be posted and a relevant note will appear in MoonlightBot's command responses. Watch out for those so you don't miss the deal!
 
-You will also receive the 'Booster' role in the server, so everyone can see your special way of supporting us.
+You will also receive the **Booster** role in the server, so everyone can see your special way of supporting us.
 
 ### Giveaways, volunteering, and other rewards
 
