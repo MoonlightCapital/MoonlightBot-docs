@@ -50,7 +50,7 @@ Each tier includes all the perks described in cheaper tiers.
 
 ## MoonlightBot Premium bot benefits
 
-* Used in less server, with better performance guaranteed
+* Used in less servers, with better performance guaranteed
 * Less likely to experience downtime, and faster recovery times
 * Has a default maximum duration of 1 year for temporary actions
 * Updates are downloaded from MoonlightBot beta, for early access to new features and improvements
@@ -67,19 +67,25 @@ Patreon is a platform we use to manage subscriptions. You can pledge at [https:/
 
 ### Upvote MoonlightBot
 
-You can upvote MoonlightBot and earn some free premium. For more information, see the [voting tutorial](upvote-moonlightbot.md).
+You can upvote MoonlightBot and earn some free Premium. For more information, see the [voting tutorial](upvote-moonlightbot.md).
 
-For your first ever vote, or for voting consecutively for 30 days, you will receive one week of basic tier premium. This will be prolonged as long as you continue voting at least once every 48 hours.
+For your first ever vote, or for voting consecutively for 30 days, you will receive one week of Basic tier Premium. This will be prolonged as long as you continue voting at least once every 48 hours.
 
 ### Boost the support server
 
-For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will also receive premium as long as you keep the server boosted.
+For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive your Premium subscription after having answered a few questions, a security briefing and entering an agreement.
 
-The tier of booster premium is initially basic, but it will be upgraded to advanced once you have boosted for three months consecutively.
+The Premium tier for Server Boosting is initially Basic and will be upgraded to Advanced tier once you have boosted for three months consecutively.
+
+If the server boost level is under Level 2 (less than 7 boosts) at the time you add the boost, and you can guarantee to boost the server for at least one month ahead, you will be immediately start from Advanced tier. This deal is to help keeping the Support Server at Boost Level 2 for its important perks without interruption and recover level losses.
+
+When this occurs, an announcement will be posted and a relevant note will appear in MoonlightBot's command responses. Watch out for those so you don't miss the deal!
+
+You will also receive the **Booster** role in the server, so everyone can see your special way of supporting us.
 
 ### Giveaways, volunteering, and other rewards
 
-In the support server, we may run giveaways or offer [volunteering opportunities](volunteering.md) - such as translating MoonlightBot into other languages, providing feedback, or reporting bugs to earn premium subscriptions as reward. Join the server to find out more about the specifics of those types of subscription as terms and conditions may vary.
+In the support server, we may run giveaways or offer [volunteering opportunities](volunteering.md) - such as translating MoonlightBot into other languages, providing feedback, or reporting bugs to earn Premium subscriptions as reward. Join the server to find out more about the specifics of those types of subscription as terms and conditions may vary.
 
 ## How to activate your Premium subscription
 
@@ -90,7 +96,7 @@ Activating your subscription is a seamless process that only requires four steps
 
 <figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
 
-3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020!
+3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
 ["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
 4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative
 
