@@ -92,4 +92,4 @@ They are passionate about their native language, and know that not everyone has 
 * **Turkish:** catus
 * **Czech:** Esterze
 * **Russian:** Cloud
-* **Traditional Chinese:** AhMing, Lerp_Ant
+* **Traditional Chinese:** AhMing
