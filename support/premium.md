@@ -10,8 +10,8 @@ MoonlightBot Premium greatly enhances the tools at your disposal to manage your 
 
 * **Premium role** with yellow color, displayed on top, and premium icon in the support server
 * **Access to a premium support channel** for your privacy and comfort with faster response times and more informational answers
-* **Custom code evalutation** to assist you with server maintenance tasks (requires developer intervention)
-* Your name in the **special thanks page** in this documentation (currently in progress, will appear once released)
+* **Custom code evaluation** to assist you with server maintenance tasks (requires developer intervention)
+* Your name in the **[special thanks page](special-thanks.md)** in this documentation (currently in progress, will appear once released)
 * **90 days** maximum duration allowed for temporary actions
 * **Reminder limit** increased from 10 to 20 per user
 
@@ -26,7 +26,7 @@ These tier benefits affect **only** your account and don't grant access to the e
 * One **server slot** for MoonlightBot Premium instance
 * One **custom command**
 * **Feature requests** with higher priority
-* No necessity to sustain temproles
+* Temporary actions are [always sustained](../start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work)
 * **1 year** maximum duration allowed for temporary actions
 * Reaction role groups limit increased from 10 to 20 per server
 {% endtab %}
@@ -55,7 +55,7 @@ Each tier includes all the perks described in cheaper tiers.
 * Has a default maximum duration of 1 year for temporary actions
 * Updates are downloaded from MoonlightBot beta, for early access to new features and improvements
 
-## Methods to get Premium
+## Methods to obtain Premium Subscriptions
 
 {% hint style="info" %}
 All methods require you to be in our [Support Server](https://discord.gg/hNQWVVC). Please join before continuing.
@@ -67,7 +67,7 @@ Patreon is a platform we use to manage subscriptions. You can pledge at [https:/
 
 ### Upvote MoonlightBot
 
-You can upvote MoonlightBot and earn some free Premium. For more information, see the [voting tutorial](upvote-moonlightbot.md).
+You can upvote MoonlightBot and earn some free Premium. See the [voting tutorial](upvote-moonlightbot.md) to learn how to do that.
 
 For your first ever vote, or for voting consecutively for 30 days, you will receive one week of Basic tier Premium. This will be prolonged as long as you continue voting at least once every 48 hours.
 
@@ -83,9 +83,21 @@ When this occurs, an announcement will be posted and a relevant note will appear
 
 You will also receive the **Booster** role in the server, so everyone can see your special way of supporting us.
 
-### Giveaways, volunteering, and other rewards
+### Volunteer with Us
 
-In the support server, we may run giveaways or offer [volunteering opportunities](volunteering.md) - such as translating MoonlightBot into other languages, providing feedback, or reporting bugs to earn Premium subscriptions as reward. Join the server to find out more about the specifics of those types of subscription as terms and conditions may vary.
+You can help us maintaining MoonlightBot by [volunteering with us](volunteering.md) and earn, among other rewards, Premium subscriptions. The corresponding tiers vary between the positions:
+
+* **[Translator:](volunteering.md#translator)** Basic
+* **[Tester:](volunteering.md#tester)** Advanced
+* **[Documentation Writer:](volunteering.md#documentation-writer)** Super
+
+Start by applying to any of these programs as described in the relevant sections of the page, and once you've provided significant contributions, you will be awarded your well-deserved subscriptions by the program managers!
+
+### Giveaways and other Occasions
+
+From time to time, we may run giveaways or other initiatives in the server to publicize Premium subscriptions. [Join the server](https://discord.gg/hNQWVVC) and watch out for the announcements we post! Psst, MoonlightBot's birthday is on May 16th.
+
+Reporting bugs or submitting acceptable suggestions may also occasionally award temporary subscriptions. Every contribution matters!
 
 ## How to activate your Premium subscription
 
@@ -93,14 +105,10 @@ Activating your subscription is a seamless process that only requires four steps
 
 1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
 2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
-
-<figure><img src="/.gitbook/assets/PremiumSuccessfulActivationMessage.png" alt=""><figcaption></figcaption></figure>
-
+![The message shown when a Premium subscription is successfully activated](/.gitbook/assets/PremiumSuccessfulActivationMessage.png)
 3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
-["MoonlightBot Premium was created on March 27, 2020"](/.gitbook/assets/PremiumMiniProfile.png)
-4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative
-
-Done!
+![MoonlightBot Premium was created on March 27, 2020](/.gitbook/assets/PremiumMiniProfile.png)
+4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative. You're all set!
 
 ## Custom commands
 
@@ -136,7 +144,7 @@ If you purchased or received a lifetime subscription in the past, it will remain
 
 ## Disclaimer
 
-Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#6---resource-providerdonation-policy) of the [Acceptable Use Policy](/policies/acceptable-use-policy.md).
+Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#6---resource-providerdonation-policy) of the Acceptable Use Policy.
 
 All perks are meant to come "within reason". We will turn down requests that cause excessive strain on our systems, personnel or come with certain caveats that may not be appropriate for our ecosystem. In doubt, consult our Staff first.
 
