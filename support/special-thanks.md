@@ -83,7 +83,7 @@ They are passionate about their native language, and know that not everyone has 
 * **Latin American Spanish:** selffinS, v4ca, zSnails
 * **French:** Michael Ngeleka, tchoupi253, Teren
 * **Hindi:** Sai Mehar
-* **Korean:** mars
+* **Korean:** *No information available*
 * **Italian:** Miky88, MoonlightCapital
 * **Lithuanian:** MoonlightCapital
 * **Dutch:** AmmoKa
