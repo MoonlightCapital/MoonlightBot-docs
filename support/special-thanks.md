@@ -86,9 +86,9 @@ They are passionate about their native language, and know that not everyone has 
 * **Italian:** Miky88, MoonlightCapital
 * **Lithuanian:** MoonlightCapital
 * **Dutch:** AmmoKa
-* **Norwegian:** *no information available*
-* **Brazilian Portuguese:** *no information available*
-* **Turkish:** *no information available*
+* **Norwegian:** *No information available*
+* **Brazilian Portuguese:** *No information available*
+* **Turkish:** *No information available*
 * **Czech:** Esterze
 * **Russian:** Cloud
 * **Traditional Chinese:** AhMing
