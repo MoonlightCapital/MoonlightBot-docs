@@ -104,20 +104,11 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 Activating your subscription is a seamless process that only requires four steps to complete:
 
 1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
-
 2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
-
 ![The message shown when a Premium subscription is successfully activated](/.gitbook/assets/PremiumSuccessfulActivationMessage.png)
-
-<!-- Lint disabled to avoid "unordered list expected 1 actual 3/4" error. Enabled again after>
-<!-- markdownlint-disable MD029 -->
 3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
-
 ![MoonlightBot Premium was created on March 27, 2020](/.gitbook/assets/PremiumMiniProfile.png)
-
 4. If the bot is legitimate, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative. You're all set!
-<!-- markdownlint-enable MD029 -->
-<!-- Lint enabled again -->
 
 ## Custom commands
 
