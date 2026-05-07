@@ -4,8 +4,9 @@
 
 Try doing the following things:
 
-* Make sure it's online. If it shows as offline, please join the support server and let the Staff know
+* Make sure it's status shows as online, indicated by a green dot in the profile
 * Try checking channel permission. If needed, you can add to the bot channel-specific permissions such as Read Messages, Send Messages, Embed Links and View Message History
+* If the command errors with "The application did not respond", try again! Sometimes network latency spiked happen, you can also use a simpler command like [`/ping`](../miscellaneous-commands/other-minor-commands.md#ping) to check the latency.
 
 If the problem persists, please [contact support](https://discord.gg/hNQWVVC).
 
@@ -28,7 +29,7 @@ There are different types of Temporary Roles offered:
 
 You can cancel a temporary action to force an immediate expiration by using the same command you used to enact the action, but with a duration that would make it expire in the past. Say you want to cancel a temprole that has 3 days left:
 
-```
+```text
 /temprole user:<user> role:<role> duration:-3d
 ```
 
@@ -77,3 +78,13 @@ Take a look at the [Beta](/support/beta.md) version of MoonlightBot. We also hav
 Report it in the [support server](https://discord.gg/hNQWVVC). Make sure to include enough information for your bug to be reproducible.
 
 If your bug can be used to compromise the bot or end user's security, **message the bot owner privately about it**, and please do not disclose it anywhere.
+
+## How can MoonlightBot remain operative for free?
+
+We follow simple principles of fairness: **we don't sell your data, or use any sketchy means to stay afloat.**
+
+Simply put, we keep hosting costs low and covered by [subscribers on Patreon](../support/premium.md#subscribe-on-patreon), where the developer does NOT take any cut of the earnings, and all of our operations are performed by [volunteers](../support/volunteering.md) (yes, even the developer is a volunteer!).
+
+We count on doing a good job and entice a sufficiently sized group of server managers who find MoonlightBot helpful and either subscribe or volunteer with us, so if you would like to support our mission, for great benefit for yourself as well, you can become one of us!
+
+Additionally, we maintain and strictly enforce our [Acceptable Use Policy](../policies/acceptable-use-policy.md) to remove bad actors of various kinds, from threats of technical nature to disrespect of volunteers and sabotage. Users who violate this policy may find themselves unable to use MoonlightBot in their servers, thereby losing access to our volunteers' amazing work.
