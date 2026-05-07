@@ -20,22 +20,26 @@ If this is your first time using MoonlightBot, you'll receive a Direct Message w
 
 We also suggest that you review the [Moderation Tutorial](/start-up/moderation-tutorial.md) and share it with your server moderators and administrators once you've finished configuring MoonlightBot.
 
-## Changing the Bot's Language
+## Changing the MoonlightBot's Language
 
 MoonlightBot supports multiple languages for its commands and responses, and can be set server-wide or per-user. Set the language using
-```
+
+```text
 /config settings locale:LANG
 ```
+
 for server-wide configuration, or
-```
+
+```text
 /userconfig settings locale:LANG
 ```
-for user-specific configuration, where `LANG` is the language you want MoonlightBot to respond in.
+
+for your user-specific configuration, where `LANG` is the language you want MoonlightBot to respond in.
 
 A list of supported languages is available on the [Discord Developer Portal](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
 {% hint style="info" %}
-MoonlightBot is translated entirely by volunteers, so not all languages are complete or not yet translated at all. Incomplete and missing translations will be show in English. If you would like to help us with your native language, please consider <a href="/support/volunteering.md#translator">becoming a translator!</a>
+MoonlightBot is translated entirely by volunteers, so not all languages are complete or not yet translated at all. Incomplete and missing translations will be show in English. If you would like to help us with your native language, please consider [becoming a translator!](support/volunteering.md#translator)
 {% endhint %}
 
 ## Temporary Roles
@@ -56,21 +60,25 @@ MoonlightBot uses Discord's built-in permissions system to control who is and is
 ## Logging
 
 MoonlightBot offers highly-configurable logging, and can log several kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
-```
+
+```text
 /config channels channel:LOG-CHANNEL logs:Open editor
 ```
+
 where `LOG-CHANNEL` is the channel you want logs posted to.
 
-An editor will open where you can enter items or categories from the [list of log names](/advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, USER_JOIN, USER_LEFT`
+An editor will open where you can enter items or categories from the [list of log names](/advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, Members`
 
 ![Log editor popup](/.gitbook/assets/LogEditor.png)
 
 ## Mute Setup
 
 MoonlightBot can mute members both temporarily and permanently. Use the command
-```
+
+```text
 /create-muterole
 ```
+
 to set up a mute role. Specifying the `role` [option](/start-up/options.md) allows you to set up an existing role, or you can leave it out to create a new `@Muted` role.
 
 ![Result of /create-muterole command](/.gitbook/assets/MainPageMuterole.png)
@@ -80,17 +88,21 @@ You will now be able to use [`/mute`](/moderation-commands/mute.md),  [`/tempmut
 ## Evasion Bans
 
 {% hint style="info" %}
-Evasion Bans can only be set up with <a href="/support/premium.md">MoonlightBot Premium</a>. If you think this feature can help you, <a href="/support/upvote-moonlightbot.md">vote for MoonlightBot</a> to earn an infinitely extendable free trial.
+Evasion Bans can only be set up with [MoonlightBot Premium](support/premium.md). If you think this feature can help you, [vote for MoonlightBot](support/upvote-moonlightbot.md) to earn an infinitely extendable free trial.
 {% endhint %}
 
 Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban. If a user with your server's mute role sends a message in a channel that hasn't been allowed, they will be banned. To enable evasion bans, use the command
-```
+
+```text
 /config settings mute-evasion-ban:True
 ```
+
 All channels will now be monitored for new messages sent by muted members. To create an exception to the evasion ban and allow muted members to talk in a channel, use
-```
+
+```text
 /config channels channel:IGNORED-CHANNEL ignore-mute-evasion-ban:True
 ```
+
 where `IGNORED-CHANNEL` is the channel you want ignored. Ignoring a channel will also ignore threads made in the channel.
 
 It is recommended to set up at least one [logging channel](/README.md#logging) with the `BAN` log enabled to see when an evasion ban is triggered.
