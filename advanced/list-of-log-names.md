@@ -53,7 +53,7 @@ This category is for actions relating to members interacting with the server.
 
 ## Messages
 
-This category is for things having to do with messages.
+This category is for events having to do with messages.
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |
@@ -66,9 +66,7 @@ This category is for things having to do with messages.
 
 ## Debug
 
-{% hint style="info" %}
 This category is for debugging purposes. Logs in this category are meant to aid in fixing errors that may prevent the bot from functioning correctly.
-{% endhint %}
 
 | Name                | Emitted when     |
 | ------------------- | ---------------- |

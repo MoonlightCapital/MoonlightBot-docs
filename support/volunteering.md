@@ -29,7 +29,7 @@ As you make experience as a tester, you will be promoted to the higher tiers of 
 
 ### Becoming a Tester
 
-The tester community program is currently accessible by invitation only. We will contact you if you are in the [Support Server](https://discord.gg/hNQWVVC) and catch the Staff's attention by, for example, following rules, [upvote](upvote-moonlightbot.md), report issues, submit or support suggestions.
+The tester community program is currently accessible by invitation only. We will contact you if you are in the [Support Server](https://discord.gg/hNQWVVC) and catch the Staff's attention by, for example, following rules, [upvoting](upvote-moonlightbot.md), report issues, submit or support suggestions.
 
 ## Translator
 
