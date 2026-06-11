@@ -11,7 +11,7 @@ MoonlightBot Premium greatly enhances the tools at your disposal to manage your 
 * **Premium role** with yellow color, displayed on top, and premium icon in the support server
 * **Access to a premium support channel** for your privacy and comfort with faster response times and more informational answers
 * **Custom code evaluation** to assist you with server maintenance tasks (requires developer intervention)
-* Your name in the **[special thanks page](special-thanks.md)** in this documentation (currently in progress, will appear once released)
+* Your name in the [**special thanks page**](special-thanks.md) in this documentation (currently in progress, will appear once released)
 * **90 days** maximum duration allowed for temporary actions
 * **Reminder limit** increased from 10 to 20 per user
 
@@ -73,7 +73,7 @@ For your first ever vote, or for voting consecutively for 30 days, you will rece
 
 ### Boost the support server
 
-For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive your Premium subscription after having answered a few questions, a security briefing and entering an agreement.
+For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive your Premium subscription after having answered a few questions, a security briefing and entering an agreement.
 
 The Premium tier for Server Boosting is initially Basic and will be upgraded to Advanced tier once you have boosted for three months consecutively.
 
@@ -87,9 +87,9 @@ You will also receive the **Booster** role in the server, so everyone can see yo
 
 You can help us maintaining MoonlightBot by [volunteering with us](volunteering.md) and earn, among other rewards, Premium subscriptions. The corresponding tiers vary between the positions:
 
-* **[Translator:](volunteering.md#translator)** Basic
-* **[Tester:](volunteering.md#tester)** Advanced
-* **[Documentation Writer:](volunteering.md#documentation-writer)** Super
+* [**Translator:**](volunteering.md#translator) Basic
+* [**Tester:**](volunteering.md#tester) Advanced
+* [**Documentation Writer:**](volunteering.md#documentation-writer) Super
 
 Start by applying to any of these programs as described in the relevant sections of the page, and once you've provided significant contributions, you will be awarded your well-deserved subscriptions by the program managers!
 
@@ -104,14 +104,12 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 Activating your subscription is a seamless process that only requires four steps to complete:
 
 1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
-2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
+2.  If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
 
-    ![The message shown when a Premium subscription is successfully activated](/.gitbook/assets/PremiumSuccessfulActivationMessage.png)
+    ![The message shown when a Premium subscription is successfully activated](../.gitbook/assets/PremiumSuccessfulActivationMessage.png)
+3.  **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
 
-3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
-
-    ![MoonlightBot Premium was created on March 27, 2020](/.gitbook/assets/PremiumMiniProfile.png)
-
+    ![MoonlightBot Premium was created on March 27, 2020](../.gitbook/assets/PremiumMiniProfile.png)
 4. Once you confirmed this is the legitimate MoonlightBot Premium instance, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative. You're all set!
 
 ## Custom commands
@@ -148,7 +146,7 @@ If you purchased or received a lifetime subscription in the past, it will remain
 
 ## Disclaimer
 
-Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#6---resource-providerdonation-policy) of the Acceptable Use Policy.
+Premium subscribers are subject to the [Resource provider agreement](../policies/acceptable-use-policy.md#id-6-resource-provider-donation-policy) of the Acceptable Use Policy.
 
 All perks are meant to come "within reason". We will turn down requests that cause excessive strain on our systems, personnel or come with certain caveats that may not be appropriate for our ecosystem. In doubt, consult our Staff first.
 
