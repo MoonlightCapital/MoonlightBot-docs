@@ -46,7 +46,7 @@ They are [boosting](https://support.discord.com/hc/en-us/articles/360028038352-S
 
 ## Documentation Writers
 
-They have contributed to writing and expanding this very documentation you're reading. 
+They have contributed to writing and expanding this very documentation you're reading.
 
 {% hint type="info" %}
 This documentation is open for contributions on [GitHub](https://github.com/MoonlightCapital/MoonlightBot-docs/) or via suggestions in the [support server](https://discord.gg/hNQWVVC).
@@ -80,7 +80,7 @@ They are passionate about their native language, and know that not everyone has 
 
 * **Danish:** The-God-Of-Noise
 * **German:** Darkfinst, I_mundercover, [m]
-* **Latin American Spanish:** selffinS, v4ca, zSnails
+* **Latin American Spanish:** selffinS, v4ca
 * **French:** Michael Ngeleka, tchoupi253, Teren
 * **Hindi:** Sai Mehar
 * **Korean:** *No information available*
