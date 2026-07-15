@@ -42,7 +42,6 @@ They are [boosting](https://support.discord.com/hc/en-us/articles/360028038352-S
 * Irisplooshi
 * Kalosianlitten
 * Miky88
-* Raulix64 - Connections ⚡️
 
 ## Documentation Writers
 
