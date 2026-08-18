@@ -52,10 +52,7 @@ MoonlightBot Testers act as quality control in the development process. They car
 
 Tests do not impact your server as the MoonlightBot test instance is added in small private testing servers following the instructions provided by the program manager and your peers.
 
-<figure>
-    <img src="../.gitbook/assets/TestInstanceProfile.png" alt="A screenshot showing the profile of the MoonlightBot test instance" style="max-height: 400px; width: auto; border-radius: 10px;">
-    <figcaption>The MoonlightBot test instance</figcaption>
-</figure>
+<figure><img src="../.gitbook/assets/TestInstanceProfile.png" alt="A screenshot showing the profile of the MoonlightBot test instance"><figcaption><p>The MoonlightBot test instance</p></figcaption></figure>
 
 The tester program exists to uncover bugs and annoyances that might hinder a smooth user experience, before they even reach the [Beta release](beta.md). This collaborative team ensures that issues are reported and effectively addressed by the developer, making MoonlightBot not only functional but also enjoyable and user-friendly, based on aggregated experiences from owners/moderators of various servers!
 
@@ -85,10 +82,7 @@ If you upvote a suggestion, the first time you will be asked if you want to be i
 
 Alternatively, the MoonlightBot Staff can invite you to a session if they assessed that you may benefit from certain features or improvements. This can happen with a higher chance if you report issues, bugs, have conversations in support channels, follow the rules or [vote for MoonlightBot](upvote-moonlightbot.md).
 
-<figure>
-    <img src="../.gitbook/assets/TesterProgramInvitation.png" alt="An invitation to a testing session, topic and reason why you may be interesting in join can vary." style="max-height: 400px; width: auto; border-radius: 10px;">
-    <figcaption>An invitation to a testing session, topic and reason why you may be interesting in join can vary.</figcaption>
-</figure>
+<figure><img src="../.gitbook/assets/TesterProgramInvitation.png" alt="An invitation to a testing session, topic and reason why you may be interesting in join can vary."><figcaption><p>An invitation to a testing session, topic and reason why you may be interesting in join can vary.</p></figcaption></figure>
 
 Accepting the invitation will mark you available for the session, and on your first time, you will be given an introductory briefing, to then add the role to you and start on the set date. There is no penalty for declining an invitation through the provided buttons.
 
@@ -96,10 +90,7 @@ Accepting the invitation will mark you available for the session, and on your fi
 
 MoonlightBot translators assist in translating the commands, responses and messages shown when interacting with the bot.
 
-<figure>
-    <img src="../.gitbook/assets/TemproleItalianTranslationExample.png" alt="A screenshot showing the /temprole command translated to Italian" style="max-height: 400px; width: auto; border-radius: 10px;">
-    <figcaption>The `/temprole` command translated to Italian</figcaption>
-</figure>
+<figure><img src="../.gitbook/assets/TemproleItalianTranslationExample.png" alt="A screenshot showing the /temprole command translated to Italian"><figcaption><p>The <code>/temprole</code> command translated to Italian</p></figcaption></figure>
 
 ### Benefits for Translators
 

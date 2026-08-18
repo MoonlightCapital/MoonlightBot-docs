@@ -4,7 +4,7 @@ Welcome to the documentation for MoonlightBot! MoonlightBot is a powerful modera
 
 ## Getting Started
 
-First, add MoonlightBot to your server using [this invite link](https://discord.com/api/oauth2/authorize?client_id=314110696071888896&permissions=1512298638534&scope=applications.commands%20bot). It is recommended (but not required) that you grant all requested permissions to ensure all features work correctly.
+First, add MoonlightBot to your server using [this invite link](https://discord.com/api/oauth2/authorize?client_id=314110696071888896\&permissions=1512298638534\&scope=applications.commands%20bot). It is recommended (but not required) that you grant all requested permissions to ensure all features work correctly.
 
 {% hint style="info" %}
 You can only add bots to servers in which you have the Manage Server permission.
