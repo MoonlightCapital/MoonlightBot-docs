@@ -1,7 +1,7 @@
 ---
-
-description: All volunteer programs available for people who want to help MoonlightBot grow, the benefits volunteers earn, and how to apply for the positions
-
+description: >-
+  All volunteer programs available for people who want to help MoonlightBot
+  grow, the benefits volunteers earn, and how to apply for the positions
 ---
 
 # Volunteer Opportunities
@@ -18,7 +18,7 @@ Writers create new documentation pages as new commands are added to MoonlightBot
 
 ### Benefits for Documentation Writers
 
-* A colorful, prominent **<span style="color: rgb(104, 230, 160); background-color: rgba(104, 230, 160, 0.1);">Documentation Writers</span>** role in the server to show everyone you're one of us
+* A colorful, prominent **<mark style="color: rgb(104, 230, 160); background-color: rgba(104, 230, 160, 0.1);">Documentation Writers</mark>** role in the server to show everyone you're one of us
 * The tester role (necessary to access their channels, the two roles work closely)
 * [Super tier MoonlightBot Premium subscription](premium.md)
 * Virtual gift cards of your choice (ex. Steam, Discord Nitro, Amazon) for important contributions
@@ -32,16 +32,16 @@ Anyone can fork and submit pull requests to the [Documentation GitHub Repository
 
 There are a handful of ways to join the official writers team and received the benefits listed above:
 
-1. **Submitting an Application:** We are always looking for new writers for our team. You can apply from the `#apply-for-doc-writer` in the support server, direct link: **<https://discord.gg/FFMkG9WhCv>**
+1. **Submitting an Application:** We are always looking for new writers for our team. You can apply from the `#apply-for-doc-writer` in the support server, direct link: [**https://discord.gg/FFMkG9WhCv**](https://discord.gg/FFMkG9WhCv)
 2. **Voluntary Contributions:** If you provide helpful advice or suggest edits - whether in the server or via pull requests - the documentation caretaker (who will always be a member of our Staff) will contact you directly to invite you as a writer
 
 New writers are subject to a trial period, usually lasting two weeks, where they are asked to complete a task to determine their fitness for the program. If we're sufficiently satisfied with your performance, we will welcome you with full benefits.
 
 The requirements to become a Documentation Writer are as follows:
 
-* You must have a level of English comparable to B2 or higher in the [CEFR scale](<https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52>)
+* You must have a level of English comparable to B2 or higher in the [CEFR scale](https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52)
 * You must be at least 16 years old
-* You must demonstrate an understanding of [Markdown text formatting](<https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline>). If you're used to writing informational channels and announcements in your Discord server, then you're all set!
+* You must demonstrate an understanding of [Markdown text formatting](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline). If you're used to writing informational channels and announcements in your Discord server, then you're all set!
 * You must have been using MoonlightBot (based on date of first recorded interaction) for at least 1 month
 * You must demonstrate strong attention to detail and proofreading skills
 * You must not have any significant infraction history
@@ -65,7 +65,7 @@ As you make experience as a tester, you will be promoted to the higher tiers of 
 
 ### Benefits for Testers
 
-* A colorful, prominent **<span style="color: #ef207a; background-color: rgba(239, 32, 122, 0.1);">MoonlightBot Testers</span>** role in the server to show everyone you're one of us
+* A colorful, prominent **<mark style="color: #ef207a; background-color: rgba(239, 32, 122, 0.1);">MoonlightBot Testers</mark>** role in the server to show everyone you're one of us
 * [Advanced Tier MoonlightBot Premium subscription](premium.md)
 * Virtual gift cards of your choice for finding major bugs or suggesting useful changes (similar to those given to Documentation Writers)
 * An opportunity to learn how to get the most from MoonlightBot and many other Discord apps
@@ -77,7 +77,7 @@ As you make experience as a tester, you will be promoted to the higher tiers of 
 
 Our tester program is structured in **sessions** that have a defined start and end date, and are focused on user-submitted suggestions that are connected to each session.
 
-Start by joining the MoonlightBot support server: **<https://discord.gg/hNQWVVC>**
+Start by joining the MoonlightBot support server: [**https://discord.gg/hNQWVVC**](https://discord.gg/hNQWVVC)
 
 If you submit a suggestion, you will be asked whether you want to be invited to sessions and choose from a menu to test suggestions you submit, any suggestions if it's worked on, or to decide later. We recommend the **any suggestions** option because you can contribute to having others' suggestions tested to arrive at implementing yours first!
 
@@ -103,9 +103,9 @@ MoonlightBot translators assist in translating the commands, responses and messa
 
 ### Benefits for Translators
 
-* A colorful, prominent **<span style="color: rgb(114, 141, 170); background-color: rgba(114, 141, 170, 0.1); background-color: rgba(104, 230, 160, 0.1);">MoonlightBot Translators</span>** role in the server to show everyone you're one of us
+* A colorful, prominent **<mark style="color: rgb(114, 141, 170); background-color: rgba(114, 141, 170, 0.1); background-color: rgba(104, 230, 160, 0.1);">MoonlightBot Translators</mark>** role in the server to show everyone you're one of us
 * Appreciation from members of your server who find the text you translated
-* [Basic tier MoonlightBot Premium subscription](premium.md), once you have translated 50 strings
+*   [Basic tier MoonlightBot Premium subscription](premium.md), once you have translated 50 strings
 
     Afterwards, your subscription will prolong for half a month provided you have translated at least 20 strings in the last half of the month, or **indefinitely** if there is no text left to translate
 * Your name in the [Special Thanks Page](special-thanks.md#translators)
@@ -115,7 +115,7 @@ MoonlightBot translators assist in translating the commands, responses and messa
 The requirements to become a Translator are as follows:
 
 * You must be a native (or near-native) speaker of the language you're applying for
-* You must have a level of English comparable to B1 or higher in the [CEFR scale](<https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52>)
+* You must have a level of English comparable to B1 or higher in the [CEFR scale](https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52)
 * You must be at least 16 years old
 * You (or the server you represent) must have used MoonlightBot for more than two weeks
 * You must not have any significant infraction history
