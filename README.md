@@ -12,7 +12,7 @@ You can only add bots to servers in which you have the Manage Server permission.
 
 Once you've added MoonlightBot to your server, you can verify that it's working by using the [`/ping`](miscellaneous-commands/other-minor-commands.md#ping) command.
 
-<figure><img src=".gitbook/assets/MainPagePing.png" alt="A screenshot showing the output of the /ping command"><figcaption><p>The output of the of the <code>/ping</code> command</p></figcaption></figure>
+<figure><img src=".gitbook/assets/MainPagePing.png" alt="A screenshot showing the output of the /ping command"><figcaption><p>The output of the <code>/ping</code> command</p></figcaption></figure>
 
 Join our support server, this is optional but highly recommended: [**https://discord.gg/hNQWVVC**](https://discord.gg/hNQWVVC)
 
@@ -41,7 +41,7 @@ For your personal user language use
 A list of supported languages is available on the [Discord's official list](https://discord.com/developers/docs/reference#locales); Locale, Language Name, and Native Name are all valid inputs. Alternatively, `auto` can be used for MoonlightBot to detect your preferred language from your Discord settings.
 
 {% hint style="info" %}
-MoonlightBot is translated entirely by volunteers, so not all languages are complete or not yet translated at all. Incomplete and missing translations will be show in English. If you would like to help us with your native language, please consider [translating it for us!](support/volunteering.md#translator)
+MoonlightBot is translated entirely by volunteers, so not all languages are complete or not yet translated at all. Incomplete and missing translations will be shown in English. If you would like to help us with your native language, please consider [translating it for us!](support/volunteering.md#translator)
 {% endhint %}
 
 ## Role Management, Temporary Roles
@@ -91,7 +91,7 @@ You will now be able to use [`/mute`](moderation-commands/mute.md), [`/tempmute`
 
 ## Mute Evasion Bans
 
-Evasions bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban.
+Evasion bans are a fallback moderation feature to ensure muted members cannot abuse improperly configured permissions by escalating a mute punishment to a harsher ban.
 
 If a user with your server's mute role sends a message in a channel, they will be banned. To enable evasion bans, use the command
 
@@ -112,7 +112,7 @@ When an evasion ban is triggered, a `BAN` event [can be logged](./#logging).
 <figure><img src=".gitbook/assets/EvasionBanLog.png" alt="A screenshot showing a log message recording a user getting banned for trying to evade a mute" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>A mute evasion ban being logged looks like this</p></figcaption></figure>
 
 {% hint style="info" %}
-Evasion Bans can be set up with [MoonlightBot Premium](support/premium.md). If you think this feature can help you, [vote for MoonlightBot](support/upvote-moonlightbot.md) to earn an infinitely extendable subscriptions or [support us in other ways](support/premium.md).
+Evasion Bans can be set up with [MoonlightBot Premium](support/premium.md). If you think this feature can help you, [vote for MoonlightBot](support/upvote-moonlightbot.md) to earn an infinitely extendable subscription or [support us in other ways](support/premium.md).
 {% endhint %}
 
 ## Support the Development of MoonlightBot
