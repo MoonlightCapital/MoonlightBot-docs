@@ -94,7 +94,7 @@ MoonlightBot translators assist in translating the commands, responses and messa
 
 ### Benefits for Translators
 
-* A colorful, prominent **<mark style="color: rgb(114, 141, 170); background-color: rgba(114, 141, 170, 0.1); background-color: rgba(104, 230, 160, 0.1);">MoonlightBot Translators</mark>** role in the server to show everyone you're one of us
+* A colorful, prominent **<mark style="color: rgb(114, 141, 170); background-color: rgba(104, 230, 160, 0.1);">MoonlightBot Translators</mark>** role in the server to show everyone you're one of us
 * Appreciation from members of your server who find the text you translated
 *   [Basic tier MoonlightBot Premium subscription](premium.md), once you have translated 50 strings
 
