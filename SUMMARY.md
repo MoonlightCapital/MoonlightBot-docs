@@ -14,6 +14,7 @@
 
 * [Support Server](https://discord.gg/hNQWVVC)
 * [Volunteer Opportunities](support/volunteering.md)
+* [Documentation Writer Onboarding](support/onboarding-guide.md)
 * [Premium Subscriptions](support/premium.md)
 * [Upvote MoonlightBot](support/upvote-moonlightbot.md)
 * [MoonlightBot Beta (early access)](support/beta.md)
