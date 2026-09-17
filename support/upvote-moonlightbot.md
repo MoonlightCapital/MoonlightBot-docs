@@ -10,10 +10,14 @@ By upvoting MoonlightBot on bot listing sites, you help us reach a wider audienc
 
 ## Perks/Rewards for voting
 
-For your first ever vote or after a 30 consecutive days of voting, you will receive one free week of [MoonlightBot Premium](premium.md). The bot will DM you with a button to claim it. By having voted in the past 72 hours, your max durations will be doubled. Voting also extends your premium duration by 48 hours. Be sure to vote for MoonlightBot often!
+For your first ever vote, a detailed instructive DM will be sent to you explaining how the system works. For your first vote, or after 30 consecutive days of voting, you will receive one free week of [MoonlightBot Premium](premium.md). The bot will DM you with a button to claim it.
+
+Additionally, once you vote 100 times, you will automatically be given the **Supporter** role! Claiming a Premium subscription or receiving the Supporter role will also trigger a congratulatory message that mentions everyone in the upvotes channel.
+
+By having voted in the past 72 hours, your max durations will be doubled. Voting also extends your premium duration by 48 hours. Be sure to vote for MoonlightBot often!
 
 {% hint style="warning" %}
-Ensure you allow Direct Messages from a mutual server so MoonlightBot can message you, otherwise you won't be able to claim your free week of Premium!
+Ensure you allow Direct Messages from a mutual server so MoonlightBot can message you, otherwise you won't be able to claim your free week of Premium or read the instructive messages!
 {% endhint %}
 
 ## Voting on each site
@@ -51,4 +55,4 @@ Note: You can only vote once on this site!
 
 ## Voting Reminders
 
-You can vote once on each site every 12 hours. When it is time to vote again, MoonlightBot will send you a reminder on Discord with the links when you can vote again, and you can repeat this procedure much faster.
+You can vote once on each site every 12 hours. When it is time to vote again, MoonlightBot will send you a reminder on Discord. This reminder will show **all** the sites you can currently vote on (even those you haven't voted on recently) and will also display your **current vote streak**. This makes the procedure much faster and helps you keep track of your progress!

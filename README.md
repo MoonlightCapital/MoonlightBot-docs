@@ -16,7 +16,7 @@ Once you've added MoonlightBot to your server, you can verify that it's working 
 
 Join our support server, this is optional but highly recommended: [**https://discord.gg/hNQWVVC**](https://discord.gg/hNQWVVC)
 
-If this is your first time using MoonlightBot, you'll receive a Direct Message welcoming you to the bot and providing several recommendations, including reading the [Acceptable Use Policy](policies/acceptable-use-policy.md). Please read this carefully, as a violation of the Acceptable Use Policy can result in you being banned from using the service.
+If this is your first time using MoonlightBot as a server moderator, you will receive a Direct Message welcoming you to the bot the first time you use a command. This overhauled welcome message includes a banner and interactive buttons (powered by Components v2) providing several recommendations, including reading the [Acceptable Use Policy](policies/acceptable-use-policy.md). Please read this carefully, as a violation of the Acceptable Use Policy can result in you being banned from using the service.
 
 <figure><img src=".gitbook/assets/MainPageWelcome.png" alt="The beginning of the introductory guide DM. The rest of the message continues explaining the introductory activities." style="max-height: 300px; width: auto; border-radius: 10px;"><figcaption><p>The beginning of the introductory guide DM. The rest of the message continues explaining the introductory activities.</p></figcaption></figure>
 
