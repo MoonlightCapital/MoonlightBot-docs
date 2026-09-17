@@ -23,7 +23,7 @@ For more information on editing permission requirements for specific users/roles
 This command allows you to pair a role with an emoji in a group, if the group is not set up, it will be created. You can use the same command to unpair the role from the emoji. Also, you can pair multiple roles to the same emoji, and they will be given to the user at the same time.
 
 {% hint style="info" %}
-A single reaction role group can hold a maximum of 20 emoji pairings.
+A single reaction role group can hold a maximum of 20 emoji pairings, as Discord only allows 20 different reactions on a message. Each emoji can still be paired with as many roles as you want.
 {% endhint %}
 
 ```text

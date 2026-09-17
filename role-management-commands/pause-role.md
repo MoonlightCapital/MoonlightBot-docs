@@ -1,9 +1,9 @@
 # pause-role
 
 This command allows you to pause a role for a user for a specified duration. This means that the role is removed from the user for the specified duration. After the duration has passed, the role will be automatically reassigned to the user.
-    
+
 {% hint style="info" %}
-If the server is 5 or fewer temporary actions away from reaching its limit, a warning will appear at the top of the success message when this command is used.
+Starting from version 4.7.0 (currently on [MoonlightBot beta](/support/beta.md)), if the server is 5 or fewer temporary actions away from [its limit](/start-up/faqs.md#is-there-a-limit-to-the-number-of-temporary-actions-a-server-can-have), a warning will appear at the top of the success message when this command is used.
 {% endhint %}
 
 ## Required permissions
