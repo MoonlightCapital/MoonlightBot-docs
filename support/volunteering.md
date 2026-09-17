@@ -30,7 +30,7 @@ Writers create new documentation pages as new commands are added to MoonlightBot
 
 Anyone can fork and submit pull requests to the [Documentation GitHub Repository](https://github.com/MoonlightCapital/MoonlightBot-docs/), however, we are looking for a team of active maintainers who systematically expand, correct, and improve the documentation on guidance of the team, led by their caretaker.
 
-There are a handful of ways to join the official writers team and received the benefits listed above:
+There are a handful of ways to join the official writers team and receive the benefits listed above:
 
 1. **Submitting an Application:** We are always looking for new writers for our team. You can apply from the `#apply-for-doc-writer` in the support server, direct link: [**https://discord.gg/FFMkG9WhCv**](https://discord.gg/FFMkG9WhCv)
 2. **Voluntary Contributions:** If you provide helpful advice or suggest edits - whether in the server or via pull requests - the documentation caretaker (who will always be a member of our Staff) will contact you directly to invite you as a writer
