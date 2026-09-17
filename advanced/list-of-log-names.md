@@ -4,7 +4,11 @@ description: On this page all the available logs are listed
 
 ---
 
-# List of Log Names  
+# List of Log Names
+
+{% hint style="info" %}
+A newer log editor that uses interactive buttons and dropdowns is being worked on, and will supersede copy-pasting values from here to a text box. If you would like to contribute to the progress, join us at <https://discord.gg/hNQWVVC>.
+{% endhint %}
 
 Logs, categorized by what they do, are listed here and are **case sensitive**. Individual logs are written in _UPPER\_CASE_, while category names (which can be used in place of individual log names, see [configuring channels](/management-commands/config.md#channels)) are _Capitalized_. Each one of them is separated by categories in the lists below. To log all events, use an asterisk (`*`). All logs require the bot to have permission to view and send messages, embed links and attach files in the respective channels. Some logs require the bot to have the "View Audit Log" permission enabled at server level.  
 
