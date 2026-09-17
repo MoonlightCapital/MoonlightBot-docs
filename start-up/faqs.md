@@ -59,11 +59,15 @@ No! There's absolutely no reason to worry about potential data losses as Moonlig
 
 ## Is there a limit to the number of temporary actions a server can have?
 
-Yes, there is a maximum limit to ensure smooth operations. When your server is 5 or fewer actions away from reaching its temporary action limit, a warning will appear at the top of the success message when using commands like `/temprole` or `/pause-role`. If you need this limit raised, you can reach out to Staff.
+Yes. Each server can have up to **100** temporary actions (temporary roles, paused roles, temporary bans and so on) active at the same time, to ensure smooth operations for everyone.
 
-## How many reaction roles can I have in a group?
+Starting from version 4.7.0 (currently on [MoonlightBot beta](/support/beta.md)), when your server is 5 or fewer actions away from this limit, a warning appears at the top of the success message of commands like [`/temprole`](/role-management-commands/temprole.md) and [`/pause-role`](/role-management-commands/pause-role.md), so you can plan ahead. If your server is running into this limit, [contact support](https://discord.gg/hNQWVVC).
 
-Due to Discord's message reaction limits, a single message can only have up to 20 different reactions. This means a single reaction role group can hold a maximum of 20 emoji pairings. If you need more than 20 reaction roles, you must spread them across multiple groups and apply those groups to **multiple different messages**.
+## How many emojis can I use in a reaction role group?
+
+The limit is on emojis, not on roles. Discord only allows up to 20 different reactions on a single message, so a reaction role group can hold a maximum of **20** emoji pairings. Each emoji, however, can be paired with as many roles as you want.
+
+If you need more than 20 emojis, spread them across multiple groups and apply each group to a different message. See the [reaction roles guide](setting-up-reaction-roles.md) for more details.
 
 ## Can I use bots to trigger MoonlightBot commands?
 
