@@ -109,7 +109,7 @@ where `IGNORED-CHANNEL` is the channel you want ignored. Ignoring a channel will
 
 When an evasion ban is triggered, a `BAN` event [can be logged](./#logging).
 
-<figure><img src=".gitbook/assets/EvasionBanLog.png" alt="A screenshot showing a log message recording a user getting banned for trying to evade a mute" style="max-height: 400px; width: auto; border-radius: 10px;">><figcaption><p>A mute evasion ban being logged looks like this</p></figcaption></figure>
+<figure><img src=".gitbook/assets/EvasionBanLog.png" alt="A screenshot showing a log message recording a user getting banned for trying to evade a mute" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>A mute evasion ban being logged looks like this</p></figcaption></figure>
 
 {% hint style="info" %}
 Evasion Bans can be set up with [MoonlightBot Premium](support/premium.md). If you think this feature can help you, [vote for MoonlightBot](support/upvote-moonlightbot.md) to earn an infinitely extendable subscriptions or [support us in other ways](support/premium.md).
