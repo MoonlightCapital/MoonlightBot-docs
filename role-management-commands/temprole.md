@@ -2,6 +2,10 @@
 
 This command allows you to assign a role to a user for a specified duration. After the duration has passed, the role will be automatically removed from the user.
 
+{% hint style="info" %}
+Starting from version 4.7.0 (currently on [MoonlightBot beta](/support/beta.md)), if the server is 5 or fewer temporary actions away from [its limit](/start-up/faqs.md#is-there-a-limit-to-the-number-of-temporary-actions-a-server-can-have), a warning will appear at the top of the success message when this command is used.
+{% endhint %}
+
 ## Required permissions
 
 MoonlightBot requires the following permissions to successfully execute this command:

@@ -7,6 +7,8 @@ If an option provides you with the option `Open Editor` like the option `custom-
 the [`roles on-expire`](/management-commands/config.md#roles-on-expire) command, it means that a modal textbox will open for
 you to input your desired text. <br>
 All default values are either `0`, `false` or empty for their respective options, unless stated otherwise.
+
+**Note:** As of version 4.7.0 (currently on [MoonlightBot beta](/support/beta.md)), duration inputs are limited to 30 characters, and numeric options do not accept negative values unless the specific option allows for them.
 {% endhint %}
 
 ## Required permissions
