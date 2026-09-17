@@ -63,7 +63,7 @@ Yes, there is a maximum limit to ensure smooth operations. When your server is 5
 
 ## How many reaction roles can I have in a group?
 
-Due to Discord's message reaction limits, a single reaction role group can hold a maximum of 20 emoji pairings. If you need more, you can apply multiple groups to the same message or spread them across multiple messages.
+Due to Discord's message reaction limits, a single message can only have up to 20 different reactions. This means a single reaction role group can hold a maximum of 20 emoji pairings. If you need more than 20 reaction roles, you must spread them across multiple groups and apply those groups to **multiple different messages**.
 
 ## Can I use bots to trigger MoonlightBot commands?
 
