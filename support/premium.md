@@ -109,20 +109,18 @@ From time to time, we may run giveaways or other initiatives in the server to pu
 
 Reporting bugs or submitting acceptable suggestions may also occasionally award temporary subscriptions. Every contribution matters!
 
-## How to activate your Premium subscription
+## Managing your Premium subscription
 
-Activating your subscription is a seamless process that only requires four steps to complete:
+Activating your subscription is a seamless process. If you subscribed via Patreon, you can automatically enable your subscription using the `/premium enable` command in the support server. This will fetch all necessary data directly from the Patreon API and activate your perks immediately without waiting for Staff intervention.
 
-1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the tree dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will soon receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
-2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
+1. **Enable via Command**: Run `/premium enable` in the support server. If you later adjust your pledge to add extra server slots, simply run this command again to update your allowance.
+2. **Check Privacy Settings**: Make sure you allow direct messages from server members in the support server. You will receive a direct message from MoonlightBot confirming your subscription was activated successfully.
+3. **Verify the Bot**: Before adding the Premium bot, verify it is legitimate by clicking on the bot name. The main instance of MoonlightBot has a verified check mark and was created on March 18th, 2018. The Premium instance also has a verified check mark and was created on March 27, 2020.
+4. **Add to Server**: Click the "Add me to your server" button at the end of the confirmation message. Ensure you **do not uncheck** the "View Audit Log" permission, as that is required to verify it was you who added the bot and mark you as representative.
 
-    ![The message shown when a Premium subscription is successfully activated](/.gitbook/assets/PremiumSuccessfulActivationMessage.png)
+### Subscription Expiration
 
-3. **Verify the bot is legitimate** by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
-
-    ![MoonlightBot Premium was created on March 27, 2020](/.gitbook/assets/PremiumMiniProfile.png)
-
-4. Once you confirmed this is the legitimate MoonlightBot Premium instance, click on the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as representative. You're all set!
+When a Premium subscription gracefully expires, you will receive a direct message explaining the expiration. The exact content of this message will depend on the origin of your subscription (e.g., Patreon, votes, volunteer position, etc.). If a payment is declined, your subscription and Premium role will be automatically marked as suspended until the issue is resolved.
 
 ## Custom commands
 

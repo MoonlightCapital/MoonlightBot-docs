@@ -16,10 +16,27 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This subcommand will either link to the [documentation page to learn more about premium](/support/premium.md) if you do not have it, tell you who the representative is if your server has a premium subscription, or info about your subscription if you are a subscription holder yourself.
+This subcommand shows comprehensive information about Premium subscriptions. If you are not a subscriber, it displays a brief description, a banner for each tier, benefits explained, and buttons to switch between tiers. Each tier also includes buttons explaining all methods of obtaining a subscription of that tier, and a button to check eligibility for volunteer positions.
+If you are a subscription holder, it shows info about your subscription or tells you who the representative is if your server has a premium subscription.
 
-```
+```text
 /premium info
+```
+
+*This subcommand does not have any options*
+
+### Required permissions
+
+MoonlightBot requires the following permissions to successfully execute this subcommand:
+
+*No specific permissions required*
+
+## enable
+
+This subcommand allows a new Patreon subscriber to automatically enable their own subscription without waiting for a Staff member to manually allow it, getting all the data needed directly from the Patreon API. If you are already subscribed but adjusted your pledge for extra slots, using this command again will adjust your allowance accordingly.
+
+```text
+/premium enable
 ```
 
 *This subcommand does not have any options*
