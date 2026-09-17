@@ -39,7 +39,7 @@ If you choose to transfer your data, you won't! You can seamlessly switch to bet
 
 ### I don't comply with the requirement of having at least a server admin in MoonlightBot's support server
 
-The only requirement for a server to have MoonlightBot beta in to have someone with **Manage server** permission in the support server, so the Staff can have a point of contact to refer that server by.
+The only requirement for a server to have MoonlightBot beta is to have someone with **Manage server** permission in the support server, so the Staff can have a point of contact to refer that server by.
 
 ### I have no time/I don't know how to look for bugs
 
