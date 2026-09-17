@@ -57,6 +57,14 @@ If someone is threatening to stop sustaining temproles to damage your server, [c
 
 No! There's absolutely no reason to worry about potential data losses as MoonlightBot is designed to be resilient. We are committed to 99% uptime, but if it ever happens that the bot goes down, your temproles will be removed as nothing happened.
 
+## Is there a limit to the number of temporary actions a server can have?
+
+Yes, there is a maximum limit to ensure smooth operations. When your server is 5 or fewer actions away from reaching its temporary action limit, a warning will appear at the top of the success message when using commands like `/temprole` or `/pause-role`. If you need this limit raised, you can reach out to Staff.
+
+## How many reaction roles can I have in a group?
+
+Due to Discord's message reaction limits, a single reaction role group can hold a maximum of 20 emoji pairings. If you need more, you can apply multiple groups to the same message or spread them across multiple messages.
+
 ## Can I use bots to trigger MoonlightBot commands?
 
 No, other bots and webhooks cannot trigger MoonlightBot, due to safety reasons. Using [selfbots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots) is a violation of Discord's Terms of Service.
