@@ -1,6 +1,16 @@
+---
+
+description: MoonlightBot Premium greatly enhances the tools at your disposal to manage your server and subscriptions help us funding hosting costs and activities.
+
+---
+
 # Premium Subscriptions
 
-MoonlightBot Premium greatly enhances the tools at your disposal to manage your server and subscriptions help us funding hosting costs and activities.
+MoonlightBot Premium greatly enhances the tools at your disposal to manage your server.
+
+Subscriptions help us funding hosting costs and activities, while volunteer programs make it easier and faster to continue serving an actively developed and high quality toolset by easing the pressure off the developer.
+
+We are a non-profit, independently ran service without affiliation to large bot companies or investors.
 
 ## Tiers
 
@@ -11,7 +21,7 @@ MoonlightBot Premium greatly enhances the tools at your disposal to manage your 
 * **Premium role** with yellow color, displayed on top, and premium icon in the support server
 * **Access to a premium support channel** for your privacy and comfort with faster response times and more informational answers
 * **Custom code evaluation** to assist you with server maintenance tasks (requires developer intervention)
-* Your name in the **[special thanks page](special-thanks.md)** in this documentation (currently in progress, will appear once released)
+* Your name in the **[Special Thanks Page](special-thanks.md)**
 * **90 days** maximum duration allowed for temporary actions
 * **Reminder limit** increased from 10 to 20 per user
 
