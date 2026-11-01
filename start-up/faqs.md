@@ -57,6 +57,16 @@ If someone is threatening to stop sustaining temproles to damage your server, [c
 
 No! There's absolutely no reason to worry about potential data losses as MoonlightBot is designed to be resilient. We are committed to 99% uptime, but if it ever happens that the bot goes down, your temproles will be removed as nothing happened.
 
+## Is there a limit to the number of temporary actions a server can have?
+
+Yes, by default a server can have up to **100** temporary actions active at the same time. This means that if the server reaches the limit of actions running concurrently, you won't be able to start any new temporary actions until one of the existing ones completes and frees up a slot.
+
+Only temporary actions created manually with a command cannot go over the limit, automatically created actions, such as join-assignable roles continue being created even if the limit is reached but count towards the total.
+
+When your server is 5 or fewer actions away from the limit, a warning appears in the output of commands like [`/temprole`](/role-management-commands/temprole.md) and [`/pause-role`](/role-management-commands/pause-role.md), so you can plan ahead.
+
+If your server is running into this limit, [contact support](https://discord.gg/hNQWVVC) and request for the limit to be raised. We do this free of charge after you answered the necessary questions.
+
 ## Can I use bots to trigger MoonlightBot commands?
 
 No, other bots and webhooks cannot trigger MoonlightBot, due to safety reasons. Using [selfbots](https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots) is a violation of Discord's Terms of Service.
