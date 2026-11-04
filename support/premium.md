@@ -165,7 +165,9 @@ For any question regarding custom commands, or to get started with their develop
 
 ### Do I need to be the server owner to have a subscription in a server?
 
-No, you don't need to be the server owner to have a subscription in a server. Whoever subscribes on Patreon gets the subscription and becomes the server's representative. Anyone with the Manage Server permission can do this. The representative is the team's point of contact for any technical or financial matters related to the subscription.
+No, you don't need to be the server owner to have a subscription in a server. Whoever subscribes on Patreon gets the subscription and becomes the server's representative.
+
+Anyone with the Manage Server permission can give your server MoonlightBot Premium. The representative is the team's point of contact for any technical or financial matters related to the subscription.
 
 ### Will I lose bot configuration and other data by switching to Premium?
 
