@@ -29,7 +29,7 @@ No! You don't need to clutter your server with two almost identical bots. A serv
 
 Before any major breaking change is sent to beta, it's carefully reviewed in another test bot by the developer and [a team of volunteer testers](volunteering.md#tester).
 
-Moonlightbot beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where the test instance is used for heavy debugging and major corrections. Due to this, the chance of encountering bugs on beta is pretty low. If you do find a bug, [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
+MoonlightBot beta version differs from this test bot in that beta is used to gather data on real-world usage and minor bugs, where the test instance is used for heavy debugging and major corrections. Due to this, the chance of encountering bugs on beta is pretty low. If you do find a bug, [report it](https://discord.gg/hNQWVVC) so that it can be fixed quickly.
 
 ![A visual representation of how beta works. If a bug is not found in beta, it will appear on the main MoonlightBot instance, and you'll encounter it sooner or later anyways. Better fix it while it's still hot.](</.gitbook/assets/DifferenceBetweenBetaAndStable.png>)
 
@@ -39,7 +39,7 @@ If you choose to transfer your data, you won't! You can seamlessly switch to bet
 
 ### I don't comply with the requirement of having at least a server admin in MoonlightBot's support server
 
-The only requirement for a server to have MoonlightBot beta in to have someone with **Manage server** permission in the support server, so the Staff can have a point of contact to refer that server by.
+The only requirement for a server to have MoonlightBot beta is to have someone with **Manage server** permission in the support server, so the Staff can have a point of contact to refer that server by.
 
 ### I have no time/I don't know how to look for bugs
 
