@@ -18,9 +18,9 @@ For more information on editing permission requirements for specific users/roles
 
 This subcommand shows information about Premium subscriptions. Depending on your situation, it will display one of the following:
 
-* **You're not a subscriber**: You'll see the Premium overview, which includes a brief introduction, tier selector buttons above the tier's banner image, a list of benefits for the selected tier, and buttons explaining how to obtain that tier. If you're not eligible for a [volunteer position](/support/volunteering.md) yet, you can ask to be reminded once you are.
-* **Your server has a Premium subscription**: You'll see information about the representative of the subscription.
-* **You hold a subscription yourself**: You'll see information about your subscription.
+* **You are not a subscriber**: The command will display an interactive panel with tier selection buttons to switch between the various tiers, the list of benefits for the selected tier, and at the bottom buttons explaining how to obtain that tier. You can also ask to be automatically reminded once you are eligible for a selected [volunteer position](/support/volunteering.md) if a tier can be obtained that way.
+* **You have a Premium subscription enabled:** You will see all the information about your subscription, such as the expiration date, which and how many servers you represent, and how your subscription was obtained.
+* **You use a command in a server with Premium enabled:** The command will tell you who the representative of the server is. Only on the MoonlightBot Premium instance.
 
 {% hint style="info" %}
 The overview shown to non-subscribers was completely remade in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
