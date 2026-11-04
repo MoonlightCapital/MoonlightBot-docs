@@ -145,7 +145,11 @@ You will receive a DM from MoonlightBot notifying you of the expiration. The con
 
 ### Declined payments
 
-If your Patreon payment is declined, your subscription will be marked as declined. Until the payment goes through, your subscription will be suspended, which means you will temporarily lose your Premium role, and any server you represent will lose its Premium benefits. You will receive a DM about the declined payment, whose content depends on which instance sends it.
+If your Patreon payment is declined, your subscription status will be marked accordingly.
+
+Until the payment has been confirmed, your subscription will be suspended, which means you will temporarily lose your Premium role, and members who attempt to use commands in any server you represent will see a message inviting them to contact you and solve the issue.
+
+You will receive a DM about the declined payment, depending on which instance sends it.
 
 {% hint style="info" %}
 Expiration messages and automatic suspension were introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
