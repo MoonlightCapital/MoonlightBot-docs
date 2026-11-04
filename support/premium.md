@@ -139,7 +139,9 @@ Then, follow these steps to make sure everything is in order:
 
 ### Expiration
 
-When a subscription "gracefully expires," it means that its expiration date is set to the start of the next month, unless it already had an expiration date. For example, [translator](/support/volunteering.md#translator) subscriptions last 2 weeks and keep renewing while the translator meets their quota. When a subscription expires, you will receive a DM from MoonlightBot. Its content depends on where the subscription came from (Patreon, votes, server boosts, a volunteer position, and so on) and, in some cases, on which instance sends it.
+When a subscription expires gracefully, the expiration date is set to the start of the next calendar month, unless it already had an expiration date. For example, [translator](/support/volunteering.md#translator) subscriptions last 2 weeks and keep renewing while the translator meets their quota.
+
+You will receive a DM from MoonlightBot notifying you of the expiration. The content depends on the subscription method (Patreon, votes, server boosts, a volunteer position, and so on) and the instance that sends the message depends on the tier.
 
 ### Declined payments
 
