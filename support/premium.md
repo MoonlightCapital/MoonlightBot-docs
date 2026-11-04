@@ -183,7 +183,7 @@ Unfortunately, at the moment we do not support gifting subscriptions.
 
 We decided to remove the lifetime subscription tier from Patreon due to its confusing nature. Lifetime subscriptions are now only offered as a token of appreciation for excellent conduct with the service, and for volunteers (and former) who helped with making MoonlightBot what it is now.
 
-If you purchased or received a lifetime subscription in the past, it will remain available.
+If you purchased or received a lifetime subscription in the past, it will remain available as long as you continue following [MoonlightBot's Acceptable Use Policy](/policies/acceptable-use-policy.md).
 
 ## Disclaimer
 
