@@ -124,7 +124,7 @@ How your subscription gets activated depends on how you obtained it:
 
 Then, follow these steps to make sure everything is in order:
 
-1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
+1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will receive a direct message from MoonlightBot (the main or the Premium one, depending on your selected tier) confirming your subscription was activated successfully
 2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
 
     ![The activation message sent by MoonlightBot](/.gitbook/assets/PremiumActivationMessageStandard.png)
