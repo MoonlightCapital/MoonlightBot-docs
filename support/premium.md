@@ -14,49 +14,25 @@ We are a non-profit, independently ran service without affiliation to large bot 
 
 ## Tiers
 
-{% tabs %}
-{% tab title="Basic" %}
-**Price:** $5/month
-
-* **Premium role** with yellow color, displayed on top, and premium icon in the support server
-* **Access to a premium support channel** for your privacy and comfort with faster response times and more informational answers
-* **Custom code evaluation** to assist you with server maintenance tasks (requires developer intervention)
-* Your name in the **[Special Thanks Page](special-thanks.md)**
-* **90 days** maximum duration allowed for temporary actions
-* **Reminder limit** increased from 10 to 20 per user
+| | Free | Basic | Advanced (recommended) | Super | Ultra |
+| --- | --- | --- | --- | --- | --- |
+| **Price** | Free | $5/month | $10/month | $15/month | $30/month |
+| **Premium role** in the support server, with a yellow color, displayed on top, and a premium icon | ❌ | ✅ | ✅ | ✅ | ✅ |
+| **Premium support channel**, with faster response times and more informational answers | ❌ | ✅ | ✅ | ✅ | ✅ |
+| **Custom code evaluation** for server maintenance tasks (requires developer intervention) | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Your name in the **[Special Thanks Page](special-thanks.md)** | ❌ | ✅ | ✅ | ✅ | ✅ |
+| **Maximum duration** for temporary actions | 7 days by default ([details](/miscellaneous-commands/check-duration.md)) | 90 days | 1 year | 1 year | 1 year |
+| Temporary actions [always sustained](../start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work) | ❌ | ❌ | ✅ | ✅ | ✅ |
+| **Reminders** per user | 10 | 20 | 20 | 20 | 20 |
+| **Reaction role groups** per server | 10 | 10 | 20 | 20 | 20 |
+| **Feature requests** with higher priority | ❌ | ❌ | ✅ | ✅ | ✅ |
+| **Server slots** for the MoonlightBot Premium instance | ❌ | ❌ | 1 | 3 (+$3/month each) | Unlimited |
+| **Custom commands** | ❌ | ❌ | 1 | 3 (+$10 each) | 5, optionally with custom buttons, dropdowns and modals |
+| **Other ways to obtain** |   | [Voting](#upvote-moonlightbot), [boosting](#boost-the-support-server), [Translator](volunteering.md#translator) | [Boosting](#boost-the-support-server) for 3 months in a row, [Tester](volunteering.md#tester) | [Documentation Writer](volunteering.md#documentation-writer) |   |
 
 {% hint style="warning" %}
-These tier benefits affect **only** your account and don't grant access to the exclusive MoonlightBot Premium bot.
+Basic tier benefits affect **only** your account and don't grant access to the exclusive MoonlightBot Premium bot.
 {% endhint %}
-{% endtab %}
-
-{% tab title="Advanced (recommended for most users)" %}
-**Price:** $10/month
-
-* One **server slot** for MoonlightBot Premium instance
-* One **custom command**
-* **Feature requests** with higher priority
-* Temporary actions are [always sustained](../start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work)
-* **1 year** maximum duration allowed for temporary actions
-* Reaction role groups limit increased from 10 to 20 per server
-{% endtab %}
-
-{% tab title="Super" %}
-**Price:** $15/month
-
-* **Three server slots** for MoonlightBot Premium instance (with additional slots $3/month for each)
-* **Three custom commands** (with additional commands $10 for each)
-{% endtab %}
-
-{% tab title="Ultra" %}
-**Price:** $30/month
-
-* **Unlimited** server slots
-* **Five custom commands**, with eventual custom buttons, dropdowns and modals
-{% endtab %}
-{% endtabs %}
-
-Each tier includes all the perks described in cheaper tiers.
 
 ## MoonlightBot Premium bot benefits
 
@@ -73,7 +49,7 @@ All methods require you to be in our [Support Server](https://discord.gg/hNQWVVC
 
 ### Subscribe on Patreon
 
-Patreon is a platform we use to manage subscriptions. You can pledge at [https://www.patreon.com/MoonlightCapital](https://www.patreon.com/MoonlightCapital) to get started. See below for a full description of the content of each tier.
+Patreon is a platform we use to manage subscriptions. You can pledge at [https://www.patreon.com/MoonlightCapital](https://www.patreon.com/MoonlightCapital) to get started. See above for a full description of the content of each tier.
 
 ### Upvote MoonlightBot
 
@@ -113,29 +89,30 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 
 ### Activation
 
-How your subscription gets activated depends on how you obtained it:
-
-* **Patreon**: [Connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access) first. It has to be an actual paid subscription (a pledge), otherwise MoonlightBot can't tell that you're pledging. Then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) from anywhere, as long as you are a member of the [support server](https://discord.gg/hNQWVVC). If you changed your pledge for extra server slots, run it again.
-* **Any other method** (votes, server boosts, volunteering, giveaways): your subscription is activated as described in the relevant section above, and you will be notified by direct message
-
-{% hint style="info" %}
-`/premium enable` was introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
-{% endhint %}
-
-Then, follow these steps to make sure everything is in order:
-
-1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will receive a direct message from MoonlightBot (the main or the Premium one, depending on your selected tier) confirming your subscription was activated successfully
-2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
+1. **Allow direct messages.** You will receive a direct message as soon as your subscription is activated, so set this up first. Join the [support server](https://discord.gg/hNQWVVC) if you haven't already, then open its privacy settings (from desktop: right-click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down) and make sure direct messages from server members are allowed.
+2. **Activate your subscription.** How you do this depends on how you obtained it:
+    * **Patreon**: [connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access), then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) from anywhere. The command's page lists all the conditions that must be met. If you later change your pledge for extra server slots, run the command again.
+    * **Any other method** (votes, server boosts, volunteering, giveaways): your subscription is activated as described in the relevant section above.
+3. **Check the confirmation message.** It is sent by MoonlightBot or by MoonlightBot Premium, depending on your tier. If you haven't received it within 12 hours, reach out to the Staff team for assistance.
 
     ![The activation message sent by MoonlightBot](/.gitbook/assets/PremiumActivationMessageStandard.png)
 
     ![The activation message sent by MoonlightBot Premium](/.gitbook/assets/PremiumActivationMessagePremium.png)
 
-3. If your tier is Advanced or higher, you can now add the MoonlightBot Premium instance to your server(s). **Verify the bot is legitimate** first by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
+4. **Request any manual perks.** Some perks, such as having your name added to the [Special Thanks Page](special-thanks.md), are not applied automatically. To request them, contact a Staff member in the support server.
 
-    ![MoonlightBot Premium was created on March 27, 2020](/.gitbook/assets/PremiumMiniProfile.png)
+If your tier is Advanced or higher, you can now add MoonlightBot Premium to your server(s):
 
-4. Once you confirmed this is the legitimate MoonlightBot Premium instance, add it using the "Add me to your server" button at the end of the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission in the procedure, as that is required to verify it was you who added the bot and mark you as the server representative. You're all set!
+1. **Verify the bot is legitimate.** Click on the name of the bot that sent you the confirmation message to view its profile. MoonlightBot Premium has a verified check mark next to its username and was created on March 27, 2020.
+
+    ![MoonlightBot Premium's profile, with the verified check mark](/.gitbook/assets/PremiumMiniProfile.png)
+
+2. **Add it to your server.** Use the "Add me to your Server" button in the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission, as that is required to verify it was you who added the bot and mark you as the server representative.
+3. **Transfer your data.** Run MoonlightBot Premium's `/transfer data` command in your server to move your data from the main MoonlightBot. For more information, see the [FAQ](#will-i-lose-bot-configuration-and-other-data-by-switching-to-premium) below.
+
+{% hint style="info" %}
+`/premium enable` was introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
 
 ### Expiration
 
@@ -149,7 +126,7 @@ If your Patreon payment is declined, your subscription status will be marked acc
 
 Until the payment has been confirmed, your subscription will be suspended, which means you will temporarily lose your Premium role, and members who attempt to use commands in any server you represent will see a message inviting them to contact you and solve the issue.
 
-You will receive a DM about the declined payment, depending on which instance sends it.
+You will also receive a DM about the declined payment. Its content depends on the instance that sends it.
 
 {% hint style="info" %}
 Expiration messages and automatic suspension were introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).

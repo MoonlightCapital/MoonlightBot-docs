@@ -19,8 +19,10 @@ For more information on editing permission requirements for specific users/roles
 This subcommand shows information about Premium subscriptions. Depending on your situation, it will display one of the following:
 
 * **You are not a subscriber**: The command will display an interactive panel with tier selection buttons to switch between the various tiers, the list of benefits for the selected tier, and at the bottom buttons explaining how to obtain that tier. You can also ask to be automatically reminded once you are eligible for a selected [volunteer position](/support/volunteering.md) if a tier can be obtained that way.
-* **You have a Premium subscription enabled:** You will see all the information about your subscription, such as the expiration date, which and how many servers you represent, and how your subscription was obtained.
-* **You use a command in a server with Premium enabled:** The command will tell you who the representative of the server is. Only on the MoonlightBot Premium instance.
+* **You have a Premium subscription enabled**: You will see all the information about your subscription, such as the expiration date, which and how many servers you represent, and how your subscription was obtained.
+* **You use a command in a server with Premium enabled**: The command will tell you who the representative of the server is. Only on the MoonlightBot Premium instance.
+
+In the last two cases, you can still open the interactive panel shown to non-subscribers by pressing the "Show MoonlightBot Premium Perks" button.
 
 {% hint style="info" %}
 The overview shown to non-subscribers was completely remade in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
@@ -50,7 +52,7 @@ This subcommand allows a new [Patreon subscriber](https://www.patreon.com/Moonli
 
 If you change your pledge for extra server slots, run the command again to update your allowance.
 
-After enabling your subscription, if you are on the Advanced tier or higher, you can add the Premium bot to your server. For instructions, see the [activation guide](/support/premium.md#activation).
+After enabling your subscription, if you are a subscriber of the Advanced tier or higher, you will receive a direct message from MoonlightBot Premium with a button to add it to your server. For instructions, see the [activation guide](/support/premium.md#activation).
 
 {% hint style="info" %}
 This subcommand was introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
