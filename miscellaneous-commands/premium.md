@@ -40,7 +40,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## enable
 
-This subcommand allows a new [Patreon](https://www.patreon.com/MoonlightCapital) subscriber to enable their subscription themselves, without waiting for Staff. To successfully enable your subscription, the following conditions must be met:
+This subcommand allows a new [Patreon subscriber](https://www.patreon.com/MoonlightCapital) to enable their subscription themselves, without waiting for Staff. To successfully enable your subscription, all of the following conditions must be met:
 
 * You must be a member of the [support server](https://discord.gg/hNQWVVC).
 * Your Discord account must be [connected on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access).
