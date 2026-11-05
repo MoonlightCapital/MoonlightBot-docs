@@ -28,7 +28,7 @@ We are a non-profit, independently ran service without affiliation to large bot 
 | **Feature requests** with higher priority | ❌ | ❌ | ✅ | ✅ | ✅ |
 | **Server slots** for the MoonlightBot Premium instance | ❌ | ❌ | 1 | 3 (+$3/month each) | Unlimited |
 | **Custom commands** | ❌ | ❌ | 1 | 3 (+$10 each) | 5, optionally with custom buttons, dropdowns and modals |
-| **Other ways to obtain** |   | [Voting](#upvote-moonlightbot), [boosting](#boost-the-support-server), [Translator](volunteering.md#translator) | [Boosting](#boost-the-support-server) for 3 months in a row, [Tester](volunteering.md#tester) | [Documentation Writer](volunteering.md#documentation-writer) |   |
+| **Other ways to obtain** |   | [Voting](#upvote-moonlightbot), [Support Server Boost](#boost-the-support-server), [Volunteer as Translator](volunteering.md#translator) | [Support Server Boost](#boost-the-support-server) for 3 consecutive months, [Volunteer as Tester](volunteering.md#tester) | [Volunteer as Documentation Writer](volunteering.md#documentation-writer) |   |
 
 {% hint style="warning" %}
 Basic tier benefits affect **only** your account and don't grant access to the exclusive MoonlightBot Premium bot.
