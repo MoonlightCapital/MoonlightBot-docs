@@ -16,7 +16,6 @@ We are a non-profit, independently ran service without affiliation to large bot 
 
 | | Free | Basic | Advanced (recommended) | Super | Ultra |
 | --- | --- | --- | --- | --- | --- |
-| **Price** | Free | $5/month | $10/month | $15/month | $30/month |
 | **Premium role** in the support server, with a yellow color, displayed on top, and a premium icon | ❌ | ✅ | ✅ | ✅ | ✅ |
 | **Premium support channel**, with faster response times and more informational answers | ❌ | ✅ | ✅ | ✅ | ✅ |
 | **Custom code evaluation** for server maintenance tasks (requires developer intervention) | ❌ | ✅ | ✅ | ✅ | ✅ |
@@ -26,8 +25,10 @@ We are a non-profit, independently ran service without affiliation to large bot 
 | **Reminders** per user | 10 | 20 | 20 | 20 | 20 |
 | **Reaction role groups** per server | 10 | 10 | 20 | 20 | 20 |
 | **Feature requests** with higher priority | ❌ | ❌ | ✅ | ✅ | ✅ |
-| **Server slots** for the MoonlightBot Premium instance | ❌ | ❌ | 1 | 3 (+$3/month each) | Unlimited |
-| **Custom commands** | ❌ | ❌ | 1 | 3 (+$10 each) | 5, optionally with custom buttons, dropdowns and modals |
+| **Server slots** for the MoonlightBot Premium instance | ❌ | ❌ | 1 | 3 (extra slots: $3/month each) | Unlimited |
+| **Custom commands** | ❌ | ❌ | 1 | 3 (extra commands: $10 each) | 5, optionally with custom buttons, dropdowns and modals |
+|  |  |  |  |  |  |
+| **Price** | Free | $5/month | $10/month | $15/month | $30/month |
 | **Other ways to obtain** |   | [Voting](#upvote-moonlightbot), [Support Server Boost](#boost-the-support-server), [Volunteer as Translator](volunteering.md#translator) | [Support Server Boost](#boost-the-support-server) for 3 consecutive months, [Volunteer as Tester](volunteering.md#tester) | [Volunteer as Documentation Writer](volunteering.md#documentation-writer) |   |
 
 {% hint style="warning" %}
@@ -73,9 +74,9 @@ You will also receive the **Booster** role in the server, so everyone can see yo
 
 You can help us maintaining MoonlightBot by [volunteering with us](volunteering.md) and earn, among other rewards, Premium subscriptions. The corresponding tiers vary between the positions:
 
-* **[Translator:](volunteering.md#translator)** Basic
+* **[Documentation Writer:](volunteering.md#documentation-writer)** Super, the highest tier of all volunteer positions
 * **[Tester:](volunteering.md#tester)** Advanced
-* **[Documentation Writer:](volunteering.md#documentation-writer)** Super
+* **[Translator:](volunteering.md#translator)** Basic
 
 Start by applying to any of these programs as described in the relevant sections of the page, and once you've provided significant contributions, you will be awarded your well-deserved subscriptions by the program managers!
 
