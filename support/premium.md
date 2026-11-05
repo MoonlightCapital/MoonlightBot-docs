@@ -21,7 +21,7 @@ We are a non-profit, independently ran service without affiliation to large bot 
 | **Premium support channel**, with faster response times and more informational answers | ❌ | ✅ | ✅ | ✅ | ✅ |
 | **Custom code evaluation** for server maintenance tasks (requires developer intervention) | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Your name in the **[Special Thanks Page](special-thanks.md)** | ❌ | ✅ | ✅ | ✅ | ✅ |
-| **Maximum duration** for temporary actions | 7 days by default ([details](/miscellaneous-commands/check-duration.md)) | 90 days | 1 year | 1 year | 1 year |
+| **Maximum duration** for temporary actions | [7 days by default](/miscellaneous-commands/check-duration.md) | 90 days | 1 year | 1 year | 1 year |
 | Temporary actions [always sustained](../start-up/faqs.md#how-does-the-temprole-sustain-mechanic-work) | ❌ | ❌ | ✅ | ✅ | ✅ |
 | **Reminders** per user | 10 | 20 | 20 | 20 | 20 |
 | **Reaction role groups** per server | 10 | 10 | 20 | 20 | 20 |
