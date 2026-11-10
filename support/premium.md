@@ -27,9 +27,9 @@ We are a non-profit, independently ran service without affiliation to large bot 
 | **Feature requests** with higher priority | ❌ | ❌ | ✅ | ✅ | ✅ |
 | **Server slots** for the MoonlightBot Premium instance | ❌ | ❌ | 1 | 3 (extra slots: $3/month each) | Unlimited |
 | **Custom commands** | ❌ | ❌ | 1 | 3 (extra commands: $10 each) | 5, optionally with custom buttons, dropdowns and modals |
-|  |  |  |  |  |  |
+| | | | | | |
 | **Price** | Free | $5/month | $10/month | $15/month | $30/month |
-| **Other ways to obtain** |   | [Voting](#upvote-moonlightbot), [Support Server Boost](#boost-the-support-server), [Volunteer as Translator](volunteering.md#translator) | [Support Server Boost](#boost-the-support-server) for 3 consecutive months, [Volunteer as Tester](volunteering.md#tester) | [Volunteer as Documentation Writer](volunteering.md#documentation-writer) |   |
+| **Other ways to obtain** | | [Voting](#upvote-moonlightbot), [Support Server Boost](#boost-the-support-server), [Volunteer as Translator](volunteering.md#translator) | [Support Server Boost](#boost-the-support-server) for 3 consecutive months, [Volunteer as Tester](volunteering.md#tester) | [Volunteer as Documentation Writer](volunteering.md#documentation-writer) | |
 
 {% hint style="warning" %}
 Basic tier benefits affect **only** your account and don't grant access to the exclusive MoonlightBot Premium bot.
@@ -167,13 +167,13 @@ Unfortunately, at the moment we do not support gifting subscriptions.
 
 ### Do you still offer lifetime subscriptions?
 
-We decided to remove the lifetime subscription tier from Patreon due to its confusing nature. Lifetime subscriptions are now only offered as a token of appreciation for excellent conduct with the service, and for volunteers (and former) who helped with making MoonlightBot what it is now.
+We decided to remove the lifetime subscription tier from Patreon. Lifetime subscriptions are now only offered as a token of appreciation for excellent conduct among our community, and for volunteers (and former) who helped with making MoonlightBot what it is now.
 
 If you purchased or received a lifetime subscription in the past, it will remain available as long as you continue following [MoonlightBot's Acceptable Use Policy](/policies/acceptable-use-policy.md).
 
 ## Disclaimer
 
-Premium subscribers are subject to the [Resource provider agreement](/policies/acceptable-use-policy.md#6---resource-providerdonation-policy) of the Acceptable Use Policy.
+Premium subscribers are subject to the [Resource Provider Agreement](/policies/acceptable-use-policy.md#id-6-resource-provider-donation-policy) of the Acceptable Use Policy.
 
 All perks are meant to come "within reason". We will turn down requests that cause excessive strain on our systems, personnel or come with certain caveats that may not be appropriate for our ecosystem. In doubt, consult our Staff first.
 
