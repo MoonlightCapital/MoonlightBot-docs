@@ -58,17 +58,21 @@ You can upvote MoonlightBot and earn some free Premium. See the [voting tutorial
 
 For your first ever vote, or for voting consecutively for 30 days, you will receive one week of Basic tier Premium. This will be prolonged as long as you continue voting at least once every 48 hours.
 
-### Boost the support server
+### Boost the Support Server
 
 For [boosting the support server](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-#h\_9dfb44db-c394-4339-863b-e6d1e3fb0469) you will receive your Premium subscription after having answered a few questions, a security briefing and entering an agreement.
 
-The Premium tier for Server Boosting is initially Basic and will be upgraded to Advanced tier once you have boosted for three months consecutively.
+![Boost the Support Server and unlock perks for everyone!](/.gitbook/assets/SupportServerBoostBanner.png)
+
+The Premium tier for Server Boosting is initially Basic and will be upgraded to Advanced tier once you have boosted for **three months consecutively**.
 
 If the server boost level is under Level 2 (less than 7 boosts) at the time you add the boost, and you can guarantee to boost the server for at least one month ahead, you will be immediately start from Advanced tier. This deal is to help keeping the Support Server at Boost Level 2 for its important perks without interruption and recover level losses.
 
 When this occurs, an announcement will be posted and a relevant note will appear in MoonlightBot's command responses. Watch out for those so you don't miss the deal!
 
 You will also receive the **Booster** role in the server, so everyone can see your special way of supporting us.
+
+![The look of the Booster role](/.gitbook/assets/SupportServerBoostMember.png)
 
 ### Volunteer with Us
 
@@ -90,26 +94,28 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 
 ### Activation
 
-1. **Allow direct messages.** You will receive a direct message as soon as your subscription is activated, so set this up first. Join the [support server](https://discord.gg/hNQWVVC) if you haven't already, then open its privacy settings (from desktop: right-click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down) and make sure direct messages from server members are allowed.
-2. **Activate your subscription.** How you do this depends on how you obtained it:
+1. **Allow direct messages:** You will receive a direct message as soon as your subscription is activated, so set this up first. Join the [support server](https://discord.gg/hNQWVVC) if you haven't already, then open its privacy settings (from desktop: right-click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down) and make sure direct messages from server members are allowed.
+2. **Activate your subscription:** How you do this depends on how you obtained it:
     * **Patreon**: [connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access), then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) from anywhere. The command's page lists all the conditions that must be met. If you later change your pledge for extra server slots, run the command again.
     * **Any other method** (votes, server boosts, volunteering, giveaways): your subscription is activated as described in the relevant section above.
-3. **Check the confirmation message.** It is sent by MoonlightBot or by MoonlightBot Premium, depending on your tier. If you haven't received it within 12 hours, reach out to the Staff team for assistance.
+3. **Check the confirmation message:** It is sent by MoonlightBot or by MoonlightBot Premium, depending on your tier. If you haven't received it within 12 hours, reach out to the Staff team for assistance.
 
     ![The activation message sent by MoonlightBot](/.gitbook/assets/PremiumActivationMessageStandard.png)
 
     ![The activation message sent by MoonlightBot Premium](/.gitbook/assets/PremiumActivationMessagePremium.png)
 
-4. **Request any manual perks.** Some perks, such as having your name added to the [Special Thanks Page](special-thanks.md), are not applied automatically. To request them, contact a Staff member in the support server.
+4. **Request any manual perks:** Some perks, such as having your name added to the [Special Thanks Page](special-thanks.md), are not applied automatically. To request them, contact a Staff member in the support server.
 
 If your tier is Advanced or higher, you can now add MoonlightBot Premium to your server(s):
 
-1. **Verify the bot is legitimate.** Click on the name of the bot that sent you the confirmation message to view its profile. MoonlightBot Premium has a verified check mark next to its username and was created on March 27, 2020.
+1. **Verify the bot is legitimate:** Click on the name of the bot that sent you the confirmation message to view its profile. MoonlightBot Premium has a verified check mark next to its username and was created on March 27, 2020.
 
     ![MoonlightBot Premium's profile, with the verified check mark](/.gitbook/assets/PremiumMiniProfile.png)
 
-2. **Add it to your server.** Use the "Add me to your Server" button in the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission, as that is required to verify it was you who added the bot and mark you as the server representative.
-3. **Transfer your data.** Run MoonlightBot Premium's `/transfer data` command in your server to move your data from the main MoonlightBot. For more information, see the [FAQ](#will-i-lose-bot-configuration-and-other-data-by-switching-to-premium) below.
+2. **Add MoonlightBot Premium to your server:** Use the "Add me to your Server" button in the confirmation message. Make sure you **do not uncheck** the "View Audit Log" permission, as that is required to verify it was you who added the bot and mark you as the server representative.
+3. **Transfer your data:** Run MoonlightBot Premium's `/transfer data` command in your server to move your data from the main MoonlightBot. For more information, see the [FAQ](#will-i-lose-bot-configuration-and-other-data-by-switching-to-premium) below.
+
+    ![The result of the /transfer data command](/.gitbook/assets/PremiumTransferData.png)
 
 {% hint style="info" %}
 `/premium enable` was introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
