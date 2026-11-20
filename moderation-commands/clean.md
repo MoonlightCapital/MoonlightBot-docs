@@ -51,6 +51,10 @@ For more information on editing permission requirements for specific users/roles
 * `preserve-pins`: If true, pinned messages will not be deleted
 * `no-trace`: If true, the confirmation message will only be visible to you
 
+{% hint style="success" %}
+The options `before`, `after`, `forwarded`, `poll`, `embeds`, `attachments`, `voice`, `with-thread`, and `stickers` are either brand new or have new functionality in version 4.9.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
+
 ## Logs
 
 * `CHANNEL_CLEAN`: MoonlightBot will send a message with two things: an HTML file that contains the history of the deleted messages and an embed detailing where messages were cleaned, how many were cleaned, who cleaned them, and the filters applied

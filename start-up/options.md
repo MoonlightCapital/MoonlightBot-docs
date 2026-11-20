@@ -33,6 +33,10 @@ Below, you can see a table with all supported abbreviations.
 | Second (1000 milliseconds) | s - second(s)                   |
 | Millisecond                | ms - millisecond(s)             |
 
+{% hint style="success" %}
+Timestamp support was introduced in version 4.9.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
+
 {% hint style="warning" %}
 If no unit is specified, the bot will default to milliseconds.
 {% endhint %}
