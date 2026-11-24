@@ -63,6 +63,10 @@ To set up permissions properly, please follow the [Permission Tutorial](start-up
 
 ## Logging
 
+{% hint style="success" %}
+A new log editor that features selectable options from drop-down menus (instead of copy-pasting values from this page) has been introduced in version 4.9.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
+
 MoonlightBot offers highly granular logging, and can log all kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
 
 ```
@@ -73,7 +77,7 @@ where `LOG-CHANNEL` is the channel you want logs posted to.
 
 An editor will open with a selectable list of categories, each with its own drop-down menu of loggable items. For a glossary of everything that can be logged, see the [list of log names](advanced/list-of-log-names.md). You can also select to log everything in one category, or click the button in the top right to log everything.
 
-<figure><img src=".gitbook/assets/LogEditor.png" alt="A screenshot showing the modal to edit event types logged in a channel" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>The modal to edit logs. This will soon be replaced with an innovative system</p></figcaption></figure>
+<figure><img src=".gitbook/assets/LogEditor.png" alt="A screenshot showing the modal to edit event types logged in a channel" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>The log editor - a list of drop-down menus containing the selection of events that can be logged.</p></figcaption></figure>
 
 ## The Mute Command and Mute Role
 
