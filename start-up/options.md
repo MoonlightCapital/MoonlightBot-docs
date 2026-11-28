@@ -20,7 +20,7 @@ Additional options are not necessary for a command to work, but may be used to p
 
 Durations are a combination of numbers and letters representing units of time; for example, `4w5h` means 4 weeks and 5 hours. 
 
-Another supported method of providing a duration is inserting a timestamp that dictates either an ending for an action or a time boundary. Discord offers a built-in way to do this by typing `@time` in the duration box, ex. `/temprole duration: <@time:November 12 at 3:42pm>` or `/infractions search before: <@time:November 1st at 12:00pm>`
+Another supported method of providing a duration is inserting a timestamp that dictates either an ending for an action or a time boundary. Discord offers a built-in way to do this by typing `@time` in the duration box, ex. `/temprole duration: <@time:November 12 at 3:42pm>` or `/infractions search before: <@time:November 1st at 12:00pm>`. If a timestamp is provided to a command whose temporary action is already in effect, the new timestamp will overwrite the old one.
 
 Below, you can see a table with all supported abbreviations.
 

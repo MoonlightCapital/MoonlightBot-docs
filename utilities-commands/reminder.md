@@ -80,7 +80,7 @@ The `reminder edit` subcommand allows you to edit a pending reminder. It asks yo
 
 * `id`: The ID of your reminder
 * `reminder`: The new content of the reminder; you can insert `%%%` to copy over the old content so you don't have to type it again
-* `time`: How much time you would like to add or subtract to the reminder, or a new timestamp for the reminder's activation. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
+* `time`: How much time you would like to add or subtract to the reminder, or a new timestamp for the reminder's delivery. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
 
 ### Required permissions
 
