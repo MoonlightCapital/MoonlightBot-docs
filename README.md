@@ -55,6 +55,8 @@ MoonlightBot provides easy and dynamic role management by staff and members alik
 
 You can also permanently assign or remove any role to a user with [`/role`](role-management-commands/role.md), or setup [Reaction Roles](start-up/setting-up-reaction-roles.md) and let members give themselves configured roles with [`/selfrole`](role-management-commands/selfrole.md)
 
+![An animated example of a temporary role being assigned to a user.](</.gitbook/assets/DurationTimeExample.gif>)
+
 ## Command Permissions
 
 MoonlightBot uses [Discord's built-in permissions system](https://support.discord.com/hc/en-us/articles/10952702911639-Command-Permissions-Lockout) to control who is and is not able to execute certain commands. Some commands have required permissions set by default, and overrides for specific members and roles can be applied to any and all commands.
