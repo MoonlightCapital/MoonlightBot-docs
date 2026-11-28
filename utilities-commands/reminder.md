@@ -25,7 +25,7 @@ The `reminder add` subcommand allows you to write a reminder to yourself sometim
 ```
 
 * `reminder`: The reminder to be set
-* `time`: The time in the future when you will receive the reminder. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
+* `time`: The time in the future or a timestamp when you will receive the reminder. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
 * `recurring`: Whether the reminder will be recurring or not (True/False); uses `time` as the interval. For example, if you set the time as `3 days`, the bot will send it to you every three days until you delete it manually
 
 ### Required permissions
@@ -80,7 +80,7 @@ The `reminder edit` subcommand allows you to edit a pending reminder. It asks yo
 
 * `id`: The ID of your reminder
 * `reminder`: The new content of the reminder; you can insert `%%%` to copy over the old content so you don't have to type it again
-* `time`: How much time you would like to add or subtract to the reminder. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
+* `time`: How much time you would like to add or subtract to the reminder, or a new timestamp for the reminder's delivery. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
 
 ### Required permissions
 

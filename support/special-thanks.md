@@ -52,6 +52,7 @@ This documentation is open for contributions on [GitHub](https://github.com/Moon
 {% endhint %}
 
 * Ade23
+* Azalea Heartfelt
 * Blastoise186
 * Darkfinst
 * Irisplooshi
@@ -65,13 +66,15 @@ This documentation is open for contributions on [GitHub](https://github.com/Moon
 
 They have had the opportunity to test MoonlightBot pre-releases and looked every nook and cranny for bugs, oversights and imperfection. If MoonlightBot today is working perfectly and is pleasant to use, you should thank them!
 
+* Azalea Heartfelt
 * Barney2goose
-* Cloud
 * I_mundercover
+* JSP
 * Kone
 * [m]
+* NXTCY
 * Oshi Tamtam
-* Sylverescent
+* phenomenal_tiger
 
 ## Translators
 
@@ -90,5 +93,5 @@ They are passionate about their native language, and know that not everyone has 
 * **Brazilian Portuguese:** *No information available*
 * **Turkish:** *No information available*
 * **Czech:** Esterze
-* **Russian:** Cloud
+* **Russian:** *No information available*
 * **Traditional Chinese:** AhMing

@@ -24,20 +24,36 @@ For more information on editing permission requirements for specific users/roles
 ## Syntax
 
 ```text
-/clean [amount] [user] [starts-with] [ends-with] [contains] [bots] [system] [preserve-pins] [no-trace]
+/clean [amount] [user] [before] [after] [starts-with] [ends-with] [contains] [forwarded] [poll] [embeds] [attachments] [bots] [system] [voice] [with-thread] [stickers] [preserve-pins] [no-trace]
 ```
 
 ### Options
 
 * `amount`: The amount of messages you want to clean (The default/maximum amount is 100)
 * `user`: Delete messages sent by a specified user
+* `before`: Delete messages sent before a specified date, a timestamp (ex. 3 days), or a linked message
+* `after`: Delete messages sent after a specified date, a timestamp (ex. 3 days), or a linked message
 * `starts-with`: Delete messages that start with this value
 * `ends-with`: Delete messages that end with this value
 * `contains`: Delete messages that contain this value
-* `bots`: Whether or not to delete messages sent by bots. If this option is left blank, the bot will not differentiate between messages sent by users and bots. If set to false, the bot will not delete bot messages, but if set to true, the bot will only delete bot messages
-* `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages. This uses the same syntax as the `bots` option
+* `forwarded`: Whether or not to delete forwarded messages. 
+    - If this option is left blank, the bot will not differentiate between forwarded and regular messages. 
+    - If set to false, the bot will not delete forwarded messages.
+    - if set to true, the bot will only delete forwarded messages.
+* `poll`: Whether or not to delete polls. This works in the same way as the `forwarded` option
+* `embeds`: Whether or not to delete messages containing embeds. This works in the same way as the `forwarded` option
+* `attachments`: Whether or not to delete messages containing attachments. This works in the same way as the `forwarded` option
+* `bots`: Whether or not to delete messages sent by bots. This works in the same way as the `forwarded` option
+* `system`: Whether or not to delete system messages. System messages are messages sent by Discord, such as join or pin messages. This works in the same way as the `forwarded` option
+* `voice`: Whether or not to delete voice messages. This works the same way as the `forwarded` option
+* `with-thread`: Whether or not to delete messages with threads under them. This works in the same way as the `forwarded` option
+* `stickers`: Whether or not to delete messages with stickers. This works in the same way as the `forwarded` option
 * `preserve-pins`: If true, pinned messages will not be deleted
 * `no-trace`: If true, the confirmation message will only be visible to you
+
+{% hint style="success" %}
+The options `before`, `after`, `forwarded`, `poll`, `embeds`, `attachments`, `voice`, `with-thread`, and `stickers` are either brand new or have new functionality in version 4.9.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
 
 ## Logs
 

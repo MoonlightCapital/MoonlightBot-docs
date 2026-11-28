@@ -28,7 +28,7 @@ For more information on editing permission requirements for specific users/roles
 
 * `user`: The user to pause the role for
 * `role`: The role to pause for the user
-* `duration`: The duration for which the role should be paused for the user. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
+* `duration`: The duration for which the role should be paused for the user, or a timestamp for the pause's expiration. If a timestamp is provided to a command whose temporary action is already in effect, the new timestamp will overwrite the old one. For more information on the duration format, refer to the [options page](/start-up/options.md#durations)
 * `reason`: The reason for pausing the role for the user. This is an optional parameter, which can be used for record-keeping
 * `notify`: Sends a Direct Message to inform the user about the role pause. This is optional and contains the role name, duration, expiration date and reason
 

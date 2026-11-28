@@ -55,6 +55,8 @@ MoonlightBot provides easy and dynamic role management by staff and members alik
 
 You can also permanently assign or remove any role to a user with [`/role`](role-management-commands/role.md), or setup [Reaction Roles](start-up/setting-up-reaction-roles.md) and let members give themselves configured roles with [`/selfrole`](role-management-commands/selfrole.md)
 
+![An animated example of a temporary role being assigned to a user.](</.gitbook/assets/DurationTimeExample.gif>)
+
 ## Command Permissions
 
 MoonlightBot uses [Discord's built-in permissions system](https://support.discord.com/hc/en-us/articles/10952702911639-Command-Permissions-Lockout) to control who is and is not able to execute certain commands. Some commands have required permissions set by default, and overrides for specific members and roles can be applied to any and all commands.
@@ -62,6 +64,10 @@ MoonlightBot uses [Discord's built-in permissions system](https://support.discor
 To set up permissions properly, please follow the [Permission Tutorial](start-up/permission-tutorial.md).
 
 ## Logging
+
+{% hint style="success" %}
+A new log editor that features selectable options from drop-down menus (instead of copy-pasting values from this page) has been introduced in version 4.9.0, currently available on [MoonlightBot beta](/support/beta.md).
+{% endhint %}
 
 MoonlightBot offers highly granular logging, and can log all kinds of actions to one or more channels. To enable and configure logging for a specific channel, use the command
 
@@ -71,9 +77,9 @@ MoonlightBot offers highly granular logging, and can log all kinds of actions to
 
 where `LOG-CHANNEL` is the channel you want logs posted to.
 
-An editor will open where you can enter items or categories from the [list of log names](advanced/list-of-log-names.md), or an asterisk (`*`) to log everything. The list of items and categories to log should be separated by commas and spaces, like so: `BAN, KICK, Members`
+An editor will open with a selectable list of categories, each with its own drop-down menu of loggable items. For a glossary of everything that can be logged, see the [list of log names](advanced/list-of-log-names.md). You can also select to log everything in one category, or click the button in the top right to log everything.
 
-<figure><img src=".gitbook/assets/LogEditor.png" alt="A screenshot showing the modal to edit event types logged in a channel" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>The modal to edit logs. This will soon be replaced with an innovative system</p></figcaption></figure>
+<figure><img src=".gitbook/assets/LogEditor.png" alt="A screenshot showing the modal to edit event types logged in a channel" style="max-height: 400px; width: auto; border-radius: 10px;"><figcaption><p>The log editor - a list of drop-down menus containing the selection of events that can be logged.</p></figcaption></figure>
 
 ## The Mute Command and Mute Role
 
